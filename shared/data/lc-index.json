@@ -1,0 +1,165 @@
+{
+  "lcs": [
+    {
+      "lc_id": "en-us",
+      "label": "American English",
+      "language": "English",
+      "culture": "American",
+      "default_weight": 1.0
+    },
+    {
+      "lc_id": "en-gb",
+      "label": "British English",
+      "language": "English",
+      "culture": "British",
+      "default_weight": 1.0
+    },
+    {
+      "lc_id": "en-ie",
+      "label": "Irish English",
+      "language": "English",
+      "culture": "Irish",
+      "default_weight": 1.0
+    },
+    {
+      "lc_id": "en-au",
+      "label": "Australian English",
+      "language": "English",
+      "culture": "Australian",
+      "default_weight": 1.0
+    },
+    {
+      "lc_id": "en-ca",
+      "label": "Canadian English",
+      "language": "English",
+      "culture": "Canadian",
+      "default_weight": 1.0
+    },
+    {
+      "lc_id": "ja-jp",
+      "label": "Japanese",
+      "language": "Japanese",
+      "culture": "Japanese",
+      "default_weight": 1.0
+    },
+    {
+      "lc_id": "zh-cn",
+      "label": "Mandarin Chinese",
+      "language": "Mandarin",
+      "culture": "Mainland Chinese",
+      "default_weight": 1.0
+    },
+    {
+      "lc_id": "es-es",
+      "label": "Castilian Spanish",
+      "language": "Spanish",
+      "culture": "Castilian",
+      "default_weight": 1.0
+    },
+    {
+      "lc_id": "es-mx",
+      "label": "Mexican Spanish",
+      "language": "Spanish",
+      "culture": "Mexican",
+      "default_weight": 1.0
+    },
+    {
+      "lc_id": "de-de",
+      "label": "German",
+      "language": "German",
+      "culture": "German",
+      "default_weight": 1.0
+    },
+    {
+      "lc_id": "fr-fr",
+      "label": "French",
+      "language": "French",
+      "culture": "French",
+      "default_weight": 1.0
+    },
+    {
+      "lc_id": "ar-sa",
+      "label": "Saudi Arabic",
+      "language": "Arabic",
+      "culture": "Saudi",
+      "default_weight": 1.0
+    },
+    {
+      "lc_id": "ar-eg",
+      "label": "Egyptian Arabic",
+      "language": "Arabic",
+      "culture": "Egyptian",
+      "default_weight": 1.0
+    },
+    {
+      "lc_id": "ko-kr",
+      "label": "Korean",
+      "language": "Korean",
+      "culture": "Korean",
+      "default_weight": 1.0
+    },
+    {
+      "lc_id": "ru-ru",
+      "label": "Russian",
+      "language": "Russian",
+      "culture": "Russian",
+      "default_weight": 1.0
+    },
+    {
+      "lc_id": "it-it",
+      "label": "Italian",
+      "language": "Italian",
+      "culture": "Italian",
+      "default_weight": 1.0
+    },
+    {
+      "lc_id": "sv-se",
+      "label": "Swedish",
+      "language": "Swedish",
+      "culture": "Swedish",
+      "default_weight": 1.0
+    },
+    {
+      "lc_id": "nl-nl",
+      "label": "Dutch",
+      "language": "Dutch",
+      "culture": "Dutch",
+      "default_weight": 1.0
+    },
+    {
+      "lc_id": "pl-pl",
+      "label": "Polish",
+      "language": "Polish",
+      "culture": "Polish",
+      "default_weight": 1.0
+    },
+    {
+      "lc_id": "hi-in",
+      "label": "Hindi",
+      "language": "Hindi",
+      "culture": "Indian",
+      "default_weight": 1.0
+    },
+    {
+      "lc_id": "tl-ph",
+      "label": "Filipino",
+      "language": "Tagalog",
+      "culture": "Filipino",
+      "default_weight": 1.0
+    },
+    {
+      "lc_id": "no-no",
+      "label": "Norwegian",
+      "language": "Norwegian",
+      "culture": "Norwegian",
+      "default_weight": 1.0
+    },
+    {
+      "lc_id": "fi-fi",
+      "label": "Finnish",
+      "language": "Finnish",
+      "culture": "Finnish",
+      "default_weight": 1.0
+    }
+  ]
+}

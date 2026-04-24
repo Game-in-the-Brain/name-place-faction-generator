@@ -1,0 +1,3277 @@
+{
+  "lc_id": "de-de",
+  "label": "German",
+  "language": "German",
+  "culture": "German",
+  "script": "Latin",
+  "romanization": "native",
+  "phonology_notes": "Bootstrap phonology for German",
+  "given_names": [
+    {
+      "name": "Noah",
+      "ipa": "/noʊə/",
+      "gender": "M",
+      "type": "given",
+      "frequency": 0.77
+    },
+    {
+      "name": "Matteo",
+      "ipa": "/mɑteɪoʊ/",
+      "gender": "M",
+      "type": "given",
+      "frequency": 0.67
+    },
+    {
+      "name": "Elias",
+      "ipa": "/əlaɪəs/",
+      "gender": "M",
+      "type": "given",
+      "frequency": 0.75
+    },
+    {
+      "name": "Leon",
+      "ipa": "/liɑn/",
+      "gender": "M",
+      "type": "given",
+      "frequency": 0.73
+    },
+    {
+      "name": "Paul",
+      "ipa": "/pɔl/",
+      "gender": "M",
+      "type": "given",
+      "frequency": 0.83
+    },
+    {
+      "name": "Emil",
+      "ipa": "/ɛmil/",
+      "gender": "M",
+      "type": "given",
+      "frequency": 0.71
+    },
+    {
+      "name": "Finn",
+      "ipa": "/fɪn/",
+      "gender": "M",
+      "type": "given",
+      "frequency": 0.79
+    },
+    {
+      "name": "Felix",
+      "ipa": "/filɪks/",
+      "gender": "M",
+      "type": "given",
+      "frequency": 0.35
+    },
+    {
+      "name": "Lukas",
+      "ipa": "/lukəz/",
+      "gender": "M",
+      "type": "given",
+      "frequency": 0.95
+    },
+    {
+      "name": "Theo",
+      "ipa": "/θioʊ/",
+      "gender": "M",
+      "type": "given",
+      "frequency": 0.37
+    },
+    {
+      "name": "Henry",
+      "ipa": "/hɛnri/",
+      "gender": "M",
+      "type": "given",
+      "frequency": 0.85
+    },
+    {
+      "name": "Ben",
+      "ipa": "/bɛn/",
+      "gender": "M",
+      "type": "given",
+      "frequency": 0.51
+    },
+    {
+      "name": "Jonas",
+      "ipa": "/dʒoʊnəs/",
+      "gender": "M",
+      "type": "given",
+      "frequency": 0.36
+    },
+    {
+      "name": "Maximilian",
+      "ipa": "/mæksɪmɪliən/",
+      "gender": "M",
+      "type": "given",
+      "frequency": 0.84
+    },
+    {
+      "name": "Liam",
+      "ipa": "/liəm/",
+      "gender": "M",
+      "type": "given",
+      "frequency": 0.61
+    },
+    {
+      "name": "Luca",
+      "ipa": "/lukə/",
+      "gender": "M",
+      "type": "given",
+      "frequency": 0.58
+    },
+    {
+      "name": "Oskar",
+      "ipa": "/ɔskɚ/",
+      "gender": "M",
+      "type": "given",
+      "frequency": 0.76
+    },
+    {
+      "name": "Anton",
+      "ipa": "/æntɔn/",
+      "gender": "M",
+      "type": "given",
+      "frequency": 0.63
+    },
+    {
+      "name": "Max",
+      "ipa": "/mæks/",
+      "gender": "M",
+      "type": "given",
+      "frequency": 0.67
+    },
+    {
+      "name": "Levi",
+      "ipa": "/livaɪ/",
+      "gender": "M",
+      "type": "given",
+      "frequency": 0.4
+    },
+    {
+      "name": "Moritz",
+      "ipa": "/mɔrɪts/",
+      "gender": "M",
+      "type": "given",
+      "frequency": 0.57
+    },
+    {
+      "name": "Julian",
+      "ipa": "/dʒuliən/",
+      "gender": "M",
+      "type": "given",
+      "frequency": 0.86
+    },
+    {
+      "name": "Jakob",
+      "ipa": "/dʒækəb/",
+      "gender": "M",
+      "type": "given",
+      "frequency": 0.68
+    },
+    {
+      "name": "Niklas",
+      "ipa": "/niklas/",
+      "gender": "M",
+      "type": "given",
+      "frequency": 0.97
+    },
+    {
+      "name": "Tim",
+      "ipa": "/tɪm/",
+      "gender": "M",
+      "type": "given",
+      "frequency": 0.4
+    },
+    {
+      "name": "David",
+      "ipa": "/deɪvɪd/",
+      "gender": "M",
+      "type": "given",
+      "frequency": 0.77
+    },
+    {
+      "name": "Alexander",
+      "ipa": "/ælɪɡzændɚ/",
+      "gender": "M",
+      "type": "given",
+      "frequency": 0.94
+    },
+    {
+      "name": "Samuel",
+      "ipa": "/sæmjul/",
+      "gender": "M",
+      "type": "given",
+      "frequency": 0.86
+    },
+    {
+      "name": "Philipp",
+      "ipa": "/fɪlɪp/",
+      "gender": "M",
+      "type": "given",
+      "frequency": 0.81
+    },
+    {
+      "name": "Tom",
+      "ipa": "/tɑm/",
+      "gender": "M",
+      "type": "given",
+      "frequency": 0.56
+    },
+    {
+      "name": "Florian",
+      "ipa": "/flɔriən/",
+      "gender": "M",
+      "type": "given",
+      "frequency": 0.96
+    },
+    {
+      "name": "Erik",
+      "ipa": "/ɛrɪk/",
+      "gender": "M",
+      "type": "given",
+      "frequency": 0.69
+    },
+    {
+      "name": "Rafael",
+      "ipa": "/rɑfaɪɛl/",
+      "gender": "M",
+      "type": "given",
+      "frequency": 0.69
+    },
+    {
+      "name": "Jonathan",
+      "ipa": "/dʒɑnəθən/",
+      "gender": "M",
+      "type": "given",
+      "frequency": 0.39
+    },
+    {
+      "name": "Fabian",
+      "ipa": "/feɪbiən/",
+      "gender": "M",
+      "type": "given",
+      "frequency": 0.3
+    },
+    {
+      "name": "Linus",
+      "ipa": "/laɪnəs/",
+      "gender": "M",
+      "type": "given",
+      "frequency": 0.72
+    },
+    {
+      "name": "Jan",
+      "ipa": "/dʒæn/",
+      "gender": "M",
+      "type": "given",
+      "frequency": 0.68
+    },
+    {
+      "name": "Simon",
+      "ipa": "/saɪmən/",
+      "gender": "M",
+      "type": "given",
+      "frequency": 0.96
+    },
+    {
+      "name": "Joshua",
+      "ipa": "/dʒɑʃuə/",
+      "gender": "M",
+      "type": "given",
+      "frequency": 0.51
+    },
+    {
+      "name": "Nico",
+      "ipa": "/nikoʊ/",
+      "gender": "M",
+      "type": "given",
+      "frequency": 0.82
+    },
+    {
+      "name": "Emilia",
+      "ipa": "/əmiliə/",
+      "gender": "F",
+      "type": "given",
+      "frequency": 0.93
+    },
+    {
+      "name": "Ella",
+      "ipa": "/ɛlə/",
+      "gender": "F",
+      "type": "given",
+      "frequency": 0.54
+    },
+    {
+      "name": "Mia",
+      "ipa": "/miə/",
+      "gender": "F",
+      "type": "given",
+      "frequency": 0.59
+    },
+    {
+      "name": "Sophia",
+      "ipa": "/soʊfiə/",
+      "gender": "F",
+      "type": "given",
+      "frequency": 0.75
+    },
+    {
+      "name": "Lina",
+      "ipa": "/linə/",
+      "gender": "F",
+      "type": "given",
+      "frequency": 0.66
+    },
+    {
+      "name": "Mila",
+      "ipa": "/maɪlə/",
+      "gender": "F",
+      "type": "given",
+      "frequency": 0.41
+    },
+    {
+      "name": "Lea",
+      "ipa": "/li/",
+      "gender": "F",
+      "type": "given",
+      "frequency": 0.45
+    },
+    {
+      "name": "Clara",
+      "ipa": "/klærə/",
+      "gender": "F",
+      "type": "given",
+      "frequency": 0.88
+    },
+    {
+      "name": "Anna",
+      "ipa": "/ænə/",
+      "gender": "F",
+      "type": "given",
+      "frequency": 0.44
+    },
+    {
+      "name": "Leni",
+      "ipa": "/leni/",
+      "gender": "F",
+      "type": "given",
+      "frequency": 0.43
+    },
+    {
+      "name": "Emma",
+      "ipa": "/ɛmə/",
+      "gender": "F",
+      "type": "given",
+      "frequency": 0.86
+    },
+    {
+      "name": "Lia",
+      "ipa": "/liə/",
+      "gender": "F",
+      "type": "given",
+      "frequency": 0.9
+    },
+    {
+      "name": "Hannah",
+      "ipa": "/hænə/",
+      "gender": "F",
+      "type": "given",
+      "frequency": 0.9
+    },
+    {
+      "name": "Lena",
+      "ipa": "/linə/",
+      "gender": "F",
+      "type": "given",
+      "frequency": 0.95
+    },
+    {
+      "name": "Marie",
+      "ipa": "/mɚi/",
+      "gender": "F",
+      "type": "given",
+      "frequency": 1.0
+    },
+    {
+      "name": "Nele",
+      "ipa": "/nele/",
+      "gender": "F",
+      "type": "given",
+      "frequency": 0.62
+    },
+    {
+      "name": "Johanna",
+      "ipa": "/dʒəhænə/",
+      "gender": "F",
+      "type": "given",
+      "frequency": 0.68
+    },
+    {
+      "name": "Lara",
+      "ipa": "/lɑrə/",
+      "gender": "F",
+      "type": "given",
+      "frequency": 0.5
+    },
+    {
+      "name": "Charlotte",
+      "ipa": "/ʃɑrlət/",
+      "gender": "F",
+      "type": "given",
+      "frequency": 0.35
+    },
+    {
+      "name": "Sarah",
+      "ipa": "/sɛrə/",
+      "gender": "F",
+      "type": "given",
+      "frequency": 0.37
+    },
+    {
+      "name": "Paula",
+      "ipa": "/pɔlə/",
+      "gender": "F",
+      "type": "given",
+      "frequency": 0.81
+    },
+    {
+      "name": "Maja",
+      "ipa": "/maja/",
+      "gender": "F",
+      "type": "given",
+      "frequency": 0.64
+    },
+    {
+      "name": "Ida",
+      "ipa": "/aɪdə/",
+      "gender": "F",
+      "type": "given",
+      "frequency": 0.53
+    },
+    {
+      "name": "Luisa",
+      "ipa": "/luizə/",
+      "gender": "F",
+      "type": "given",
+      "frequency": 0.39
+    },
+    {
+      "name": "Finja",
+      "ipa": "/finja/",
+      "gender": "F",
+      "type": "given",
+      "frequency": 0.76
+    },
+    {
+      "name": "Juna",
+      "ipa": "/juna/",
+      "gender": "F",
+      "type": "given",
+      "frequency": 0.37
+    },
+    {
+      "name": "Lilly",
+      "ipa": "/lɪli/",
+      "gender": "F",
+      "type": "given",
+      "frequency": 0.73
+    },
+    {
+      "name": "Thea",
+      "ipa": "/θiə/",
+      "gender": "F",
+      "type": "given",
+      "frequency": 0.93
+    },
+    {
+      "name": "Frieda",
+      "ipa": "/fridə/",
+      "gender": "F",
+      "type": "given",
+      "frequency": 0.52
+    },
+    {
+      "name": "Elisa",
+      "ipa": "/əlisə/",
+      "gender": "F",
+      "type": "given",
+      "frequency": 0.62
+    },
+    {
+      "name": "Amy",
+      "ipa": "/eɪmi/",
+      "gender": "F",
+      "type": "given",
+      "frequency": 0.73
+    },
+    {
+      "name": "Amelie",
+      "ipa": "/amelie/",
+      "gender": "F",
+      "type": "given",
+      "frequency": 0.51
+    },
+    {
+      "name": "Maya",
+      "ipa": "/maɪə/",
+      "gender": "F",
+      "type": "given",
+      "frequency": 0.71
+    },
+    {
+      "name": "Helena",
+      "ipa": "/hɛlənə/",
+      "gender": "F",
+      "type": "given",
+      "frequency": 0.7
+    },
+    {
+      "name": "Mathilda",
+      "ipa": "/mətɪldə/",
+      "gender": "F",
+      "type": "given",
+      "frequency": 0.56
+    },
+    {
+      "name": "Lisa",
+      "ipa": "/lisə/",
+      "gender": "F",
+      "type": "given",
+      "frequency": 0.52
+    },
+    {
+      "name": "Victoria",
+      "ipa": "/vɪktɔriə/",
+      "gender": "F",
+      "type": "given",
+      "frequency": 0.6
+    },
+    {
+      "name": "Isabella",
+      "ipa": "/ɪzəbɛlə/",
+      "gender": "F",
+      "type": "given",
+      "frequency": 0.3
+    },
+    {
+      "name": "Marlene",
+      "ipa": "/mɑrlin/",
+      "gender": "F",
+      "type": "given",
+      "frequency": 0.47
+    },
+    {
+      "name": "Elina",
+      "ipa": "/elina/",
+      "gender": "F",
+      "type": "given",
+      "frequency": 0.46
+    }
+  ],
+  "family_names": [
+    {
+      "name": "Mueller",
+      "ipa": "/mjulɚ/",
+      "gender": "N",
+      "type": "family",
+      "frequency": 0.82
+    },
+    {
+      "name": "Schmidt",
+      "ipa": "/ʃmɪt/",
+      "gender": "N",
+      "type": "family",
+      "frequency": 0.61
+    },
+    {
+      "name": "Schneider",
+      "ipa": "/ʃnaɪdɚ/",
+      "gender": "N",
+      "type": "family",
+      "frequency": 0.89
+    },
+    {
+      "name": "Fischer",
+      "ipa": "/fɪʃɚ/",
+      "gender": "N",
+      "type": "family",
+      "frequency": 0.39
+    },
+    {
+      "name": "Weber",
+      "ipa": "/wɛbɚ/",
+      "gender": "N",
+      "type": "family",
+      "frequency": 0.81
+    },
+    {
+      "name": "Meyer",
+      "ipa": "/maɪɚ/",
+      "gender": "N",
+      "type": "family",
+      "frequency": 0.91
+    },
+    {
+      "name": "Wagner",
+      "ipa": "/wæɡnɚ/",
+      "gender": "N",
+      "type": "family",
+      "frequency": 0.62
+    },
+    {
+      "name": "Becker",
+      "ipa": "/bɛkɚ/",
+      "gender": "N",
+      "type": "family",
+      "frequency": 0.55
+    },
+    {
+      "name": "Schulz",
+      "ipa": "/ʃʊlts/",
+      "gender": "N",
+      "type": "family",
+      "frequency": 0.51
+    },
+    {
+      "name": "Hoffmann",
+      "ipa": "/hɔfmən/",
+      "gender": "N",
+      "type": "family",
+      "frequency": 0.69
+    },
+    {
+      "name": "Koch",
+      "ipa": "/kɔtʃ/",
+      "gender": "N",
+      "type": "family",
+      "frequency": 0.42
+    },
+    {
+      "name": "Bauer",
+      "ipa": "/baʊɚ/",
+      "gender": "N",
+      "type": "family",
+      "frequency": 0.72
+    },
+    {
+      "name": "Richter",
+      "ipa": "/rɪktɚ/",
+      "gender": "N",
+      "type": "family",
+      "frequency": 0.89
+    },
+    {
+      "name": "Klein",
+      "ipa": "/klaɪn/",
+      "gender": "N",
+      "type": "family",
+      "frequency": 0.9
+    },
+    {
+      "name": "Wolf",
+      "ipa": "/wʊlf/",
+      "gender": "N",
+      "type": "family",
+      "frequency": 0.4
+    },
+    {
+      "name": "Schroeder",
+      "ipa": "/ʃroʊdɚ/",
+      "gender": "N",
+      "type": "family",
+      "frequency": 0.68
+    },
+    {
+      "name": "Neumann",
+      "ipa": "/numən/",
+      "gender": "N",
+      "type": "family",
+      "frequency": 0.48
+    },
+    {
+      "name": "Schwarz",
+      "ipa": "/ʃwɔrts/",
+      "gender": "N",
+      "type": "family",
+      "frequency": 0.92
+    },
+    {
+      "name": "Zimmermann",
+      "ipa": "/zɪmɚmən/",
+      "gender": "N",
+      "type": "family",
+      "frequency": 0.35
+    },
+    {
+      "name": "Braun",
+      "ipa": "/brɔn/",
+      "gender": "N",
+      "type": "family",
+      "frequency": 0.35
+    },
+    {
+      "name": "Krueger",
+      "ipa": "/kruɡɚ/",
+      "gender": "N",
+      "type": "family",
+      "frequency": 0.31
+    },
+    {
+      "name": "Hofmann",
+      "ipa": "/hɑfmən/",
+      "gender": "N",
+      "type": "family",
+      "frequency": 0.66
+    },
+    {
+      "name": "Hartmann",
+      "ipa": "/hɑrtmən/",
+      "gender": "N",
+      "type": "family",
+      "frequency": 0.32
+    },
+    {
+      "name": "Lange",
+      "ipa": "/læŋ/",
+      "gender": "N",
+      "type": "family",
+      "frequency": 0.71
+    },
+    {
+      "name": "Schmitt",
+      "ipa": "/ʃmɪt/",
+      "gender": "N",
+      "type": "family",
+      "frequency": 0.58
+    },
+    {
+      "name": "Werner",
+      "ipa": "/wɜrnɚ/",
+      "gender": "N",
+      "type": "family",
+      "frequency": 0.71
+    },
+    {
+      "name": "Schmitz",
+      "ipa": "/ʃmɪts/",
+      "gender": "N",
+      "type": "family",
+      "frequency": 0.93
+    },
+    {
+      "name": "Krause",
+      "ipa": "/krɔs/",
+      "gender": "N",
+      "type": "family",
+      "frequency": 0.69
+    },
+    {
+      "name": "Meier",
+      "ipa": "/maɪɚ/",
+      "gender": "N",
+      "type": "family",
+      "frequency": 0.68
+    },
+    {
+      "name": "Lehmann",
+      "ipa": "/leɪmən/",
+      "gender": "N",
+      "type": "family",
+      "frequency": 1.0
+    },
+    {
+      "name": "Koehler",
+      "ipa": "/koʊlɚ/",
+      "gender": "N",
+      "type": "family",
+      "frequency": 0.63
+    },
+    {
+      "name": "Maier",
+      "ipa": "/meɪɚ/",
+      "gender": "N",
+      "type": "family",
+      "frequency": 0.84
+    },
+    {
+      "name": "Herrmann",
+      "ipa": "/hɛrmən/",
+      "gender": "N",
+      "type": "family",
+      "frequency": 0.56
+    },
+    {
+      "name": "Koenig",
+      "ipa": "/kɜrnɪɡ/",
+      "gender": "N",
+      "type": "family",
+      "frequency": 0.46
+    },
+    {
+      "name": "Walter",
+      "ipa": "/wɔltɚ/",
+      "gender": "N",
+      "type": "family",
+      "frequency": 0.84
+    },
+    {
+      "name": "Mayer",
+      "ipa": "/meɪɚ/",
+      "gender": "N",
+      "type": "family",
+      "frequency": 0.81
+    },
+    {
+      "name": "Huber",
+      "ipa": "/hjubɚ/",
+      "gender": "N",
+      "type": "family",
+      "frequency": 0.5
+    },
+    {
+      "name": "Kaiser",
+      "ipa": "/kaɪzɚ/",
+      "gender": "N",
+      "type": "family",
+      "frequency": 0.63
+    },
+    {
+      "name": "Fuchs",
+      "ipa": "/fjuks/",
+      "gender": "N",
+      "type": "family",
+      "frequency": 0.66
+    },
+    {
+      "name": "Peters",
+      "ipa": "/pitɚz/",
+      "gender": "N",
+      "type": "family",
+      "frequency": 0.58
+    }
+  ],
+  "place_words": [
+    {
+      "word": "berg",
+      "ipa": "/bɜrɡ/",
+      "category": "terrain",
+      "frequency": 0.75,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "tal",
+      "ipa": "/tɑl/",
+      "category": "terrain",
+      "frequency": 0.83,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "wald",
+      "ipa": "/wɔld/",
+      "category": "terrain",
+      "frequency": 0.92,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "feld",
+      "ipa": "/fɛld/",
+      "category": "terrain",
+      "frequency": 0.9,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "see",
+      "ipa": "/si/",
+      "category": "terrain",
+      "frequency": 0.81,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "fluss",
+      "ipa": "/fluss/",
+      "category": "terrain",
+      "frequency": 0.58,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "quelle",
+      "ipa": "/quelle/",
+      "category": "terrain",
+      "frequency": 0.76,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "hugel",
+      "ipa": "/huɡəl/",
+      "category": "terrain",
+      "frequency": 0.72,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "insel",
+      "ipa": "/ɪnsəl/",
+      "category": "terrain",
+      "frequency": 0.59,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "kuste",
+      "ipa": "/kuste/",
+      "category": "terrain",
+      "frequency": 0.97,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "bucht",
+      "ipa": "/bucht/",
+      "category": "terrain",
+      "frequency": 0.83,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "hafen",
+      "ipa": "/hæfən/",
+      "category": "terrain",
+      "frequency": 0.98,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "moor",
+      "ipa": "/mʊr/",
+      "category": "terrain",
+      "frequency": 0.87,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "sumpf",
+      "ipa": "/sumpf/",
+      "category": "terrain",
+      "frequency": 0.74,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "steppe",
+      "ipa": "/stɛp/",
+      "category": "terrain",
+      "frequency": 0.68,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "wuste",
+      "ipa": "/wuste/",
+      "category": "terrain",
+      "frequency": 0.61,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "klippe",
+      "ipa": "/klippe/",
+      "category": "terrain",
+      "frequency": 0.74,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "schlucht",
+      "ipa": "/schlucht/",
+      "category": "terrain",
+      "frequency": 0.53,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "grube",
+      "ipa": "/ɡrub/",
+      "category": "terrain",
+      "frequency": 0.68,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "senke",
+      "ipa": "/senke/",
+      "category": "terrain",
+      "frequency": 0.52,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "nord",
+      "ipa": "/nɔrd/",
+      "category": "direction",
+      "frequency": 0.6,
+      "can_prefix": true,
+      "can_suffix": false
+    },
+    {
+      "word": "sud",
+      "ipa": "/sud/",
+      "category": "direction",
+      "frequency": 0.95,
+      "can_prefix": true,
+      "can_suffix": false
+    },
+    {
+      "word": "ost",
+      "ipa": "/oʊst/",
+      "category": "direction",
+      "frequency": 0.68,
+      "can_prefix": true,
+      "can_suffix": false
+    },
+    {
+      "word": "west",
+      "ipa": "/wɛst/",
+      "category": "direction",
+      "frequency": 0.73,
+      "can_prefix": true,
+      "can_suffix": false
+    },
+    {
+      "word": "oben",
+      "ipa": "/oben/",
+      "category": "direction",
+      "frequency": 0.73,
+      "can_prefix": true,
+      "can_suffix": false
+    },
+    {
+      "word": "unten",
+      "ipa": "/unten/",
+      "category": "direction",
+      "frequency": 0.52,
+      "can_prefix": true,
+      "can_suffix": false
+    },
+    {
+      "word": "vorder",
+      "ipa": "/vorder/",
+      "category": "direction",
+      "frequency": 0.99,
+      "can_prefix": true,
+      "can_suffix": false
+    },
+    {
+      "word": "hinter",
+      "ipa": "/hinter/",
+      "category": "direction",
+      "frequency": 0.66,
+      "can_prefix": true,
+      "can_suffix": false
+    },
+    {
+      "word": "mittel",
+      "ipa": "/mittel/",
+      "category": "direction",
+      "frequency": 0.85,
+      "can_prefix": true,
+      "can_suffix": false
+    },
+    {
+      "word": "neu",
+      "ipa": "/nɔɪ/",
+      "category": "direction",
+      "frequency": 0.76,
+      "can_prefix": true,
+      "can_suffix": false
+    },
+    {
+      "word": "alt",
+      "ipa": "/ɑlt/",
+      "category": "direction",
+      "frequency": 0.91,
+      "can_prefix": true,
+      "can_suffix": false
+    },
+    {
+      "word": "gross",
+      "ipa": "/ɡroʊs/",
+      "category": "direction",
+      "frequency": 0.92,
+      "can_prefix": true,
+      "can_suffix": false
+    },
+    {
+      "word": "klein",
+      "ipa": "/klaɪn/",
+      "category": "direction",
+      "frequency": 0.63,
+      "can_prefix": true,
+      "can_suffix": false
+    },
+    {
+      "word": "weiss",
+      "ipa": "/waɪs/",
+      "category": "quality",
+      "frequency": 0.77,
+      "can_prefix": true,
+      "can_suffix": false
+    },
+    {
+      "word": "schwarz",
+      "ipa": "/ʃwɔrts/",
+      "category": "quality",
+      "frequency": 0.59,
+      "can_prefix": true,
+      "can_suffix": false
+    },
+    {
+      "word": "rot",
+      "ipa": "/rɑt/",
+      "category": "quality",
+      "frequency": 0.83,
+      "can_prefix": true,
+      "can_suffix": false
+    },
+    {
+      "word": "grun",
+      "ipa": "/ɡrʌn/",
+      "category": "quality",
+      "frequency": 0.68,
+      "can_prefix": true,
+      "can_suffix": false
+    },
+    {
+      "word": "blau",
+      "ipa": "/blaʊ/",
+      "category": "quality",
+      "frequency": 0.83,
+      "can_prefix": true,
+      "can_suffix": false
+    },
+    {
+      "word": "gross",
+      "ipa": "/ɡroʊs/",
+      "category": "quality",
+      "frequency": 0.92,
+      "can_prefix": true,
+      "can_suffix": false
+    },
+    {
+      "word": "klein",
+      "ipa": "/klaɪn/",
+      "category": "quality",
+      "frequency": 0.76,
+      "can_prefix": true,
+      "can_suffix": false
+    },
+    {
+      "word": "alt",
+      "ipa": "/ɑlt/",
+      "category": "quality",
+      "frequency": 0.69,
+      "can_prefix": true,
+      "can_suffix": false
+    },
+    {
+      "word": "neu",
+      "ipa": "/nɔɪ/",
+      "category": "quality",
+      "frequency": 0.95,
+      "can_prefix": true,
+      "can_suffix": false
+    },
+    {
+      "word": "hoch",
+      "ipa": "/hɑk/",
+      "category": "quality",
+      "frequency": 0.76,
+      "can_prefix": true,
+      "can_suffix": false
+    },
+    {
+      "word": "tief",
+      "ipa": "/tief/",
+      "category": "quality",
+      "frequency": 0.68,
+      "can_prefix": true,
+      "can_suffix": false
+    },
+    {
+      "word": "hell",
+      "ipa": "/hɛl/",
+      "category": "quality",
+      "frequency": 0.93,
+      "can_prefix": true,
+      "can_suffix": false
+    },
+    {
+      "word": "dunkel",
+      "ipa": "/dʌŋkəl/",
+      "category": "quality",
+      "frequency": 0.74,
+      "can_prefix": true,
+      "can_suffix": false
+    },
+    {
+      "word": "klar",
+      "ipa": "/klɑr/",
+      "category": "quality",
+      "frequency": 0.74,
+      "can_prefix": true,
+      "can_suffix": false
+    },
+    {
+      "word": "eiche",
+      "ipa": "/eiche/",
+      "category": "flora",
+      "frequency": 0.8,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "kiefer",
+      "ipa": "/kifɚ/",
+      "category": "flora",
+      "frequency": 0.75,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "fichte",
+      "ipa": "/fichte/",
+      "category": "flora",
+      "frequency": 0.57,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "buche",
+      "ipa": "/bʌtʃ/",
+      "category": "flora",
+      "frequency": 0.58,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "birke",
+      "ipa": "/birke/",
+      "category": "flora",
+      "frequency": 0.54,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "weide",
+      "ipa": "/waɪdi/",
+      "category": "flora",
+      "frequency": 0.82,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "linde",
+      "ipa": "/lɪnd/",
+      "category": "flora",
+      "frequency": 0.61,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "erle",
+      "ipa": "/ɛrlə/",
+      "category": "flora",
+      "frequency": 0.59,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "ahorn",
+      "ipa": "/ahorn/",
+      "category": "flora",
+      "frequency": 0.68,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "hasel",
+      "ipa": "/hasel/",
+      "category": "flora",
+      "frequency": 0.86,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "wolf",
+      "ipa": "/wʊlf/",
+      "category": "fauna",
+      "frequency": 0.56,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "bar",
+      "ipa": "/bɑr/",
+      "category": "fauna",
+      "frequency": 0.62,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "hirsch",
+      "ipa": "/hɜrʃ/",
+      "category": "fauna",
+      "frequency": 0.91,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "fuchs",
+      "ipa": "/fjuks/",
+      "category": "fauna",
+      "frequency": 0.86,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "dachs",
+      "ipa": "/dachs/",
+      "category": "fauna",
+      "frequency": 0.74,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "adler",
+      "ipa": "/ædlɚ/",
+      "category": "fauna",
+      "frequency": 0.74,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "falke",
+      "ipa": "/fɔk/",
+      "category": "fauna",
+      "frequency": 0.61,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "schwan",
+      "ipa": "/ʃwɔn/",
+      "category": "fauna",
+      "frequency": 0.58,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "reh",
+      "ipa": "/rɛ/",
+      "category": "fauna",
+      "frequency": 0.92,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "wild",
+      "ipa": "/waɪld/",
+      "category": "fauna",
+      "frequency": 0.51,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "burg",
+      "ipa": "/bɜrɡ/",
+      "category": "structure",
+      "frequency": 0.52,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "stadt",
+      "ipa": "/stædt/",
+      "category": "structure",
+      "frequency": 0.79,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "dorf",
+      "ipa": "/dɔrf/",
+      "category": "structure",
+      "frequency": 0.58,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "hafen",
+      "ipa": "/hæfən/",
+      "category": "structure",
+      "frequency": 0.81,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "tor",
+      "ipa": "/tɔr/",
+      "category": "structure",
+      "frequency": 0.52,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "brucke",
+      "ipa": "/brucke/",
+      "category": "structure",
+      "frequency": 0.79,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "mühle",
+      "ipa": "/mühle/",
+      "category": "structure",
+      "frequency": 0.53,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "schloss",
+      "ipa": "/ʃlɔs/",
+      "category": "structure",
+      "frequency": 0.63,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "kloster",
+      "ipa": "/klɔstɚ/",
+      "category": "structure",
+      "frequency": 0.59,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "kirche",
+      "ipa": "/kirche/",
+      "category": "structure",
+      "frequency": 0.98,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "heil",
+      "ipa": "/haɪl/",
+      "category": "sacred",
+      "frequency": 0.8,
+      "can_prefix": true,
+      "can_suffix": false
+    },
+    {
+      "word": "sankt",
+      "ipa": "/sankt/",
+      "category": "sacred",
+      "frequency": 0.78,
+      "can_prefix": true,
+      "can_suffix": false
+    },
+    {
+      "word": "kreuz",
+      "ipa": "/kreuz/",
+      "category": "sacred",
+      "frequency": 0.51,
+      "can_prefix": true,
+      "can_suffix": false
+    },
+    {
+      "word": "gnade",
+      "ipa": "/gnade/",
+      "category": "sacred",
+      "frequency": 0.86,
+      "can_prefix": true,
+      "can_suffix": false
+    },
+    {
+      "word": "frieden",
+      "ipa": "/fridən/",
+      "category": "sacred",
+      "frequency": 0.83,
+      "can_prefix": true,
+      "can_suffix": false
+    },
+    {
+      "word": "hoffnung",
+      "ipa": "/hoffnung/",
+      "category": "sacred",
+      "frequency": 0.64,
+      "can_prefix": true,
+      "can_suffix": false
+    },
+    {
+      "word": "glaube",
+      "ipa": "/glaube/",
+      "category": "sacred",
+      "frequency": 0.54,
+      "can_prefix": true,
+      "can_suffix": false
+    },
+    {
+      "word": "liebe",
+      "ipa": "/lib/",
+      "category": "sacred",
+      "frequency": 0.72,
+      "can_prefix": true,
+      "can_suffix": false
+    },
+    {
+      "word": "schlacht",
+      "ipa": "/schlacht/",
+      "category": "event",
+      "frequency": 1.0,
+      "can_prefix": true,
+      "can_suffix": false
+    },
+    {
+      "word": "frieden",
+      "ipa": "/fridən/",
+      "category": "event",
+      "frequency": 0.93,
+      "can_prefix": true,
+      "can_suffix": false
+    },
+    {
+      "word": "sieg",
+      "ipa": "/siɡ/",
+      "category": "event",
+      "frequency": 0.59,
+      "can_prefix": true,
+      "can_suffix": false
+    },
+    {
+      "word": "brand",
+      "ipa": "/brænd/",
+      "category": "event",
+      "frequency": 0.92,
+      "can_prefix": true,
+      "can_suffix": false
+    },
+    {
+      "word": "uberschwemmung",
+      "ipa": "/uberschwemmung/",
+      "category": "event",
+      "frequency": 0.8,
+      "can_prefix": true,
+      "can_suffix": false
+    },
+    {
+      "word": "sturm",
+      "ipa": "/stɜrm/",
+      "category": "event",
+      "frequency": 0.9,
+      "can_prefix": true,
+      "can_suffix": false
+    },
+    {
+      "word": "bad",
+      "ipa": "/bæd/",
+      "category": "proper_root",
+      "frequency": 0.91,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "ober",
+      "ipa": "/oʊbɚ/",
+      "category": "proper_root",
+      "frequency": 0.59,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "unter",
+      "ipa": "/unter/",
+      "category": "proper_root",
+      "frequency": 0.83,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "neu",
+      "ipa": "/nɔɪ/",
+      "category": "proper_root",
+      "frequency": 0.63,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "alt",
+      "ipa": "/ɑlt/",
+      "category": "proper_root",
+      "frequency": 0.86,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "berg",
+      "ipa": "/bɜrɡ/",
+      "category": "proper_root",
+      "frequency": 0.67,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "bach",
+      "ipa": "/bɑk/",
+      "category": "proper_root",
+      "frequency": 0.73,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "stein",
+      "ipa": "/staɪn/",
+      "category": "proper_root",
+      "frequency": 0.8,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "wald",
+      "ipa": "/wɔld/",
+      "category": "proper_root",
+      "frequency": 0.61,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "neuhof",
+      "ipa": "/neuhof/",
+      "category": "proper_root",
+      "frequency": 0.25,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "hausen",
+      "ipa": "/haʊzən/",
+      "category": "proper_root",
+      "frequency": 0.14,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "steinbach",
+      "ipa": "/staɪnbɑk/",
+      "category": "terrain",
+      "frequency": 0.18,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "buchholz",
+      "ipa": "/bʌkhoʊlz/",
+      "category": "terrain",
+      "frequency": 0.44,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "neudorf",
+      "ipa": "/neudorf/",
+      "category": "terrain",
+      "frequency": 0.3,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "oberndorf",
+      "ipa": "/oberndorf/",
+      "category": "terrain",
+      "frequency": 0.27,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "holzhausen",
+      "ipa": "/holzhausen/",
+      "category": "terrain",
+      "frequency": 0.16,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "buch",
+      "ipa": "/bʌtʃ/",
+      "category": "proper_root",
+      "frequency": 0.14,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "ried",
+      "ipa": "/rid/",
+      "category": "proper_root",
+      "frequency": 0.29,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "neukirchen",
+      "ipa": "/nukɚtʃən/",
+      "category": "terrain",
+      "frequency": 0.35,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "reichenbach",
+      "ipa": "/raɪkənbɑk/",
+      "category": "terrain",
+      "frequency": 0.12,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "zell",
+      "ipa": "/zɛl/",
+      "category": "proper_root",
+      "frequency": 0.41,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "weiler",
+      "ipa": "/waɪlɚ/",
+      "category": "proper_root",
+      "frequency": 0.3,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "ausbau",
+      "ipa": "/ausbau/",
+      "category": "proper_root",
+      "frequency": 0.15,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "heide",
+      "ipa": "/haɪd/",
+      "category": "proper_root",
+      "frequency": 0.29,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "neuendorf",
+      "ipa": "/nuəndɔrf/",
+      "category": "terrain",
+      "frequency": 0.15,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "rohrbach",
+      "ipa": "/rɔrbɑk/",
+      "category": "terrain",
+      "frequency": 0.34,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "neustadt",
+      "ipa": "/nuʃtæt/",
+      "category": "terrain",
+      "frequency": 0.43,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "linden",
+      "ipa": "/lɪndən/",
+      "category": "proper_root",
+      "frequency": 0.46,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "horst",
+      "ipa": "/hɔrst/",
+      "category": "proper_root",
+      "frequency": 0.41,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "hagen",
+      "ipa": "/heɪɡən/",
+      "category": "proper_root",
+      "frequency": 0.36,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "moos",
+      "ipa": "/muz/",
+      "category": "proper_root",
+      "frequency": 0.31,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "neuhaus",
+      "ipa": "/nuhaʊs/",
+      "category": "terrain",
+      "frequency": 0.25,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "hof",
+      "ipa": "/hɑf/",
+      "category": "proper_root",
+      "frequency": 0.12,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "stetten",
+      "ipa": "/stetten/",
+      "category": "terrain",
+      "frequency": 0.31,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "fischbach",
+      "ipa": "/fɪʃbɑk/",
+      "category": "terrain",
+      "frequency": 0.19,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "steinberg",
+      "ipa": "/staɪnbɚɡ/",
+      "category": "terrain",
+      "frequency": 0.42,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "grub",
+      "ipa": "/ɡrʌb/",
+      "category": "proper_root",
+      "frequency": 0.42,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "naundorf",
+      "ipa": "/naundorf/",
+      "category": "terrain",
+      "frequency": 0.25,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "asbach",
+      "ipa": "/asbach/",
+      "category": "proper_root",
+      "frequency": 0.34,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "haag",
+      "ipa": "/hɑɡ/",
+      "category": "proper_root",
+      "frequency": 0.4,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "thal",
+      "ipa": "/θæl/",
+      "category": "proper_root",
+      "frequency": 0.4,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "lauterbach",
+      "ipa": "/laʊtɚbɑk/",
+      "category": "terrain",
+      "frequency": 0.38,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "kirchberg",
+      "ipa": "/kɜrkbɚɡ/",
+      "category": "terrain",
+      "frequency": 0.14,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "altendorf",
+      "ipa": "/altendorf/",
+      "category": "terrain",
+      "frequency": 0.15,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "hoefen",
+      "ipa": "/hoefen/",
+      "category": "proper_root",
+      "frequency": 0.29,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "altstadt",
+      "ipa": "/altstadt/",
+      "category": "terrain",
+      "frequency": 0.19,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "neuhausen",
+      "ipa": "/neuhausen/",
+      "category": "terrain",
+      "frequency": 0.44,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "hardt",
+      "ipa": "/hɑrt/",
+      "category": "proper_root",
+      "frequency": 0.21,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "forst",
+      "ipa": "/fɔrst/",
+      "category": "proper_root",
+      "frequency": 0.45,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "kirchdorf",
+      "ipa": "/kirchdorf/",
+      "category": "terrain",
+      "frequency": 0.26,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "roth",
+      "ipa": "/rɔθ/",
+      "category": "proper_root",
+      "frequency": 0.18,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "oberhausen",
+      "ipa": "/oʊbɚhaʊzən/",
+      "category": "terrain",
+      "frequency": 0.38,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "neuenkirchen",
+      "ipa": "/neuenkirchen/",
+      "category": "terrain",
+      "frequency": 0.42,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "bergen",
+      "ipa": "/bɜrɡən/",
+      "category": "proper_root",
+      "frequency": 0.33,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "bergham",
+      "ipa": "/bergham/",
+      "category": "terrain",
+      "frequency": 0.15,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "niendorf",
+      "ipa": "/niendorf/",
+      "category": "terrain",
+      "frequency": 0.1,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "tiefenbach",
+      "ipa": "/tiefenbach/",
+      "category": "terrain",
+      "frequency": 0.36,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "lindenberg",
+      "ipa": "/lɪndənbɚɡ/",
+      "category": "terrain",
+      "frequency": 0.38,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "haslach",
+      "ipa": "/haslach/",
+      "category": "terrain",
+      "frequency": 0.23,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "brunn",
+      "ipa": "/brʌn/",
+      "category": "proper_root",
+      "frequency": 0.24,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "berghausen",
+      "ipa": "/berghausen/",
+      "category": "terrain",
+      "frequency": 0.16,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "lohe",
+      "ipa": "/lohe/",
+      "category": "proper_root",
+      "frequency": 0.36,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "holthausen",
+      "ipa": "/holthausen/",
+      "category": "terrain",
+      "frequency": 0.2,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "haid",
+      "ipa": "/heɪd/",
+      "category": "proper_root",
+      "frequency": 0.44,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "limbach",
+      "ipa": "/lɪmbɑk/",
+      "category": "terrain",
+      "frequency": 0.27,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "falkenberg",
+      "ipa": "/fɔkənbɚɡ/",
+      "category": "terrain",
+      "frequency": 0.25,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "vogelsang",
+      "ipa": "/vɑɡɪlsəŋ/",
+      "category": "terrain",
+      "frequency": 0.21,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "sulzbach",
+      "ipa": "/sʌlzbɑk/",
+      "category": "terrain",
+      "frequency": 0.37,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "strass",
+      "ipa": "/strass/",
+      "category": "proper_root",
+      "frequency": 0.4,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "steinfeld",
+      "ipa": "/staɪnfɛld/",
+      "category": "terrain",
+      "frequency": 0.27,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "seedorf",
+      "ipa": "/sidɔrf/",
+      "category": "terrain",
+      "frequency": 0.41,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "langenberg",
+      "ipa": "/læŋənbɚɡ/",
+      "category": "terrain",
+      "frequency": 0.29,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "breitenbach",
+      "ipa": "/braɪtɪnbɑk/",
+      "category": "terrain",
+      "frequency": 0.25,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "werder",
+      "ipa": "/wɜrdɚ/",
+      "category": "proper_root",
+      "frequency": 0.32,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "schoenau",
+      "ipa": "/schoenau/",
+      "category": "terrain",
+      "frequency": 0.2,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "rossbach",
+      "ipa": "/rɑsbɑk/",
+      "category": "terrain",
+      "frequency": 0.22,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "neunkirchen",
+      "ipa": "/neunkirchen/",
+      "category": "terrain",
+      "frequency": 0.24,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "lichtenberg",
+      "ipa": "/lɪktənbɚɡ/",
+      "category": "terrain",
+      "frequency": 0.38,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "karlshof",
+      "ipa": "/karlshof/",
+      "category": "terrain",
+      "frequency": 0.39,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "haselbach",
+      "ipa": "/haselbach/",
+      "category": "terrain",
+      "frequency": 0.44,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "eichholz",
+      "ipa": "/aɪkhoʊlz/",
+      "category": "terrain",
+      "frequency": 0.36,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "bergheim",
+      "ipa": "/bergheim/",
+      "category": "terrain",
+      "frequency": 0.4,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "schoenfeld",
+      "ipa": "/ʃoʊnfɛld/",
+      "category": "terrain",
+      "frequency": 0.28,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "schoenberg",
+      "ipa": "/ʃoʊnbɚɡ/",
+      "category": "terrain",
+      "frequency": 0.38,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "oldendorf",
+      "ipa": "/oldendorf/",
+      "category": "direction",
+      "frequency": 0.16,
+      "can_prefix": true,
+      "can_suffix": false
+    },
+    {
+      "word": "hub",
+      "ipa": "/hʌb/",
+      "category": "proper_root",
+      "frequency": 0.19,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "hofen",
+      "ipa": "/hofen/",
+      "category": "proper_root",
+      "frequency": 0.26,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "rosenthal",
+      "ipa": "/roʊzənθɔl/",
+      "category": "terrain",
+      "frequency": 0.24,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "reute",
+      "ipa": "/reute/",
+      "category": "proper_root",
+      "frequency": 0.32,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "lichtenau",
+      "ipa": "/lichtenau/",
+      "category": "terrain",
+      "frequency": 0.38,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "hofstetten",
+      "ipa": "/hofstetten/",
+      "category": "terrain",
+      "frequency": 0.38,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "furth",
+      "ipa": "/fɜrθ/",
+      "category": "proper_root",
+      "frequency": 0.16,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "ebersbach",
+      "ipa": "/ebersbach/",
+      "category": "terrain",
+      "frequency": 0.49,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "busch",
+      "ipa": "/bʊʃ/",
+      "category": "proper_root",
+      "frequency": 0.1,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "buhl",
+      "ipa": "/bjul/",
+      "category": "proper_root",
+      "frequency": 0.14,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "allendorf",
+      "ipa": "/ælɪndɔrf/",
+      "category": "terrain",
+      "frequency": 0.16,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "schoenbrunn",
+      "ipa": "/schoenbrunn/",
+      "category": "terrain",
+      "frequency": 0.47,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "reuth",
+      "ipa": "/reuth/",
+      "category": "proper_root",
+      "frequency": 0.27,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "marienthal",
+      "ipa": "/marienthal/",
+      "category": "terrain",
+      "frequency": 0.13,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "beuren",
+      "ipa": "/beuren/",
+      "category": "proper_root",
+      "frequency": 0.19,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "berge",
+      "ipa": "/bɜrdʒ/",
+      "category": "proper_root",
+      "frequency": 0.13,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "aue",
+      "ipa": "/aʊ/",
+      "category": "proper_root",
+      "frequency": 0.12,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "siedlung",
+      "ipa": "/siedlung/",
+      "category": "terrain",
+      "frequency": 0.25,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "weingarten",
+      "ipa": "/waɪnɡɑrtən/",
+      "category": "terrain",
+      "frequency": 0.49,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "weiher",
+      "ipa": "/waɪhɚ/",
+      "category": "proper_root",
+      "frequency": 0.35,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "petersdorf",
+      "ipa": "/petersdorf/",
+      "category": "terrain",
+      "frequency": 0.31,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "bruch",
+      "ipa": "/brʌtʃ/",
+      "category": "proper_root",
+      "frequency": 0.38,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "hermsdorf",
+      "ipa": "/hermsdorf/",
+      "category": "terrain",
+      "frequency": 0.34,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "baumgarten",
+      "ipa": "/baʊmɡɑrtən/",
+      "category": "terrain",
+      "frequency": 0.48,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "altheim",
+      "ipa": "/altheim/",
+      "category": "terrain",
+      "frequency": 0.43,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "altenburg",
+      "ipa": "/ɔltənbɚɡ/",
+      "category": "terrain",
+      "frequency": 0.36,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "oberdorf",
+      "ipa": "/oʊbɚdɔrf/",
+      "category": "terrain",
+      "frequency": 0.28,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "neuses",
+      "ipa": "/neuses/",
+      "category": "proper_root",
+      "frequency": 0.18,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "muhlhausen",
+      "ipa": "/muhlhausen/",
+      "category": "terrain",
+      "frequency": 0.36,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "gersdorf",
+      "ipa": "/gersdorf/",
+      "category": "terrain",
+      "frequency": 0.42,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "bruck",
+      "ipa": "/brʌk/",
+      "category": "proper_root",
+      "frequency": 0.21,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "auerbach",
+      "ipa": "/aʊɚbɑk/",
+      "category": "terrain",
+      "frequency": 0.11,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "winkel",
+      "ipa": "/wɪŋkəl/",
+      "category": "proper_root",
+      "frequency": 0.34,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "weinberg",
+      "ipa": "/waɪnbɚɡ/",
+      "category": "terrain",
+      "frequency": 0.31,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "wendorf",
+      "ipa": "/wɛndɔrf/",
+      "category": "terrain",
+      "frequency": 0.19,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "waltersdorf",
+      "ipa": "/waltersdorf/",
+      "category": "terrain",
+      "frequency": 0.17,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "schwaig",
+      "ipa": "/schwaig/",
+      "category": "terrain",
+      "frequency": 0.11,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "nienhagen",
+      "ipa": "/nienhagen/",
+      "category": "terrain",
+      "frequency": 0.2,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "graben",
+      "ipa": "/ɡræbən/",
+      "category": "proper_root",
+      "frequency": 0.1,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "nindorf",
+      "ipa": "/nindorf/",
+      "category": "terrain",
+      "frequency": 0.16,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "michelbach",
+      "ipa": "/michelbach/",
+      "category": "terrain",
+      "frequency": 0.5,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "lehen",
+      "ipa": "/lehen/",
+      "category": "proper_root",
+      "frequency": 0.41,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "hohenfelde",
+      "ipa": "/hohenfelde/",
+      "category": "terrain",
+      "frequency": 0.24,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "hahn",
+      "ipa": "/hɑn/",
+      "category": "proper_root",
+      "frequency": 0.26,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "friedersdorf",
+      "ipa": "/friedersdorf/",
+      "category": "terrain",
+      "frequency": 0.33,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "glashutte",
+      "ipa": "/glashutte/",
+      "category": "terrain",
+      "frequency": 0.31,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "thalham",
+      "ipa": "/thalham/",
+      "category": "terrain",
+      "frequency": 0.39,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "schonberg",
+      "ipa": "/ʃɑnbɚɡ/",
+      "category": "terrain",
+      "frequency": 0.13,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "damm",
+      "ipa": "/dæm/",
+      "category": "proper_root",
+      "frequency": 0.14,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "rohr",
+      "ipa": "/rɔr/",
+      "category": "proper_root",
+      "frequency": 0.21,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "erlenbach",
+      "ipa": "/erlenbach/",
+      "category": "terrain",
+      "frequency": 0.43,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "eichen",
+      "ipa": "/aɪkən/",
+      "category": "proper_root",
+      "frequency": 0.47,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "borstel",
+      "ipa": "/borstel/",
+      "category": "terrain",
+      "frequency": 0.24,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "bokel",
+      "ipa": "/bokel/",
+      "category": "proper_root",
+      "frequency": 0.49,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "altdorf",
+      "ipa": "/altdorf/",
+      "category": "terrain",
+      "frequency": 0.21,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "wangen",
+      "ipa": "/wæŋən/",
+      "category": "proper_root",
+      "frequency": 0.34,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "waldsiedlung",
+      "ipa": "/waldsiedlung/",
+      "category": "terrain",
+      "frequency": 0.18,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "vorwerk",
+      "ipa": "/vɔrwɚk/",
+      "category": "terrain",
+      "frequency": 0.47,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "thann",
+      "ipa": "/thann/",
+      "category": "proper_root",
+      "frequency": 0.33,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "stockheim",
+      "ipa": "/stockheim/",
+      "category": "terrain",
+      "frequency": 0.2,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "reinsdorf",
+      "ipa": "/raɪnzdɔrf/",
+      "category": "terrain",
+      "frequency": 0.26,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "oberweiler",
+      "ipa": "/oberweiler/",
+      "category": "terrain",
+      "frequency": 0.14,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "oberhof",
+      "ipa": "/oberhof/",
+      "category": "terrain",
+      "frequency": 0.13,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "lindach",
+      "ipa": "/lindach/",
+      "category": "terrain",
+      "frequency": 0.22,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "langenbach",
+      "ipa": "/leɪŋɡɪnbɑk/",
+      "category": "terrain",
+      "frequency": 0.48,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "krumbach",
+      "ipa": "/krumbach/",
+      "category": "terrain",
+      "frequency": 0.42,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "kappel",
+      "ipa": "/kæpəl/",
+      "category": "proper_root",
+      "frequency": 0.48,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "holzheim",
+      "ipa": "/holzheim/",
+      "category": "terrain",
+      "frequency": 0.45,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "hochdorf",
+      "ipa": "/hochdorf/",
+      "category": "terrain",
+      "frequency": 0.43,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "zimmern",
+      "ipa": "/zimmern/",
+      "category": "terrain",
+      "frequency": 0.33,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "altendeich",
+      "ipa": "/altendeich/",
+      "category": "terrain",
+      "frequency": 0.38,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "wolfsberg",
+      "ipa": "/wolfsberg/",
+      "category": "terrain",
+      "frequency": 0.49,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "petersberg",
+      "ipa": "/petersberg/",
+      "category": "terrain",
+      "frequency": 0.33,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "aicha",
+      "ipa": "/aicha/",
+      "category": "proper_root",
+      "frequency": 0.41,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "steinach",
+      "ipa": "/steinach/",
+      "category": "terrain",
+      "frequency": 0.4,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "sand",
+      "ipa": "/sænd/",
+      "category": "proper_root",
+      "frequency": 0.48,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "rodenbach",
+      "ipa": "/rodenbach/",
+      "category": "terrain",
+      "frequency": 0.28,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "ottendorf",
+      "ipa": "/ottendorf/",
+      "category": "terrain",
+      "frequency": 0.28,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "neundorf",
+      "ipa": "/neundorf/",
+      "category": "terrain",
+      "frequency": 0.33,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "muenster",
+      "ipa": "/mjunstɚ/",
+      "category": "terrain",
+      "frequency": 0.11,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "maierhof",
+      "ipa": "/maierhof/",
+      "category": "terrain",
+      "frequency": 0.15,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "loh",
+      "ipa": "/loʊ/",
+      "category": "proper_root",
+      "frequency": 0.13,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "leimbach",
+      "ipa": "/laɪmbɑk/",
+      "category": "terrain",
+      "frequency": 0.35,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "hohenstein",
+      "ipa": "/hoʊənstaɪn/",
+      "category": "terrain",
+      "frequency": 0.5,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "hamm",
+      "ipa": "/hæm/",
+      "category": "proper_root",
+      "frequency": 0.37,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "westheim",
+      "ipa": "/westheim/",
+      "category": "direction",
+      "frequency": 0.19,
+      "can_prefix": true,
+      "can_suffix": false
+    },
+    {
+      "word": "weissbach",
+      "ipa": "/weissbach/",
+      "category": "terrain",
+      "frequency": 0.23,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "aich",
+      "ipa": "/aich/",
+      "category": "proper_root",
+      "frequency": 0.48,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "steinkirchen",
+      "ipa": "/steinkirchen/",
+      "category": "terrain",
+      "frequency": 0.31,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "spielberg",
+      "ipa": "/spilbɚɡ/",
+      "category": "terrain",
+      "frequency": 0.1,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "sonnenberg",
+      "ipa": "/sɑnənbɚɡ/",
+      "category": "terrain",
+      "frequency": 0.43,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "seelbach",
+      "ipa": "/silbɑk/",
+      "category": "terrain",
+      "frequency": 0.2,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "rott",
+      "ipa": "/rɑt/",
+      "category": "proper_root",
+      "frequency": 0.14,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "rieden",
+      "ipa": "/rieden/",
+      "category": "proper_root",
+      "frequency": 0.37,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "oed",
+      "ipa": "/oed/",
+      "category": "proper_root",
+      "frequency": 0.43,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "cunnersdorf",
+      "ipa": "/cunnersdorf/",
+      "category": "terrain",
+      "frequency": 0.13,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "mitte",
+      "ipa": "/mitte/",
+      "category": "proper_root",
+      "frequency": 0.47,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "marbach",
+      "ipa": "/mɑrbɑk/",
+      "category": "terrain",
+      "frequency": 0.29,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "lengenfeld",
+      "ipa": "/lengenfeld/",
+      "category": "terrain",
+      "frequency": 0.24,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "kirchheim",
+      "ipa": "/kirchheim/",
+      "category": "terrain",
+      "frequency": 0.46,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "hassel",
+      "ipa": "/hæsəl/",
+      "category": "proper_root",
+      "frequency": 0.21,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "harthausen",
+      "ipa": "/harthausen/",
+      "category": "terrain",
+      "frequency": 0.48,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "glashuette",
+      "ipa": "/glashuette/",
+      "category": "terrain",
+      "frequency": 0.37,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "freudenberg",
+      "ipa": "/frɔɪdənbɚɡ/",
+      "category": "terrain",
+      "frequency": 0.46,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "feldkirchen",
+      "ipa": "/feldkirchen/",
+      "category": "terrain",
+      "frequency": 0.3,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "burkersdorf",
+      "ipa": "/burkersdorf/",
+      "category": "terrain",
+      "frequency": 0.18,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "birkach",
+      "ipa": "/birkach/",
+      "category": "terrain",
+      "frequency": 0.39,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "altenhof",
+      "ipa": "/altenhof/",
+      "category": "terrain",
+      "frequency": 0.45,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "altenhagen",
+      "ipa": "/altenhagen/",
+      "category": "terrain",
+      "frequency": 0.18,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "ziegelei",
+      "ipa": "/ziegelei/",
+      "category": "terrain",
+      "frequency": 0.18,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "winden",
+      "ipa": "/winden/",
+      "category": "proper_root",
+      "frequency": 0.2,
+      "can_prefix": true,
+      "can_suffix": true
+    }
+  ],
+  "place_templates": [
+    {
+      "template": [
+        "terrain"
+      ],
+      "weight": 2,
+      "separator": "",
+      "example": "Yama"
+    },
+    {
+      "template": [
+        "quality",
+        "terrain"
+      ],
+      "weight": 5,
+      "separator": "",
+      "example": "Blackmoor"
+    },
+    {
+      "template": [
+        "proper_root",
+        "terrain"
+      ],
+      "weight": 4,
+      "separator": "",
+      "example": "Chesterford"
+    },
+    {
+      "template": [
+        "fauna",
+        "terrain"
+      ],
+      "weight": 3,
+      "separator": "",
+      "example": "Wolverhampton"
+    },
+    {
+      "template": [
+        "proper_root"
+      ],
+      "weight": 3,
+      "separator": "",
+      "example": "London"
+    },
+    {
+      "template": [
+        "direction",
+        "terrain"
+      ],
+      "weight": 3,
+      "separator": "",
+      "example": "Northfield"
+    },
+    {
+      "template": [
+        "event",
+        "structure"
+      ],
+      "weight": 2,
+      "separator": "",
+      "example": "Battleford"
+    },
+    {
+      "template": [
+        "flora",
+        "terrain"
+      ],
+      "weight": 2,
+      "separator": "",
+      "example": "Oakwood"
+    },
+    {
+      "template": [
+        "sacred",
+        "terrain"
+      ],
+      "weight": 2,
+      "separator": "",
+      "example": "Holywell"
+    },
+    {
+      "template": [
+        "quality",
+        "flora"
+      ],
+      "weight": 1,
+      "separator": "",
+      "example": "Greenoak"
+    }
+  ],
+  "star_system_templates": [
+    {
+      "template": [
+        "proper_root"
+      ],
+      "weight": 4,
+      "separator": "",
+      "example": "Carbinter"
+    },
+    {
+      "template": [
+        "terrain"
+      ],
+      "weight": 3,
+      "separator": "",
+      "example": "Dale"
+    },
+    {
+      "template": [
+        "proper_root",
+        "proper_root"
+      ],
+      "weight": 2,
+      "separator": "",
+      "example": "Krasnikov"
+    },
+    {
+      "template": [
+        "quality",
+        "proper_root"
+      ],
+      "weight": 1,
+      "separator": "",
+      "example": "Grandor"
+    }
+  ]
+}

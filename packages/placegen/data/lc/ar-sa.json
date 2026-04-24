@@ -1,0 +1,3013 @@
+{
+  "lc_id": "ar-sa",
+  "label": "Saudi Arabic",
+  "language": "Arabic",
+  "culture": "Saudi",
+  "script": "Arabic",
+  "romanization": "standard",
+  "phonology_notes": "Bootstrap phonology for Saudi Arabic",
+  "given_names": [
+    {
+      "name": "Mohammed",
+      "ipa": "/moʊhæmɪd/",
+      "gender": "M",
+      "type": "given",
+      "frequency": 0.58
+    },
+    {
+      "name": "Ahmed",
+      "ipa": "/ɑməd/",
+      "gender": "M",
+      "type": "given",
+      "frequency": 0.54
+    },
+    {
+      "name": "Ali",
+      "ipa": "/ɑli/",
+      "gender": "M",
+      "type": "given",
+      "frequency": 0.41
+    },
+    {
+      "name": "Omar",
+      "ipa": "/oʊmɑr/",
+      "gender": "M",
+      "type": "given",
+      "frequency": 1.0
+    },
+    {
+      "name": "Yousef",
+      "ipa": "/jusɛf/",
+      "gender": "M",
+      "type": "given",
+      "frequency": 0.61
+    },
+    {
+      "name": "Abdullah",
+      "ipa": "/æbdʌlə/",
+      "gender": "M",
+      "type": "given",
+      "frequency": 0.55
+    },
+    {
+      "name": "Khalid",
+      "ipa": "/kɑlɪd/",
+      "gender": "M",
+      "type": "given",
+      "frequency": 0.52
+    },
+    {
+      "name": "Fahd",
+      "ipa": "/fɑd/",
+      "gender": "M",
+      "type": "given",
+      "frequency": 0.99
+    },
+    {
+      "name": "Saud",
+      "ipa": "/sɔd/",
+      "gender": "M",
+      "type": "given",
+      "frequency": 0.53
+    },
+    {
+      "name": "Faisal",
+      "ipa": "/feɪzəl/",
+      "gender": "M",
+      "type": "given",
+      "frequency": 0.56
+    },
+    {
+      "name": "Salman",
+      "ipa": "/sæmən/",
+      "gender": "M",
+      "type": "given",
+      "frequency": 0.83
+    },
+    {
+      "name": "Nasser",
+      "ipa": "/næsɚ/",
+      "gender": "M",
+      "type": "given",
+      "frequency": 0.6
+    },
+    {
+      "name": "Turki",
+      "ipa": "/turki/",
+      "gender": "M",
+      "type": "given",
+      "frequency": 0.81
+    },
+    {
+      "name": "Bandar",
+      "ipa": "/bændɑr/",
+      "gender": "M",
+      "type": "given",
+      "frequency": 0.73
+    },
+    {
+      "name": "Mishaal",
+      "ipa": "/mishaal/",
+      "gender": "M",
+      "type": "given",
+      "frequency": 0.69
+    },
+    {
+      "name": "Mansour",
+      "ipa": "/mænsɚ/",
+      "gender": "M",
+      "type": "given",
+      "frequency": 0.45
+    },
+    {
+      "name": "Talal",
+      "ipa": "/təlɑl/",
+      "gender": "M",
+      "type": "given",
+      "frequency": 0.84
+    },
+    {
+      "name": "Nawaf",
+      "ipa": "/nawaf/",
+      "gender": "M",
+      "type": "given",
+      "frequency": 0.95
+    },
+    {
+      "name": "Abdulaziz",
+      "ipa": "/æbduləziz/",
+      "gender": "M",
+      "type": "given",
+      "frequency": 0.48
+    },
+    {
+      "name": "Ibrahim",
+      "ipa": "/ɪbrɑhim/",
+      "gender": "M",
+      "type": "given",
+      "frequency": 0.97
+    },
+    {
+      "name": "Hamad",
+      "ipa": "/hæməd/",
+      "gender": "M",
+      "type": "given",
+      "frequency": 0.61
+    },
+    {
+      "name": "Saad",
+      "ipa": "/sɑd/",
+      "gender": "M",
+      "type": "given",
+      "frequency": 0.58
+    },
+    {
+      "name": "Badr",
+      "ipa": "/badr/",
+      "gender": "M",
+      "type": "given",
+      "frequency": 0.81
+    },
+    {
+      "name": "Majed",
+      "ipa": "/majed/",
+      "gender": "M",
+      "type": "given",
+      "frequency": 0.99
+    },
+    {
+      "name": "Sultan",
+      "ipa": "/sʌltən/",
+      "gender": "M",
+      "type": "given",
+      "frequency": 0.72
+    },
+    {
+      "name": "Hamed",
+      "ipa": "/hæmd/",
+      "gender": "M",
+      "type": "given",
+      "frequency": 0.66
+    },
+    {
+      "name": "Rashid",
+      "ipa": "/rəʃid/",
+      "gender": "M",
+      "type": "given",
+      "frequency": 1.0
+    },
+    {
+      "name": "Hassan",
+      "ipa": "/həsɑn/",
+      "gender": "M",
+      "type": "given",
+      "frequency": 0.51
+    },
+    {
+      "name": "Jamil",
+      "ipa": "/jamil/",
+      "gender": "M",
+      "type": "given",
+      "frequency": 0.51
+    },
+    {
+      "name": "Zayed",
+      "ipa": "/zeɪəd/",
+      "gender": "M",
+      "type": "given",
+      "frequency": 0.46
+    },
+    {
+      "name": "Mubarak",
+      "ipa": "/mubɑrɪk/",
+      "gender": "M",
+      "type": "given",
+      "frequency": 0.9
+    },
+    {
+      "name": "Thani",
+      "ipa": "/thani/",
+      "gender": "M",
+      "type": "given",
+      "frequency": 0.32
+    },
+    {
+      "name": "Jassim",
+      "ipa": "/jassim/",
+      "gender": "M",
+      "type": "given",
+      "frequency": 0.88
+    },
+    {
+      "name": "Tamim",
+      "ipa": "/tamim/",
+      "gender": "M",
+      "type": "given",
+      "frequency": 0.78
+    },
+    {
+      "name": "Khalifa",
+      "ipa": "/kəlifə/",
+      "gender": "M",
+      "type": "given",
+      "frequency": 0.49
+    },
+    {
+      "name": "Hamdan",
+      "ipa": "/hæmdən/",
+      "gender": "M",
+      "type": "given",
+      "frequency": 0.69
+    },
+    {
+      "name": "Tariq",
+      "ipa": "/tɑrik/",
+      "gender": "M",
+      "type": "given",
+      "frequency": 0.69
+    },
+    {
+      "name": "Mahmoud",
+      "ipa": "/mæmud/",
+      "gender": "M",
+      "type": "given",
+      "frequency": 0.95
+    },
+    {
+      "name": "Adel",
+      "ipa": "/ədɛl/",
+      "gender": "M",
+      "type": "given",
+      "frequency": 0.41
+    },
+    {
+      "name": "Waleed",
+      "ipa": "/wɑlid/",
+      "gender": "M",
+      "type": "given",
+      "frequency": 0.33
+    },
+    {
+      "name": "Fatima",
+      "ipa": "/fæθɪmə/",
+      "gender": "F",
+      "type": "given",
+      "frequency": 0.55
+    },
+    {
+      "name": "Aisha",
+      "ipa": "/aɪʃə/",
+      "gender": "F",
+      "type": "given",
+      "frequency": 0.4
+    },
+    {
+      "name": "Maryam",
+      "ipa": "/maryam/",
+      "gender": "F",
+      "type": "given",
+      "frequency": 0.56
+    },
+    {
+      "name": "Sarah",
+      "ipa": "/sɛrə/",
+      "gender": "F",
+      "type": "given",
+      "frequency": 0.71
+    },
+    {
+      "name": "Noor",
+      "ipa": "/noor/",
+      "gender": "F",
+      "type": "given",
+      "frequency": 0.46
+    },
+    {
+      "name": "Reem",
+      "ipa": "/reem/",
+      "gender": "F",
+      "type": "given",
+      "frequency": 0.87
+    },
+    {
+      "name": "Huda",
+      "ipa": "/hudə/",
+      "gender": "F",
+      "type": "given",
+      "frequency": 0.36
+    },
+    {
+      "name": "Mona",
+      "ipa": "/moʊnə/",
+      "gender": "F",
+      "type": "given",
+      "frequency": 0.58
+    },
+    {
+      "name": "Layla",
+      "ipa": "/leɪlɑ/",
+      "gender": "F",
+      "type": "given",
+      "frequency": 0.94
+    },
+    {
+      "name": "Noura",
+      "ipa": "/noura/",
+      "gender": "F",
+      "type": "given",
+      "frequency": 0.81
+    },
+    {
+      "name": "Rania",
+      "ipa": "/rɑniə/",
+      "gender": "F",
+      "type": "given",
+      "frequency": 0.81
+    },
+    {
+      "name": "Lina",
+      "ipa": "/linə/",
+      "gender": "F",
+      "type": "given",
+      "frequency": 0.86
+    },
+    {
+      "name": "Dana",
+      "ipa": "/deɪnə/",
+      "gender": "F",
+      "type": "given",
+      "frequency": 0.42
+    },
+    {
+      "name": "Amal",
+      "ipa": "/əmɑl/",
+      "gender": "F",
+      "type": "given",
+      "frequency": 0.88
+    },
+    {
+      "name": "Hana",
+      "ipa": "/hænə/",
+      "gender": "F",
+      "type": "given",
+      "frequency": 0.78
+    },
+    {
+      "name": "Salma",
+      "ipa": "/salma/",
+      "gender": "F",
+      "type": "given",
+      "frequency": 0.7
+    },
+    {
+      "name": "Samar",
+      "ipa": "/sæmɑr/",
+      "gender": "F",
+      "type": "given",
+      "frequency": 0.94
+    },
+    {
+      "name": "Rasha",
+      "ipa": "/rasha/",
+      "gender": "F",
+      "type": "given",
+      "frequency": 0.72
+    },
+    {
+      "name": "Maha",
+      "ipa": "/maha/",
+      "gender": "F",
+      "type": "given",
+      "frequency": 0.51
+    },
+    {
+      "name": "Wafa",
+      "ipa": "/wafa/",
+      "gender": "F",
+      "type": "given",
+      "frequency": 0.81
+    },
+    {
+      "name": "Bushra",
+      "ipa": "/bushra/",
+      "gender": "F",
+      "type": "given",
+      "frequency": 0.7
+    },
+    {
+      "name": "Iman",
+      "ipa": "/aɪmən/",
+      "gender": "F",
+      "type": "given",
+      "frequency": 0.35
+    },
+    {
+      "name": "Aya",
+      "ipa": "/aya/",
+      "gender": "F",
+      "type": "given",
+      "frequency": 0.34
+    },
+    {
+      "name": "Ghada",
+      "ipa": "/ɡɑdə/",
+      "gender": "F",
+      "type": "given",
+      "frequency": 0.84
+    },
+    {
+      "name": "Nada",
+      "ipa": "/nɑdɑ/",
+      "gender": "F",
+      "type": "given",
+      "frequency": 0.54
+    },
+    {
+      "name": "Fadwa",
+      "ipa": "/fadwa/",
+      "gender": "F",
+      "type": "given",
+      "frequency": 0.87
+    },
+    {
+      "name": "Khadija",
+      "ipa": "/khadija/",
+      "gender": "F",
+      "type": "given",
+      "frequency": 0.59
+    },
+    {
+      "name": "Sana",
+      "ipa": "/sɑnə/",
+      "gender": "F",
+      "type": "given",
+      "frequency": 0.91
+    },
+    {
+      "name": "Zahra",
+      "ipa": "/zahra/",
+      "gender": "F",
+      "type": "given",
+      "frequency": 0.91
+    },
+    {
+      "name": "Rabab",
+      "ipa": "/rabab/",
+      "gender": "F",
+      "type": "given",
+      "frequency": 0.46
+    },
+    {
+      "name": "Samira",
+      "ipa": "/samira/",
+      "gender": "F",
+      "type": "given",
+      "frequency": 0.76
+    },
+    {
+      "name": "Nawal",
+      "ipa": "/nawal/",
+      "gender": "F",
+      "type": "given",
+      "frequency": 0.72
+    },
+    {
+      "name": "Ferial",
+      "ipa": "/ferial/",
+      "gender": "F",
+      "type": "given",
+      "frequency": 0.31
+    },
+    {
+      "name": "Mervat",
+      "ipa": "/mervat/",
+      "gender": "F",
+      "type": "given",
+      "frequency": 0.84
+    },
+    {
+      "name": "Ola",
+      "ipa": "/oʊlə/",
+      "gender": "F",
+      "type": "given",
+      "frequency": 0.57
+    },
+    {
+      "name": "Heba",
+      "ipa": "/heba/",
+      "gender": "F",
+      "type": "given",
+      "frequency": 0.51
+    },
+    {
+      "name": "Dina",
+      "ipa": "/dinə/",
+      "gender": "F",
+      "type": "given",
+      "frequency": 0.33
+    },
+    {
+      "name": "Shaima",
+      "ipa": "/shaima/",
+      "gender": "F",
+      "type": "given",
+      "frequency": 0.68
+    },
+    {
+      "name": "Yasmin",
+      "ipa": "/jæzmɪn/",
+      "gender": "F",
+      "type": "given",
+      "frequency": 0.4
+    },
+    {
+      "name": "Manal",
+      "ipa": "/manal/",
+      "gender": "F",
+      "type": "given",
+      "frequency": 0.65
+    }
+  ],
+  "family_names": [
+    {
+      "name": "Al-Rashid",
+      "ipa": "/al-rashid/",
+      "gender": "N",
+      "type": "family",
+      "frequency": 0.45
+    },
+    {
+      "name": "Al-Saud",
+      "ipa": "/al-saud/",
+      "gender": "N",
+      "type": "family",
+      "frequency": 0.34
+    },
+    {
+      "name": "Al-Faisal",
+      "ipa": "/al-faisal/",
+      "gender": "N",
+      "type": "family",
+      "frequency": 0.81
+    },
+    {
+      "name": "Al-Thani",
+      "ipa": "/al-thani/",
+      "gender": "N",
+      "type": "family",
+      "frequency": 0.58
+    },
+    {
+      "name": "Al-Nahyan",
+      "ipa": "/al-nahyan/",
+      "gender": "N",
+      "type": "family",
+      "frequency": 0.61
+    },
+    {
+      "name": "Al-Maktoum",
+      "ipa": "/al-maktoum/",
+      "gender": "N",
+      "type": "family",
+      "frequency": 0.72
+    },
+    {
+      "name": "Al-Khalifa",
+      "ipa": "/al-khalifa/",
+      "gender": "N",
+      "type": "family",
+      "frequency": 0.65
+    },
+    {
+      "name": "Al-Sabah",
+      "ipa": "/al-sabah/",
+      "gender": "N",
+      "type": "family",
+      "frequency": 0.46
+    },
+    {
+      "name": "Al-Hashemi",
+      "ipa": "/al-hashemi/",
+      "gender": "N",
+      "type": "family",
+      "frequency": 0.5
+    },
+    {
+      "name": "Al-Harbi",
+      "ipa": "/al-harbi/",
+      "gender": "N",
+      "type": "family",
+      "frequency": 0.58
+    },
+    {
+      "name": "Al-Qahtani",
+      "ipa": "/al-qahtani/",
+      "gender": "N",
+      "type": "family",
+      "frequency": 0.39
+    },
+    {
+      "name": "Al-Otaibi",
+      "ipa": "/al-otaibi/",
+      "gender": "N",
+      "type": "family",
+      "frequency": 0.36
+    },
+    {
+      "name": "Al-Dosari",
+      "ipa": "/al-dosari/",
+      "gender": "N",
+      "type": "family",
+      "frequency": 0.7
+    },
+    {
+      "name": "Al-Mutairi",
+      "ipa": "/al-mutairi/",
+      "gender": "N",
+      "type": "family",
+      "frequency": 0.33
+    },
+    {
+      "name": "Al-Shammari",
+      "ipa": "/al-shammari/",
+      "gender": "N",
+      "type": "family",
+      "frequency": 0.58
+    },
+    {
+      "name": "Al-Omari",
+      "ipa": "/al-omari/",
+      "gender": "N",
+      "type": "family",
+      "frequency": 0.36
+    },
+    {
+      "name": "Al-Zahrani",
+      "ipa": "/al-zahrani/",
+      "gender": "N",
+      "type": "family",
+      "frequency": 0.65
+    },
+    {
+      "name": "Al-Shahrani",
+      "ipa": "/al-shahrani/",
+      "gender": "N",
+      "type": "family",
+      "frequency": 0.84
+    },
+    {
+      "name": "Al-Bishi",
+      "ipa": "/al-bishi/",
+      "gender": "N",
+      "type": "family",
+      "frequency": 0.39
+    },
+    {
+      "name": "Al-Qurashi",
+      "ipa": "/al-qurashi/",
+      "gender": "N",
+      "type": "family",
+      "frequency": 0.39
+    },
+    {
+      "name": "Al-Ahmadi",
+      "ipa": "/al-ahmadi/",
+      "gender": "N",
+      "type": "family",
+      "frequency": 0.69
+    },
+    {
+      "name": "Al-Baloushi",
+      "ipa": "/al-baloushi/",
+      "gender": "N",
+      "type": "family",
+      "frequency": 0.64
+    },
+    {
+      "name": "Al-Mansouri",
+      "ipa": "/al-mansouri/",
+      "gender": "N",
+      "type": "family",
+      "frequency": 0.76
+    },
+    {
+      "name": "Al-Marri",
+      "ipa": "/al-marri/",
+      "gender": "N",
+      "type": "family",
+      "frequency": 0.44
+    },
+    {
+      "name": "Al-Kaabi",
+      "ipa": "/al-kaabi/",
+      "gender": "N",
+      "type": "family",
+      "frequency": 0.73
+    },
+    {
+      "name": "Al-Suwaidi",
+      "ipa": "/al-suwaidi/",
+      "gender": "N",
+      "type": "family",
+      "frequency": 0.81
+    },
+    {
+      "name": "Al-Mazrouei",
+      "ipa": "/al-mazrouei/",
+      "gender": "N",
+      "type": "family",
+      "frequency": 0.47
+    },
+    {
+      "name": "Al-Hammadi",
+      "ipa": "/al-hammadi/",
+      "gender": "N",
+      "type": "family",
+      "frequency": 0.35
+    },
+    {
+      "name": "Al-Nuaimi",
+      "ipa": "/al-nuaimi/",
+      "gender": "N",
+      "type": "family",
+      "frequency": 0.84
+    },
+    {
+      "name": "Al-Ali",
+      "ipa": "/al-ali/",
+      "gender": "N",
+      "type": "family",
+      "frequency": 0.53
+    },
+    {
+      "name": "Al-Ketbi",
+      "ipa": "/al-ketbi/",
+      "gender": "N",
+      "type": "family",
+      "frequency": 0.95
+    },
+    {
+      "name": "Al-Dhaheri",
+      "ipa": "/al-dhaheri/",
+      "gender": "N",
+      "type": "family",
+      "frequency": 0.36
+    },
+    {
+      "name": "Al-Zaabi",
+      "ipa": "/al-zaabi/",
+      "gender": "N",
+      "type": "family",
+      "frequency": 0.77
+    },
+    {
+      "name": "Al-Shamsi",
+      "ipa": "/al-shamsi/",
+      "gender": "N",
+      "type": "family",
+      "frequency": 0.6
+    },
+    {
+      "name": "Al-Rumaithi",
+      "ipa": "/al-rumaithi/",
+      "gender": "N",
+      "type": "family",
+      "frequency": 0.54
+    },
+    {
+      "name": "Al-Darmaki",
+      "ipa": "/al-darmaki/",
+      "gender": "N",
+      "type": "family",
+      "frequency": 0.52
+    },
+    {
+      "name": "Al-Muhairi",
+      "ipa": "/al-muhairi/",
+      "gender": "N",
+      "type": "family",
+      "frequency": 0.72
+    },
+    {
+      "name": "Al-Mehairi",
+      "ipa": "/al-mehairi/",
+      "gender": "N",
+      "type": "family",
+      "frequency": 0.32
+    },
+    {
+      "name": "Al-Rashedi",
+      "ipa": "/al-rashedi/",
+      "gender": "N",
+      "type": "family",
+      "frequency": 0.51
+    },
+    {
+      "name": "Al-Mazroui",
+      "ipa": "/al-mazroui/",
+      "gender": "N",
+      "type": "family",
+      "frequency": 0.99
+    }
+  ],
+  "place_words": [
+    {
+      "word": "jabal",
+      "ipa": "/jabal/",
+      "category": "terrain",
+      "frequency": 0.81,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "wadi",
+      "ipa": "/wadi/",
+      "category": "terrain",
+      "frequency": 1.0,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "bahr",
+      "ipa": "/bɛr/",
+      "category": "terrain",
+      "frequency": 0.72,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "jazira",
+      "ipa": "/jazira/",
+      "category": "terrain",
+      "frequency": 0.57,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "sahra",
+      "ipa": "/sahra/",
+      "category": "terrain",
+      "frequency": 0.52,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "khalij",
+      "ipa": "/khalij/",
+      "category": "terrain",
+      "frequency": 0.91,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "shati",
+      "ipa": "/shati/",
+      "category": "terrain",
+      "frequency": 0.6,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "nahr",
+      "ipa": "/nahr/",
+      "category": "terrain",
+      "frequency": 0.69,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "buhayra",
+      "ipa": "/buhayra/",
+      "category": "terrain",
+      "frequency": 0.88,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "sahil",
+      "ipa": "/sahil/",
+      "category": "terrain",
+      "frequency": 0.93,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "hadaba",
+      "ipa": "/hadaba/",
+      "category": "terrain",
+      "frequency": 0.56,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "wat",
+      "ipa": "/wɔt/",
+      "category": "terrain",
+      "frequency": 0.53,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "qar",
+      "ipa": "/qar/",
+      "category": "terrain",
+      "frequency": 0.97,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "raml",
+      "ipa": "/raml/",
+      "category": "terrain",
+      "frequency": 0.96,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "tilal",
+      "ipa": "/tilal/",
+      "category": "terrain",
+      "frequency": 0.93,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "ghadir",
+      "ipa": "/ghadir/",
+      "category": "terrain",
+      "frequency": 0.91,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "ain",
+      "ipa": "/ain/",
+      "category": "terrain",
+      "frequency": 0.51,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "nufa",
+      "ipa": "/nufa/",
+      "category": "terrain",
+      "frequency": 0.85,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "faqra",
+      "ipa": "/faqra/",
+      "category": "terrain",
+      "frequency": 0.56,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "sahm",
+      "ipa": "/sæm/",
+      "category": "terrain",
+      "frequency": 0.73,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "shamal",
+      "ipa": "/shamal/",
+      "category": "direction",
+      "frequency": 0.51,
+      "can_prefix": true,
+      "can_suffix": false
+    },
+    {
+      "word": "janub",
+      "ipa": "/janub/",
+      "category": "direction",
+      "frequency": 0.6,
+      "can_prefix": true,
+      "can_suffix": false
+    },
+    {
+      "word": "sharq",
+      "ipa": "/sharq/",
+      "category": "direction",
+      "frequency": 0.77,
+      "can_prefix": true,
+      "can_suffix": false
+    },
+    {
+      "word": "gharb",
+      "ipa": "/gharb/",
+      "category": "direction",
+      "frequency": 0.6,
+      "can_prefix": true,
+      "can_suffix": false
+    },
+    {
+      "word": "aala",
+      "ipa": "/aala/",
+      "category": "direction",
+      "frequency": 0.76,
+      "can_prefix": true,
+      "can_suffix": false
+    },
+    {
+      "word": "sufla",
+      "ipa": "/sufla/",
+      "category": "direction",
+      "frequency": 0.63,
+      "can_prefix": true,
+      "can_suffix": false
+    },
+    {
+      "word": "qadim",
+      "ipa": "/qadim/",
+      "category": "direction",
+      "frequency": 0.74,
+      "can_prefix": true,
+      "can_suffix": false
+    },
+    {
+      "word": "jadid",
+      "ipa": "/jadid/",
+      "category": "direction",
+      "frequency": 0.86,
+      "can_prefix": true,
+      "can_suffix": false
+    },
+    {
+      "word": "wasat",
+      "ipa": "/wasat/",
+      "category": "direction",
+      "frequency": 0.57,
+      "can_prefix": true,
+      "can_suffix": false
+    },
+    {
+      "word": "abyad",
+      "ipa": "/abyad/",
+      "category": "quality",
+      "frequency": 0.85,
+      "can_prefix": true,
+      "can_suffix": false
+    },
+    {
+      "word": "aswad",
+      "ipa": "/aswad/",
+      "category": "quality",
+      "frequency": 0.51,
+      "can_prefix": true,
+      "can_suffix": false
+    },
+    {
+      "word": "ahmar",
+      "ipa": "/ahmar/",
+      "category": "quality",
+      "frequency": 0.79,
+      "can_prefix": true,
+      "can_suffix": false
+    },
+    {
+      "word": "akhdar",
+      "ipa": "/akhdar/",
+      "category": "quality",
+      "frequency": 0.83,
+      "can_prefix": true,
+      "can_suffix": false
+    },
+    {
+      "word": "azraq",
+      "ipa": "/azraq/",
+      "category": "quality",
+      "frequency": 0.52,
+      "can_prefix": true,
+      "can_suffix": false
+    },
+    {
+      "word": "kabeer",
+      "ipa": "/kabeer/",
+      "category": "quality",
+      "frequency": 0.59,
+      "can_prefix": true,
+      "can_suffix": false
+    },
+    {
+      "word": "sagheer",
+      "ipa": "/sagheer/",
+      "category": "quality",
+      "frequency": 0.64,
+      "can_prefix": true,
+      "can_suffix": false
+    },
+    {
+      "word": "qadeem",
+      "ipa": "/qadeem/",
+      "category": "quality",
+      "frequency": 0.89,
+      "can_prefix": true,
+      "can_suffix": false
+    },
+    {
+      "word": "jadeed",
+      "ipa": "/jadeed/",
+      "category": "quality",
+      "frequency": 0.81,
+      "can_prefix": true,
+      "can_suffix": false
+    },
+    {
+      "word": "aliy",
+      "ipa": "/aliy/",
+      "category": "quality",
+      "frequency": 0.53,
+      "can_prefix": true,
+      "can_suffix": false
+    },
+    {
+      "word": "wadi",
+      "ipa": "/wadi/",
+      "category": "quality",
+      "frequency": 0.83,
+      "can_prefix": true,
+      "can_suffix": false
+    },
+    {
+      "word": "nakhla",
+      "ipa": "/nakhla/",
+      "category": "flora",
+      "frequency": 0.5,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "sindian",
+      "ipa": "/sindian/",
+      "category": "flora",
+      "frequency": 0.69,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "arz",
+      "ipa": "/arz/",
+      "category": "flora",
+      "frequency": 0.64,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "zaytoon",
+      "ipa": "/zaytoon/",
+      "category": "flora",
+      "frequency": 0.93,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "laymoon",
+      "ipa": "/laymoon/",
+      "category": "flora",
+      "frequency": 0.83,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "naranj",
+      "ipa": "/naranj/",
+      "category": "flora",
+      "frequency": 0.93,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "sawsan",
+      "ipa": "/sawsan/",
+      "category": "flora",
+      "frequency": 0.51,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "ward",
+      "ipa": "/wɔrd/",
+      "category": "flora",
+      "frequency": 0.93,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "yasmin",
+      "ipa": "/jæzmɪn/",
+      "category": "flora",
+      "frequency": 0.82,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "banafsaj",
+      "ipa": "/banafsaj/",
+      "category": "flora",
+      "frequency": 0.62,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "asad",
+      "ipa": "/asad/",
+      "category": "fauna",
+      "frequency": 0.69,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "thab",
+      "ipa": "/thab/",
+      "category": "fauna",
+      "frequency": 0.99,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "nasr",
+      "ipa": "/nɑsɚ/",
+      "category": "fauna",
+      "frequency": 0.55,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "hayya",
+      "ipa": "/hayya/",
+      "category": "fauna",
+      "frequency": 0.66,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "zalaf",
+      "ipa": "/zalaf/",
+      "category": "fauna",
+      "frequency": 0.93,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "jamal",
+      "ipa": "/dʒəmɑl/",
+      "category": "fauna",
+      "frequency": 0.77,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "ghazal",
+      "ipa": "/ghazal/",
+      "category": "fauna",
+      "frequency": 0.59,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "kalb",
+      "ipa": "/kælb/",
+      "category": "fauna",
+      "frequency": 0.75,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "hirr",
+      "ipa": "/hirr/",
+      "category": "fauna",
+      "frequency": 0.73,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "faras",
+      "ipa": "/faras/",
+      "category": "fauna",
+      "frequency": 0.96,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "qasr",
+      "ipa": "/keɪzɚ/",
+      "category": "structure",
+      "frequency": 0.51,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "hisn",
+      "ipa": "/hisn/",
+      "category": "structure",
+      "frequency": 0.62,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "madina",
+      "ipa": "/madina/",
+      "category": "structure",
+      "frequency": 0.76,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "qarya",
+      "ipa": "/qarya/",
+      "category": "structure",
+      "frequency": 0.67,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "markaz",
+      "ipa": "/markaz/",
+      "category": "structure",
+      "frequency": 0.7,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "jami",
+      "ipa": "/dʒeɪmi/",
+      "category": "structure",
+      "frequency": 0.58,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "masjid",
+      "ipa": "/masjid/",
+      "category": "structure",
+      "frequency": 0.67,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "souq",
+      "ipa": "/souq/",
+      "category": "structure",
+      "frequency": 0.68,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "mazar",
+      "ipa": "/mazar/",
+      "category": "structure",
+      "frequency": 0.81,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "manzil",
+      "ipa": "/manzil/",
+      "category": "structure",
+      "frequency": 0.62,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "qiddis",
+      "ipa": "/qiddis/",
+      "category": "sacred",
+      "frequency": 0.99,
+      "can_prefix": true,
+      "can_suffix": false
+    },
+    {
+      "word": "noor",
+      "ipa": "/noor/",
+      "category": "sacred",
+      "frequency": 0.75,
+      "can_prefix": true,
+      "can_suffix": false
+    },
+    {
+      "word": "baraka",
+      "ipa": "/baraka/",
+      "category": "sacred",
+      "frequency": 0.91,
+      "can_prefix": true,
+      "can_suffix": false
+    },
+    {
+      "word": "salam",
+      "ipa": "/sɑlɑm/",
+      "category": "sacred",
+      "frequency": 0.81,
+      "can_prefix": true,
+      "can_suffix": false
+    },
+    {
+      "word": "rahma",
+      "ipa": "/rahma/",
+      "category": "sacred",
+      "frequency": 0.94,
+      "can_prefix": true,
+      "can_suffix": false
+    },
+    {
+      "word": "hikma",
+      "ipa": "/hikma/",
+      "category": "sacred",
+      "frequency": 0.95,
+      "can_prefix": true,
+      "can_suffix": false
+    },
+    {
+      "word": "haq",
+      "ipa": "/hæk/",
+      "category": "sacred",
+      "frequency": 0.91,
+      "can_prefix": true,
+      "can_suffix": false
+    },
+    {
+      "word": "iman",
+      "ipa": "/aɪmən/",
+      "category": "sacred",
+      "frequency": 0.51,
+      "can_prefix": true,
+      "can_suffix": false
+    },
+    {
+      "word": "maaraka",
+      "ipa": "/maaraka/",
+      "category": "event",
+      "frequency": 0.78,
+      "can_prefix": true,
+      "can_suffix": false
+    },
+    {
+      "word": "fath",
+      "ipa": "/fæθ/",
+      "category": "event",
+      "frequency": 0.64,
+      "can_prefix": true,
+      "can_suffix": false
+    },
+    {
+      "word": "salam",
+      "ipa": "/sɑlɑm/",
+      "category": "event",
+      "frequency": 0.58,
+      "can_prefix": true,
+      "can_suffix": false
+    },
+    {
+      "word": "ittihad",
+      "ipa": "/ittihad/",
+      "category": "event",
+      "frequency": 0.95,
+      "can_prefix": true,
+      "can_suffix": false
+    },
+    {
+      "word": "kashf",
+      "ipa": "/kashf/",
+      "category": "event",
+      "frequency": 0.83,
+      "can_prefix": true,
+      "can_suffix": false
+    },
+    {
+      "word": "tasis",
+      "ipa": "/tasis/",
+      "category": "event",
+      "frequency": 0.54,
+      "can_prefix": true,
+      "can_suffix": false
+    },
+    {
+      "word": "al",
+      "ipa": "/æl/",
+      "category": "proper_root",
+      "frequency": 0.69,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "abu",
+      "ipa": "/æbu/",
+      "category": "proper_root",
+      "frequency": 0.98,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "ibn",
+      "ipa": "/ɪbən/",
+      "category": "proper_root",
+      "frequency": 0.81,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "bin",
+      "ipa": "/bɪn/",
+      "category": "proper_root",
+      "frequency": 0.81,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "bint",
+      "ipa": "/bint/",
+      "category": "proper_root",
+      "frequency": 0.61,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "umm",
+      "ipa": "/ʌm/",
+      "category": "proper_root",
+      "frequency": 0.62,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "dar",
+      "ipa": "/dɑr/",
+      "category": "proper_root",
+      "frequency": 0.58,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "bayt",
+      "ipa": "/bayt/",
+      "category": "proper_root",
+      "frequency": 0.99,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "qasr",
+      "ipa": "/keɪzɚ/",
+      "category": "proper_root",
+      "frequency": 0.95,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "rawdah",
+      "ipa": "/rawdah/",
+      "category": "proper_root",
+      "frequency": 0.23,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "faysaliyah",
+      "ipa": "/faysaliyah/",
+      "category": "terrain",
+      "frequency": 0.32,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "faydah",
+      "ipa": "/faydah/",
+      "category": "proper_root",
+      "frequency": 0.18,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "assalam",
+      "ipa": "/assalam/",
+      "category": "terrain",
+      "frequency": 0.16,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "alkhaldyt",
+      "ipa": "/alkhaldyt/",
+      "category": "terrain",
+      "frequency": 0.32,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "khalidiyah",
+      "ipa": "/khalidiyah/",
+      "category": "terrain",
+      "frequency": 0.42,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "alkhalidiyah",
+      "ipa": "/alkhalidiyah/",
+      "category": "terrain",
+      "frequency": 0.45,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "alrwdt",
+      "ipa": "/alrwdt/",
+      "category": "proper_root",
+      "frequency": 0.22,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "mushrifah",
+      "ipa": "/mushrifah/",
+      "category": "terrain",
+      "frequency": 0.38,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "mushrif",
+      "ipa": "/mushrif/",
+      "category": "terrain",
+      "frequency": 0.31,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "addaraj",
+      "ipa": "/addaraj/",
+      "category": "terrain",
+      "frequency": 0.15,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "marwah",
+      "ipa": "/marwah/",
+      "category": "proper_root",
+      "frequency": 0.5,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "alfyslyt",
+      "ipa": "/alfyslyt/",
+      "category": "terrain",
+      "frequency": 0.49,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "ruwaydah",
+      "ipa": "/ruwaydah/",
+      "category": "terrain",
+      "frequency": 0.16,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "rabwah",
+      "ipa": "/rabwah/",
+      "category": "proper_root",
+      "frequency": 0.47,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "jadidah",
+      "ipa": "/jadidah/",
+      "category": "terrain",
+      "frequency": 0.47,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "andalus",
+      "ipa": "/andalus/",
+      "category": "terrain",
+      "frequency": 0.23,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "arrawdah",
+      "ipa": "/arrawdah/",
+      "category": "terrain",
+      "frequency": 0.32,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "alhadab",
+      "ipa": "/alhadab/",
+      "category": "terrain",
+      "frequency": 0.48,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "alhamra",
+      "ipa": "/alhamra/",
+      "category": "terrain",
+      "frequency": 0.15,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "sulaymaniyah",
+      "ipa": "/sulaymaniyah/",
+      "category": "terrain",
+      "frequency": 0.23,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "qurayn",
+      "ipa": "/qurayn/",
+      "category": "proper_root",
+      "frequency": 0.45,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "qararah",
+      "ipa": "/qararah/",
+      "category": "terrain",
+      "frequency": 0.39,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "hamra",
+      "ipa": "/hamra/",
+      "category": "proper_root",
+      "frequency": 0.41,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "hazm",
+      "ipa": "/hazm/",
+      "category": "proper_root",
+      "frequency": 0.45,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "khaybar",
+      "ipa": "/khaybar/",
+      "category": "terrain",
+      "frequency": 0.27,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "darb",
+      "ipa": "/darb/",
+      "category": "proper_root",
+      "frequency": 0.26,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "safra",
+      "ipa": "/sæfrə/",
+      "category": "proper_root",
+      "frequency": 0.28,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "mishash",
+      "ipa": "/mishash/",
+      "category": "terrain",
+      "frequency": 0.47,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "alhsn",
+      "ipa": "/alhsn/",
+      "category": "proper_root",
+      "frequency": 0.46,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "wusayta",
+      "ipa": "/wusayta/",
+      "category": "terrain",
+      "frequency": 0.47,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "tulayhah",
+      "ipa": "/tulayhah/",
+      "category": "terrain",
+      "frequency": 0.21,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "alslam",
+      "ipa": "/alslam/",
+      "category": "proper_root",
+      "frequency": 0.41,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "fayha",
+      "ipa": "/fayha/",
+      "category": "proper_root",
+      "frequency": 0.14,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "alhabil",
+      "ipa": "/alhabil/",
+      "category": "terrain",
+      "frequency": 0.17,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "alhisn",
+      "ipa": "/alhisn/",
+      "category": "proper_root",
+      "frequency": 0.4,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "annakhil",
+      "ipa": "/annakhil/",
+      "category": "terrain",
+      "frequency": 0.34,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "alkharba",
+      "ipa": "/alkharba/",
+      "category": "terrain",
+      "frequency": 0.21,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "almanzil",
+      "ipa": "/almanzil/",
+      "category": "terrain",
+      "frequency": 0.33,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "rayyan",
+      "ipa": "/rayyan/",
+      "category": "proper_root",
+      "frequency": 0.19,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "hamdah",
+      "ipa": "/hamdah/",
+      "category": "proper_root",
+      "frequency": 0.19,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "bani",
+      "ipa": "/bani/",
+      "category": "proper_root",
+      "frequency": 0.37,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "malik",
+      "ipa": "/mælɪk/",
+      "category": "proper_root",
+      "frequency": 0.24,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "badr",
+      "ipa": "/badr/",
+      "category": "proper_root",
+      "frequency": 0.38,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "rahwah",
+      "ipa": "/rahwah/",
+      "category": "proper_root",
+      "frequency": 0.29,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "qarn",
+      "ipa": "/qarn/",
+      "category": "proper_root",
+      "frequency": 0.3,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "hawtah",
+      "ipa": "/hawtah/",
+      "category": "proper_root",
+      "frequency": 0.34,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "hasan",
+      "ipa": "/hɑsɑn/",
+      "category": "proper_root",
+      "frequency": 0.38,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "alnkhyl",
+      "ipa": "/alnkhyl/",
+      "category": "terrain",
+      "frequency": 0.25,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "alhzm",
+      "ipa": "/alhzm/",
+      "category": "proper_root",
+      "frequency": 0.44,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "alandls",
+      "ipa": "/alandls/",
+      "category": "terrain",
+      "frequency": 0.3,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "salamah",
+      "ipa": "/salamah/",
+      "category": "terrain",
+      "frequency": 0.16,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "almarwah",
+      "ipa": "/almarwah/",
+      "category": "terrain",
+      "frequency": 0.18,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "sayh",
+      "ipa": "/sayh/",
+      "category": "proper_root",
+      "frequency": 0.11,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "qusayba",
+      "ipa": "/qusayba/",
+      "category": "terrain",
+      "frequency": 0.41,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "qudayh",
+      "ipa": "/qudayh/",
+      "category": "proper_root",
+      "frequency": 0.11,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "qarah",
+      "ipa": "/qarah/",
+      "category": "proper_root",
+      "frequency": 0.21,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "najran",
+      "ipa": "/najran/",
+      "category": "proper_root",
+      "frequency": 0.27,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "mughayra",
+      "ipa": "/mughayra/",
+      "category": "terrain",
+      "frequency": 0.4,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "judayyidah",
+      "ipa": "/judayyidah/",
+      "category": "terrain",
+      "frequency": 0.5,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "ghamrah",
+      "ipa": "/ghamrah/",
+      "category": "terrain",
+      "frequency": 0.4,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "ash",
+      "ipa": "/æʃ/",
+      "category": "proper_root",
+      "frequency": 0.13,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "shuqayq",
+      "ipa": "/shuqayq/",
+      "category": "terrain",
+      "frequency": 0.47,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "shumaysi",
+      "ipa": "/shumaysi/",
+      "category": "terrain",
+      "frequency": 0.49,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "shihiyah",
+      "ipa": "/shihiyah/",
+      "category": "terrain",
+      "frequency": 0.45,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "qusayr",
+      "ipa": "/qusayr/",
+      "category": "proper_root",
+      "frequency": 0.3,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "qurayyah",
+      "ipa": "/qurayyah/",
+      "category": "terrain",
+      "frequency": 0.23,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "jubayl",
+      "ipa": "/jubayl/",
+      "category": "proper_root",
+      "frequency": 0.28,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "hamjah",
+      "ipa": "/hamjah/",
+      "category": "proper_root",
+      "frequency": 0.2,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "ghat",
+      "ipa": "/ghat/",
+      "category": "proper_root",
+      "frequency": 0.26,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "athlah",
+      "ipa": "/athlah/",
+      "category": "proper_root",
+      "frequency": 0.12,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "nazim",
+      "ipa": "/nazim/",
+      "category": "proper_root",
+      "frequency": 0.39,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "samudah",
+      "ipa": "/samudah/",
+      "category": "terrain",
+      "frequency": 0.25,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "sudayrah",
+      "ipa": "/sudayrah/",
+      "category": "terrain",
+      "frequency": 0.23,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "nasim",
+      "ipa": "/nasim/",
+      "category": "proper_root",
+      "frequency": 0.34,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "alrbwt",
+      "ipa": "/alrbwt/",
+      "category": "proper_root",
+      "frequency": 0.4,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "safa",
+      "ipa": "/safa/",
+      "category": "proper_root",
+      "frequency": 0.34,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "hada",
+      "ipa": "/hɑdə/",
+      "category": "proper_root",
+      "frequency": 0.31,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "almrwt",
+      "ipa": "/almrwt/",
+      "category": "proper_root",
+      "frequency": 0.45,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "muntazah",
+      "ipa": "/muntazah/",
+      "category": "terrain",
+      "frequency": 0.41,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "ashshuruq",
+      "ipa": "/ashshuruq/",
+      "category": "terrain",
+      "frequency": 0.31,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "alwahah",
+      "ipa": "/alwahah/",
+      "category": "terrain",
+      "frequency": 0.28,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "almalih",
+      "ipa": "/almalih/",
+      "category": "terrain",
+      "frequency": 0.43,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "alhadba",
+      "ipa": "/alhadba/",
+      "category": "terrain",
+      "frequency": 0.12,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "alhudayrah",
+      "ipa": "/alhudayrah/",
+      "category": "terrain",
+      "frequency": 0.5,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "alhanakah",
+      "ipa": "/alhanakah/",
+      "category": "terrain",
+      "frequency": 0.31,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "alfaysaliyah",
+      "ipa": "/alfaysaliyah/",
+      "category": "terrain",
+      "frequency": 0.26,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "daraj",
+      "ipa": "/daraj/",
+      "category": "proper_root",
+      "frequency": 0.39,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "aldrj",
+      "ipa": "/aldrj/",
+      "category": "proper_root",
+      "frequency": 0.32,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "alfasilah",
+      "ipa": "/alfasilah/",
+      "category": "terrain",
+      "frequency": 0.31,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "albayda",
+      "ipa": "/albayda/",
+      "category": "terrain",
+      "frequency": 0.35,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "almishbah",
+      "ipa": "/almishbah/",
+      "category": "terrain",
+      "frequency": 0.12,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "arrahwah",
+      "ipa": "/arrahwah/",
+      "category": "terrain",
+      "frequency": 0.22,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "alqafil",
+      "ipa": "/alqafil/",
+      "category": "terrain",
+      "frequency": 0.26,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "alhadbah",
+      "ipa": "/alhadbah/",
+      "category": "terrain",
+      "frequency": 0.22,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "arrahah",
+      "ipa": "/arrahah/",
+      "category": "terrain",
+      "frequency": 0.43,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "almakhsar",
+      "ipa": "/almakhsar/",
+      "category": "terrain",
+      "frequency": 0.28,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "alqabil",
+      "ipa": "/alqabil/",
+      "category": "terrain",
+      "frequency": 0.27,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "alandalus",
+      "ipa": "/alandalus/",
+      "category": "terrain",
+      "frequency": 0.35,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "turayf",
+      "ipa": "/turayf/",
+      "category": "proper_root",
+      "frequency": 0.12,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "tuwal",
+      "ipa": "/tuwal/",
+      "category": "proper_root",
+      "frequency": 0.31,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "tabuk",
+      "ipa": "/tabuk/",
+      "category": "proper_root",
+      "frequency": 0.16,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "suq",
+      "ipa": "/suq/",
+      "category": "proper_root",
+      "frequency": 0.43,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "ithnayn",
+      "ipa": "/ithnayn/",
+      "category": "terrain",
+      "frequency": 0.28,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "ahad",
+      "ipa": "/ahad/",
+      "category": "proper_root",
+      "frequency": 0.39,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "hasa",
+      "ipa": "/hasa/",
+      "category": "proper_root",
+      "frequency": 0.15,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "jarad",
+      "ipa": "/jarad/",
+      "category": "proper_root",
+      "frequency": 0.41,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "hajar",
+      "ipa": "/hajar/",
+      "category": "proper_root",
+      "frequency": 0.48,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "farshah",
+      "ipa": "/farshah/",
+      "category": "terrain",
+      "frequency": 0.38,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "tawilah",
+      "ipa": "/tawilah/",
+      "category": "terrain",
+      "frequency": 0.15,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "shara",
+      "ipa": "/ʃɑrə/",
+      "category": "terrain",
+      "frequency": 0.27,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "rass",
+      "ipa": "/rass/",
+      "category": "proper_root",
+      "frequency": 0.28,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "alrs",
+      "ipa": "/alrs/",
+      "category": "proper_root",
+      "frequency": 0.17,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "wajh",
+      "ipa": "/wajh/",
+      "category": "proper_root",
+      "frequency": 0.34,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "muwayh",
+      "ipa": "/muwayh/",
+      "category": "proper_root",
+      "frequency": 0.39,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "fahd",
+      "ipa": "/fɑd/",
+      "category": "proper_root",
+      "frequency": 0.18,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "bahah",
+      "ipa": "/bahah/",
+      "category": "proper_root",
+      "frequency": 0.28,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "shamiyah",
+      "ipa": "/shamiyah/",
+      "category": "terrain",
+      "frequency": 0.2,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "alfydt",
+      "ipa": "/alfydt/",
+      "category": "proper_root",
+      "frequency": 0.38,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "bada",
+      "ipa": "/bɑdə/",
+      "category": "proper_root",
+      "frequency": 0.46,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "zahra",
+      "ipa": "/zahra/",
+      "category": "proper_root",
+      "frequency": 0.42,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "nuzhah",
+      "ipa": "/nuzhah/",
+      "category": "proper_root",
+      "frequency": 0.39,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "rawabi",
+      "ipa": "/rawabi/",
+      "category": "proper_root",
+      "frequency": 0.15,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "alhbyl",
+      "ipa": "/alhbyl/",
+      "category": "proper_root",
+      "frequency": 0.15,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "alhdn",
+      "ipa": "/alhdn/",
+      "category": "proper_root",
+      "frequency": 0.28,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "almshbah",
+      "ipa": "/almshbah/",
+      "category": "terrain",
+      "frequency": 0.25,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "zalma",
+      "ipa": "/zalma/",
+      "category": "proper_root",
+      "frequency": 0.31,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "wasit",
+      "ipa": "/wasit/",
+      "category": "proper_root",
+      "frequency": 0.25,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "unaizah",
+      "ipa": "/unaizah/",
+      "category": "terrain",
+      "frequency": 0.42,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "umluj",
+      "ipa": "/umluj/",
+      "category": "proper_root",
+      "frequency": 0.3,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "altwal",
+      "ipa": "/altwal/",
+      "category": "proper_root",
+      "frequency": 0.48,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "thadiq",
+      "ipa": "/thadiq/",
+      "category": "proper_root",
+      "frequency": 0.25,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "tayma",
+      "ipa": "/tayma/",
+      "category": "proper_root",
+      "frequency": 0.25,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "tawil",
+      "ipa": "/tɔəl/",
+      "category": "proper_root",
+      "frequency": 0.41,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "tathlith",
+      "ipa": "/tathlith/",
+      "category": "terrain",
+      "frequency": 0.46,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "tanumah",
+      "ipa": "/tanumah/",
+      "category": "terrain",
+      "frequency": 0.33,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "talhah",
+      "ipa": "/talhah/",
+      "category": "proper_root",
+      "frequency": 0.36,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "layl",
+      "ipa": "/layl/",
+      "category": "proper_root",
+      "frequency": 0.16,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "sultanah",
+      "ipa": "/sultanah/",
+      "category": "terrain",
+      "frequency": 0.45,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "sulaymiyah",
+      "ipa": "/sulaymiyah/",
+      "category": "terrain",
+      "frequency": 0.17,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "samitah",
+      "ipa": "/samitah/",
+      "category": "terrain",
+      "frequency": 0.38,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "salwa",
+      "ipa": "/salwa/",
+      "category": "proper_root",
+      "frequency": 0.27,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "sahwah",
+      "ipa": "/sahwah/",
+      "category": "proper_root",
+      "frequency": 0.22,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "safhah",
+      "ipa": "/safhah/",
+      "category": "proper_root",
+      "frequency": 0.41,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "sabhah",
+      "ipa": "/sabhah/",
+      "category": "proper_root",
+      "frequency": 0.28,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "rumah",
+      "ipa": "/rumah/",
+      "category": "proper_root",
+      "frequency": 0.35,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "rudaymah",
+      "ipa": "/rudaymah/",
+      "category": "terrain",
+      "frequency": 0.15,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "riyad",
+      "ipa": "/riɑd/",
+      "category": "proper_root",
+      "frequency": 0.15,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "alrawdat",
+      "ipa": "/alrawdat/",
+      "category": "terrain",
+      "frequency": 0.18,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "ramdah",
+      "ipa": "/ramdah/",
+      "category": "proper_root",
+      "frequency": 0.35,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "raghwan",
+      "ipa": "/raghwan/",
+      "category": "terrain",
+      "frequency": 0.2,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "rafha",
+      "ipa": "/rafha/",
+      "category": "proper_root",
+      "frequency": 0.28,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "rabigh",
+      "ipa": "/rabigh/",
+      "category": "proper_root",
+      "frequency": 0.44,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "quraynah",
+      "ipa": "/quraynah/",
+      "category": "terrain",
+      "frequency": 0.32,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "qaryah",
+      "ipa": "/qaryah/",
+      "category": "proper_root",
+      "frequency": 0.1,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "qara",
+      "ipa": "/qara/",
+      "category": "proper_root",
+      "frequency": 0.45,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "nukhayl",
+      "ipa": "/nukhayl/",
+      "category": "terrain",
+      "frequency": 0.2,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "najmah",
+      "ipa": "/najmah/",
+      "category": "proper_root",
+      "frequency": 0.34,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "nabhaniyah",
+      "ipa": "/nabhaniyah/",
+      "category": "terrain",
+      "frequency": 0.29,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "muqabil",
+      "ipa": "/muqabil/",
+      "category": "terrain",
+      "frequency": 0.26,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "mashquq",
+      "ipa": "/mashquq/",
+      "category": "terrain",
+      "frequency": 0.13,
+      "can_prefix": false,
+      "can_suffix": true
+    }
+  ],
+  "place_templates": [
+    {
+      "template": [
+        "terrain"
+      ],
+      "weight": 2,
+      "separator": "",
+      "example": "Yama"
+    },
+    {
+      "template": [
+        "quality",
+        "terrain"
+      ],
+      "weight": 5,
+      "separator": "",
+      "example": "Blackmoor"
+    },
+    {
+      "template": [
+        "proper_root",
+        "terrain"
+      ],
+      "weight": 4,
+      "separator": "",
+      "example": "Chesterford"
+    },
+    {
+      "template": [
+        "fauna",
+        "terrain"
+      ],
+      "weight": 3,
+      "separator": "",
+      "example": "Wolverhampton"
+    },
+    {
+      "template": [
+        "proper_root"
+      ],
+      "weight": 3,
+      "separator": "",
+      "example": "London"
+    },
+    {
+      "template": [
+        "direction",
+        "terrain"
+      ],
+      "weight": 3,
+      "separator": "",
+      "example": "Northfield"
+    },
+    {
+      "template": [
+        "event",
+        "structure"
+      ],
+      "weight": 2,
+      "separator": "",
+      "example": "Battleford"
+    },
+    {
+      "template": [
+        "flora",
+        "terrain"
+      ],
+      "weight": 2,
+      "separator": "",
+      "example": "Oakwood"
+    },
+    {
+      "template": [
+        "sacred",
+        "terrain"
+      ],
+      "weight": 2,
+      "separator": "",
+      "example": "Holywell"
+    },
+    {
+      "template": [
+        "quality",
+        "flora"
+      ],
+      "weight": 1,
+      "separator": "",
+      "example": "Greenoak"
+    }
+  ],
+  "star_system_templates": [
+    {
+      "template": [
+        "proper_root"
+      ],
+      "weight": 4,
+      "separator": "",
+      "example": "Carbinter"
+    },
+    {
+      "template": [
+        "terrain"
+      ],
+      "weight": 3,
+      "separator": "",
+      "example": "Dale"
+    },
+    {
+      "template": [
+        "proper_root",
+        "proper_root"
+      ],
+      "weight": 2,
+      "separator": "",
+      "example": "Krasnikov"
+    },
+    {
+      "template": [
+        "quality",
+        "proper_root"
+      ],
+      "weight": 1,
+      "separator": "",
+      "example": "Grandor"
+    }
+  ]
+}

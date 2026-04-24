@@ -1,0 +1,3631 @@
+{
+  "lc_id": "sv-se",
+  "label": "Swedish",
+  "language": "Swedish",
+  "culture": "Swedish",
+  "script": "Latin",
+  "romanization": "native",
+  "phonology_notes": "Bootstrap phonology for Swedish",
+  "given_names": [
+    {
+      "name": "James",
+      "ipa": "/dʒeɪmz/",
+      "gender": "M",
+      "type": "given",
+      "frequency": 0.33
+    },
+    {
+      "name": "John",
+      "ipa": "/dʒɑn/",
+      "gender": "M",
+      "type": "given",
+      "frequency": 0.54
+    },
+    {
+      "name": "Robert",
+      "ipa": "/rɑbɚt/",
+      "gender": "M",
+      "type": "given",
+      "frequency": 0.62
+    },
+    {
+      "name": "Michael",
+      "ipa": "/maɪkəl/",
+      "gender": "M",
+      "type": "given",
+      "frequency": 0.46
+    },
+    {
+      "name": "William",
+      "ipa": "/wɪljəm/",
+      "gender": "M",
+      "type": "given",
+      "frequency": 0.78
+    },
+    {
+      "name": "David",
+      "ipa": "/deɪvɪd/",
+      "gender": "M",
+      "type": "given",
+      "frequency": 0.41
+    },
+    {
+      "name": "Joseph",
+      "ipa": "/dʒoʊsəf/",
+      "gender": "M",
+      "type": "given",
+      "frequency": 0.65
+    },
+    {
+      "name": "Thomas",
+      "ipa": "/tɑməs/",
+      "gender": "M",
+      "type": "given",
+      "frequency": 0.74
+    },
+    {
+      "name": "Charles",
+      "ipa": "/tʃɑrlz/",
+      "gender": "M",
+      "type": "given",
+      "frequency": 0.67
+    },
+    {
+      "name": "Daniel",
+      "ipa": "/dænjəl/",
+      "gender": "M",
+      "type": "given",
+      "frequency": 0.5
+    },
+    {
+      "name": "Matthew",
+      "ipa": "/mæθju/",
+      "gender": "M",
+      "type": "given",
+      "frequency": 0.61
+    },
+    {
+      "name": "Anthony",
+      "ipa": "/ænθɔni/",
+      "gender": "M",
+      "type": "given",
+      "frequency": 0.94
+    },
+    {
+      "name": "Mark",
+      "ipa": "/mɑrk/",
+      "gender": "M",
+      "type": "given",
+      "frequency": 0.63
+    },
+    {
+      "name": "Donald",
+      "ipa": "/dɑnəld/",
+      "gender": "M",
+      "type": "given",
+      "frequency": 0.4
+    },
+    {
+      "name": "Steven",
+      "ipa": "/stivən/",
+      "gender": "M",
+      "type": "given",
+      "frequency": 0.39
+    },
+    {
+      "name": "Paul",
+      "ipa": "/pɔl/",
+      "gender": "M",
+      "type": "given",
+      "frequency": 0.93
+    },
+    {
+      "name": "Andrew",
+      "ipa": "/ændru/",
+      "gender": "M",
+      "type": "given",
+      "frequency": 0.89
+    },
+    {
+      "name": "Kenneth",
+      "ipa": "/kɛnɪθ/",
+      "gender": "M",
+      "type": "given",
+      "frequency": 0.67
+    },
+    {
+      "name": "Joshua",
+      "ipa": "/dʒɑʃuə/",
+      "gender": "M",
+      "type": "given",
+      "frequency": 0.51
+    },
+    {
+      "name": "Kevin",
+      "ipa": "/kɛvɪn/",
+      "gender": "M",
+      "type": "given",
+      "frequency": 0.33
+    },
+    {
+      "name": "Brian",
+      "ipa": "/braɪən/",
+      "gender": "M",
+      "type": "given",
+      "frequency": 0.35
+    },
+    {
+      "name": "George",
+      "ipa": "/dʒɔrdʒ/",
+      "gender": "M",
+      "type": "given",
+      "frequency": 0.33
+    },
+    {
+      "name": "Edward",
+      "ipa": "/ɛdwɚd/",
+      "gender": "M",
+      "type": "given",
+      "frequency": 0.38
+    },
+    {
+      "name": "Ronald",
+      "ipa": "/rɑnəld/",
+      "gender": "M",
+      "type": "given",
+      "frequency": 0.6
+    },
+    {
+      "name": "Timothy",
+      "ipa": "/tɪməθi/",
+      "gender": "M",
+      "type": "given",
+      "frequency": 0.37
+    },
+    {
+      "name": "Jason",
+      "ipa": "/dʒeɪsən/",
+      "gender": "M",
+      "type": "given",
+      "frequency": 0.76
+    },
+    {
+      "name": "Jeffrey",
+      "ipa": "/dʒɛfri/",
+      "gender": "M",
+      "type": "given",
+      "frequency": 0.7
+    },
+    {
+      "name": "Ryan",
+      "ipa": "/raɪən/",
+      "gender": "M",
+      "type": "given",
+      "frequency": 0.48
+    },
+    {
+      "name": "Jacob",
+      "ipa": "/dʒeɪkəb/",
+      "gender": "M",
+      "type": "given",
+      "frequency": 0.48
+    },
+    {
+      "name": "Gary",
+      "ipa": "/ɡɛri/",
+      "gender": "M",
+      "type": "given",
+      "frequency": 0.36
+    },
+    {
+      "name": "Nicholas",
+      "ipa": "/nɪkələs/",
+      "gender": "M",
+      "type": "given",
+      "frequency": 0.65
+    },
+    {
+      "name": "Eric",
+      "ipa": "/ɛrɪk/",
+      "gender": "M",
+      "type": "given",
+      "frequency": 0.38
+    },
+    {
+      "name": "Jonathan",
+      "ipa": "/dʒɑnəθən/",
+      "gender": "M",
+      "type": "given",
+      "frequency": 0.76
+    },
+    {
+      "name": "Stephen",
+      "ipa": "/stivən/",
+      "gender": "M",
+      "type": "given",
+      "frequency": 0.43
+    },
+    {
+      "name": "Larry",
+      "ipa": "/lɛri/",
+      "gender": "M",
+      "type": "given",
+      "frequency": 0.43
+    },
+    {
+      "name": "Justin",
+      "ipa": "/dʒʌstən/",
+      "gender": "M",
+      "type": "given",
+      "frequency": 0.58
+    },
+    {
+      "name": "Scott",
+      "ipa": "/skɑt/",
+      "gender": "M",
+      "type": "given",
+      "frequency": 0.36
+    },
+    {
+      "name": "Brandon",
+      "ipa": "/brændən/",
+      "gender": "M",
+      "type": "given",
+      "frequency": 0.91
+    },
+    {
+      "name": "Benjamin",
+      "ipa": "/bɛndʒəmən/",
+      "gender": "M",
+      "type": "given",
+      "frequency": 0.51
+    },
+    {
+      "name": "Samuel",
+      "ipa": "/sæmjul/",
+      "gender": "M",
+      "type": "given",
+      "frequency": 0.71
+    },
+    {
+      "name": "Gregory",
+      "ipa": "/ɡrɛɡɚi/",
+      "gender": "M",
+      "type": "given",
+      "frequency": 0.62
+    },
+    {
+      "name": "Frank",
+      "ipa": "/fræŋk/",
+      "gender": "M",
+      "type": "given",
+      "frequency": 0.77
+    },
+    {
+      "name": "Alexander",
+      "ipa": "/ælɪɡzændɚ/",
+      "gender": "M",
+      "type": "given",
+      "frequency": 0.74
+    },
+    {
+      "name": "Raymond",
+      "ipa": "/reɪmənd/",
+      "gender": "M",
+      "type": "given",
+      "frequency": 0.49
+    },
+    {
+      "name": "Patrick",
+      "ipa": "/pætrɪk/",
+      "gender": "M",
+      "type": "given",
+      "frequency": 0.98
+    },
+    {
+      "name": "Jack",
+      "ipa": "/dʒæk/",
+      "gender": "M",
+      "type": "given",
+      "frequency": 0.91
+    },
+    {
+      "name": "Dennis",
+      "ipa": "/dɛnɪs/",
+      "gender": "M",
+      "type": "given",
+      "frequency": 0.43
+    },
+    {
+      "name": "Jerry",
+      "ipa": "/dʒɛri/",
+      "gender": "M",
+      "type": "given",
+      "frequency": 0.43
+    },
+    {
+      "name": "Tyler",
+      "ipa": "/taɪlɚ/",
+      "gender": "M",
+      "type": "given",
+      "frequency": 0.82
+    },
+    {
+      "name": "Aaron",
+      "ipa": "/ɛrən/",
+      "gender": "M",
+      "type": "given",
+      "frequency": 0.72
+    },
+    {
+      "name": "Mary",
+      "ipa": "/mɛri/",
+      "gender": "F",
+      "type": "given",
+      "frequency": 0.91
+    },
+    {
+      "name": "Patricia",
+      "ipa": "/pətrɪʃə/",
+      "gender": "F",
+      "type": "given",
+      "frequency": 0.37
+    },
+    {
+      "name": "Jennifer",
+      "ipa": "/dʒɛnəfɚ/",
+      "gender": "F",
+      "type": "given",
+      "frequency": 0.67
+    },
+    {
+      "name": "Linda",
+      "ipa": "/lɪndə/",
+      "gender": "F",
+      "type": "given",
+      "frequency": 0.3
+    },
+    {
+      "name": "Elizabeth",
+      "ipa": "/ɪlɪzəbəθ/",
+      "gender": "F",
+      "type": "given",
+      "frequency": 0.38
+    },
+    {
+      "name": "Barbara",
+      "ipa": "/bɑrbɚə/",
+      "gender": "F",
+      "type": "given",
+      "frequency": 0.42
+    },
+    {
+      "name": "Susan",
+      "ipa": "/suzən/",
+      "gender": "F",
+      "type": "given",
+      "frequency": 0.63
+    },
+    {
+      "name": "Jessica",
+      "ipa": "/dʒɛsɪkə/",
+      "gender": "F",
+      "type": "given",
+      "frequency": 0.78
+    },
+    {
+      "name": "Sarah",
+      "ipa": "/sɛrə/",
+      "gender": "F",
+      "type": "given",
+      "frequency": 0.91
+    },
+    {
+      "name": "Karen",
+      "ipa": "/kɛrən/",
+      "gender": "F",
+      "type": "given",
+      "frequency": 0.98
+    },
+    {
+      "name": "Nancy",
+      "ipa": "/nænsi/",
+      "gender": "F",
+      "type": "given",
+      "frequency": 0.72
+    },
+    {
+      "name": "Lisa",
+      "ipa": "/lisə/",
+      "gender": "F",
+      "type": "given",
+      "frequency": 0.64
+    },
+    {
+      "name": "Betty",
+      "ipa": "/bɛti/",
+      "gender": "F",
+      "type": "given",
+      "frequency": 0.73
+    },
+    {
+      "name": "Margaret",
+      "ipa": "/mɑrɡɚɪt/",
+      "gender": "F",
+      "type": "given",
+      "frequency": 0.98
+    },
+    {
+      "name": "Sandra",
+      "ipa": "/sændrə/",
+      "gender": "F",
+      "type": "given",
+      "frequency": 0.55
+    },
+    {
+      "name": "Ashley",
+      "ipa": "/æʃli/",
+      "gender": "F",
+      "type": "given",
+      "frequency": 0.77
+    },
+    {
+      "name": "Kimberly",
+      "ipa": "/kɪmbɚli/",
+      "gender": "F",
+      "type": "given",
+      "frequency": 0.78
+    },
+    {
+      "name": "Emily",
+      "ipa": "/ɛmɪli/",
+      "gender": "F",
+      "type": "given",
+      "frequency": 0.58
+    },
+    {
+      "name": "Donna",
+      "ipa": "/dɑnə/",
+      "gender": "F",
+      "type": "given",
+      "frequency": 0.51
+    },
+    {
+      "name": "Michelle",
+      "ipa": "/mɪʃɛl/",
+      "gender": "F",
+      "type": "given",
+      "frequency": 0.39
+    },
+    {
+      "name": "Dorothy",
+      "ipa": "/dɔrəθi/",
+      "gender": "F",
+      "type": "given",
+      "frequency": 0.31
+    },
+    {
+      "name": "Carol",
+      "ipa": "/kærəl/",
+      "gender": "F",
+      "type": "given",
+      "frequency": 0.38
+    },
+    {
+      "name": "Amanda",
+      "ipa": "/əmændə/",
+      "gender": "F",
+      "type": "given",
+      "frequency": 0.31
+    },
+    {
+      "name": "Melissa",
+      "ipa": "/məlɪsə/",
+      "gender": "F",
+      "type": "given",
+      "frequency": 0.98
+    },
+    {
+      "name": "Deborah",
+      "ipa": "/dɛbɚə/",
+      "gender": "F",
+      "type": "given",
+      "frequency": 0.9
+    },
+    {
+      "name": "Stephanie",
+      "ipa": "/stɛfəni/",
+      "gender": "F",
+      "type": "given",
+      "frequency": 0.45
+    },
+    {
+      "name": "Rebecca",
+      "ipa": "/rəbɛkə/",
+      "gender": "F",
+      "type": "given",
+      "frequency": 0.75
+    },
+    {
+      "name": "Laura",
+      "ipa": "/lɔrə/",
+      "gender": "F",
+      "type": "given",
+      "frequency": 0.75
+    },
+    {
+      "name": "Sharon",
+      "ipa": "/ʃærən/",
+      "gender": "F",
+      "type": "given",
+      "frequency": 0.61
+    },
+    {
+      "name": "Cynthia",
+      "ipa": "/sɪnθiə/",
+      "gender": "F",
+      "type": "given",
+      "frequency": 0.74
+    },
+    {
+      "name": "Kathleen",
+      "ipa": "/kæθlin/",
+      "gender": "F",
+      "type": "given",
+      "frequency": 0.85
+    },
+    {
+      "name": "Amy",
+      "ipa": "/eɪmi/",
+      "gender": "F",
+      "type": "given",
+      "frequency": 0.43
+    },
+    {
+      "name": "Shirley",
+      "ipa": "/ʃɜrli/",
+      "gender": "F",
+      "type": "given",
+      "frequency": 0.51
+    },
+    {
+      "name": "Angela",
+      "ipa": "/ændʒələ/",
+      "gender": "F",
+      "type": "given",
+      "frequency": 0.62
+    },
+    {
+      "name": "Helen",
+      "ipa": "/hɛlən/",
+      "gender": "F",
+      "type": "given",
+      "frequency": 0.63
+    },
+    {
+      "name": "Anna",
+      "ipa": "/ænə/",
+      "gender": "F",
+      "type": "given",
+      "frequency": 0.32
+    },
+    {
+      "name": "Brenda",
+      "ipa": "/brɛndə/",
+      "gender": "F",
+      "type": "given",
+      "frequency": 0.42
+    },
+    {
+      "name": "Pamela",
+      "ipa": "/pæmələ/",
+      "gender": "F",
+      "type": "given",
+      "frequency": 0.41
+    },
+    {
+      "name": "Nicole",
+      "ipa": "/nɪkoʊl/",
+      "gender": "F",
+      "type": "given",
+      "frequency": 0.79
+    },
+    {
+      "name": "Emma",
+      "ipa": "/ɛmə/",
+      "gender": "F",
+      "type": "given",
+      "frequency": 0.97
+    },
+    {
+      "name": "Samantha",
+      "ipa": "/səmænθə/",
+      "gender": "F",
+      "type": "given",
+      "frequency": 0.63
+    },
+    {
+      "name": "Katherine",
+      "ipa": "/kæθɚɪn/",
+      "gender": "F",
+      "type": "given",
+      "frequency": 0.9
+    },
+    {
+      "name": "Christine",
+      "ipa": "/krɪstin/",
+      "gender": "F",
+      "type": "given",
+      "frequency": 0.71
+    },
+    {
+      "name": "Debra",
+      "ipa": "/dɛbrə/",
+      "gender": "F",
+      "type": "given",
+      "frequency": 0.44
+    },
+    {
+      "name": "Rachel",
+      "ipa": "/reɪtʃəl/",
+      "gender": "F",
+      "type": "given",
+      "frequency": 0.7
+    },
+    {
+      "name": "Catherine",
+      "ipa": "/kæθɚən/",
+      "gender": "F",
+      "type": "given",
+      "frequency": 0.88
+    },
+    {
+      "name": "Carolyn",
+      "ipa": "/kɛrəlɪn/",
+      "gender": "F",
+      "type": "given",
+      "frequency": 0.34
+    },
+    {
+      "name": "Janet",
+      "ipa": "/dʒænət/",
+      "gender": "F",
+      "type": "given",
+      "frequency": 0.31
+    },
+    {
+      "name": "Ruth",
+      "ipa": "/ruθ/",
+      "gender": "F",
+      "type": "given",
+      "frequency": 0.74
+    },
+    {
+      "name": "Maria",
+      "ipa": "/mɚiə/",
+      "gender": "F",
+      "type": "given",
+      "frequency": 0.8
+    }
+  ],
+  "family_names": [
+    {
+      "name": "Smith",
+      "ipa": "/smɪθ/",
+      "gender": "N",
+      "type": "family",
+      "frequency": 0.99
+    },
+    {
+      "name": "Johnson",
+      "ipa": "/dʒɑnsən/",
+      "gender": "N",
+      "type": "family",
+      "frequency": 0.89
+    },
+    {
+      "name": "Williams",
+      "ipa": "/wɪljəmz/",
+      "gender": "N",
+      "type": "family",
+      "frequency": 0.82
+    },
+    {
+      "name": "Brown",
+      "ipa": "/braʊn/",
+      "gender": "N",
+      "type": "family",
+      "frequency": 0.72
+    },
+    {
+      "name": "Jones",
+      "ipa": "/dʒoʊnz/",
+      "gender": "N",
+      "type": "family",
+      "frequency": 0.69
+    },
+    {
+      "name": "Garcia",
+      "ipa": "/ɡɑrsiə/",
+      "gender": "N",
+      "type": "family",
+      "frequency": 0.5
+    },
+    {
+      "name": "Miller",
+      "ipa": "/mɪlɚ/",
+      "gender": "N",
+      "type": "family",
+      "frequency": 0.64
+    },
+    {
+      "name": "Davis",
+      "ipa": "/deɪvəs/",
+      "gender": "N",
+      "type": "family",
+      "frequency": 0.64
+    },
+    {
+      "name": "Rodriguez",
+      "ipa": "/rɑdriɡɛz/",
+      "gender": "N",
+      "type": "family",
+      "frequency": 0.71
+    },
+    {
+      "name": "Martinez",
+      "ipa": "/mɑrtinɛz/",
+      "gender": "N",
+      "type": "family",
+      "frequency": 0.73
+    },
+    {
+      "name": "Hernandez",
+      "ipa": "/hɚnændɛz/",
+      "gender": "N",
+      "type": "family",
+      "frequency": 0.78
+    },
+    {
+      "name": "Lopez",
+      "ipa": "/loʊpɛz/",
+      "gender": "N",
+      "type": "family",
+      "frequency": 0.87
+    },
+    {
+      "name": "Gonzalez",
+      "ipa": "/ɡɑnzɑləz/",
+      "gender": "N",
+      "type": "family",
+      "frequency": 0.64
+    },
+    {
+      "name": "Wilson",
+      "ipa": "/wɪlsən/",
+      "gender": "N",
+      "type": "family",
+      "frequency": 0.8
+    },
+    {
+      "name": "Anderson",
+      "ipa": "/ændɚsən/",
+      "gender": "N",
+      "type": "family",
+      "frequency": 0.67
+    },
+    {
+      "name": "Thomas",
+      "ipa": "/tɑməs/",
+      "gender": "N",
+      "type": "family",
+      "frequency": 0.6
+    },
+    {
+      "name": "Taylor",
+      "ipa": "/teɪlɚ/",
+      "gender": "N",
+      "type": "family",
+      "frequency": 0.52
+    },
+    {
+      "name": "Moore",
+      "ipa": "/mʊr/",
+      "gender": "N",
+      "type": "family",
+      "frequency": 0.34
+    },
+    {
+      "name": "Jackson",
+      "ipa": "/dʒæksən/",
+      "gender": "N",
+      "type": "family",
+      "frequency": 0.93
+    },
+    {
+      "name": "Martin",
+      "ipa": "/mɑrtən/",
+      "gender": "N",
+      "type": "family",
+      "frequency": 0.59
+    },
+    {
+      "name": "Lee",
+      "ipa": "/li/",
+      "gender": "N",
+      "type": "family",
+      "frequency": 0.63
+    },
+    {
+      "name": "Perez",
+      "ipa": "/pɛrɛz/",
+      "gender": "N",
+      "type": "family",
+      "frequency": 0.65
+    },
+    {
+      "name": "Thompson",
+      "ipa": "/tɑmpsən/",
+      "gender": "N",
+      "type": "family",
+      "frequency": 0.96
+    },
+    {
+      "name": "White",
+      "ipa": "/waɪt/",
+      "gender": "N",
+      "type": "family",
+      "frequency": 0.54
+    },
+    {
+      "name": "Harris",
+      "ipa": "/hɛrɪs/",
+      "gender": "N",
+      "type": "family",
+      "frequency": 0.79
+    },
+    {
+      "name": "Sanchez",
+      "ipa": "/sæntʃɛz/",
+      "gender": "N",
+      "type": "family",
+      "frequency": 0.31
+    },
+    {
+      "name": "Clark",
+      "ipa": "/klɑrk/",
+      "gender": "N",
+      "type": "family",
+      "frequency": 0.5
+    },
+    {
+      "name": "Ramirez",
+      "ipa": "/rəmɪrɛz/",
+      "gender": "N",
+      "type": "family",
+      "frequency": 0.43
+    },
+    {
+      "name": "Lewis",
+      "ipa": "/luɪs/",
+      "gender": "N",
+      "type": "family",
+      "frequency": 0.54
+    },
+    {
+      "name": "Robinson",
+      "ipa": "/rɑbənsən/",
+      "gender": "N",
+      "type": "family",
+      "frequency": 0.46
+    },
+    {
+      "name": "Walker",
+      "ipa": "/wɔkɚ/",
+      "gender": "N",
+      "type": "family",
+      "frequency": 0.45
+    },
+    {
+      "name": "Young",
+      "ipa": "/jʌŋ/",
+      "gender": "N",
+      "type": "family",
+      "frequency": 0.94
+    },
+    {
+      "name": "Allen",
+      "ipa": "/ælən/",
+      "gender": "N",
+      "type": "family",
+      "frequency": 0.54
+    },
+    {
+      "name": "King",
+      "ipa": "/kɪŋ/",
+      "gender": "N",
+      "type": "family",
+      "frequency": 0.72
+    },
+    {
+      "name": "Wright",
+      "ipa": "/raɪt/",
+      "gender": "N",
+      "type": "family",
+      "frequency": 0.89
+    },
+    {
+      "name": "Scott",
+      "ipa": "/skɑt/",
+      "gender": "N",
+      "type": "family",
+      "frequency": 0.76
+    },
+    {
+      "name": "Torres",
+      "ipa": "/tɔrɛz/",
+      "gender": "N",
+      "type": "family",
+      "frequency": 0.39
+    },
+    {
+      "name": "Nguyen",
+      "ipa": "/nujɛn/",
+      "gender": "N",
+      "type": "family",
+      "frequency": 0.51
+    },
+    {
+      "name": "Hill",
+      "ipa": "/hɪl/",
+      "gender": "N",
+      "type": "family",
+      "frequency": 0.8
+    },
+    {
+      "name": "Flores",
+      "ipa": "/flɔrɛz/",
+      "gender": "N",
+      "type": "family",
+      "frequency": 0.97
+    },
+    {
+      "name": "Green",
+      "ipa": "/ɡrin/",
+      "gender": "N",
+      "type": "family",
+      "frequency": 0.88
+    },
+    {
+      "name": "Adams",
+      "ipa": "/ædəmz/",
+      "gender": "N",
+      "type": "family",
+      "frequency": 0.77
+    },
+    {
+      "name": "Nelson",
+      "ipa": "/nɛlsən/",
+      "gender": "N",
+      "type": "family",
+      "frequency": 0.81
+    },
+    {
+      "name": "Baker",
+      "ipa": "/beɪkɚ/",
+      "gender": "N",
+      "type": "family",
+      "frequency": 0.86
+    },
+    {
+      "name": "Hall",
+      "ipa": "/hɔl/",
+      "gender": "N",
+      "type": "family",
+      "frequency": 0.86
+    },
+    {
+      "name": "Rivera",
+      "ipa": "/rɪvɛrə/",
+      "gender": "N",
+      "type": "family",
+      "frequency": 0.89
+    },
+    {
+      "name": "Campbell",
+      "ipa": "/kæmbəl/",
+      "gender": "N",
+      "type": "family",
+      "frequency": 0.74
+    },
+    {
+      "name": "Mitchell",
+      "ipa": "/mɪtʃəl/",
+      "gender": "N",
+      "type": "family",
+      "frequency": 0.5
+    },
+    {
+      "name": "Carter",
+      "ipa": "/kɑrtɚ/",
+      "gender": "N",
+      "type": "family",
+      "frequency": 0.82
+    },
+    {
+      "name": "Roberts",
+      "ipa": "/rɑbɚts/",
+      "gender": "N",
+      "type": "family",
+      "frequency": 0.77
+    }
+  ],
+  "place_words": [
+    {
+      "word": "field",
+      "ipa": "/fild/",
+      "category": "terrain",
+      "frequency": 0.56,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "brook",
+      "ipa": "/brʊk/",
+      "category": "terrain",
+      "frequency": 0.6,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "ridge",
+      "ipa": "/rɪdʒ/",
+      "category": "terrain",
+      "frequency": 0.8,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "valley",
+      "ipa": "/væli/",
+      "category": "terrain",
+      "frequency": 0.55,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "lake",
+      "ipa": "/leɪk/",
+      "category": "terrain",
+      "frequency": 0.71,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "ford",
+      "ipa": "/fɔrd/",
+      "category": "terrain",
+      "frequency": 1.0,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "glen",
+      "ipa": "/ɡlɛn/",
+      "category": "terrain",
+      "frequency": 0.65,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "dale",
+      "ipa": "/deɪl/",
+      "category": "terrain",
+      "frequency": 0.6,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "hollow",
+      "ipa": "/hɑloʊ/",
+      "category": "terrain",
+      "frequency": 0.52,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "creek",
+      "ipa": "/krik/",
+      "category": "terrain",
+      "frequency": 0.51,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "mountain",
+      "ipa": "/maʊntən/",
+      "category": "terrain",
+      "frequency": 0.94,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "plain",
+      "ipa": "/pleɪn/",
+      "category": "terrain",
+      "frequency": 0.68,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "desert",
+      "ipa": "/dɛzɚt/",
+      "category": "terrain",
+      "frequency": 0.58,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "marsh",
+      "ipa": "/mɑrʃ/",
+      "category": "terrain",
+      "frequency": 0.91,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "cove",
+      "ipa": "/koʊv/",
+      "category": "terrain",
+      "frequency": 0.95,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "bay",
+      "ipa": "/beɪ/",
+      "category": "terrain",
+      "frequency": 0.52,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "spring",
+      "ipa": "/sprɪŋ/",
+      "category": "terrain",
+      "frequency": 0.53,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "falls",
+      "ipa": "/fɔlz/",
+      "category": "terrain",
+      "frequency": 0.72,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "peak",
+      "ipa": "/pik/",
+      "category": "terrain",
+      "frequency": 0.81,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "pass",
+      "ipa": "/pæs/",
+      "category": "terrain",
+      "frequency": 0.56,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "north",
+      "ipa": "/nɔrθ/",
+      "category": "direction",
+      "frequency": 0.61,
+      "can_prefix": true,
+      "can_suffix": false
+    },
+    {
+      "word": "south",
+      "ipa": "/saʊθ/",
+      "category": "direction",
+      "frequency": 0.63,
+      "can_prefix": true,
+      "can_suffix": false
+    },
+    {
+      "word": "east",
+      "ipa": "/ist/",
+      "category": "direction",
+      "frequency": 0.67,
+      "can_prefix": true,
+      "can_suffix": false
+    },
+    {
+      "word": "west",
+      "ipa": "/wɛst/",
+      "category": "direction",
+      "frequency": 0.68,
+      "can_prefix": true,
+      "can_suffix": false
+    },
+    {
+      "word": "upper",
+      "ipa": "/ʌpɚ/",
+      "category": "direction",
+      "frequency": 0.52,
+      "can_prefix": true,
+      "can_suffix": false
+    },
+    {
+      "word": "lower",
+      "ipa": "/loʊɚ/",
+      "category": "direction",
+      "frequency": 0.94,
+      "can_prefix": true,
+      "can_suffix": false
+    },
+    {
+      "word": "new",
+      "ipa": "/nu/",
+      "category": "direction",
+      "frequency": 0.63,
+      "can_prefix": true,
+      "can_suffix": false
+    },
+    {
+      "word": "old",
+      "ipa": "/oʊld/",
+      "category": "direction",
+      "frequency": 0.58,
+      "can_prefix": true,
+      "can_suffix": false
+    },
+    {
+      "word": "far",
+      "ipa": "/fɑr/",
+      "category": "direction",
+      "frequency": 0.85,
+      "can_prefix": true,
+      "can_suffix": false
+    },
+    {
+      "word": "near",
+      "ipa": "/nɪr/",
+      "category": "direction",
+      "frequency": 0.76,
+      "can_prefix": true,
+      "can_suffix": false
+    },
+    {
+      "word": "inner",
+      "ipa": "/ɪnɚ/",
+      "category": "direction",
+      "frequency": 0.83,
+      "can_prefix": true,
+      "can_suffix": false
+    },
+    {
+      "word": "outer",
+      "ipa": "/aʊtɚ/",
+      "category": "direction",
+      "frequency": 0.85,
+      "can_prefix": true,
+      "can_suffix": false
+    },
+    {
+      "word": "green",
+      "ipa": "/ɡrin/",
+      "category": "quality",
+      "frequency": 0.96,
+      "can_prefix": true,
+      "can_suffix": false
+    },
+    {
+      "word": "white",
+      "ipa": "/waɪt/",
+      "category": "quality",
+      "frequency": 0.72,
+      "can_prefix": true,
+      "can_suffix": false
+    },
+    {
+      "word": "black",
+      "ipa": "/blæk/",
+      "category": "quality",
+      "frequency": 0.73,
+      "can_prefix": true,
+      "can_suffix": false
+    },
+    {
+      "word": "red",
+      "ipa": "/rɛd/",
+      "category": "quality",
+      "frequency": 0.92,
+      "can_prefix": true,
+      "can_suffix": false
+    },
+    {
+      "word": "blue",
+      "ipa": "/blu/",
+      "category": "quality",
+      "frequency": 0.56,
+      "can_prefix": true,
+      "can_suffix": false
+    },
+    {
+      "word": "great",
+      "ipa": "/ɡreɪt/",
+      "category": "quality",
+      "frequency": 0.55,
+      "can_prefix": true,
+      "can_suffix": false
+    },
+    {
+      "word": "little",
+      "ipa": "/lɪtəl/",
+      "category": "quality",
+      "frequency": 0.81,
+      "can_prefix": true,
+      "can_suffix": false
+    },
+    {
+      "word": "grand",
+      "ipa": "/ɡrænd/",
+      "category": "quality",
+      "frequency": 0.89,
+      "can_prefix": true,
+      "can_suffix": false
+    },
+    {
+      "word": "clear",
+      "ipa": "/klɪr/",
+      "category": "quality",
+      "frequency": 0.97,
+      "can_prefix": true,
+      "can_suffix": false
+    },
+    {
+      "word": "dark",
+      "ipa": "/dɑrk/",
+      "category": "quality",
+      "frequency": 0.91,
+      "can_prefix": true,
+      "can_suffix": false
+    },
+    {
+      "word": "bright",
+      "ipa": "/braɪt/",
+      "category": "quality",
+      "frequency": 0.52,
+      "can_prefix": true,
+      "can_suffix": false
+    },
+    {
+      "word": "cold",
+      "ipa": "/koʊld/",
+      "category": "quality",
+      "frequency": 0.55,
+      "can_prefix": true,
+      "can_suffix": false
+    },
+    {
+      "word": "warm",
+      "ipa": "/wɔrm/",
+      "category": "quality",
+      "frequency": 0.81,
+      "can_prefix": true,
+      "can_suffix": false
+    },
+    {
+      "word": "dry",
+      "ipa": "/draɪ/",
+      "category": "quality",
+      "frequency": 0.94,
+      "can_prefix": true,
+      "can_suffix": false
+    },
+    {
+      "word": "wet",
+      "ipa": "/wɛt/",
+      "category": "quality",
+      "frequency": 0.96,
+      "can_prefix": true,
+      "can_suffix": false
+    },
+    {
+      "word": "oak",
+      "ipa": "/oʊk/",
+      "category": "flora",
+      "frequency": 0.58,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "pine",
+      "ipa": "/paɪn/",
+      "category": "flora",
+      "frequency": 0.65,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "maple",
+      "ipa": "/meɪpəl/",
+      "category": "flora",
+      "frequency": 0.72,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "cedar",
+      "ipa": "/sidɚ/",
+      "category": "flora",
+      "frequency": 0.75,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "willow",
+      "ipa": "/wɪloʊ/",
+      "category": "flora",
+      "frequency": 0.87,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "elm",
+      "ipa": "/ɛlm/",
+      "category": "flora",
+      "frequency": 0.55,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "birch",
+      "ipa": "/bɜrtʃ/",
+      "category": "flora",
+      "frequency": 0.82,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "cypress",
+      "ipa": "/saɪprəs/",
+      "category": "flora",
+      "frequency": 0.67,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "juniper",
+      "ipa": "/dʒunəpɚ/",
+      "category": "flora",
+      "frequency": 0.57,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "hawthorn",
+      "ipa": "/hɔθɔrn/",
+      "category": "flora",
+      "frequency": 0.92,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "wolf",
+      "ipa": "/wʊlf/",
+      "category": "fauna",
+      "frequency": 0.72,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "bear",
+      "ipa": "/bɛr/",
+      "category": "fauna",
+      "frequency": 0.71,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "eagle",
+      "ipa": "/iɡəl/",
+      "category": "fauna",
+      "frequency": 0.88,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "hawk",
+      "ipa": "/hɔk/",
+      "category": "fauna",
+      "frequency": 0.62,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "deer",
+      "ipa": "/dɪr/",
+      "category": "fauna",
+      "frequency": 0.9,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "fox",
+      "ipa": "/fɑks/",
+      "category": "fauna",
+      "frequency": 0.67,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "elk",
+      "ipa": "/ɛlk/",
+      "category": "fauna",
+      "frequency": 0.75,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "bison",
+      "ipa": "/baɪsən/",
+      "category": "fauna",
+      "frequency": 0.54,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "raven",
+      "ipa": "/reɪvən/",
+      "category": "fauna",
+      "frequency": 0.69,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "crow",
+      "ipa": "/kroʊ/",
+      "category": "fauna",
+      "frequency": 0.88,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "fort",
+      "ipa": "/fɔrt/",
+      "category": "structure",
+      "frequency": 0.68,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "town",
+      "ipa": "/taʊn/",
+      "category": "structure",
+      "frequency": 0.83,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "city",
+      "ipa": "/sɪti/",
+      "category": "structure",
+      "frequency": 0.58,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "port",
+      "ipa": "/pɔrt/",
+      "category": "structure",
+      "frequency": 0.88,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "ville",
+      "ipa": "/vɪl/",
+      "category": "structure",
+      "frequency": 0.71,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "burg",
+      "ipa": "/bɜrɡ/",
+      "category": "structure",
+      "frequency": 0.61,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "ton",
+      "ipa": "/tʌn/",
+      "category": "structure",
+      "frequency": 0.9,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "ham",
+      "ipa": "/hæm/",
+      "category": "structure",
+      "frequency": 0.71,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "wich",
+      "ipa": "/wɪtʃ/",
+      "category": "structure",
+      "frequency": 0.7,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "stead",
+      "ipa": "/stɛd/",
+      "category": "structure",
+      "frequency": 0.73,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "bridge",
+      "ipa": "/brɪdʒ/",
+      "category": "structure",
+      "frequency": 0.93,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "gate",
+      "ipa": "/ɡeɪt/",
+      "category": "structure",
+      "frequency": 0.9,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "mill",
+      "ipa": "/mɪl/",
+      "category": "structure",
+      "frequency": 0.68,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "station",
+      "ipa": "/steɪʃən/",
+      "category": "structure",
+      "frequency": 0.51,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "holy",
+      "ipa": "/hoʊli/",
+      "category": "sacred",
+      "frequency": 0.57,
+      "can_prefix": true,
+      "can_suffix": false
+    },
+    {
+      "word": "saint",
+      "ipa": "/seɪnt/",
+      "category": "sacred",
+      "frequency": 0.5,
+      "can_prefix": true,
+      "can_suffix": false
+    },
+    {
+      "word": "cross",
+      "ipa": "/krɔs/",
+      "category": "sacred",
+      "frequency": 0.9,
+      "can_prefix": true,
+      "can_suffix": false
+    },
+    {
+      "word": "temple",
+      "ipa": "/tɛmpəl/",
+      "category": "sacred",
+      "frequency": 0.97,
+      "can_prefix": true,
+      "can_suffix": false
+    },
+    {
+      "word": "shrine",
+      "ipa": "/ʃraɪn/",
+      "category": "sacred",
+      "frequency": 0.54,
+      "can_prefix": true,
+      "can_suffix": false
+    },
+    {
+      "word": "grace",
+      "ipa": "/ɡreɪs/",
+      "category": "sacred",
+      "frequency": 0.66,
+      "can_prefix": true,
+      "can_suffix": false
+    },
+    {
+      "word": "mercy",
+      "ipa": "/mɜrsi/",
+      "category": "sacred",
+      "frequency": 0.99,
+      "can_prefix": true,
+      "can_suffix": false
+    },
+    {
+      "word": "peace",
+      "ipa": "/pis/",
+      "category": "sacred",
+      "frequency": 0.58,
+      "can_prefix": true,
+      "can_suffix": false
+    },
+    {
+      "word": "hope",
+      "ipa": "/hoʊp/",
+      "category": "sacred",
+      "frequency": 0.53,
+      "can_prefix": true,
+      "can_suffix": false
+    },
+    {
+      "word": "faith",
+      "ipa": "/feɪθ/",
+      "category": "sacred",
+      "frequency": 0.88,
+      "can_prefix": true,
+      "can_suffix": false
+    },
+    {
+      "word": "battle",
+      "ipa": "/bætəl/",
+      "category": "event",
+      "frequency": 0.83,
+      "can_prefix": true,
+      "can_suffix": false
+    },
+    {
+      "word": "founding",
+      "ipa": "/faʊndɪŋ/",
+      "category": "event",
+      "frequency": 0.82,
+      "can_prefix": true,
+      "can_suffix": false
+    },
+    {
+      "word": "union",
+      "ipa": "/junjən/",
+      "category": "event",
+      "frequency": 0.95,
+      "can_prefix": true,
+      "can_suffix": false
+    },
+    {
+      "word": "liberty",
+      "ipa": "/lɪbɚti/",
+      "category": "event",
+      "frequency": 0.53,
+      "can_prefix": true,
+      "can_suffix": false
+    },
+    {
+      "word": "independence",
+      "ipa": "/ɪndɪpɛndəns/",
+      "category": "event",
+      "frequency": 0.82,
+      "can_prefix": true,
+      "can_suffix": false
+    },
+    {
+      "word": "victory",
+      "ipa": "/vɪktəri/",
+      "category": "event",
+      "frequency": 0.86,
+      "can_prefix": true,
+      "can_suffix": false
+    },
+    {
+      "word": "storm",
+      "ipa": "/stɔrm/",
+      "category": "event",
+      "frequency": 0.83,
+      "can_prefix": true,
+      "can_suffix": false
+    },
+    {
+      "word": "flood",
+      "ipa": "/flʌd/",
+      "category": "event",
+      "frequency": 0.76,
+      "can_prefix": true,
+      "can_suffix": false
+    },
+    {
+      "word": "fire",
+      "ipa": "/faɪɚ/",
+      "category": "event",
+      "frequency": 0.65,
+      "can_prefix": true,
+      "can_suffix": false
+    },
+    {
+      "word": "gold",
+      "ipa": "/ɡoʊld/",
+      "category": "event",
+      "frequency": 0.7,
+      "can_prefix": true,
+      "can_suffix": false
+    },
+    {
+      "word": "wash",
+      "ipa": "/wɑʃ/",
+      "category": "proper_root",
+      "frequency": 0.84,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "mont",
+      "ipa": "/mɑnt/",
+      "category": "proper_root",
+      "frequency": 0.78,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "san",
+      "ipa": "/sæn/",
+      "category": "proper_root",
+      "frequency": 0.65,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "santa",
+      "ipa": "/sæntə/",
+      "category": "proper_root",
+      "frequency": 0.87,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "los",
+      "ipa": "/loʊs/",
+      "category": "proper_root",
+      "frequency": 0.95,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "las",
+      "ipa": "/lɑs/",
+      "category": "proper_root",
+      "frequency": 0.5,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "bel",
+      "ipa": "/bɛl/",
+      "category": "proper_root",
+      "frequency": 0.64,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "beau",
+      "ipa": "/boʊ/",
+      "category": "proper_root",
+      "frequency": 0.76,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "van",
+      "ipa": "/væn/",
+      "category": "proper_root",
+      "frequency": 0.96,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "von",
+      "ipa": "/vɔn/",
+      "category": "proper_root",
+      "frequency": 0.85,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "sorby",
+      "ipa": "/sorby/",
+      "category": "proper_root",
+      "frequency": 0.28,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "boda",
+      "ipa": "/boʊdə/",
+      "category": "proper_root",
+      "frequency": 0.18,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "berga",
+      "ipa": "/berga/",
+      "category": "proper_root",
+      "frequency": 0.32,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "nas",
+      "ipa": "/nas/",
+      "category": "proper_root",
+      "frequency": 0.42,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "hult",
+      "ipa": "/hʌlt/",
+      "category": "proper_root",
+      "frequency": 0.36,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "bole",
+      "ipa": "/boʊl/",
+      "category": "proper_root",
+      "frequency": 0.38,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "berg",
+      "ipa": "/bɜrɡ/",
+      "category": "terrain",
+      "frequency": 0.46,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "sandviken",
+      "ipa": "/sandviken/",
+      "category": "terrain",
+      "frequency": 0.41,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "backa",
+      "ipa": "/backa/",
+      "category": "proper_root",
+      "frequency": 0.26,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "torp",
+      "ipa": "/tɔrp/",
+      "category": "proper_root",
+      "frequency": 0.18,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "ekeby",
+      "ipa": "/ekeby/",
+      "category": "proper_root",
+      "frequency": 0.22,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "soerby",
+      "ipa": "/soerby/",
+      "category": "proper_root",
+      "frequency": 0.11,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "ostansjo",
+      "ipa": "/ostansjo/",
+      "category": "terrain",
+      "frequency": 0.23,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "asen",
+      "ipa": "/asen/",
+      "category": "proper_root",
+      "frequency": 0.39,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "norrby",
+      "ipa": "/norrby/",
+      "category": "proper_root",
+      "frequency": 0.4,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "naset",
+      "ipa": "/naset/",
+      "category": "proper_root",
+      "frequency": 0.15,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "soderby",
+      "ipa": "/soderby/",
+      "category": "terrain",
+      "frequency": 0.5,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "heden",
+      "ipa": "/heden/",
+      "category": "proper_root",
+      "frequency": 0.21,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "viken",
+      "ipa": "/viken/",
+      "category": "proper_root",
+      "frequency": 0.14,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "sandvik",
+      "ipa": "/sændvɪk/",
+      "category": "terrain",
+      "frequency": 0.32,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "lund",
+      "ipa": "/lʌnd/",
+      "category": "proper_root",
+      "frequency": 0.31,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "ryd",
+      "ipa": "/ryd/",
+      "category": "proper_root",
+      "frequency": 0.4,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "hogen",
+      "ipa": "/hɑɡən/",
+      "category": "proper_root",
+      "frequency": 0.16,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "hokhult",
+      "ipa": "/hokhult/",
+      "category": "terrain",
+      "frequency": 0.11,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "back",
+      "ipa": "/bæk/",
+      "category": "proper_root",
+      "frequency": 0.42,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "boele",
+      "ipa": "/boele/",
+      "category": "proper_root",
+      "frequency": 0.34,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "sund",
+      "ipa": "/sʌnd/",
+      "category": "proper_root",
+      "frequency": 0.2,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "solberga",
+      "ipa": "/solberga/",
+      "category": "terrain",
+      "frequency": 0.41,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "osterby",
+      "ipa": "/osterby/",
+      "category": "terrain",
+      "frequency": 0.39,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "bjorka",
+      "ipa": "/bjorka/",
+      "category": "proper_root",
+      "frequency": 0.49,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "vastansjo",
+      "ipa": "/vastansjo/",
+      "category": "terrain",
+      "frequency": 0.14,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "tuna",
+      "ipa": "/tunə/",
+      "category": "proper_root",
+      "frequency": 0.12,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "haga",
+      "ipa": "/hɑɡə/",
+      "category": "proper_root",
+      "frequency": 0.25,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "vallby",
+      "ipa": "/vallby/",
+      "category": "proper_root",
+      "frequency": 0.35,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "oja",
+      "ipa": "/oʊjə/",
+      "category": "proper_root",
+      "frequency": 0.24,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "fagerhult",
+      "ipa": "/fagerhult/",
+      "category": "terrain",
+      "frequency": 0.12,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "strand",
+      "ipa": "/strænd/",
+      "category": "proper_root",
+      "frequency": 0.36,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "rod",
+      "ipa": "/rɑd/",
+      "category": "proper_root",
+      "frequency": 0.15,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "lundby",
+      "ipa": "/lundby/",
+      "category": "proper_root",
+      "frequency": 0.22,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "brevik",
+      "ipa": "/brɛvɪk/",
+      "category": "proper_root",
+      "frequency": 0.39,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "nyland",
+      "ipa": "/naɪlənd/",
+      "category": "proper_root",
+      "frequency": 0.28,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "valla",
+      "ipa": "/vælə/",
+      "category": "proper_root",
+      "frequency": 0.49,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "svenstorp",
+      "ipa": "/svenstorp/",
+      "category": "terrain",
+      "frequency": 0.42,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "sunnansjo",
+      "ipa": "/sunnansjo/",
+      "category": "terrain",
+      "frequency": 0.5,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "rorvik",
+      "ipa": "/rorvik/",
+      "category": "proper_root",
+      "frequency": 0.33,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "solberg",
+      "ipa": "/soʊlbɚɡ/",
+      "category": "terrain",
+      "frequency": 0.46,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "vik",
+      "ipa": "/vɪk/",
+      "category": "proper_root",
+      "frequency": 0.35,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "holm",
+      "ipa": "/hoʊm/",
+      "category": "proper_root",
+      "frequency": 0.31,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "byn",
+      "ipa": "/byn/",
+      "category": "proper_root",
+      "frequency": 0.34,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "backen",
+      "ipa": "/backen/",
+      "category": "proper_root",
+      "frequency": 0.24,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "aby",
+      "ipa": "/aby/",
+      "category": "proper_root",
+      "frequency": 0.21,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "husby",
+      "ipa": "/hʌsbi/",
+      "category": "proper_root",
+      "frequency": 0.41,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "raby",
+      "ipa": "/reɪbi/",
+      "category": "proper_root",
+      "frequency": 0.39,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "mellby",
+      "ipa": "/mellby/",
+      "category": "proper_root",
+      "frequency": 0.37,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "forsa",
+      "ipa": "/forsa/",
+      "category": "proper_root",
+      "frequency": 0.39,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "bjorstorp",
+      "ipa": "/bjorstorp/",
+      "category": "terrain",
+      "frequency": 0.31,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "vastana",
+      "ipa": "/vastana/",
+      "category": "terrain",
+      "frequency": 0.2,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "oestansjoe",
+      "ipa": "/oestansjoe/",
+      "category": "terrain",
+      "frequency": 0.23,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "kulla",
+      "ipa": "/kʌlə/",
+      "category": "proper_root",
+      "frequency": 0.33,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "ostby",
+      "ipa": "/ɑstbi/",
+      "category": "proper_root",
+      "frequency": 0.43,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "torpa",
+      "ipa": "/torpa/",
+      "category": "proper_root",
+      "frequency": 0.24,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "rya",
+      "ipa": "/rya/",
+      "category": "proper_root",
+      "frequency": 0.14,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "satra",
+      "ipa": "/satra/",
+      "category": "proper_root",
+      "frequency": 0.38,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "rud",
+      "ipa": "/rʌd/",
+      "category": "proper_root",
+      "frequency": 0.43,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "osby",
+      "ipa": "/ɑsbi/",
+      "category": "proper_root",
+      "frequency": 0.13,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "strom",
+      "ipa": "/strɑm/",
+      "category": "proper_root",
+      "frequency": 0.12,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "vasby",
+      "ipa": "/vasby/",
+      "category": "proper_root",
+      "frequency": 0.46,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "ostana",
+      "ipa": "/ostana/",
+      "category": "proper_root",
+      "frequency": 0.29,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "hov",
+      "ipa": "/hov/",
+      "category": "proper_root",
+      "frequency": 0.28,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "holmen",
+      "ipa": "/hɑlmɛn/",
+      "category": "proper_root",
+      "frequency": 0.25,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "soederby",
+      "ipa": "/soederby/",
+      "category": "terrain",
+      "frequency": 0.31,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "akerby",
+      "ipa": "/akerby/",
+      "category": "proper_root",
+      "frequency": 0.34,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "eriksberg",
+      "ipa": "/eriksberg/",
+      "category": "terrain",
+      "frequency": 0.31,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "sorbo",
+      "ipa": "/sɔrboʊ/",
+      "category": "proper_root",
+      "frequency": 0.26,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "roervik",
+      "ipa": "/roervik/",
+      "category": "terrain",
+      "frequency": 0.21,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "lovasen",
+      "ipa": "/lovasen/",
+      "category": "terrain",
+      "frequency": 0.3,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "nordsjo",
+      "ipa": "/nordsjo/",
+      "category": "terrain",
+      "frequency": 0.27,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "morby",
+      "ipa": "/mɔrbi/",
+      "category": "proper_root",
+      "frequency": 0.28,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "bro",
+      "ipa": "/broʊ/",
+      "category": "proper_root",
+      "frequency": 0.47,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "hulta",
+      "ipa": "/hulta/",
+      "category": "proper_root",
+      "frequency": 0.3,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "hammarby",
+      "ipa": "/hammarby/",
+      "category": "terrain",
+      "frequency": 0.49,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "hallen",
+      "ipa": "/hɔlən/",
+      "category": "proper_root",
+      "frequency": 0.43,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "asby",
+      "ipa": "/æsbi/",
+      "category": "proper_root",
+      "frequency": 0.16,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "alby",
+      "ipa": "/alby/",
+      "category": "proper_root",
+      "frequency": 0.15,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "bjorkliden",
+      "ipa": "/bjorkliden/",
+      "category": "terrain",
+      "frequency": 0.38,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "marieberg",
+      "ipa": "/marieberg/",
+      "category": "terrain",
+      "frequency": 0.15,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "saby",
+      "ipa": "/saby/",
+      "category": "proper_root",
+      "frequency": 0.38,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "roshult",
+      "ipa": "/roshult/",
+      "category": "terrain",
+      "frequency": 0.45,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "ramsjo",
+      "ipa": "/ramsjo/",
+      "category": "proper_root",
+      "frequency": 0.15,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "oeja",
+      "ipa": "/oeja/",
+      "category": "proper_root",
+      "frequency": 0.19,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "nyby",
+      "ipa": "/nyby/",
+      "category": "proper_root",
+      "frequency": 0.29,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "lindas",
+      "ipa": "/lindas/",
+      "category": "proper_root",
+      "frequency": 0.4,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "fors",
+      "ipa": "/fɜrz/",
+      "category": "proper_root",
+      "frequency": 0.48,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "broby",
+      "ipa": "/broby/",
+      "category": "proper_root",
+      "frequency": 0.25,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "bolen",
+      "ipa": "/boʊlən/",
+      "category": "proper_root",
+      "frequency": 0.48,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "berge",
+      "ipa": "/bɜrdʒ/",
+      "category": "proper_root",
+      "frequency": 0.34,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "oen",
+      "ipa": "/oen/",
+      "category": "proper_root",
+      "frequency": 0.26,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "forsnas",
+      "ipa": "/forsnas/",
+      "category": "terrain",
+      "frequency": 0.15,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "bodarna",
+      "ipa": "/bodarna/",
+      "category": "terrain",
+      "frequency": 0.33,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "vasterby",
+      "ipa": "/vasterby/",
+      "category": "terrain",
+      "frequency": 0.12,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "tofta",
+      "ipa": "/tofta/",
+      "category": "proper_root",
+      "frequency": 0.16,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "svedje",
+      "ipa": "/svedje/",
+      "category": "proper_root",
+      "frequency": 0.25,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "hog",
+      "ipa": "/hɑɡ/",
+      "category": "proper_root",
+      "frequency": 0.5,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "roed",
+      "ipa": "/roʊd/",
+      "category": "proper_root",
+      "frequency": 0.22,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "oesterby",
+      "ipa": "/oesterby/",
+      "category": "terrain",
+      "frequency": 0.29,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "nobbele",
+      "ipa": "/nobbele/",
+      "category": "terrain",
+      "frequency": 0.42,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "lovvik",
+      "ipa": "/lovvik/",
+      "category": "proper_root",
+      "frequency": 0.16,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "hoegen",
+      "ipa": "/hoegen/",
+      "category": "proper_root",
+      "frequency": 0.34,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "kumla",
+      "ipa": "/kumla/",
+      "category": "proper_root",
+      "frequency": 0.12,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "hoekhult",
+      "ipa": "/hoekhult/",
+      "category": "terrain",
+      "frequency": 0.46,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "hallsta",
+      "ipa": "/hallsta/",
+      "category": "terrain",
+      "frequency": 0.46,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "hagen",
+      "ipa": "/heɪɡən/",
+      "category": "proper_root",
+      "frequency": 0.19,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "dalen",
+      "ipa": "/dælən/",
+      "category": "proper_root",
+      "frequency": 0.43,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "boarp",
+      "ipa": "/boarp/",
+      "category": "proper_root",
+      "frequency": 0.3,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "bjoerka",
+      "ipa": "/bjoerka/",
+      "category": "terrain",
+      "frequency": 0.15,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "nygard",
+      "ipa": "/naɪɡɚd/",
+      "category": "proper_root",
+      "frequency": 0.24,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "nasby",
+      "ipa": "/næsbi/",
+      "category": "proper_root",
+      "frequency": 0.45,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "gustavsberg",
+      "ipa": "/gustavsberg/",
+      "category": "terrain",
+      "frequency": 0.27,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "vreta",
+      "ipa": "/vreta/",
+      "category": "proper_root",
+      "frequency": 0.33,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "nordansjo",
+      "ipa": "/nordansjo/",
+      "category": "terrain",
+      "frequency": 0.33,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "perstorp",
+      "ipa": "/perstorp/",
+      "category": "terrain",
+      "frequency": 0.46,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "torestorp",
+      "ipa": "/torestorp/",
+      "category": "terrain",
+      "frequency": 0.41,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "sjobo",
+      "ipa": "/sjobo/",
+      "category": "proper_root",
+      "frequency": 0.29,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "hoghult",
+      "ipa": "/hoghult/",
+      "category": "terrain",
+      "frequency": 0.39,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "bon",
+      "ipa": "/bɑn/",
+      "category": "proper_root",
+      "frequency": 0.34,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "olstorp",
+      "ipa": "/olstorp/",
+      "category": "terrain",
+      "frequency": 0.4,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "ede",
+      "ipa": "/id/",
+      "category": "proper_root",
+      "frequency": 0.3,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "holma",
+      "ipa": "/holma/",
+      "category": "proper_root",
+      "frequency": 0.28,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "hammar",
+      "ipa": "/hæmɚ/",
+      "category": "proper_root",
+      "frequency": 0.28,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "vallen",
+      "ipa": "/vallen/",
+      "category": "proper_root",
+      "frequency": 0.28,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "nybyn",
+      "ipa": "/nybyn/",
+      "category": "proper_root",
+      "frequency": 0.45,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "vanga",
+      "ipa": "/vanga/",
+      "category": "proper_root",
+      "frequency": 0.23,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "tibble",
+      "ipa": "/tibble/",
+      "category": "proper_root",
+      "frequency": 0.42,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "sunnansjoe",
+      "ipa": "/sunnansjoe/",
+      "category": "terrain",
+      "frequency": 0.37,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "sanna",
+      "ipa": "/sænə/",
+      "category": "proper_root",
+      "frequency": 0.26,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "orsta",
+      "ipa": "/orsta/",
+      "category": "proper_root",
+      "frequency": 0.19,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "hagby",
+      "ipa": "/hagby/",
+      "category": "proper_root",
+      "frequency": 0.26,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "ljungby",
+      "ipa": "/ljungby/",
+      "category": "terrain",
+      "frequency": 0.32,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "karr",
+      "ipa": "/kɑr/",
+      "category": "proper_root",
+      "frequency": 0.48,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "hemsjo",
+      "ipa": "/hemsjo/",
+      "category": "proper_root",
+      "frequency": 0.46,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "hede",
+      "ipa": "/hede/",
+      "category": "proper_root",
+      "frequency": 0.39,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "hamra",
+      "ipa": "/hamra/",
+      "category": "proper_root",
+      "frequency": 0.36,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "gryt",
+      "ipa": "/gryt/",
+      "category": "proper_root",
+      "frequency": 0.45,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "braten",
+      "ipa": "/braten/",
+      "category": "proper_root",
+      "frequency": 0.38,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "bracke",
+      "ipa": "/bracke/",
+      "category": "proper_root",
+      "frequency": 0.33,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "anderstorp",
+      "ipa": "/anderstorp/",
+      "category": "terrain",
+      "frequency": 0.42,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "aker",
+      "ipa": "/ækɚ/",
+      "category": "proper_root",
+      "frequency": 0.38,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "trehorningen",
+      "ipa": "/trehorningen/",
+      "category": "terrain",
+      "frequency": 0.32,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "lovlund",
+      "ipa": "/lovlund/",
+      "category": "terrain",
+      "frequency": 0.15,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "kroksjo",
+      "ipa": "/kroksjo/",
+      "category": "terrain",
+      "frequency": 0.32,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "fridhem",
+      "ipa": "/fridhem/",
+      "category": "terrain",
+      "frequency": 0.18,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "viby",
+      "ipa": "/viby/",
+      "category": "proper_root",
+      "frequency": 0.35,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "torsjo",
+      "ipa": "/torsjo/",
+      "category": "proper_root",
+      "frequency": 0.33,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "kvarntorp",
+      "ipa": "/kvarntorp/",
+      "category": "terrain",
+      "frequency": 0.12,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "oden",
+      "ipa": "/oʊdən/",
+      "category": "proper_root",
+      "frequency": 0.33,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "karra",
+      "ipa": "/karra/",
+      "category": "proper_root",
+      "frequency": 0.18,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "lovas",
+      "ipa": "/loʊvəz/",
+      "category": "proper_root",
+      "frequency": 0.29,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "lervik",
+      "ipa": "/lervik/",
+      "category": "proper_root",
+      "frequency": 0.46,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "hogland",
+      "ipa": "/hɑɡlənd/",
+      "category": "terrain",
+      "frequency": 0.15,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "hogby",
+      "ipa": "/hogby/",
+      "category": "proper_root",
+      "frequency": 0.47,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "hogahult",
+      "ipa": "/hogahult/",
+      "category": "terrain",
+      "frequency": 0.17,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "hestra",
+      "ipa": "/hestra/",
+      "category": "proper_root",
+      "frequency": 0.11,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "hamre",
+      "ipa": "/hæmɚ/",
+      "category": "proper_root",
+      "frequency": 0.41,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "eneby",
+      "ipa": "/eneby/",
+      "category": "proper_root",
+      "frequency": 0.2,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "bokhult",
+      "ipa": "/bokhult/",
+      "category": "terrain",
+      "frequency": 0.38,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "sorfors",
+      "ipa": "/sorfors/",
+      "category": "terrain",
+      "frequency": 0.46,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "liden",
+      "ipa": "/laɪdən/",
+      "category": "proper_root",
+      "frequency": 0.28,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "langnas",
+      "ipa": "/langnas/",
+      "category": "terrain",
+      "frequency": 0.42,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "garde",
+      "ipa": "/ɡɑrd/",
+      "category": "proper_root",
+      "frequency": 0.34,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "lovnas",
+      "ipa": "/lovnas/",
+      "category": "proper_root",
+      "frequency": 0.26,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "ror",
+      "ipa": "/ror/",
+      "category": "proper_root",
+      "frequency": 0.12,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "dal",
+      "ipa": "/dæl/",
+      "category": "proper_root",
+      "frequency": 0.44,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "utby",
+      "ipa": "/utby/",
+      "category": "proper_root",
+      "frequency": 0.11,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "bjorkenas",
+      "ipa": "/bjorkenas/",
+      "category": "terrain",
+      "frequency": 0.27,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "sjovik",
+      "ipa": "/sjovik/",
+      "category": "proper_root",
+      "frequency": 0.27,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "sanda",
+      "ipa": "/sændə/",
+      "category": "proper_root",
+      "frequency": 0.44,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "nordsjoe",
+      "ipa": "/nordsjoe/",
+      "category": "terrain",
+      "frequency": 0.23,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "mora",
+      "ipa": "/mɔrə/",
+      "category": "proper_root",
+      "frequency": 0.2,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "mjohult",
+      "ipa": "/mjohult/",
+      "category": "terrain",
+      "frequency": 0.15,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "horda",
+      "ipa": "/horda/",
+      "category": "proper_root",
+      "frequency": 0.14,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "hogsta",
+      "ipa": "/hogsta/",
+      "category": "proper_root",
+      "frequency": 0.17,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "grannas",
+      "ipa": "/grannas/",
+      "category": "terrain",
+      "frequency": 0.16,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "astorp",
+      "ipa": "/astorp/",
+      "category": "proper_root",
+      "frequency": 0.2,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "dala",
+      "ipa": "/dala/",
+      "category": "proper_root",
+      "frequency": 0.14,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "bosarp",
+      "ipa": "/bosarp/",
+      "category": "proper_root",
+      "frequency": 0.22,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "bohult",
+      "ipa": "/bohult/",
+      "category": "proper_root",
+      "frequency": 0.26,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "arby",
+      "ipa": "/ɑrbi/",
+      "category": "proper_root",
+      "frequency": 0.17,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "algutstorp",
+      "ipa": "/algutstorp/",
+      "category": "terrain",
+      "frequency": 0.35,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "tallberg",
+      "ipa": "/tallberg/",
+      "category": "terrain",
+      "frequency": 0.23,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "sorbyn",
+      "ipa": "/sorbyn/",
+      "category": "proper_root",
+      "frequency": 0.11,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "langviken",
+      "ipa": "/langviken/",
+      "category": "terrain",
+      "frequency": 0.12,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "granberget",
+      "ipa": "/granberget/",
+      "category": "terrain",
+      "frequency": 0.26,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "framnas",
+      "ipa": "/framnas/",
+      "category": "terrain",
+      "frequency": 0.23,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "brattfors",
+      "ipa": "/brattfors/",
+      "category": "terrain",
+      "frequency": 0.27,
+      "can_prefix": false,
+      "can_suffix": true
+    }
+  ],
+  "place_templates": [
+    {
+      "template": [
+        "terrain"
+      ],
+      "weight": 2,
+      "separator": "",
+      "example": "Yama"
+    },
+    {
+      "template": [
+        "quality",
+        "terrain"
+      ],
+      "weight": 5,
+      "separator": "",
+      "example": "Blackmoor"
+    },
+    {
+      "template": [
+        "proper_root",
+        "terrain"
+      ],
+      "weight": 4,
+      "separator": "",
+      "example": "Chesterford"
+    },
+    {
+      "template": [
+        "fauna",
+        "terrain"
+      ],
+      "weight": 3,
+      "separator": "",
+      "example": "Wolverhampton"
+    },
+    {
+      "template": [
+        "proper_root"
+      ],
+      "weight": 3,
+      "separator": "",
+      "example": "London"
+    },
+    {
+      "template": [
+        "direction",
+        "terrain"
+      ],
+      "weight": 3,
+      "separator": "",
+      "example": "Northfield"
+    },
+    {
+      "template": [
+        "event",
+        "structure"
+      ],
+      "weight": 2,
+      "separator": "",
+      "example": "Battleford"
+    },
+    {
+      "template": [
+        "flora",
+        "terrain"
+      ],
+      "weight": 2,
+      "separator": "",
+      "example": "Oakwood"
+    },
+    {
+      "template": [
+        "sacred",
+        "terrain"
+      ],
+      "weight": 2,
+      "separator": "",
+      "example": "Holywell"
+    },
+    {
+      "template": [
+        "quality",
+        "flora"
+      ],
+      "weight": 1,
+      "separator": "",
+      "example": "Greenoak"
+    }
+  ],
+  "star_system_templates": [
+    {
+      "template": [
+        "proper_root"
+      ],
+      "weight": 4,
+      "separator": "",
+      "example": "Carbinter"
+    },
+    {
+      "template": [
+        "terrain"
+      ],
+      "weight": 3,
+      "separator": "",
+      "example": "Dale"
+    },
+    {
+      "template": [
+        "proper_root",
+        "proper_root"
+      ],
+      "weight": 2,
+      "separator": "",
+      "example": "Krasnikov"
+    },
+    {
+      "template": [
+        "quality",
+        "proper_root"
+      ],
+      "weight": 1,
+      "separator": "",
+      "example": "Grandor"
+    }
+  ]
+}

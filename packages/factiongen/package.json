@@ -1,0 +1,24 @@
+{
+  "name": "@gi7b/factiongen",
+  "version": "260424.0.0",
+  "description": "Faction and social entity generator for RPG world-building",
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    }
+  },
+  "scripts": {
+    "build": "tsc",
+    "test": "vitest run"
+  },
+  "dependencies": {
+    "@gi7b/shared": "*",
+    "@gi7b/namegen": "*",
+    "@gi7b/placegen": "*"
+  },
+  "license": "MIT"
+}

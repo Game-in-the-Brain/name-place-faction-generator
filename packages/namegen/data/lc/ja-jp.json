@@ -1,0 +1,3127 @@
+{
+  "lc_id": "ja-jp",
+  "label": "Japanese",
+  "language": "Japanese",
+  "culture": "Japanese",
+  "script": "CJK",
+  "romanization": "hepburn",
+  "phonology_notes": "Bootstrap phonology for Japanese",
+  "given_names": [
+    {
+      "name": "Haruto",
+      "ipa": "/haruto/",
+      "gender": "M",
+      "type": "given",
+      "frequency": 0.56
+    },
+    {
+      "name": "Sota",
+      "ipa": "/sota/",
+      "gender": "M",
+      "type": "given",
+      "frequency": 0.73
+    },
+    {
+      "name": "Yuto",
+      "ipa": "/yuto/",
+      "gender": "M",
+      "type": "given",
+      "frequency": 0.77
+    },
+    {
+      "name": "Yuki",
+      "ipa": "/yuki/",
+      "gender": "M",
+      "type": "given",
+      "frequency": 0.73
+    },
+    {
+      "name": "Hayato",
+      "ipa": "/hayato/",
+      "gender": "M",
+      "type": "given",
+      "frequency": 0.64
+    },
+    {
+      "name": "Haruki",
+      "ipa": "/haruki/",
+      "gender": "M",
+      "type": "given",
+      "frequency": 0.64
+    },
+    {
+      "name": "Riku",
+      "ipa": "/riku/",
+      "gender": "M",
+      "type": "given",
+      "frequency": 0.3
+    },
+    {
+      "name": "Koki",
+      "ipa": "/koʊki/",
+      "gender": "M",
+      "type": "given",
+      "frequency": 0.69
+    },
+    {
+      "name": "Sora",
+      "ipa": "/sora/",
+      "gender": "M",
+      "type": "given",
+      "frequency": 0.31
+    },
+    {
+      "name": "Sosuke",
+      "ipa": "/soʊsukeɪ/",
+      "gender": "M",
+      "type": "given",
+      "frequency": 0.67
+    },
+    {
+      "name": "Ren",
+      "ipa": "/rɛn/",
+      "gender": "M",
+      "type": "given",
+      "frequency": 0.49
+    },
+    {
+      "name": "Minato",
+      "ipa": "/minato/",
+      "gender": "M",
+      "type": "given",
+      "frequency": 0.98
+    },
+    {
+      "name": "Itsuki",
+      "ipa": "/itsuki/",
+      "gender": "M",
+      "type": "given",
+      "frequency": 0.31
+    },
+    {
+      "name": "Takumi",
+      "ipa": "/takumi/",
+      "gender": "M",
+      "type": "given",
+      "frequency": 0.87
+    },
+    {
+      "name": "Hinata",
+      "ipa": "/hinata/",
+      "gender": "M",
+      "type": "given",
+      "frequency": 0.77
+    },
+    {
+      "name": "Tomohiro",
+      "ipa": "/tomohiro/",
+      "gender": "M",
+      "type": "given",
+      "frequency": 0.86
+    },
+    {
+      "name": "Yusei",
+      "ipa": "/yusei/",
+      "gender": "M",
+      "type": "given",
+      "frequency": 0.94
+    },
+    {
+      "name": "Shotaro",
+      "ipa": "/shotaro/",
+      "gender": "M",
+      "type": "given",
+      "frequency": 0.37
+    },
+    {
+      "name": "Ryota",
+      "ipa": "/ryota/",
+      "gender": "M",
+      "type": "given",
+      "frequency": 0.37
+    },
+    {
+      "name": "Kaito",
+      "ipa": "/kaito/",
+      "gender": "M",
+      "type": "given",
+      "frequency": 0.4
+    },
+    {
+      "name": "Asahi",
+      "ipa": "/əsɑhi/",
+      "gender": "M",
+      "type": "given",
+      "frequency": 0.43
+    },
+    {
+      "name": "Tatsuki",
+      "ipa": "/tatsuki/",
+      "gender": "M",
+      "type": "given",
+      "frequency": 0.67
+    },
+    {
+      "name": "Keita",
+      "ipa": "/keita/",
+      "gender": "M",
+      "type": "given",
+      "frequency": 0.87
+    },
+    {
+      "name": "Tsubasa",
+      "ipa": "/tsubasa/",
+      "gender": "M",
+      "type": "given",
+      "frequency": 0.49
+    },
+    {
+      "name": "Reo",
+      "ipa": "/rioʊ/",
+      "gender": "M",
+      "type": "given",
+      "frequency": 0.58
+    },
+    {
+      "name": "Yuito",
+      "ipa": "/yuito/",
+      "gender": "M",
+      "type": "given",
+      "frequency": 0.56
+    },
+    {
+      "name": "Kosei",
+      "ipa": "/kosei/",
+      "gender": "M",
+      "type": "given",
+      "frequency": 0.58
+    },
+    {
+      "name": "Kanata",
+      "ipa": "/kanata/",
+      "gender": "M",
+      "type": "given",
+      "frequency": 0.7
+    },
+    {
+      "name": "Ryusei",
+      "ipa": "/ryusei/",
+      "gender": "M",
+      "type": "given",
+      "frequency": 0.99
+    },
+    {
+      "name": "Takuya",
+      "ipa": "/takuya/",
+      "gender": "M",
+      "type": "given",
+      "frequency": 0.46
+    },
+    {
+      "name": "Yuta",
+      "ipa": "/yuta/",
+      "gender": "M",
+      "type": "given",
+      "frequency": 0.78
+    },
+    {
+      "name": "Shota",
+      "ipa": "/shota/",
+      "gender": "M",
+      "type": "given",
+      "frequency": 0.89
+    },
+    {
+      "name": "Kazuki",
+      "ipa": "/kazuki/",
+      "gender": "M",
+      "type": "given",
+      "frequency": 0.76
+    },
+    {
+      "name": "Daiki",
+      "ipa": "/daiki/",
+      "gender": "M",
+      "type": "given",
+      "frequency": 0.9
+    },
+    {
+      "name": "Masato",
+      "ipa": "/masato/",
+      "gender": "M",
+      "type": "given",
+      "frequency": 0.83
+    },
+    {
+      "name": "Sho",
+      "ipa": "/sho/",
+      "gender": "M",
+      "type": "given",
+      "frequency": 0.37
+    },
+    {
+      "name": "Takashi",
+      "ipa": "/tɑkɑʃi/",
+      "gender": "M",
+      "type": "given",
+      "frequency": 0.57
+    },
+    {
+      "name": "Yoshiki",
+      "ipa": "/yoshiki/",
+      "gender": "M",
+      "type": "given",
+      "frequency": 0.69
+    },
+    {
+      "name": "Satoshi",
+      "ipa": "/sɑtoʊʃi/",
+      "gender": "M",
+      "type": "given",
+      "frequency": 0.34
+    },
+    {
+      "name": "Hiroshi",
+      "ipa": "/hɪroʊʃi/",
+      "gender": "M",
+      "type": "given",
+      "frequency": 0.31
+    },
+    {
+      "name": "Yui",
+      "ipa": "/yui/",
+      "gender": "F",
+      "type": "given",
+      "frequency": 0.42
+    },
+    {
+      "name": "Rio",
+      "ipa": "/rioʊ/",
+      "gender": "F",
+      "type": "given",
+      "frequency": 0.65
+    },
+    {
+      "name": "Yuna",
+      "ipa": "/yuna/",
+      "gender": "F",
+      "type": "given",
+      "frequency": 0.6
+    },
+    {
+      "name": "Hina",
+      "ipa": "/hina/",
+      "gender": "F",
+      "type": "given",
+      "frequency": 0.85
+    },
+    {
+      "name": "Koharu",
+      "ipa": "/koharu/",
+      "gender": "F",
+      "type": "given",
+      "frequency": 0.7
+    },
+    {
+      "name": "Akari",
+      "ipa": "/akari/",
+      "gender": "F",
+      "type": "given",
+      "frequency": 0.9
+    },
+    {
+      "name": "Saki",
+      "ipa": "/sɑki/",
+      "gender": "F",
+      "type": "given",
+      "frequency": 0.37
+    },
+    {
+      "name": "Mei",
+      "ipa": "/meɪ/",
+      "gender": "F",
+      "type": "given",
+      "frequency": 0.67
+    },
+    {
+      "name": "Mio",
+      "ipa": "/mio/",
+      "gender": "F",
+      "type": "given",
+      "frequency": 0.33
+    },
+    {
+      "name": "Honoka",
+      "ipa": "/honoka/",
+      "gender": "F",
+      "type": "given",
+      "frequency": 0.45
+    },
+    {
+      "name": "Sakura",
+      "ipa": "/sɑkurɑ/",
+      "gender": "F",
+      "type": "given",
+      "frequency": 0.91
+    },
+    {
+      "name": "Ichika",
+      "ipa": "/ichika/",
+      "gender": "F",
+      "type": "given",
+      "frequency": 0.92
+    },
+    {
+      "name": "Aoi",
+      "ipa": "/aʊi/",
+      "gender": "F",
+      "type": "given",
+      "frequency": 0.63
+    },
+    {
+      "name": "Rin",
+      "ipa": "/rin/",
+      "gender": "F",
+      "type": "given",
+      "frequency": 0.33
+    },
+    {
+      "name": "Tsumugi",
+      "ipa": "/tsumugi/",
+      "gender": "F",
+      "type": "given",
+      "frequency": 0.35
+    },
+    {
+      "name": "Sana",
+      "ipa": "/sɑnə/",
+      "gender": "F",
+      "type": "given",
+      "frequency": 0.95
+    },
+    {
+      "name": "Nanami",
+      "ipa": "/nanami/",
+      "gender": "F",
+      "type": "given",
+      "frequency": 0.93
+    },
+    {
+      "name": "Miku",
+      "ipa": "/miku/",
+      "gender": "F",
+      "type": "given",
+      "frequency": 0.69
+    },
+    {
+      "name": "Yuka",
+      "ipa": "/yuka/",
+      "gender": "F",
+      "type": "given",
+      "frequency": 0.32
+    },
+    {
+      "name": "Riko",
+      "ipa": "/riko/",
+      "gender": "F",
+      "type": "given",
+      "frequency": 0.95
+    },
+    {
+      "name": "Kanna",
+      "ipa": "/kanna/",
+      "gender": "F",
+      "type": "given",
+      "frequency": 0.52
+    },
+    {
+      "name": "Miyu",
+      "ipa": "/miyu/",
+      "gender": "F",
+      "type": "given",
+      "frequency": 0.97
+    },
+    {
+      "name": "Kokona",
+      "ipa": "/kokona/",
+      "gender": "F",
+      "type": "given",
+      "frequency": 0.71
+    },
+    {
+      "name": "Haruka",
+      "ipa": "/haruka/",
+      "gender": "F",
+      "type": "given",
+      "frequency": 0.83
+    },
+    {
+      "name": "Yuna",
+      "ipa": "/yuna/",
+      "gender": "F",
+      "type": "given",
+      "frequency": 0.8
+    },
+    {
+      "name": "Ayaka",
+      "ipa": "/ayaka/",
+      "gender": "F",
+      "type": "given",
+      "frequency": 0.58
+    },
+    {
+      "name": "Nana",
+      "ipa": "/nænə/",
+      "gender": "F",
+      "type": "given",
+      "frequency": 0.35
+    },
+    {
+      "name": "Risa",
+      "ipa": "/risə/",
+      "gender": "F",
+      "type": "given",
+      "frequency": 0.41
+    },
+    {
+      "name": "Moeka",
+      "ipa": "/moeka/",
+      "gender": "F",
+      "type": "given",
+      "frequency": 0.47
+    },
+    {
+      "name": "Yume",
+      "ipa": "/yume/",
+      "gender": "F",
+      "type": "given",
+      "frequency": 0.88
+    },
+    {
+      "name": "Mao",
+      "ipa": "/maʊ/",
+      "gender": "F",
+      "type": "given",
+      "frequency": 0.57
+    },
+    {
+      "name": "Kanon",
+      "ipa": "/keɪnən/",
+      "gender": "F",
+      "type": "given",
+      "frequency": 0.93
+    },
+    {
+      "name": "Hiyori",
+      "ipa": "/hiyori/",
+      "gender": "F",
+      "type": "given",
+      "frequency": 0.53
+    },
+    {
+      "name": "Kasumi",
+      "ipa": "/kasumi/",
+      "gender": "F",
+      "type": "given",
+      "frequency": 0.83
+    },
+    {
+      "name": "Rena",
+      "ipa": "/rinə/",
+      "gender": "F",
+      "type": "given",
+      "frequency": 0.4
+    },
+    {
+      "name": "Yuzuki",
+      "ipa": "/yuzuki/",
+      "gender": "F",
+      "type": "given",
+      "frequency": 0.99
+    },
+    {
+      "name": "Hinako",
+      "ipa": "/hinako/",
+      "gender": "F",
+      "type": "given",
+      "frequency": 0.81
+    },
+    {
+      "name": "Nozomi",
+      "ipa": "/nozomi/",
+      "gender": "F",
+      "type": "given",
+      "frequency": 0.65
+    },
+    {
+      "name": "Yurika",
+      "ipa": "/yurika/",
+      "gender": "F",
+      "type": "given",
+      "frequency": 0.98
+    },
+    {
+      "name": "Misa",
+      "ipa": "/mizə/",
+      "gender": "F",
+      "type": "given",
+      "frequency": 0.34
+    }
+  ],
+  "family_names": [
+    {
+      "name": "Sato",
+      "ipa": "/sɑtoʊ/",
+      "gender": "N",
+      "type": "family",
+      "frequency": 0.61
+    },
+    {
+      "name": "Suzuki",
+      "ipa": "/səzuki/",
+      "gender": "N",
+      "type": "family",
+      "frequency": 0.89
+    },
+    {
+      "name": "Takahashi",
+      "ipa": "/tɑkɑhɑʃi/",
+      "gender": "N",
+      "type": "family",
+      "frequency": 0.54
+    },
+    {
+      "name": "Tanaka",
+      "ipa": "/tɑnɑkə/",
+      "gender": "N",
+      "type": "family",
+      "frequency": 0.84
+    },
+    {
+      "name": "Watanabe",
+      "ipa": "/wɑtɑnɑbeɪ/",
+      "gender": "N",
+      "type": "family",
+      "frequency": 0.97
+    },
+    {
+      "name": "Ito",
+      "ipa": "/itoʊ/",
+      "gender": "N",
+      "type": "family",
+      "frequency": 0.58
+    },
+    {
+      "name": "Yamamoto",
+      "ipa": "/jɑmɑmoʊtoʊ/",
+      "gender": "N",
+      "type": "family",
+      "frequency": 0.84
+    },
+    {
+      "name": "Nakamura",
+      "ipa": "/nɑkɑmʊrə/",
+      "gender": "N",
+      "type": "family",
+      "frequency": 0.32
+    },
+    {
+      "name": "Kobayashi",
+      "ipa": "/koʊbɑjɑʃi/",
+      "gender": "N",
+      "type": "family",
+      "frequency": 0.49
+    },
+    {
+      "name": "Yoshida",
+      "ipa": "/joʊʃidə/",
+      "gender": "N",
+      "type": "family",
+      "frequency": 0.99
+    },
+    {
+      "name": "Yamada",
+      "ipa": "/jəmɑdə/",
+      "gender": "N",
+      "type": "family",
+      "frequency": 0.64
+    },
+    {
+      "name": "Sasaki",
+      "ipa": "/sɑsɑki/",
+      "gender": "N",
+      "type": "family",
+      "frequency": 0.55
+    },
+    {
+      "name": "Yamaguchi",
+      "ipa": "/jɑmɑɡutʃi/",
+      "gender": "N",
+      "type": "family",
+      "frequency": 0.96
+    },
+    {
+      "name": "Matsumoto",
+      "ipa": "/mɑtsumoʊtoʊ/",
+      "gender": "N",
+      "type": "family",
+      "frequency": 0.6
+    },
+    {
+      "name": "Inoue",
+      "ipa": "/ɪnoʊeɪ/",
+      "gender": "N",
+      "type": "family",
+      "frequency": 0.78
+    },
+    {
+      "name": "Kimura",
+      "ipa": "/kimʊrə/",
+      "gender": "N",
+      "type": "family",
+      "frequency": 0.76
+    },
+    {
+      "name": "Hayashi",
+      "ipa": "/hɑjɑʃi/",
+      "gender": "N",
+      "type": "family",
+      "frequency": 0.36
+    },
+    {
+      "name": "Shimizu",
+      "ipa": "/ʃɪmizu/",
+      "gender": "N",
+      "type": "family",
+      "frequency": 0.73
+    },
+    {
+      "name": "Yamazaki",
+      "ipa": "/jɑmɑzɑki/",
+      "gender": "N",
+      "type": "family",
+      "frequency": 0.86
+    },
+    {
+      "name": "Ikeda",
+      "ipa": "/ɪkeɪdə/",
+      "gender": "N",
+      "type": "family",
+      "frequency": 0.8
+    },
+    {
+      "name": "Abe",
+      "ipa": "/eɪb/",
+      "gender": "N",
+      "type": "family",
+      "frequency": 0.36
+    },
+    {
+      "name": "Hashimoto",
+      "ipa": "/hɑʃimoʊtoʊ/",
+      "gender": "N",
+      "type": "family",
+      "frequency": 0.41
+    },
+    {
+      "name": "Yamashita",
+      "ipa": "/jɑmɑʃitə/",
+      "gender": "N",
+      "type": "family",
+      "frequency": 0.8
+    },
+    {
+      "name": "Ishikawa",
+      "ipa": "/ɪʃikɑwɑ/",
+      "gender": "N",
+      "type": "family",
+      "frequency": 0.74
+    },
+    {
+      "name": "Nakajima",
+      "ipa": "/nɑkɑdʒimə/",
+      "gender": "N",
+      "type": "family",
+      "frequency": 0.82
+    },
+    {
+      "name": "Maeda",
+      "ipa": "/meɪidə/",
+      "gender": "N",
+      "type": "family",
+      "frequency": 0.52
+    },
+    {
+      "name": "Fujita",
+      "ipa": "/fudʒitə/",
+      "gender": "N",
+      "type": "family",
+      "frequency": 0.37
+    },
+    {
+      "name": "Ogawa",
+      "ipa": "/oʊɡɑwɑ/",
+      "gender": "N",
+      "type": "family",
+      "frequency": 0.3
+    },
+    {
+      "name": "Goto",
+      "ipa": "/ɡoʊtu/",
+      "gender": "N",
+      "type": "family",
+      "frequency": 0.52
+    },
+    {
+      "name": "Hasegawa",
+      "ipa": "/hɑseɪɡɑwə/",
+      "gender": "N",
+      "type": "family",
+      "frequency": 0.55
+    },
+    {
+      "name": "Murakami",
+      "ipa": "/mʊrɑkɑmi/",
+      "gender": "N",
+      "type": "family",
+      "frequency": 0.49
+    },
+    {
+      "name": "Kondo",
+      "ipa": "/kɑndoʊ/",
+      "gender": "N",
+      "type": "family",
+      "frequency": 0.39
+    },
+    {
+      "name": "Ishii",
+      "ipa": "/ɪʃii/",
+      "gender": "N",
+      "type": "family",
+      "frequency": 0.43
+    },
+    {
+      "name": "Saito",
+      "ipa": "/seɪtoʊ/",
+      "gender": "N",
+      "type": "family",
+      "frequency": 0.61
+    },
+    {
+      "name": "Sakamoto",
+      "ipa": "/sɑkɑmoʊtoʊ/",
+      "gender": "N",
+      "type": "family",
+      "frequency": 0.69
+    },
+    {
+      "name": "Endo",
+      "ipa": "/ɛndoʊ/",
+      "gender": "N",
+      "type": "family",
+      "frequency": 0.59
+    },
+    {
+      "name": "Aoki",
+      "ipa": "/eɪoʊki/",
+      "gender": "N",
+      "type": "family",
+      "frequency": 0.32
+    },
+    {
+      "name": "Fujii",
+      "ipa": "/fudʒii/",
+      "gender": "N",
+      "type": "family",
+      "frequency": 0.55
+    },
+    {
+      "name": "Nishimura",
+      "ipa": "/niʃimʊrə/",
+      "gender": "N",
+      "type": "family",
+      "frequency": 0.37
+    },
+    {
+      "name": "Fukuda",
+      "ipa": "/fukudə/",
+      "gender": "N",
+      "type": "family",
+      "frequency": 0.72
+    }
+  ],
+  "place_words": [
+    {
+      "word": "yama",
+      "ipa": "/yama/",
+      "category": "terrain",
+      "frequency": 0.66,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "sawa",
+      "ipa": "/sɔwə/",
+      "category": "terrain",
+      "frequency": 0.69,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "hara",
+      "ipa": "/hɛrə/",
+      "category": "terrain",
+      "frequency": 0.65,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "no",
+      "ipa": "/noʊ/",
+      "category": "terrain",
+      "frequency": 0.69,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "gawa",
+      "ipa": "/gawa/",
+      "category": "terrain",
+      "frequency": 0.54,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "mura",
+      "ipa": "/mʊrə/",
+      "category": "terrain",
+      "frequency": 0.95,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "machi",
+      "ipa": "/mɑki/",
+      "category": "terrain",
+      "frequency": 0.95,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "to",
+      "ipa": "/tu/",
+      "category": "terrain",
+      "frequency": 0.99,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "shima",
+      "ipa": "/ʃimə/",
+      "category": "terrain",
+      "frequency": 0.79,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "zaki",
+      "ipa": "/zɑki/",
+      "category": "terrain",
+      "frequency": 0.58,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "saki",
+      "ipa": "/sɑki/",
+      "category": "terrain",
+      "frequency": 0.69,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "hama",
+      "ipa": "/hɑmə/",
+      "category": "terrain",
+      "frequency": 0.57,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "ura",
+      "ipa": "/ura/",
+      "category": "terrain",
+      "frequency": 0.65,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "ko",
+      "ipa": "/koʊ/",
+      "category": "terrain",
+      "frequency": 0.75,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "ike",
+      "ipa": "/aɪk/",
+      "category": "terrain",
+      "frequency": 0.53,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "numa",
+      "ipa": "/numa/",
+      "category": "terrain",
+      "frequency": 0.72,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "tani",
+      "ipa": "/tɑni/",
+      "category": "terrain",
+      "frequency": 0.71,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "oka",
+      "ipa": "/oʊkə/",
+      "category": "terrain",
+      "frequency": 0.74,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "take",
+      "ipa": "/teɪk/",
+      "category": "terrain",
+      "frequency": 0.54,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "mine",
+      "ipa": "/maɪn/",
+      "category": "terrain",
+      "frequency": 0.63,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "kita",
+      "ipa": "/kitə/",
+      "category": "direction",
+      "frequency": 0.62,
+      "can_prefix": true,
+      "can_suffix": false
+    },
+    {
+      "word": "minami",
+      "ipa": "/minɑmi/",
+      "category": "direction",
+      "frequency": 0.81,
+      "can_prefix": true,
+      "can_suffix": false
+    },
+    {
+      "word": "higashi",
+      "ipa": "/hiɡɑʃi/",
+      "category": "direction",
+      "frequency": 0.8,
+      "can_prefix": true,
+      "can_suffix": false
+    },
+    {
+      "word": "nishi",
+      "ipa": "/niʃi/",
+      "category": "direction",
+      "frequency": 0.6,
+      "can_prefix": true,
+      "can_suffix": false
+    },
+    {
+      "word": "naka",
+      "ipa": "/naka/",
+      "category": "direction",
+      "frequency": 0.55,
+      "can_prefix": true,
+      "can_suffix": false
+    },
+    {
+      "word": "ue",
+      "ipa": "/ue/",
+      "category": "direction",
+      "frequency": 0.65,
+      "can_prefix": true,
+      "can_suffix": false
+    },
+    {
+      "word": "shita",
+      "ipa": "/shita/",
+      "category": "direction",
+      "frequency": 0.97,
+      "can_prefix": true,
+      "can_suffix": false
+    },
+    {
+      "word": "omote",
+      "ipa": "/omote/",
+      "category": "direction",
+      "frequency": 0.67,
+      "can_prefix": true,
+      "can_suffix": false
+    },
+    {
+      "word": "ura",
+      "ipa": "/ura/",
+      "category": "direction",
+      "frequency": 0.81,
+      "can_prefix": true,
+      "can_suffix": false
+    },
+    {
+      "word": "shin",
+      "ipa": "/ʃɪn/",
+      "category": "direction",
+      "frequency": 0.9,
+      "can_prefix": true,
+      "can_suffix": false
+    },
+    {
+      "word": "shiro",
+      "ipa": "/shiro/",
+      "category": "quality",
+      "frequency": 0.66,
+      "can_prefix": true,
+      "can_suffix": false
+    },
+    {
+      "word": "kuro",
+      "ipa": "/kuro/",
+      "category": "quality",
+      "frequency": 0.67,
+      "can_prefix": true,
+      "can_suffix": false
+    },
+    {
+      "word": "aka",
+      "ipa": "/ɑkə/",
+      "category": "quality",
+      "frequency": 0.91,
+      "can_prefix": true,
+      "can_suffix": false
+    },
+    {
+      "word": "ao",
+      "ipa": "/ao/",
+      "category": "quality",
+      "frequency": 0.93,
+      "can_prefix": true,
+      "can_suffix": false
+    },
+    {
+      "word": "oo",
+      "ipa": "/oo/",
+      "category": "quality",
+      "frequency": 0.99,
+      "can_prefix": true,
+      "can_suffix": false
+    },
+    {
+      "word": "koa",
+      "ipa": "/koa/",
+      "category": "quality",
+      "frequency": 0.57,
+      "can_prefix": true,
+      "can_suffix": false
+    },
+    {
+      "word": "furu",
+      "ipa": "/furu/",
+      "category": "quality",
+      "frequency": 0.66,
+      "can_prefix": true,
+      "can_suffix": false
+    },
+    {
+      "word": "shin",
+      "ipa": "/ʃɪn/",
+      "category": "quality",
+      "frequency": 0.97,
+      "can_prefix": true,
+      "can_suffix": false
+    },
+    {
+      "word": "haru",
+      "ipa": "/haru/",
+      "category": "quality",
+      "frequency": 0.6,
+      "can_prefix": true,
+      "can_suffix": false
+    },
+    {
+      "word": "natsu",
+      "ipa": "/natsu/",
+      "category": "quality",
+      "frequency": 0.66,
+      "can_prefix": true,
+      "can_suffix": false
+    },
+    {
+      "word": "sakura",
+      "ipa": "/sɑkurɑ/",
+      "category": "flora",
+      "frequency": 0.98,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "matsu",
+      "ipa": "/matsu/",
+      "category": "flora",
+      "frequency": 0.98,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "take",
+      "ipa": "/teɪk/",
+      "category": "flora",
+      "frequency": 0.65,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "kaede",
+      "ipa": "/kaede/",
+      "category": "flora",
+      "frequency": 0.85,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "kiri",
+      "ipa": "/kɪri/",
+      "category": "flora",
+      "frequency": 0.75,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "ume",
+      "ipa": "/ume/",
+      "category": "flora",
+      "frequency": 0.79,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "momo",
+      "ipa": "/momo/",
+      "category": "flora",
+      "frequency": 0.62,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "yanagi",
+      "ipa": "/yanagi/",
+      "category": "flora",
+      "frequency": 0.69,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "kiku",
+      "ipa": "/kiku/",
+      "category": "flora",
+      "frequency": 0.91,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "take",
+      "ipa": "/teɪk/",
+      "category": "flora",
+      "frequency": 0.7,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "taka",
+      "ipa": "/taka/",
+      "category": "fauna",
+      "frequency": 0.56,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "washi",
+      "ipa": "/washi/",
+      "category": "fauna",
+      "frequency": 0.78,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "tsuru",
+      "ipa": "/tsuru/",
+      "category": "fauna",
+      "frequency": 0.8,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "koi",
+      "ipa": "/koi/",
+      "category": "fauna",
+      "frequency": 0.77,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "sakana",
+      "ipa": "/sakana/",
+      "category": "fauna",
+      "frequency": 0.84,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "tori",
+      "ipa": "/tɔri/",
+      "category": "fauna",
+      "frequency": 0.78,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "inu",
+      "ipa": "/inu/",
+      "category": "fauna",
+      "frequency": 0.98,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "shika",
+      "ipa": "/shika/",
+      "category": "fauna",
+      "frequency": 0.73,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "kuma",
+      "ipa": "/kuma/",
+      "category": "fauna",
+      "frequency": 0.85,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "kitsune",
+      "ipa": "/kitsune/",
+      "category": "fauna",
+      "frequency": 0.72,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "jo",
+      "ipa": "/dʒoʊ/",
+      "category": "structure",
+      "frequency": 0.65,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "shi",
+      "ipa": "/ʃi/",
+      "category": "structure",
+      "frequency": 0.85,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "cho",
+      "ipa": "/tʃoʊ/",
+      "category": "structure",
+      "frequency": 0.91,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "ku",
+      "ipa": "/ku/",
+      "category": "structure",
+      "frequency": 0.9,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "gun",
+      "ipa": "/ɡʌn/",
+      "category": "structure",
+      "frequency": 0.7,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "ken",
+      "ipa": "/kɛn/",
+      "category": "structure",
+      "frequency": 0.75,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "to",
+      "ipa": "/tu/",
+      "category": "structure",
+      "frequency": 0.82,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "fu",
+      "ipa": "/fu/",
+      "category": "structure",
+      "frequency": 0.62,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "do",
+      "ipa": "/du/",
+      "category": "structure",
+      "frequency": 0.83,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "in",
+      "ipa": "/ɪn/",
+      "category": "structure",
+      "frequency": 0.86,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "ji",
+      "ipa": "/dʒi/",
+      "category": "structure",
+      "frequency": 0.89,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "sha",
+      "ipa": "/ʃɑ/",
+      "category": "structure",
+      "frequency": 0.54,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "kan",
+      "ipa": "/kæn/",
+      "category": "structure",
+      "frequency": 1.0,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "kami",
+      "ipa": "/kami/",
+      "category": "sacred",
+      "frequency": 0.74,
+      "can_prefix": true,
+      "can_suffix": false
+    },
+    {
+      "word": "rei",
+      "ipa": "/rei/",
+      "category": "sacred",
+      "frequency": 0.7,
+      "can_prefix": true,
+      "can_suffix": false
+    },
+    {
+      "word": "sei",
+      "ipa": "/sei/",
+      "category": "sacred",
+      "frequency": 0.75,
+      "can_prefix": true,
+      "can_suffix": false
+    },
+    {
+      "word": "shin",
+      "ipa": "/ʃɪn/",
+      "category": "sacred",
+      "frequency": 0.96,
+      "can_prefix": true,
+      "can_suffix": false
+    },
+    {
+      "word": "myo",
+      "ipa": "/myo/",
+      "category": "sacred",
+      "frequency": 0.85,
+      "can_prefix": true,
+      "can_suffix": false
+    },
+    {
+      "word": "butsu",
+      "ipa": "/butsu/",
+      "category": "sacred",
+      "frequency": 0.77,
+      "can_prefix": true,
+      "can_suffix": false
+    },
+    {
+      "word": "zen",
+      "ipa": "/zɛn/",
+      "category": "sacred",
+      "frequency": 0.9,
+      "can_prefix": true,
+      "can_suffix": false
+    },
+    {
+      "word": "rin",
+      "ipa": "/rin/",
+      "category": "sacred",
+      "frequency": 0.68,
+      "can_prefix": true,
+      "can_suffix": false
+    },
+    {
+      "word": "heiwa",
+      "ipa": "/haɪwə/",
+      "category": "event",
+      "frequency": 0.95,
+      "can_prefix": true,
+      "can_suffix": false
+    },
+    {
+      "word": "shori",
+      "ipa": "/shori/",
+      "category": "event",
+      "frequency": 0.77,
+      "can_prefix": true,
+      "can_suffix": false
+    },
+    {
+      "word": "kessen",
+      "ipa": "/kɛsən/",
+      "category": "event",
+      "frequency": 0.82,
+      "can_prefix": true,
+      "can_suffix": false
+    },
+    {
+      "word": "kakumei",
+      "ipa": "/kakumei/",
+      "category": "event",
+      "frequency": 0.54,
+      "can_prefix": true,
+      "can_suffix": false
+    },
+    {
+      "word": "saigai",
+      "ipa": "/saigai/",
+      "category": "event",
+      "frequency": 0.88,
+      "can_prefix": true,
+      "can_suffix": false
+    },
+    {
+      "word": "fuji",
+      "ipa": "/fudʒi/",
+      "category": "proper_root",
+      "frequency": 0.83,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "toyo",
+      "ipa": "/toʊjoʊ/",
+      "category": "proper_root",
+      "frequency": 0.68,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "hima",
+      "ipa": "/hima/",
+      "category": "proper_root",
+      "frequency": 0.82,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "hoku",
+      "ipa": "/hoku/",
+      "category": "proper_root",
+      "frequency": 0.52,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "tohoku",
+      "ipa": "/tohoku/",
+      "category": "proper_root",
+      "frequency": 0.99,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "kanto",
+      "ipa": "/kanto/",
+      "category": "proper_root",
+      "frequency": 0.84,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "kansai",
+      "ipa": "/kænsaɪ/",
+      "category": "proper_root",
+      "frequency": 0.7,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "chubu",
+      "ipa": "/tʃubu/",
+      "category": "proper_root",
+      "frequency": 0.88,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "kyushu",
+      "ipa": "/kjʌʃu/",
+      "category": "proper_root",
+      "frequency": 0.98,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "shikoku",
+      "ipa": "/shikoku/",
+      "category": "proper_root",
+      "frequency": 0.72,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "nakamura",
+      "ipa": "/nɑkɑmʊrə/",
+      "category": "terrain",
+      "frequency": 0.1,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "shinden",
+      "ipa": "/shinden/",
+      "category": "terrain",
+      "frequency": 0.2,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "yamaguchi",
+      "ipa": "/jɑmɑɡutʃi/",
+      "category": "terrain",
+      "frequency": 0.3,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "baba",
+      "ipa": "/bʌbə/",
+      "category": "proper_root",
+      "frequency": 0.31,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "shinmachi",
+      "ipa": "/shinmachi/",
+      "category": "terrain",
+      "frequency": 0.33,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "yamada",
+      "ipa": "/jəmɑdə/",
+      "category": "proper_root",
+      "frequency": 0.33,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "chuo",
+      "ipa": "/chuo/",
+      "category": "proper_root",
+      "frequency": 0.28,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "tanaka",
+      "ipa": "/tɑnɑkə/",
+      "category": "proper_root",
+      "frequency": 0.26,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "ono",
+      "ipa": "/oʊnoʊ/",
+      "category": "terrain",
+      "frequency": 0.41,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "okubo",
+      "ipa": "/oʊkuboʊ/",
+      "category": "proper_root",
+      "frequency": 0.34,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "hongo",
+      "ipa": "/hongo/",
+      "category": "proper_root",
+      "frequency": 0.3,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "nakano",
+      "ipa": "/nɑkɑnoʊ/",
+      "category": "terrain",
+      "frequency": 0.24,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "honcho",
+      "ipa": "/hɔntʃoʊ/",
+      "category": "proper_root",
+      "frequency": 0.11,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "ben",
+      "ipa": "/bɛn/",
+      "category": "proper_root",
+      "frequency": 0.14,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "ding",
+      "ipa": "/dɪŋ/",
+      "category": "proper_root",
+      "frequency": 0.27,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "nakajima",
+      "ipa": "/nɑkɑdʒimə/",
+      "category": "terrain",
+      "frequency": 0.48,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "honmura",
+      "ipa": "/honmura/",
+      "category": "terrain",
+      "frequency": 0.15,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "asahi",
+      "ipa": "/əsɑhi/",
+      "category": "proper_root",
+      "frequency": 0.48,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "kubo",
+      "ipa": "/kjuboʊ/",
+      "category": "proper_root",
+      "frequency": 0.16,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "ota",
+      "ipa": "/oʊtə/",
+      "category": "proper_root",
+      "frequency": 0.22,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "zhong",
+      "ipa": "/zhong/",
+      "category": "proper_root",
+      "frequency": 0.28,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "cun",
+      "ipa": "/cun/",
+      "category": "proper_root",
+      "frequency": 0.18,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "midorigaoka",
+      "ipa": "/midorigaoka/",
+      "category": "terrain",
+      "frequency": 0.29,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "wada",
+      "ipa": "/wɑdə/",
+      "category": "proper_root",
+      "frequency": 0.29,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "matsubara",
+      "ipa": "/mɑtsubɑrə/",
+      "category": "terrain",
+      "frequency": 0.28,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "hirano",
+      "ipa": "/hɪrɑnoʊ/",
+      "category": "terrain",
+      "frequency": 0.38,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "xin",
+      "ipa": "/xin/",
+      "category": "proper_root",
+      "frequency": 0.23,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "tian",
+      "ipa": "/tjɑn/",
+      "category": "proper_root",
+      "frequency": 0.22,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "yuan",
+      "ipa": "/juɑn/",
+      "category": "proper_root",
+      "frequency": 0.42,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "nakao",
+      "ipa": "/nɑkɑoʊ/",
+      "category": "proper_root",
+      "frequency": 0.15,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "shimizu",
+      "ipa": "/ʃɪmizu/",
+      "category": "terrain",
+      "frequency": 0.44,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "osawa",
+      "ipa": "/osawa/",
+      "category": "proper_root",
+      "frequency": 0.36,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "yang",
+      "ipa": "/jæŋ/",
+      "category": "proper_root",
+      "frequency": 0.37,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "shuku",
+      "ipa": "/shuku/",
+      "category": "proper_root",
+      "frequency": 0.17,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "koga",
+      "ipa": "/koʊɡə/",
+      "category": "proper_root",
+      "frequency": 0.49,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "nakayama",
+      "ipa": "/nɑkɑjɑmə/",
+      "category": "terrain",
+      "frequency": 0.2,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "shan",
+      "ipa": "/ʃæn/",
+      "category": "proper_root",
+      "frequency": 0.17,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "nagano",
+      "ipa": "/nɑɡɑnoʊ/",
+      "category": "terrain",
+      "frequency": 0.16,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "dao",
+      "ipa": "/daʊ/",
+      "category": "proper_root",
+      "frequency": 0.32,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "ikeda",
+      "ipa": "/ɪkeɪdə/",
+      "category": "proper_root",
+      "frequency": 0.48,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "ueno",
+      "ipa": "/wɛnoʊ/",
+      "category": "terrain",
+      "frequency": 0.19,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "chang",
+      "ipa": "/tʃæŋ/",
+      "category": "proper_root",
+      "frequency": 0.26,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "hata",
+      "ipa": "/hɑtə/",
+      "category": "proper_root",
+      "frequency": 0.17,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "maruyama",
+      "ipa": "/mɑrujɑmə/",
+      "category": "terrain",
+      "frequency": 0.36,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "yamazaki",
+      "ipa": "/jɑmɑzɑki/",
+      "category": "terrain",
+      "frequency": 0.27,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "kou",
+      "ipa": "/kou/",
+      "category": "proper_root",
+      "frequency": 0.11,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "sakaemachi",
+      "ipa": "/sakaemachi/",
+      "category": "terrain",
+      "frequency": 0.35,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "nakazato",
+      "ipa": "/nakazato/",
+      "category": "terrain",
+      "frequency": 0.18,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "hirayama",
+      "ipa": "/hɪrɑjɑmə/",
+      "category": "terrain",
+      "frequency": 0.34,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "saiwaicho",
+      "ipa": "/saiwaicho/",
+      "category": "terrain",
+      "frequency": 0.26,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "tashiro",
+      "ipa": "/tɑʃɪroʊ/",
+      "category": "terrain",
+      "frequency": 0.38,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "sakamoto",
+      "ipa": "/sɑkɑmoʊtoʊ/",
+      "category": "terrain",
+      "frequency": 0.18,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "osaki",
+      "ipa": "/oʊsɑki/",
+      "category": "proper_root",
+      "frequency": 0.4,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "minato",
+      "ipa": "/minato/",
+      "category": "proper_root",
+      "frequency": 0.42,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "nakamachi",
+      "ipa": "/nakamachi/",
+      "category": "terrain",
+      "frequency": 0.13,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "maeda",
+      "ipa": "/meɪidə/",
+      "category": "proper_root",
+      "frequency": 0.14,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "honmachi",
+      "ipa": "/honmachi/",
+      "category": "terrain",
+      "frequency": 0.45,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "akasaka",
+      "ipa": "/akasaka/",
+      "category": "terrain",
+      "frequency": 0.17,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "ohira",
+      "ipa": "/ohira/",
+      "category": "proper_root",
+      "frequency": 0.23,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "motomachi",
+      "ipa": "/motomachi/",
+      "category": "terrain",
+      "frequency": 0.28,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "sakai",
+      "ipa": "/sɑkɑi/",
+      "category": "proper_root",
+      "frequency": 0.2,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "otani",
+      "ipa": "/oʊtɑni/",
+      "category": "proper_root",
+      "frequency": 0.45,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "izumi",
+      "ipa": "/ɪzumi/",
+      "category": "proper_root",
+      "frequency": 0.31,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "yoshida",
+      "ipa": "/joʊʃidə/",
+      "category": "terrain",
+      "frequency": 0.36,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "takada",
+      "ipa": "/takada/",
+      "category": "proper_root",
+      "frequency": 0.34,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "yamashita",
+      "ipa": "/jɑmɑʃitə/",
+      "category": "terrain",
+      "frequency": 0.34,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "ohara",
+      "ipa": "/oʊhɛrə/",
+      "category": "terrain",
+      "frequency": 0.33,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "futamata",
+      "ipa": "/futamata/",
+      "category": "terrain",
+      "frequency": 0.24,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "oshima",
+      "ipa": "/oʊʃimə/",
+      "category": "proper_root",
+      "frequency": 0.44,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "okawa",
+      "ipa": "/okawa/",
+      "category": "proper_root",
+      "frequency": 0.35,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "minatomachi",
+      "ipa": "/minatomachi/",
+      "category": "terrain",
+      "frequency": 0.43,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "asahicho",
+      "ipa": "/asahicho/",
+      "category": "terrain",
+      "frequency": 0.38,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "sakaecho",
+      "ipa": "/sakaecho/",
+      "category": "terrain",
+      "frequency": 0.22,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "kawaguchi",
+      "ipa": "/kɑwɑɡutʃi/",
+      "category": "terrain",
+      "frequency": 0.35,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "asahimachi",
+      "ipa": "/asahimachi/",
+      "category": "terrain",
+      "frequency": 0.13,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "ochiai",
+      "ipa": "/ochiai/",
+      "category": "proper_root",
+      "frequency": 0.15,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "nishihara",
+      "ipa": "/nishihara/",
+      "category": "terrain",
+      "frequency": 0.15,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "matsuyama",
+      "ipa": "/matsuyama/",
+      "category": "terrain",
+      "frequency": 0.22,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "rong",
+      "ipa": "/rɔŋ/",
+      "category": "proper_root",
+      "frequency": 0.17,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "gao",
+      "ipa": "/gao/",
+      "category": "proper_root",
+      "frequency": 0.38,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "tsuji",
+      "ipa": "/tsudʒi/",
+      "category": "proper_root",
+      "frequency": 0.3,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "taira",
+      "ipa": "/tɑɪrə/",
+      "category": "proper_root",
+      "frequency": 0.27,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "sumiyoshi",
+      "ipa": "/sumiyoshi/",
+      "category": "terrain",
+      "frequency": 0.16,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "seto",
+      "ipa": "/sɛtoʊ/",
+      "category": "proper_root",
+      "frequency": 0.25,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "omachi",
+      "ipa": "/omachi/",
+      "category": "proper_root",
+      "frequency": 0.17,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "fukuda",
+      "ipa": "/fukudə/",
+      "category": "proper_root",
+      "frequency": 0.35,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "midoricho",
+      "ipa": "/midoricho/",
+      "category": "terrain",
+      "frequency": 0.38,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "shioya",
+      "ipa": "/shioya/",
+      "category": "proper_root",
+      "frequency": 0.36,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "oyama",
+      "ipa": "/oʊjɑmə/",
+      "category": "terrain",
+      "frequency": 0.5,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "yoshino",
+      "ipa": "/joʊʃinoʊ/",
+      "category": "terrain",
+      "frequency": 0.32,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "sano",
+      "ipa": "/sɑnoʊ/",
+      "category": "terrain",
+      "frequency": 0.3,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "kawasaki",
+      "ipa": "/kɑwɑsɑki/",
+      "category": "terrain",
+      "frequency": 0.16,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "ping",
+      "ipa": "/pɪŋ/",
+      "category": "proper_root",
+      "frequency": 0.23,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "ichiba",
+      "ipa": "/ichiba/",
+      "category": "proper_root",
+      "frequency": 0.28,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "matsuo",
+      "ipa": "/mɑtsuoʊ/",
+      "category": "proper_root",
+      "frequency": 0.12,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "qian",
+      "ipa": "/kiɑn/",
+      "category": "proper_root",
+      "frequency": 0.24,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "jiu",
+      "ipa": "/jiu/",
+      "category": "proper_root",
+      "frequency": 0.1,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "bao",
+      "ipa": "/baʊ/",
+      "category": "proper_root",
+      "frequency": 0.15,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "koya",
+      "ipa": "/koya/",
+      "category": "proper_root",
+      "frequency": 0.43,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "noda",
+      "ipa": "/noʊdə/",
+      "category": "proper_root",
+      "frequency": 0.49,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "hamada",
+      "ipa": "/hɑmɑdə/",
+      "category": "proper_root",
+      "frequency": 0.3,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "araya",
+      "ipa": "/ɚaɪə/",
+      "category": "proper_root",
+      "frequency": 0.3,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "song",
+      "ipa": "/sɔŋ/",
+      "category": "proper_root",
+      "frequency": 0.37,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "higashimachi",
+      "ipa": "/higashimachi/",
+      "category": "direction",
+      "frequency": 0.27,
+      "can_prefix": true,
+      "can_suffix": false
+    },
+    {
+      "word": "bessho",
+      "ipa": "/bessho/",
+      "category": "proper_root",
+      "frequency": 0.44,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "sakuragaoka",
+      "ipa": "/sakuragaoka/",
+      "category": "terrain",
+      "frequency": 0.3,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "nakahara",
+      "ipa": "/nɑkɑhɑrə/",
+      "category": "terrain",
+      "frequency": 0.13,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "qing",
+      "ipa": "/kɪŋ/",
+      "category": "proper_root",
+      "frequency": 0.11,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "shui",
+      "ipa": "/ʃui/",
+      "category": "proper_root",
+      "frequency": 0.4,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "nishiyama",
+      "ipa": "/niʃijɑmə/",
+      "category": "terrain",
+      "frequency": 0.22,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "nishimachi",
+      "ipa": "/nishimachi/",
+      "category": "direction",
+      "frequency": 0.21,
+      "can_prefix": true,
+      "can_suffix": false
+    },
+    {
+      "word": "wei",
+      "ipa": "/weɪ/",
+      "category": "proper_root",
+      "frequency": 0.32,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "kasuga",
+      "ipa": "/kasuga/",
+      "category": "proper_root",
+      "frequency": 0.17,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "chi",
+      "ipa": "/kaɪ/",
+      "category": "proper_root",
+      "frequency": 0.28,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "horinouchi",
+      "ipa": "/horinouchi/",
+      "category": "terrain",
+      "frequency": 0.4,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "xiang",
+      "ipa": "/ʃiɑŋ/",
+      "category": "proper_root",
+      "frequency": 0.41,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "hirose",
+      "ipa": "/hɪroʊseɪ/",
+      "category": "proper_root",
+      "frequency": 0.32,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "dong",
+      "ipa": "/dɔŋ/",
+      "category": "proper_root",
+      "frequency": 0.15,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "takano",
+      "ipa": "/takano/",
+      "category": "terrain",
+      "frequency": 0.15,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "sawada",
+      "ipa": "/sawada/",
+      "category": "proper_root",
+      "frequency": 0.41,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "oura",
+      "ipa": "/oura/",
+      "category": "proper_root",
+      "frequency": 0.43,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "nagasaki",
+      "ipa": "/nɑɡɑsɑki/",
+      "category": "terrain",
+      "frequency": 0.25,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "nakacho",
+      "ipa": "/nakacho/",
+      "category": "terrain",
+      "frequency": 0.43,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "nan",
+      "ipa": "/næn/",
+      "category": "proper_root",
+      "frequency": 0.12,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "sakashita",
+      "ipa": "/sakashita/",
+      "category": "terrain",
+      "frequency": 0.39,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "omori",
+      "ipa": "/oʊmɔri/",
+      "category": "proper_root",
+      "frequency": 0.32,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "nagatani",
+      "ipa": "/nagatani/",
+      "category": "terrain",
+      "frequency": 0.5,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "kawanishi",
+      "ipa": "/kawanishi/",
+      "category": "terrain",
+      "frequency": 0.14,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "kamo",
+      "ipa": "/kamo/",
+      "category": "proper_root",
+      "frequency": 0.43,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "izumicho",
+      "ipa": "/izumicho/",
+      "category": "terrain",
+      "frequency": 0.4,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "harada",
+      "ipa": "/hɑrɑdə/",
+      "category": "proper_root",
+      "frequency": 0.22,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "suwa",
+      "ipa": "/suwa/",
+      "category": "proper_root",
+      "frequency": 0.5,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "gong",
+      "ipa": "/ɡɔŋ/",
+      "category": "proper_root",
+      "frequency": 0.28,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "minamicho",
+      "ipa": "/minamicho/",
+      "category": "direction",
+      "frequency": 0.24,
+      "can_prefix": true,
+      "can_suffix": false
+    },
+    {
+      "word": "higashiyama",
+      "ipa": "/higashiyama/",
+      "category": "terrain",
+      "frequency": 0.43,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "minamimachi",
+      "ipa": "/minamimachi/",
+      "category": "direction",
+      "frequency": 0.28,
+      "can_prefix": true,
+      "can_suffix": false
+    },
+    {
+      "word": "tomioka",
+      "ipa": "/tomioka/",
+      "category": "terrain",
+      "frequency": 0.5,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "hirata",
+      "ipa": "/hɪrɑtə/",
+      "category": "proper_root",
+      "frequency": 0.41,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "mori",
+      "ipa": "/mɔri/",
+      "category": "proper_root",
+      "frequency": 0.19,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "hachimancho",
+      "ipa": "/hachimancho/",
+      "category": "terrain",
+      "frequency": 0.42,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "shang",
+      "ipa": "/shang/",
+      "category": "proper_root",
+      "frequency": 0.34,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "kamimachi",
+      "ipa": "/kamimachi/",
+      "category": "terrain",
+      "frequency": 0.24,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "xiao",
+      "ipa": "/ʒaʊ/",
+      "category": "proper_root",
+      "frequency": 0.38,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "ohama",
+      "ipa": "/ohama/",
+      "category": "proper_root",
+      "frequency": 0.35,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "maki",
+      "ipa": "/mɑki/",
+      "category": "proper_root",
+      "frequency": 0.17,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "nakabaru",
+      "ipa": "/nakabaru/",
+      "category": "terrain",
+      "frequency": 0.16,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "kawakami",
+      "ipa": "/kɑwɑkɑmi/",
+      "category": "terrain",
+      "frequency": 0.18,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "koyama",
+      "ipa": "/koʊjɑmə/",
+      "category": "terrain",
+      "frequency": 0.18,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "koda",
+      "ipa": "/koda/",
+      "category": "proper_root",
+      "frequency": 0.12,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "hinata",
+      "ipa": "/hinata/",
+      "category": "proper_root",
+      "frequency": 0.24,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "funatsu",
+      "ipa": "/funatsu/",
+      "category": "terrain",
+      "frequency": 0.21,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "arai",
+      "ipa": "/ɑrɑi/",
+      "category": "proper_root",
+      "frequency": 0.32,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "nonaka",
+      "ipa": "/nonaka/",
+      "category": "proper_root",
+      "frequency": 0.23,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "asahigaoka",
+      "ipa": "/asahigaoka/",
+      "category": "terrain",
+      "frequency": 0.38,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "yokoyama",
+      "ipa": "/joʊkoʊjɑmə/",
+      "category": "terrain",
+      "frequency": 0.22,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "oki",
+      "ipa": "/oʊki/",
+      "category": "proper_root",
+      "frequency": 0.21,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "tokiwa",
+      "ipa": "/tokiwa/",
+      "category": "proper_root",
+      "frequency": 0.44,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "nagata",
+      "ipa": "/nɑɡɑtə/",
+      "category": "proper_root",
+      "frequency": 0.49,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "miyazaki",
+      "ipa": "/mijɑzɑki/",
+      "category": "terrain",
+      "frequency": 0.37,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "imamura",
+      "ipa": "/ɪmɑmʊrɑ/",
+      "category": "terrain",
+      "frequency": 0.14,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "tate",
+      "ipa": "/teɪt/",
+      "category": "proper_root",
+      "frequency": 0.49,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "uenohara",
+      "ipa": "/wɛnoʊhɑrə/",
+      "category": "terrain",
+      "frequency": 0.41,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "kawai",
+      "ipa": "/kɑwɑi/",
+      "category": "proper_root",
+      "frequency": 0.47,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "otsuka",
+      "ipa": "/oʊtsukə/",
+      "category": "proper_root",
+      "frequency": 0.5,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "ogawa",
+      "ipa": "/oʊɡɑwɑ/",
+      "category": "terrain",
+      "frequency": 0.45,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "nagahama",
+      "ipa": "/nagahama/",
+      "category": "terrain",
+      "frequency": 0.15,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "dai",
+      "ipa": "/daɪ/",
+      "category": "proper_root",
+      "frequency": 0.45,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "kanayama",
+      "ipa": "/kanayama/",
+      "category": "terrain",
+      "frequency": 0.2,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "kawara",
+      "ipa": "/kawara/",
+      "category": "proper_root",
+      "frequency": 0.38,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "honjo",
+      "ipa": "/honjo/",
+      "category": "proper_root",
+      "frequency": 0.43,
+      "can_prefix": true,
+      "can_suffix": true
+    }
+  ],
+  "place_templates": [
+    {
+      "template": [
+        "terrain"
+      ],
+      "weight": 2,
+      "separator": "",
+      "example": "Yama"
+    },
+    {
+      "template": [
+        "quality",
+        "terrain"
+      ],
+      "weight": 5,
+      "separator": "",
+      "example": "Blackmoor"
+    },
+    {
+      "template": [
+        "proper_root",
+        "terrain"
+      ],
+      "weight": 4,
+      "separator": "",
+      "example": "Chesterford"
+    },
+    {
+      "template": [
+        "fauna",
+        "terrain"
+      ],
+      "weight": 3,
+      "separator": "",
+      "example": "Wolverhampton"
+    },
+    {
+      "template": [
+        "proper_root"
+      ],
+      "weight": 3,
+      "separator": "",
+      "example": "London"
+    },
+    {
+      "template": [
+        "direction",
+        "terrain"
+      ],
+      "weight": 3,
+      "separator": "",
+      "example": "Northfield"
+    },
+    {
+      "template": [
+        "event",
+        "structure"
+      ],
+      "weight": 2,
+      "separator": "",
+      "example": "Battleford"
+    },
+    {
+      "template": [
+        "flora",
+        "terrain"
+      ],
+      "weight": 2,
+      "separator": "",
+      "example": "Oakwood"
+    },
+    {
+      "template": [
+        "sacred",
+        "terrain"
+      ],
+      "weight": 2,
+      "separator": "",
+      "example": "Holywell"
+    },
+    {
+      "template": [
+        "quality",
+        "flora"
+      ],
+      "weight": 1,
+      "separator": "",
+      "example": "Greenoak"
+    },
+    {
+      "template": [
+        "proper_root",
+        "terrain"
+      ],
+      "weight": 5,
+      "separator": "",
+      "example": "Fujiyama"
+    },
+    {
+      "template": [
+        "direction",
+        "terrain"
+      ],
+      "weight": 4,
+      "separator": "",
+      "example": "Kitayama"
+    }
+  ],
+  "star_system_templates": [
+    {
+      "template": [
+        "proper_root"
+      ],
+      "weight": 4,
+      "separator": "",
+      "example": "Carbinter"
+    },
+    {
+      "template": [
+        "terrain"
+      ],
+      "weight": 3,
+      "separator": "",
+      "example": "Dale"
+    },
+    {
+      "template": [
+        "proper_root",
+        "proper_root"
+      ],
+      "weight": 2,
+      "separator": "",
+      "example": "Krasnikov"
+    },
+    {
+      "template": [
+        "quality",
+        "proper_root"
+      ],
+      "weight": 1,
+      "separator": "",
+      "example": "Grandor"
+    }
+  ]
+}

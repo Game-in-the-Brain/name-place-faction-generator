@@ -1,0 +1,3245 @@
+{
+  "lc_id": "es-es",
+  "label": "Castilian Spanish",
+  "language": "Spanish",
+  "culture": "Castilian",
+  "script": "Latin",
+  "romanization": "native",
+  "phonology_notes": "Bootstrap phonology for Castilian Spanish",
+  "given_names": [
+    {
+      "name": "Hugo",
+      "ipa": "/hjuɡoʊ/",
+      "gender": "M",
+      "type": "given",
+      "frequency": 0.86
+    },
+    {
+      "name": "Martin",
+      "ipa": "/mɑrtən/",
+      "gender": "M",
+      "type": "given",
+      "frequency": 0.55
+    },
+    {
+      "name": "Lucas",
+      "ipa": "/lukəs/",
+      "gender": "M",
+      "type": "given",
+      "frequency": 0.89
+    },
+    {
+      "name": "Mateo",
+      "ipa": "/mɑteɪoʊ/",
+      "gender": "M",
+      "type": "given",
+      "frequency": 0.89
+    },
+    {
+      "name": "Leo",
+      "ipa": "/lioʊ/",
+      "gender": "M",
+      "type": "given",
+      "frequency": 0.42
+    },
+    {
+      "name": "Daniel",
+      "ipa": "/dænjəl/",
+      "gender": "M",
+      "type": "given",
+      "frequency": 0.71
+    },
+    {
+      "name": "Alejandro",
+      "ipa": "/ɑleɪjɑndroʊ/",
+      "gender": "M",
+      "type": "given",
+      "frequency": 0.86
+    },
+    {
+      "name": "Pablo",
+      "ipa": "/pɑbloʊ/",
+      "gender": "M",
+      "type": "given",
+      "frequency": 0.79
+    },
+    {
+      "name": "Manuel",
+      "ipa": "/mɑnwɛl/",
+      "gender": "M",
+      "type": "given",
+      "frequency": 0.94
+    },
+    {
+      "name": "Alvaro",
+      "ipa": "/əlvɑroʊ/",
+      "gender": "M",
+      "type": "given",
+      "frequency": 0.32
+    },
+    {
+      "name": "Adrian",
+      "ipa": "/eɪdriən/",
+      "gender": "M",
+      "type": "given",
+      "frequency": 0.79
+    },
+    {
+      "name": "Mario",
+      "ipa": "/mɑrioʊ/",
+      "gender": "M",
+      "type": "given",
+      "frequency": 0.96
+    },
+    {
+      "name": "Diego",
+      "ipa": "/dieɪɡoʊ/",
+      "gender": "M",
+      "type": "given",
+      "frequency": 0.69
+    },
+    {
+      "name": "Oliver",
+      "ipa": "/ɑləvɚ/",
+      "gender": "M",
+      "type": "given",
+      "frequency": 0.69
+    },
+    {
+      "name": "Marcos",
+      "ipa": "/mɑrkoʊs/",
+      "gender": "M",
+      "type": "given",
+      "frequency": 0.43
+    },
+    {
+      "name": "Thiago",
+      "ipa": "/thiago/",
+      "gender": "M",
+      "type": "given",
+      "frequency": 0.99
+    },
+    {
+      "name": "Antonio",
+      "ipa": "/æntoʊnioʊ/",
+      "gender": "M",
+      "type": "given",
+      "frequency": 0.92
+    },
+    {
+      "name": "Marc",
+      "ipa": "/mɑrk/",
+      "gender": "M",
+      "type": "given",
+      "frequency": 0.64
+    },
+    {
+      "name": "Carlos",
+      "ipa": "/kɑrloʊs/",
+      "gender": "M",
+      "type": "given",
+      "frequency": 0.52
+    },
+    {
+      "name": "Angel",
+      "ipa": "/eɪndʒəl/",
+      "gender": "M",
+      "type": "given",
+      "frequency": 0.64
+    },
+    {
+      "name": "Miguel",
+      "ipa": "/mɪɡɛl/",
+      "gender": "M",
+      "type": "given",
+      "frequency": 0.36
+    },
+    {
+      "name": "Gonzalo",
+      "ipa": "/ɡɑnzɑloʊ/",
+      "gender": "M",
+      "type": "given",
+      "frequency": 0.46
+    },
+    {
+      "name": "Bruno",
+      "ipa": "/brunoʊ/",
+      "gender": "M",
+      "type": "given",
+      "frequency": 0.45
+    },
+    {
+      "name": "David",
+      "ipa": "/deɪvɪd/",
+      "gender": "M",
+      "type": "given",
+      "frequency": 0.67
+    },
+    {
+      "name": "Javier",
+      "ipa": "/hɑviɛr/",
+      "gender": "M",
+      "type": "given",
+      "frequency": 0.3
+    },
+    {
+      "name": "Marco",
+      "ipa": "/mɑrkoʊ/",
+      "gender": "M",
+      "type": "given",
+      "frequency": 0.94
+    },
+    {
+      "name": "Izan",
+      "ipa": "/izan/",
+      "gender": "M",
+      "type": "given",
+      "frequency": 0.44
+    },
+    {
+      "name": "Juan",
+      "ipa": "/wɑn/",
+      "gender": "M",
+      "type": "given",
+      "frequency": 0.39
+    },
+    {
+      "name": "Sergio",
+      "ipa": "/sɜrdʒjoʊ/",
+      "gender": "M",
+      "type": "given",
+      "frequency": 0.8
+    },
+    {
+      "name": "Enzo",
+      "ipa": "/ɛnzoʊ/",
+      "gender": "M",
+      "type": "given",
+      "frequency": 0.94
+    },
+    {
+      "name": "Dylan",
+      "ipa": "/dɪlən/",
+      "gender": "M",
+      "type": "given",
+      "frequency": 0.89
+    },
+    {
+      "name": "Alex",
+      "ipa": "/æləks/",
+      "gender": "M",
+      "type": "given",
+      "frequency": 0.53
+    },
+    {
+      "name": "Nicolas",
+      "ipa": "/nɪkɔləs/",
+      "gender": "M",
+      "type": "given",
+      "frequency": 0.32
+    },
+    {
+      "name": "Victor",
+      "ipa": "/vɪktɚ/",
+      "gender": "M",
+      "type": "given",
+      "frequency": 0.71
+    },
+    {
+      "name": "Hector",
+      "ipa": "/hɛktɚ/",
+      "gender": "M",
+      "type": "given",
+      "frequency": 0.94
+    },
+    {
+      "name": "Jorge",
+      "ipa": "/hɔrheɪ/",
+      "gender": "M",
+      "type": "given",
+      "frequency": 0.84
+    },
+    {
+      "name": "Eric",
+      "ipa": "/ɛrɪk/",
+      "gender": "M",
+      "type": "given",
+      "frequency": 0.89
+    },
+    {
+      "name": "Raul",
+      "ipa": "/rɔl/",
+      "gender": "M",
+      "type": "given",
+      "frequency": 0.9
+    },
+    {
+      "name": "Iker",
+      "ipa": "/iker/",
+      "gender": "M",
+      "type": "given",
+      "frequency": 0.97
+    },
+    {
+      "name": "Ruben",
+      "ipa": "/rubən/",
+      "gender": "M",
+      "type": "given",
+      "frequency": 0.56
+    },
+    {
+      "name": "Lucia",
+      "ipa": "/luʃə/",
+      "gender": "F",
+      "type": "given",
+      "frequency": 0.96
+    },
+    {
+      "name": "Sofia",
+      "ipa": "/soʊfiə/",
+      "gender": "F",
+      "type": "given",
+      "frequency": 0.58
+    },
+    {
+      "name": "Martina",
+      "ipa": "/mɑrtinə/",
+      "gender": "F",
+      "type": "given",
+      "frequency": 0.37
+    },
+    {
+      "name": "Maria",
+      "ipa": "/mɚiə/",
+      "gender": "F",
+      "type": "given",
+      "frequency": 0.51
+    },
+    {
+      "name": "Julia",
+      "ipa": "/dʒuljə/",
+      "gender": "F",
+      "type": "given",
+      "frequency": 0.4
+    },
+    {
+      "name": "Paula",
+      "ipa": "/pɔlə/",
+      "gender": "F",
+      "type": "given",
+      "frequency": 0.41
+    },
+    {
+      "name": "Valeria",
+      "ipa": "/vəliriə/",
+      "gender": "F",
+      "type": "given",
+      "frequency": 0.96
+    },
+    {
+      "name": "Emma",
+      "ipa": "/ɛmə/",
+      "gender": "F",
+      "type": "given",
+      "frequency": 0.85
+    },
+    {
+      "name": "Daniela",
+      "ipa": "/dænjɛlə/",
+      "gender": "F",
+      "type": "given",
+      "frequency": 0.97
+    },
+    {
+      "name": "Carla",
+      "ipa": "/kɑrlɑ/",
+      "gender": "F",
+      "type": "given",
+      "frequency": 0.75
+    },
+    {
+      "name": "Alma",
+      "ipa": "/ɑlmə/",
+      "gender": "F",
+      "type": "given",
+      "frequency": 0.42
+    },
+    {
+      "name": "Olivia",
+      "ipa": "/oʊlɪviə/",
+      "gender": "F",
+      "type": "given",
+      "frequency": 0.98
+    },
+    {
+      "name": "Sara",
+      "ipa": "/sɛrə/",
+      "gender": "F",
+      "type": "given",
+      "frequency": 0.79
+    },
+    {
+      "name": "Carmen",
+      "ipa": "/kɑrmən/",
+      "gender": "F",
+      "type": "given",
+      "frequency": 0.95
+    },
+    {
+      "name": "Vega",
+      "ipa": "/veɪɡə/",
+      "gender": "F",
+      "type": "given",
+      "frequency": 0.85
+    },
+    {
+      "name": "Alba",
+      "ipa": "/ælbə/",
+      "gender": "F",
+      "type": "given",
+      "frequency": 0.46
+    },
+    {
+      "name": "Aitana",
+      "ipa": "/aitana/",
+      "gender": "F",
+      "type": "given",
+      "frequency": 0.71
+    },
+    {
+      "name": "Noa",
+      "ipa": "/noʊə/",
+      "gender": "F",
+      "type": "given",
+      "frequency": 0.42
+    },
+    {
+      "name": "Lola",
+      "ipa": "/loʊlə/",
+      "gender": "F",
+      "type": "given",
+      "frequency": 0.51
+    },
+    {
+      "name": "Chloe",
+      "ipa": "/kloʊi/",
+      "gender": "F",
+      "type": "given",
+      "frequency": 0.78
+    },
+    {
+      "name": "Mia",
+      "ipa": "/miə/",
+      "gender": "F",
+      "type": "given",
+      "frequency": 0.39
+    },
+    {
+      "name": "Claudia",
+      "ipa": "/klɔdiə/",
+      "gender": "F",
+      "type": "given",
+      "frequency": 0.81
+    },
+    {
+      "name": "Valentina",
+      "ipa": "/vɑlɛntinə/",
+      "gender": "F",
+      "type": "given",
+      "frequency": 0.96
+    },
+    {
+      "name": "Laia",
+      "ipa": "/laia/",
+      "gender": "F",
+      "type": "given",
+      "frequency": 0.96
+    },
+    {
+      "name": "Jimena",
+      "ipa": "/dʒɪmənə/",
+      "gender": "F",
+      "type": "given",
+      "frequency": 0.57
+    },
+    {
+      "name": "Ariadna",
+      "ipa": "/ariadna/",
+      "gender": "F",
+      "type": "given",
+      "frequency": 1.0
+    },
+    {
+      "name": "Ainara",
+      "ipa": "/ainara/",
+      "gender": "F",
+      "type": "given",
+      "frequency": 0.98
+    },
+    {
+      "name": "Marina",
+      "ipa": "/mɚinə/",
+      "gender": "F",
+      "type": "given",
+      "frequency": 0.32
+    },
+    {
+      "name": "Triana",
+      "ipa": "/triænə/",
+      "gender": "F",
+      "type": "given",
+      "frequency": 0.72
+    },
+    {
+      "name": "Vera",
+      "ipa": "/vɛrə/",
+      "gender": "F",
+      "type": "given",
+      "frequency": 0.94
+    },
+    {
+      "name": "Candela",
+      "ipa": "/kændɛlə/",
+      "gender": "F",
+      "type": "given",
+      "frequency": 0.98
+    },
+    {
+      "name": "Lara",
+      "ipa": "/lɑrə/",
+      "gender": "F",
+      "type": "given",
+      "frequency": 0.45
+    },
+    {
+      "name": "Elena",
+      "ipa": "/ɛlənɑ/",
+      "gender": "F",
+      "type": "given",
+      "frequency": 0.7
+    },
+    {
+      "name": "Nora",
+      "ipa": "/nɔrə/",
+      "gender": "F",
+      "type": "given",
+      "frequency": 0.96
+    },
+    {
+      "name": "Ines",
+      "ipa": "/ɪnɪs/",
+      "gender": "F",
+      "type": "given",
+      "frequency": 0.4
+    },
+    {
+      "name": "Blanca",
+      "ipa": "/blɑŋkə/",
+      "gender": "F",
+      "type": "given",
+      "frequency": 0.82
+    },
+    {
+      "name": "Alicia",
+      "ipa": "/əlɪʃə/",
+      "gender": "F",
+      "type": "given",
+      "frequency": 0.47
+    },
+    {
+      "name": "Carlota",
+      "ipa": "/carlota/",
+      "gender": "F",
+      "type": "given",
+      "frequency": 0.99
+    },
+    {
+      "name": "Rocio",
+      "ipa": "/rocio/",
+      "gender": "F",
+      "type": "given",
+      "frequency": 0.42
+    },
+    {
+      "name": "Ainhoa",
+      "ipa": "/ainhoa/",
+      "gender": "F",
+      "type": "given",
+      "frequency": 0.92
+    }
+  ],
+  "family_names": [
+    {
+      "name": "Garcia",
+      "ipa": "/ɡɑrsiə/",
+      "gender": "N",
+      "type": "family",
+      "frequency": 0.36
+    },
+    {
+      "name": "Rodriguez",
+      "ipa": "/rɑdriɡɛz/",
+      "gender": "N",
+      "type": "family",
+      "frequency": 0.8
+    },
+    {
+      "name": "Gonzalez",
+      "ipa": "/ɡɑnzɑləz/",
+      "gender": "N",
+      "type": "family",
+      "frequency": 0.75
+    },
+    {
+      "name": "Fernandez",
+      "ipa": "/fɚnændɛz/",
+      "gender": "N",
+      "type": "family",
+      "frequency": 0.92
+    },
+    {
+      "name": "Lopez",
+      "ipa": "/loʊpɛz/",
+      "gender": "N",
+      "type": "family",
+      "frequency": 0.61
+    },
+    {
+      "name": "Martinez",
+      "ipa": "/mɑrtinɛz/",
+      "gender": "N",
+      "type": "family",
+      "frequency": 0.49
+    },
+    {
+      "name": "Sanchez",
+      "ipa": "/sæntʃɛz/",
+      "gender": "N",
+      "type": "family",
+      "frequency": 0.47
+    },
+    {
+      "name": "Perez",
+      "ipa": "/pɛrɛz/",
+      "gender": "N",
+      "type": "family",
+      "frequency": 0.35
+    },
+    {
+      "name": "Gomez",
+      "ipa": "/ɡoʊmɛz/",
+      "gender": "N",
+      "type": "family",
+      "frequency": 0.48
+    },
+    {
+      "name": "Martin",
+      "ipa": "/mɑrtən/",
+      "gender": "N",
+      "type": "family",
+      "frequency": 0.38
+    },
+    {
+      "name": "Jimenez",
+      "ipa": "/hɪmɛnɛz/",
+      "gender": "N",
+      "type": "family",
+      "frequency": 0.3
+    },
+    {
+      "name": "Ruiz",
+      "ipa": "/ruiz/",
+      "gender": "N",
+      "type": "family",
+      "frequency": 0.57
+    },
+    {
+      "name": "Hernandez",
+      "ipa": "/hɚnændɛz/",
+      "gender": "N",
+      "type": "family",
+      "frequency": 0.81
+    },
+    {
+      "name": "Diaz",
+      "ipa": "/diæz/",
+      "gender": "N",
+      "type": "family",
+      "frequency": 0.98
+    },
+    {
+      "name": "Moreno",
+      "ipa": "/mɔrinoʊ/",
+      "gender": "N",
+      "type": "family",
+      "frequency": 0.92
+    },
+    {
+      "name": "Alvarez",
+      "ipa": "/ælvɚɛz/",
+      "gender": "N",
+      "type": "family",
+      "frequency": 0.65
+    },
+    {
+      "name": "Romero",
+      "ipa": "/roʊmɛroʊ/",
+      "gender": "N",
+      "type": "family",
+      "frequency": 0.57
+    },
+    {
+      "name": "Alonso",
+      "ipa": "/əlɑnsoʊ/",
+      "gender": "N",
+      "type": "family",
+      "frequency": 0.68
+    },
+    {
+      "name": "Gutierrez",
+      "ipa": "/ɡutjɛrɛz/",
+      "gender": "N",
+      "type": "family",
+      "frequency": 0.37
+    },
+    {
+      "name": "Navarro",
+      "ipa": "/nəvɑroʊ/",
+      "gender": "N",
+      "type": "family",
+      "frequency": 0.64
+    },
+    {
+      "name": "Torres",
+      "ipa": "/tɔrɛz/",
+      "gender": "N",
+      "type": "family",
+      "frequency": 0.9
+    },
+    {
+      "name": "Dominguez",
+      "ipa": "/dəmɪŋɪz/",
+      "gender": "N",
+      "type": "family",
+      "frequency": 0.76
+    },
+    {
+      "name": "Vazquez",
+      "ipa": "/væskɛz/",
+      "gender": "N",
+      "type": "family",
+      "frequency": 0.78
+    },
+    {
+      "name": "Ramos",
+      "ipa": "/rɑmoʊs/",
+      "gender": "N",
+      "type": "family",
+      "frequency": 0.41
+    },
+    {
+      "name": "Gil",
+      "ipa": "/ɡɪl/",
+      "gender": "N",
+      "type": "family",
+      "frequency": 0.35
+    },
+    {
+      "name": "Ramirez",
+      "ipa": "/rəmɪrɛz/",
+      "gender": "N",
+      "type": "family",
+      "frequency": 0.89
+    },
+    {
+      "name": "Serrano",
+      "ipa": "/sɚɑnoʊ/",
+      "gender": "N",
+      "type": "family",
+      "frequency": 0.51
+    },
+    {
+      "name": "Blanco",
+      "ipa": "/blæŋkoʊ/",
+      "gender": "N",
+      "type": "family",
+      "frequency": 0.52
+    },
+    {
+      "name": "Molina",
+      "ipa": "/məlinə/",
+      "gender": "N",
+      "type": "family",
+      "frequency": 0.97
+    },
+    {
+      "name": "Morales",
+      "ipa": "/mɔrɑlɛs/",
+      "gender": "N",
+      "type": "family",
+      "frequency": 0.35
+    },
+    {
+      "name": "Suarez",
+      "ipa": "/swɑrɛz/",
+      "gender": "N",
+      "type": "family",
+      "frequency": 0.42
+    },
+    {
+      "name": "Ortega",
+      "ipa": "/ɔrteɪɡə/",
+      "gender": "N",
+      "type": "family",
+      "frequency": 0.56
+    },
+    {
+      "name": "Delgado",
+      "ipa": "/dɛlɡɑdoʊ/",
+      "gender": "N",
+      "type": "family",
+      "frequency": 0.81
+    },
+    {
+      "name": "Castro",
+      "ipa": "/kæstroʊ/",
+      "gender": "N",
+      "type": "family",
+      "frequency": 0.68
+    },
+    {
+      "name": "Ortiz",
+      "ipa": "/ɔrtiz/",
+      "gender": "N",
+      "type": "family",
+      "frequency": 0.93
+    },
+    {
+      "name": "Rubio",
+      "ipa": "/rubioʊ/",
+      "gender": "N",
+      "type": "family",
+      "frequency": 0.37
+    },
+    {
+      "name": "Marin",
+      "ipa": "/mɛrɪn/",
+      "gender": "N",
+      "type": "family",
+      "frequency": 0.72
+    },
+    {
+      "name": "Sanz",
+      "ipa": "/sænz/",
+      "gender": "N",
+      "type": "family",
+      "frequency": 0.73
+    },
+    {
+      "name": "Nuñez",
+      "ipa": "/nuñez/",
+      "gender": "N",
+      "type": "family",
+      "frequency": 0.64
+    },
+    {
+      "name": "Medina",
+      "ipa": "/mədaɪnə/",
+      "gender": "N",
+      "type": "family",
+      "frequency": 0.32
+    }
+  ],
+  "place_words": [
+    {
+      "word": "monte",
+      "ipa": "/mɑnti/",
+      "category": "terrain",
+      "frequency": 0.97,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "rio",
+      "ipa": "/rioʊ/",
+      "category": "terrain",
+      "frequency": 0.58,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "lago",
+      "ipa": "/lɑɡoʊ/",
+      "category": "terrain",
+      "frequency": 0.94,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "valle",
+      "ipa": "/veɪl/",
+      "category": "terrain",
+      "frequency": 0.58,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "sierra",
+      "ipa": "/siɛrə/",
+      "category": "terrain",
+      "frequency": 0.55,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "costa",
+      "ipa": "/kɔstɑ/",
+      "category": "terrain",
+      "frequency": 0.6,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "playa",
+      "ipa": "/plaɪə/",
+      "category": "terrain",
+      "frequency": 0.59,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "puerto",
+      "ipa": "/pwɛrtoʊ/",
+      "category": "terrain",
+      "frequency": 0.85,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "cabo",
+      "ipa": "/kæboʊ/",
+      "category": "terrain",
+      "frequency": 0.86,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "punta",
+      "ipa": "/pʊntɚ/",
+      "category": "terrain",
+      "frequency": 0.86,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "isla",
+      "ipa": "/ilə/",
+      "category": "terrain",
+      "frequency": 0.63,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "llano",
+      "ipa": "/lɑnoʊ/",
+      "category": "terrain",
+      "frequency": 0.64,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "meseta",
+      "ipa": "/meseta/",
+      "category": "terrain",
+      "frequency": 0.62,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "cañada",
+      "ipa": "/cañada/",
+      "category": "terrain",
+      "frequency": 0.52,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "barranco",
+      "ipa": "/bɑrɑnkoʊ/",
+      "category": "terrain",
+      "frequency": 0.79,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "charca",
+      "ipa": "/charca/",
+      "category": "terrain",
+      "frequency": 0.92,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "manantial",
+      "ipa": "/manantial/",
+      "category": "terrain",
+      "frequency": 0.58,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "cueva",
+      "ipa": "/kwɛvə/",
+      "category": "terrain",
+      "frequency": 0.68,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "duna",
+      "ipa": "/dunə/",
+      "category": "terrain",
+      "frequency": 0.71,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "pradera",
+      "ipa": "/pradera/",
+      "category": "terrain",
+      "frequency": 0.65,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "norte",
+      "ipa": "/nɔrt/",
+      "category": "direction",
+      "frequency": 0.83,
+      "can_prefix": true,
+      "can_suffix": false
+    },
+    {
+      "word": "sur",
+      "ipa": "/sɜr/",
+      "category": "direction",
+      "frequency": 0.8,
+      "can_prefix": true,
+      "can_suffix": false
+    },
+    {
+      "word": "este",
+      "ipa": "/ɛsteɪ/",
+      "category": "direction",
+      "frequency": 0.6,
+      "can_prefix": true,
+      "can_suffix": false
+    },
+    {
+      "word": "oeste",
+      "ipa": "/oeste/",
+      "category": "direction",
+      "frequency": 0.51,
+      "can_prefix": true,
+      "can_suffix": false
+    },
+    {
+      "word": "alto",
+      "ipa": "/æltoʊ/",
+      "category": "direction",
+      "frequency": 0.59,
+      "can_prefix": true,
+      "can_suffix": false
+    },
+    {
+      "word": "bajo",
+      "ipa": "/bajo/",
+      "category": "direction",
+      "frequency": 0.65,
+      "can_prefix": true,
+      "can_suffix": false
+    },
+    {
+      "word": "nuevo",
+      "ipa": "/nweɪvoʊ/",
+      "category": "direction",
+      "frequency": 0.54,
+      "can_prefix": true,
+      "can_suffix": false
+    },
+    {
+      "word": "viejo",
+      "ipa": "/viɛdʒoʊ/",
+      "category": "direction",
+      "frequency": 0.92,
+      "can_prefix": true,
+      "can_suffix": false
+    },
+    {
+      "word": "gran",
+      "ipa": "/ɡræn/",
+      "category": "direction",
+      "frequency": 0.65,
+      "can_prefix": true,
+      "can_suffix": false
+    },
+    {
+      "word": "san",
+      "ipa": "/sæn/",
+      "category": "direction",
+      "frequency": 0.7,
+      "can_prefix": true,
+      "can_suffix": false
+    },
+    {
+      "word": "blanco",
+      "ipa": "/blæŋkoʊ/",
+      "category": "quality",
+      "frequency": 0.74,
+      "can_prefix": true,
+      "can_suffix": false
+    },
+    {
+      "word": "negro",
+      "ipa": "/niɡroʊ/",
+      "category": "quality",
+      "frequency": 0.83,
+      "can_prefix": true,
+      "can_suffix": false
+    },
+    {
+      "word": "rojo",
+      "ipa": "/roʊdʒoʊ/",
+      "category": "quality",
+      "frequency": 0.55,
+      "can_prefix": true,
+      "can_suffix": false
+    },
+    {
+      "word": "verde",
+      "ipa": "/vɜrdi/",
+      "category": "quality",
+      "frequency": 0.77,
+      "can_prefix": true,
+      "can_suffix": false
+    },
+    {
+      "word": "azul",
+      "ipa": "/azul/",
+      "category": "quality",
+      "frequency": 0.59,
+      "can_prefix": true,
+      "can_suffix": false
+    },
+    {
+      "word": "gran",
+      "ipa": "/ɡræn/",
+      "category": "quality",
+      "frequency": 0.94,
+      "can_prefix": true,
+      "can_suffix": false
+    },
+    {
+      "word": "alto",
+      "ipa": "/æltoʊ/",
+      "category": "quality",
+      "frequency": 0.68,
+      "can_prefix": true,
+      "can_suffix": false
+    },
+    {
+      "word": "bajo",
+      "ipa": "/bajo/",
+      "category": "quality",
+      "frequency": 0.72,
+      "can_prefix": true,
+      "can_suffix": false
+    },
+    {
+      "word": "nuevo",
+      "ipa": "/nweɪvoʊ/",
+      "category": "quality",
+      "frequency": 0.63,
+      "can_prefix": true,
+      "can_suffix": false
+    },
+    {
+      "word": "viejo",
+      "ipa": "/viɛdʒoʊ/",
+      "category": "quality",
+      "frequency": 0.73,
+      "can_prefix": true,
+      "can_suffix": false
+    },
+    {
+      "word": "bueno",
+      "ipa": "/bweɪnoʊ/",
+      "category": "quality",
+      "frequency": 0.61,
+      "can_prefix": true,
+      "can_suffix": false
+    },
+    {
+      "word": "santo",
+      "ipa": "/sæntoʊ/",
+      "category": "quality",
+      "frequency": 0.63,
+      "can_prefix": true,
+      "can_suffix": false
+    },
+    {
+      "word": "roble",
+      "ipa": "/roʊbəl/",
+      "category": "flora",
+      "frequency": 0.53,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "pino",
+      "ipa": "/pinoʊ/",
+      "category": "flora",
+      "frequency": 0.88,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "olivo",
+      "ipa": "/ɔlivoʊ/",
+      "category": "flora",
+      "frequency": 0.83,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "naranjo",
+      "ipa": "/nɑrɑnjoʊ/",
+      "category": "flora",
+      "frequency": 0.54,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "limonero",
+      "ipa": "/limonero/",
+      "category": "flora",
+      "frequency": 0.67,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "palmera",
+      "ipa": "/palmera/",
+      "category": "flora",
+      "frequency": 0.77,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "cipres",
+      "ipa": "/cipres/",
+      "category": "flora",
+      "frequency": 0.99,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "madroño",
+      "ipa": "/madroño/",
+      "category": "flora",
+      "frequency": 0.79,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "encina",
+      "ipa": "/encina/",
+      "category": "flora",
+      "frequency": 0.78,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "alamo",
+      "ipa": "/æləmoʊ/",
+      "category": "flora",
+      "frequency": 0.92,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "lobo",
+      "ipa": "/loʊboʊ/",
+      "category": "fauna",
+      "frequency": 0.91,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "oso",
+      "ipa": "/oso/",
+      "category": "fauna",
+      "frequency": 0.71,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "aguila",
+      "ipa": "/ɑɡwilə/",
+      "category": "fauna",
+      "frequency": 0.77,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "toro",
+      "ipa": "/tɔroʊ/",
+      "category": "fauna",
+      "frequency": 0.93,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "ciervo",
+      "ipa": "/ciervo/",
+      "category": "fauna",
+      "frequency": 0.74,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "jabali",
+      "ipa": "/jabali/",
+      "category": "fauna",
+      "frequency": 0.94,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "zorro",
+      "ipa": "/zɔroʊ/",
+      "category": "fauna",
+      "frequency": 0.74,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "liebre",
+      "ipa": "/liebre/",
+      "category": "fauna",
+      "frequency": 0.54,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "buho",
+      "ipa": "/buho/",
+      "category": "fauna",
+      "frequency": 0.95,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "halcon",
+      "ipa": "/halcon/",
+      "category": "fauna",
+      "frequency": 0.86,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "puerto",
+      "ipa": "/pwɛrtoʊ/",
+      "category": "structure",
+      "frequency": 0.75,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "fuerte",
+      "ipa": "/fuerte/",
+      "category": "structure",
+      "frequency": 0.95,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "castillo",
+      "ipa": "/kæstioʊ/",
+      "category": "structure",
+      "frequency": 0.9,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "torre",
+      "ipa": "/tɔr/",
+      "category": "structure",
+      "frequency": 0.84,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "puente",
+      "ipa": "/punt/",
+      "category": "structure",
+      "frequency": 0.81,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "ermita",
+      "ipa": "/ermita/",
+      "category": "structure",
+      "frequency": 0.56,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "iglesia",
+      "ipa": "/iɡleɪsiə/",
+      "category": "structure",
+      "frequency": 0.88,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "villa",
+      "ipa": "/vɪlə/",
+      "category": "structure",
+      "frequency": 0.59,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "ciudad",
+      "ipa": "/siudæd/",
+      "category": "structure",
+      "frequency": 0.99,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "pueblo",
+      "ipa": "/pwɛbloʊ/",
+      "category": "structure",
+      "frequency": 0.99,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "santo",
+      "ipa": "/sæntoʊ/",
+      "category": "sacred",
+      "frequency": 0.9,
+      "can_prefix": true,
+      "can_suffix": false
+    },
+    {
+      "word": "santa",
+      "ipa": "/sæntə/",
+      "category": "sacred",
+      "frequency": 0.56,
+      "can_prefix": true,
+      "can_suffix": false
+    },
+    {
+      "word": "san",
+      "ipa": "/sæn/",
+      "category": "sacred",
+      "frequency": 0.71,
+      "can_prefix": true,
+      "can_suffix": false
+    },
+    {
+      "word": "cruz",
+      "ipa": "/kruz/",
+      "category": "sacred",
+      "frequency": 0.99,
+      "can_prefix": true,
+      "can_suffix": false
+    },
+    {
+      "word": "pilar",
+      "ipa": "/paɪlɚ/",
+      "category": "sacred",
+      "frequency": 0.72,
+      "can_prefix": true,
+      "can_suffix": false
+    },
+    {
+      "word": "carmen",
+      "ipa": "/kɑrmən/",
+      "category": "sacred",
+      "frequency": 1.0,
+      "can_prefix": true,
+      "can_suffix": false
+    },
+    {
+      "word": "merced",
+      "ipa": "/mɜrst/",
+      "category": "sacred",
+      "frequency": 0.81,
+      "can_prefix": true,
+      "can_suffix": false
+    },
+    {
+      "word": "gracia",
+      "ipa": "/ɡrɑtʃə/",
+      "category": "sacred",
+      "frequency": 0.92,
+      "can_prefix": true,
+      "can_suffix": false
+    },
+    {
+      "word": "paz",
+      "ipa": "/pɑz/",
+      "category": "sacred",
+      "frequency": 0.63,
+      "can_prefix": true,
+      "can_suffix": false
+    },
+    {
+      "word": "luz",
+      "ipa": "/lʌz/",
+      "category": "sacred",
+      "frequency": 0.96,
+      "can_prefix": true,
+      "can_suffix": false
+    },
+    {
+      "word": "batalla",
+      "ipa": "/batalla/",
+      "category": "event",
+      "frequency": 0.96,
+      "can_prefix": true,
+      "can_suffix": false
+    },
+    {
+      "word": "victoria",
+      "ipa": "/vɪktɔriə/",
+      "category": "event",
+      "frequency": 0.53,
+      "can_prefix": true,
+      "can_suffix": false
+    },
+    {
+      "word": "paz",
+      "ipa": "/pɑz/",
+      "category": "event",
+      "frequency": 0.69,
+      "can_prefix": true,
+      "can_suffix": false
+    },
+    {
+      "word": "union",
+      "ipa": "/junjən/",
+      "category": "event",
+      "frequency": 0.7,
+      "can_prefix": true,
+      "can_suffix": false
+    },
+    {
+      "word": "descubrimiento",
+      "ipa": "/descubrimiento/",
+      "category": "event",
+      "frequency": 0.66,
+      "can_prefix": true,
+      "can_suffix": false
+    },
+    {
+      "word": "fundacion",
+      "ipa": "/fəndeɪʃən/",
+      "category": "event",
+      "frequency": 0.64,
+      "can_prefix": true,
+      "can_suffix": false
+    },
+    {
+      "word": "al",
+      "ipa": "/æl/",
+      "category": "proper_root",
+      "frequency": 0.73,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "el",
+      "ipa": "/ɛl/",
+      "category": "proper_root",
+      "frequency": 0.94,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "la",
+      "ipa": "/lɑ/",
+      "category": "proper_root",
+      "frequency": 0.89,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "los",
+      "ipa": "/loʊs/",
+      "category": "proper_root",
+      "frequency": 0.81,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "las",
+      "ipa": "/lɑs/",
+      "category": "proper_root",
+      "frequency": 0.76,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "san",
+      "ipa": "/sæn/",
+      "category": "proper_root",
+      "frequency": 0.71,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "santa",
+      "ipa": "/sæntə/",
+      "category": "proper_root",
+      "frequency": 0.71,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "don",
+      "ipa": "/dɑn/",
+      "category": "proper_root",
+      "frequency": 0.57,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "donia",
+      "ipa": "/doʊniə/",
+      "category": "proper_root",
+      "frequency": 0.79,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "maria",
+      "ipa": "/mɚiə/",
+      "category": "proper_root",
+      "frequency": 0.4,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "pedro",
+      "ipa": "/peɪdroʊ/",
+      "category": "proper_root",
+      "frequency": 0.48,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "martin",
+      "ipa": "/mɑrtən/",
+      "category": "proper_root",
+      "frequency": 0.47,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "juan",
+      "ipa": "/wɑn/",
+      "category": "proper_root",
+      "frequency": 0.33,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "santiago",
+      "ipa": "/sæntiɑɡoʊ/",
+      "category": "terrain",
+      "frequency": 0.14,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "eulalia",
+      "ipa": "/eulalia/",
+      "category": "terrain",
+      "frequency": 0.21,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "miguel",
+      "ipa": "/mɪɡɛl/",
+      "category": "proper_root",
+      "frequency": 0.31,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "julian",
+      "ipa": "/dʒuliən/",
+      "category": "proper_root",
+      "frequency": 0.24,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "salvador",
+      "ipa": "/sælvədɔr/",
+      "category": "terrain",
+      "frequency": 0.26,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "esteban",
+      "ipa": "/ɛstəbɑn/",
+      "category": "terrain",
+      "frequency": 0.25,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "vicente",
+      "ipa": "/vitʃɛnti/",
+      "category": "terrain",
+      "frequency": 0.29,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "marina",
+      "ipa": "/mɚinə/",
+      "category": "proper_root",
+      "frequency": 0.34,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "estacion",
+      "ipa": "/estacion/",
+      "category": "terrain",
+      "frequency": 0.11,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "andres",
+      "ipa": "/ɑndreɪz/",
+      "category": "proper_root",
+      "frequency": 0.21,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "mamed",
+      "ipa": "/mamed/",
+      "category": "proper_root",
+      "frequency": 0.16,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "cristobal",
+      "ipa": "/krɪstəbəl/",
+      "category": "terrain",
+      "frequency": 0.34,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "lorenzo",
+      "ipa": "/lɚɛnzoʊ/",
+      "category": "terrain",
+      "frequency": 0.38,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "villanueva",
+      "ipa": "/vilɑnwɛvə/",
+      "category": "terrain",
+      "frequency": 0.12,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "castro",
+      "ipa": "/kæstroʊ/",
+      "category": "proper_root",
+      "frequency": 0.46,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "villar",
+      "ipa": "/vɪlɚ/",
+      "category": "proper_root",
+      "frequency": 0.23,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "roman",
+      "ipa": "/roʊmən/",
+      "category": "proper_root",
+      "frequency": 0.2,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "vilar",
+      "ipa": "/vilar/",
+      "category": "proper_root",
+      "frequency": 0.4,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "pineiro",
+      "ipa": "/pinɛroʊ/",
+      "category": "terrain",
+      "frequency": 0.47,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "jorge",
+      "ipa": "/hɔrheɪ/",
+      "category": "proper_root",
+      "frequency": 0.46,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "pelayo",
+      "ipa": "/peɪleɪoʊ/",
+      "category": "proper_root",
+      "frequency": 0.11,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "bartolome",
+      "ipa": "/bartolome/",
+      "category": "terrain",
+      "frequency": 0.43,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "vega",
+      "ipa": "/veɪɡə/",
+      "category": "proper_root",
+      "frequency": 0.22,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "ana",
+      "ipa": "/ɑnə/",
+      "category": "proper_root",
+      "frequency": 0.21,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "robledo",
+      "ipa": "/roʊbleɪdoʊ/",
+      "category": "terrain",
+      "frequency": 0.3,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "arcos",
+      "ipa": "/ɑrkoʊz/",
+      "category": "proper_root",
+      "frequency": 0.38,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "linares",
+      "ipa": "/lɪnɚz/",
+      "category": "terrain",
+      "frequency": 0.14,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "paradela",
+      "ipa": "/paradela/",
+      "category": "terrain",
+      "frequency": 0.45,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "cristina",
+      "ipa": "/krɪstinə/",
+      "category": "terrain",
+      "frequency": 0.15,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "otero",
+      "ipa": "/oʊtɛroʊ/",
+      "category": "proper_root",
+      "frequency": 0.49,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "campillo",
+      "ipa": "/campillo/",
+      "category": "terrain",
+      "frequency": 0.28,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "felix",
+      "ipa": "/filɪks/",
+      "category": "proper_root",
+      "frequency": 0.43,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "prado",
+      "ipa": "/prɑdoʊ/",
+      "category": "proper_root",
+      "frequency": 0.21,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "pena",
+      "ipa": "/pɛnə/",
+      "category": "proper_root",
+      "frequency": 0.27,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "lamas",
+      "ipa": "/lɑməz/",
+      "category": "proper_root",
+      "frequency": 0.36,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "tome",
+      "ipa": "/toʊm/",
+      "category": "proper_root",
+      "frequency": 0.18,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "campo",
+      "ipa": "/kæmpoʊ/",
+      "category": "proper_root",
+      "frequency": 0.18,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "villaverde",
+      "ipa": "/vilɑvɛrdi/",
+      "category": "terrain",
+      "frequency": 0.43,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "aebura",
+      "ipa": "/aebura/",
+      "category": "proper_root",
+      "frequency": 0.4,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "cabanas",
+      "ipa": "/kəbænəz/",
+      "category": "terrain",
+      "frequency": 0.4,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "jose",
+      "ipa": "/hoʊzeɪ/",
+      "category": "proper_root",
+      "frequency": 0.45,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "antonio",
+      "ipa": "/æntoʊnioʊ/",
+      "category": "terrain",
+      "frequency": 0.43,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "llanos",
+      "ipa": "/lɑnoʊz/",
+      "category": "proper_root",
+      "frequency": 0.31,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "villamayor",
+      "ipa": "/villamayor/",
+      "category": "terrain",
+      "frequency": 0.16,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "pereira",
+      "ipa": "/pɚɛrə/",
+      "category": "terrain",
+      "frequency": 0.22,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "pando",
+      "ipa": "/pɑndoʊ/",
+      "category": "proper_root",
+      "frequency": 0.3,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "valverde",
+      "ipa": "/vɑlvɛrdeɪ/",
+      "category": "terrain",
+      "frequency": 0.15,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "quintana",
+      "ipa": "/kwintænə/",
+      "category": "terrain",
+      "frequency": 0.44,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "cela",
+      "ipa": "/sɛlə/",
+      "category": "proper_root",
+      "frequency": 0.45,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "vilela",
+      "ipa": "/vilela/",
+      "category": "proper_root",
+      "frequency": 0.11,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "cosme",
+      "ipa": "/koʊzm/",
+      "category": "proper_root",
+      "frequency": 0.18,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "parada",
+      "ipa": "/pɚædə/",
+      "category": "proper_root",
+      "frequency": 0.43,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "noceda",
+      "ipa": "/noceda/",
+      "category": "proper_root",
+      "frequency": 0.43,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "covas",
+      "ipa": "/koʊvəs/",
+      "category": "proper_root",
+      "frequency": 0.2,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "barbara",
+      "ipa": "/bɑrbɚə/",
+      "category": "terrain",
+      "frequency": 0.28,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "buenavista",
+      "ipa": "/buenavista/",
+      "category": "terrain",
+      "frequency": 0.47,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "tirso",
+      "ipa": "/tirso/",
+      "category": "proper_root",
+      "frequency": 0.38,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "ciprian",
+      "ipa": "/ciprian/",
+      "category": "terrain",
+      "frequency": 0.21,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "pacios",
+      "ipa": "/pacios/",
+      "category": "proper_root",
+      "frequency": 0.43,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "murias",
+      "ipa": "/mjʊriəs/",
+      "category": "proper_root",
+      "frequency": 0.3,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "aldehuela",
+      "ipa": "/aldehuela/",
+      "category": "terrain",
+      "frequency": 0.35,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "ferreiros",
+      "ipa": "/ferreiros/",
+      "category": "terrain",
+      "frequency": 0.15,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "castelo",
+      "ipa": "/kɑstɛloʊ/",
+      "category": "terrain",
+      "frequency": 0.11,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "roque",
+      "ipa": "/roʊk/",
+      "category": "proper_root",
+      "frequency": 0.25,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "isidro",
+      "ipa": "/isidro/",
+      "category": "proper_root",
+      "frequency": 0.34,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "laguna",
+      "ipa": "/ləɡunə/",
+      "category": "proper_root",
+      "frequency": 0.17,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "ferreira",
+      "ipa": "/fɛreɪrə/",
+      "category": "terrain",
+      "frequency": 0.45,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "vilanova",
+      "ipa": "/vilanova/",
+      "category": "terrain",
+      "frequency": 0.33,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "soto",
+      "ipa": "/soʊtoʊ/",
+      "category": "proper_root",
+      "frequency": 0.24,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "rebollar",
+      "ipa": "/rebollar/",
+      "category": "terrain",
+      "frequency": 0.17,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "cuevas",
+      "ipa": "/kwɛvɑz/",
+      "category": "proper_root",
+      "frequency": 0.46,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "casicas",
+      "ipa": "/casicas/",
+      "category": "terrain",
+      "frequency": 0.4,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "collado",
+      "ipa": "/koʊlɑdoʊ/",
+      "category": "terrain",
+      "frequency": 0.38,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "cipriano",
+      "ipa": "/tʃipriɑnoʊ/",
+      "category": "terrain",
+      "frequency": 0.21,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "souto",
+      "ipa": "/sutoʊ/",
+      "category": "proper_root",
+      "frequency": 0.25,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "oleiros",
+      "ipa": "/oleiros/",
+      "category": "terrain",
+      "frequency": 0.17,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "mosteiro",
+      "ipa": "/mosteiro/",
+      "category": "terrain",
+      "frequency": 0.33,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "castanedo",
+      "ipa": "/castanedo/",
+      "category": "terrain",
+      "frequency": 0.49,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "lucia",
+      "ipa": "/luʃə/",
+      "category": "proper_root",
+      "frequency": 0.44,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "clemente",
+      "ipa": "/kləmɛnteɪ/",
+      "category": "terrain",
+      "frequency": 0.36,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "miranda",
+      "ipa": "/mɚændə/",
+      "category": "terrain",
+      "frequency": 0.37,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "canada",
+      "ipa": "/kænədə/",
+      "category": "proper_root",
+      "frequency": 0.21,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "casares",
+      "ipa": "/kɑsɑrɛs/",
+      "category": "terrain",
+      "frequency": 0.26,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "villarin",
+      "ipa": "/villarin/",
+      "category": "terrain",
+      "frequency": 0.11,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "comba",
+      "ipa": "/comba/",
+      "category": "proper_root",
+      "frequency": 0.41,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "sobrado",
+      "ipa": "/sobrado/",
+      "category": "terrain",
+      "frequency": 0.41,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "errekalde",
+      "ipa": "/errekalde/",
+      "category": "terrain",
+      "frequency": 0.1,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "pazos",
+      "ipa": "/pɑzoʊz/",
+      "category": "proper_root",
+      "frequency": 0.46,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "eugenia",
+      "ipa": "/judʒiniə/",
+      "category": "terrain",
+      "frequency": 0.36,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "sebastian",
+      "ipa": "/səbæstʃən/",
+      "category": "terrain",
+      "frequency": 0.34,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "moreda",
+      "ipa": "/moreda/",
+      "category": "proper_root",
+      "frequency": 0.1,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "florida",
+      "ipa": "/flɔrədə/",
+      "category": "terrain",
+      "frequency": 0.2,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "herrera",
+      "ipa": "/hɚɛrə/",
+      "category": "terrain",
+      "frequency": 0.42,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "fuentes",
+      "ipa": "/fwɛnteɪz/",
+      "category": "terrain",
+      "frequency": 0.22,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "casablanca",
+      "ipa": "/kæsəblæŋkə/",
+      "category": "terrain",
+      "frequency": 0.49,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "adrian",
+      "ipa": "/eɪdriən/",
+      "category": "proper_root",
+      "frequency": 0.36,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "vigo",
+      "ipa": "/viɡoʊ/",
+      "category": "proper_root",
+      "frequency": 0.27,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "ventosa",
+      "ipa": "/ventosa/",
+      "category": "terrain",
+      "frequency": 0.25,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "requejo",
+      "ipa": "/requejo/",
+      "category": "terrain",
+      "frequency": 0.24,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "quintanilla",
+      "ipa": "/kwɪntənɪlə/",
+      "category": "terrain",
+      "frequency": 0.2,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "pinera",
+      "ipa": "/pinera/",
+      "category": "proper_root",
+      "frequency": 0.29,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "outeiro",
+      "ipa": "/outeiro/",
+      "category": "terrain",
+      "frequency": 0.37,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "canedo",
+      "ipa": "/kɑneɪdoʊ/",
+      "category": "proper_root",
+      "frequency": 0.43,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "villaescusa",
+      "ipa": "/villaescusa/",
+      "category": "terrain",
+      "frequency": 0.26,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "mata",
+      "ipa": "/mɑtə/",
+      "category": "proper_root",
+      "frequency": 0.14,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "marta",
+      "ipa": "/mɑrtə/",
+      "category": "proper_root",
+      "frequency": 0.3,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "solana",
+      "ipa": "/soʊlænə/",
+      "category": "proper_root",
+      "frequency": 0.36,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "casillas",
+      "ipa": "/kɑsɪləz/",
+      "category": "terrain",
+      "frequency": 0.44,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "canadas",
+      "ipa": "/canadas/",
+      "category": "terrain",
+      "frequency": 0.25,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "nava",
+      "ipa": "/nɑvə/",
+      "category": "proper_root",
+      "frequency": 0.36,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "cuesta",
+      "ipa": "/kwɛstə/",
+      "category": "proper_root",
+      "frequency": 0.34,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "atalaya",
+      "ipa": "/ɑtɑleɪə/",
+      "category": "terrain",
+      "frequency": 0.22,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "puntal",
+      "ipa": "/puntal/",
+      "category": "terrain",
+      "frequency": 0.14,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "cortes",
+      "ipa": "/kɔrtɛz/",
+      "category": "proper_root",
+      "frequency": 0.13,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "vilarino",
+      "ipa": "/vilarino/",
+      "category": "terrain",
+      "frequency": 0.5,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "veiga",
+      "ipa": "/veɪɡə/",
+      "category": "proper_root",
+      "frequency": 0.36,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "magdalena",
+      "ipa": "/mæɡdəlinə/",
+      "category": "terrain",
+      "frequency": 0.44,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "serantes",
+      "ipa": "/serantes/",
+      "category": "terrain",
+      "frequency": 0.2,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "santianes",
+      "ipa": "/santianes/",
+      "category": "terrain",
+      "frequency": 0.38,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "santalla",
+      "ipa": "/santalla/",
+      "category": "terrain",
+      "frequency": 0.46,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "paredes",
+      "ipa": "/pɑreɪdɛs/",
+      "category": "terrain",
+      "frequency": 0.22,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "porto",
+      "ipa": "/pɔrtoʊ/",
+      "category": "proper_root",
+      "frequency": 0.16,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "insua",
+      "ipa": "/insua/",
+      "category": "proper_root",
+      "frequency": 0.41,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "fonfria",
+      "ipa": "/fonfria/",
+      "category": "terrain",
+      "frequency": 0.46,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "busto",
+      "ipa": "/bʌstoʊ/",
+      "category": "proper_root",
+      "frequency": 0.42,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "vista",
+      "ipa": "/vɪstə/",
+      "category": "proper_root",
+      "frequency": 0.42,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "alegre",
+      "ipa": "/ɑlɛɡri/",
+      "category": "proper_root",
+      "frequency": 0.34,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "torres",
+      "ipa": "/tɔrɛz/",
+      "category": "proper_root",
+      "frequency": 0.36,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "eufemia",
+      "ipa": "/eufemia/",
+      "category": "terrain",
+      "frequency": 0.37,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "rubiales",
+      "ipa": "/rubiales/",
+      "category": "terrain",
+      "frequency": 0.39,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "riofrio",
+      "ipa": "/riofrio/",
+      "category": "terrain",
+      "frequency": 0.36,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "pinilla",
+      "ipa": "/pinilla/",
+      "category": "terrain",
+      "frequency": 0.5,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "muro",
+      "ipa": "/mʊroʊ/",
+      "category": "proper_root",
+      "frequency": 0.2,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "molinos",
+      "ipa": "/molinos/",
+      "category": "terrain",
+      "frequency": 0.27,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "banos",
+      "ipa": "/bɑnoʊz/",
+      "category": "proper_root",
+      "frequency": 0.26,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "hoya",
+      "ipa": "/hoya/",
+      "category": "proper_root",
+      "frequency": 0.11,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "pedroso",
+      "ipa": "/peɪdroʊsoʊ/",
+      "category": "terrain",
+      "frequency": 0.38,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "cecilia",
+      "ipa": "/sɪsiljə/",
+      "category": "terrain",
+      "frequency": 0.33,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "justo",
+      "ipa": "/dʒʌstoʊ/",
+      "category": "proper_root",
+      "frequency": 0.18,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "ribeira",
+      "ipa": "/ribeira/",
+      "category": "terrain",
+      "frequency": 0.39,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "rioseco",
+      "ipa": "/rioseco/",
+      "category": "terrain",
+      "frequency": 0.19,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "pineira",
+      "ipa": "/pineira/",
+      "category": "terrain",
+      "frequency": 0.31,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "nogueira",
+      "ipa": "/noʊɡeɪrɑ/",
+      "category": "terrain",
+      "frequency": 0.41,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "gandara",
+      "ipa": "/ɡɑndɑrə/",
+      "category": "terrain",
+      "frequency": 0.46,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "francos",
+      "ipa": "/francos/",
+      "category": "terrain",
+      "frequency": 0.37,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "folgoso",
+      "ipa": "/folgoso/",
+      "category": "terrain",
+      "frequency": 0.3,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "filgueira",
+      "ipa": "/filgueira/",
+      "category": "terrain",
+      "frequency": 0.44,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "cereceda",
+      "ipa": "/cereceda/",
+      "category": "terrain",
+      "frequency": 0.44,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "castrelo",
+      "ipa": "/castrelo/",
+      "category": "terrain",
+      "frequency": 0.45,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "boveda",
+      "ipa": "/boveda/",
+      "category": "proper_root",
+      "frequency": 0.17,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "aranguren",
+      "ipa": "/aranguren/",
+      "category": "terrain",
+      "frequency": 0.14,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "villarejo",
+      "ipa": "/villarejo/",
+      "category": "terrain",
+      "frequency": 0.15,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "mateo",
+      "ipa": "/mɑteɪoʊ/",
+      "category": "proper_root",
+      "frequency": 0.2,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "clara",
+      "ipa": "/klærə/",
+      "category": "proper_root",
+      "frequency": 0.42,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "pablo",
+      "ipa": "/pɑbloʊ/",
+      "category": "proper_root",
+      "frequency": 0.41,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "pastrana",
+      "ipa": "/pɑstrænə/",
+      "category": "terrain",
+      "frequency": 0.17,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "salinas",
+      "ipa": "/səlinəs/",
+      "category": "terrain",
+      "frequency": 0.37,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "casas",
+      "ipa": "/kɑsəz/",
+      "category": "proper_root",
+      "frequency": 0.23,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "rincon",
+      "ipa": "/rɪŋkən/",
+      "category": "proper_root",
+      "frequency": 0.14,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "nuevas",
+      "ipa": "/nuevas/",
+      "category": "proper_root",
+      "frequency": 0.24,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "canales",
+      "ipa": "/kænəlz/",
+      "category": "terrain",
+      "frequency": 0.4,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "viana",
+      "ipa": "/viænə/",
+      "category": "proper_root",
+      "frequency": 0.22,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "pelagio",
+      "ipa": "/pelagio/",
+      "category": "terrain",
+      "frequency": 0.42,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "soutelo",
+      "ipa": "/soutelo/",
+      "category": "terrain",
+      "frequency": 0.23,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "seoane",
+      "ipa": "/seoane/",
+      "category": "proper_root",
+      "frequency": 0.2,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "granja",
+      "ipa": "/granja/",
+      "category": "proper_root",
+      "frequency": 0.22,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "santullano",
+      "ipa": "/santullano/",
+      "category": "terrain",
+      "frequency": 0.44,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "santiuste",
+      "ipa": "/santiuste/",
+      "category": "terrain",
+      "frequency": 0.29,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "coloma",
+      "ipa": "/koʊloʊmə/",
+      "category": "proper_root",
+      "frequency": 0.45,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "castiello",
+      "ipa": "/castiello/",
+      "category": "terrain",
+      "frequency": 0.33,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "salcedo",
+      "ipa": "/sɑltʃeɪdoʊ/",
+      "category": "terrain",
+      "frequency": 0.48,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "pousada",
+      "ipa": "/pousada/",
+      "category": "terrain",
+      "frequency": 0.13,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "elexalde",
+      "ipa": "/elexalde/",
+      "category": "terrain",
+      "frequency": 0.46,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "lourido",
+      "ipa": "/lourido/",
+      "category": "terrain",
+      "frequency": 0.3,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "granda",
+      "ipa": "/ɡrændə/",
+      "category": "quality",
+      "frequency": 0.45,
+      "can_prefix": true,
+      "can_suffix": false
+    },
+    {
+      "word": "migel",
+      "ipa": "/migel/",
+      "category": "proper_root",
+      "frequency": 0.25,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "fresnedo",
+      "ipa": "/fresnedo/",
+      "category": "terrain",
+      "frequency": 0.22,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "elbarrena",
+      "ipa": "/elbarrena/",
+      "category": "terrain",
+      "frequency": 0.12,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "cuina",
+      "ipa": "/cuina/",
+      "category": "proper_root",
+      "frequency": 0.44,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "carballal",
+      "ipa": "/carballal/",
+      "category": "terrain",
+      "frequency": 0.15,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "cangas",
+      "ipa": "/cangas/",
+      "category": "proper_root",
+      "frequency": 0.18,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "altamira",
+      "ipa": "/ɑltɑmɪrə/",
+      "category": "terrain",
+      "frequency": 0.26,
+      "can_prefix": false,
+      "can_suffix": true
+    }
+  ],
+  "place_templates": [
+    {
+      "template": [
+        "terrain"
+      ],
+      "weight": 2,
+      "separator": "",
+      "example": "Yama"
+    },
+    {
+      "template": [
+        "quality",
+        "terrain"
+      ],
+      "weight": 5,
+      "separator": "",
+      "example": "Blackmoor"
+    },
+    {
+      "template": [
+        "proper_root",
+        "terrain"
+      ],
+      "weight": 4,
+      "separator": "",
+      "example": "Chesterford"
+    },
+    {
+      "template": [
+        "fauna",
+        "terrain"
+      ],
+      "weight": 3,
+      "separator": "",
+      "example": "Wolverhampton"
+    },
+    {
+      "template": [
+        "proper_root"
+      ],
+      "weight": 3,
+      "separator": "",
+      "example": "London"
+    },
+    {
+      "template": [
+        "direction",
+        "terrain"
+      ],
+      "weight": 3,
+      "separator": "",
+      "example": "Northfield"
+    },
+    {
+      "template": [
+        "event",
+        "structure"
+      ],
+      "weight": 2,
+      "separator": "",
+      "example": "Battleford"
+    },
+    {
+      "template": [
+        "flora",
+        "terrain"
+      ],
+      "weight": 2,
+      "separator": "",
+      "example": "Oakwood"
+    },
+    {
+      "template": [
+        "sacred",
+        "terrain"
+      ],
+      "weight": 2,
+      "separator": "",
+      "example": "Holywell"
+    },
+    {
+      "template": [
+        "quality",
+        "flora"
+      ],
+      "weight": 1,
+      "separator": "",
+      "example": "Greenoak"
+    }
+  ],
+  "star_system_templates": [
+    {
+      "template": [
+        "proper_root"
+      ],
+      "weight": 4,
+      "separator": "",
+      "example": "Carbinter"
+    },
+    {
+      "template": [
+        "terrain"
+      ],
+      "weight": 3,
+      "separator": "",
+      "example": "Dale"
+    },
+    {
+      "template": [
+        "proper_root",
+        "proper_root"
+      ],
+      "weight": 2,
+      "separator": "",
+      "example": "Krasnikov"
+    },
+    {
+      "template": [
+        "quality",
+        "proper_root"
+      ],
+      "weight": 1,
+      "separator": "",
+      "example": "Grandor"
+    }
+  ]
+}

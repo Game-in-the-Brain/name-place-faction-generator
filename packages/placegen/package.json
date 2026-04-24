@@ -1,0 +1,23 @@
+{
+  "name": "@gi7b/placegen",
+  "version": "260424.0.0",
+  "description": "Culturally-grounded place name generator for star systems, worlds, and cities",
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    }
+  },
+  "scripts": {
+    "build": "tsc",
+    "test": "vitest run"
+  },
+  "dependencies": {
+    "@gi7b/shared": "*",
+    "@gi7b/namegen": "*"
+  },
+  "license": "MIT"
+}

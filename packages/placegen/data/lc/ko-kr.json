@@ -1,0 +1,3287 @@
+{
+  "lc_id": "ko-kr",
+  "label": "Korean",
+  "language": "Korean",
+  "culture": "Korean",
+  "script": "CJK",
+  "romanization": "revised",
+  "phonology_notes": "Bootstrap phonology for Korean",
+  "given_names": [
+    {
+      "name": "James",
+      "ipa": "/dʒeɪmz/",
+      "gender": "M",
+      "type": "given",
+      "frequency": 0.38
+    },
+    {
+      "name": "John",
+      "ipa": "/dʒɑn/",
+      "gender": "M",
+      "type": "given",
+      "frequency": 0.42
+    },
+    {
+      "name": "Robert",
+      "ipa": "/rɑbɚt/",
+      "gender": "M",
+      "type": "given",
+      "frequency": 0.71
+    },
+    {
+      "name": "Michael",
+      "ipa": "/maɪkəl/",
+      "gender": "M",
+      "type": "given",
+      "frequency": 0.41
+    },
+    {
+      "name": "William",
+      "ipa": "/wɪljəm/",
+      "gender": "M",
+      "type": "given",
+      "frequency": 0.61
+    },
+    {
+      "name": "David",
+      "ipa": "/deɪvɪd/",
+      "gender": "M",
+      "type": "given",
+      "frequency": 0.87
+    },
+    {
+      "name": "Joseph",
+      "ipa": "/dʒoʊsəf/",
+      "gender": "M",
+      "type": "given",
+      "frequency": 0.48
+    },
+    {
+      "name": "Thomas",
+      "ipa": "/tɑməs/",
+      "gender": "M",
+      "type": "given",
+      "frequency": 0.79
+    },
+    {
+      "name": "Charles",
+      "ipa": "/tʃɑrlz/",
+      "gender": "M",
+      "type": "given",
+      "frequency": 0.64
+    },
+    {
+      "name": "Daniel",
+      "ipa": "/dænjəl/",
+      "gender": "M",
+      "type": "given",
+      "frequency": 0.86
+    },
+    {
+      "name": "Matthew",
+      "ipa": "/mæθju/",
+      "gender": "M",
+      "type": "given",
+      "frequency": 0.9
+    },
+    {
+      "name": "Anthony",
+      "ipa": "/ænθɔni/",
+      "gender": "M",
+      "type": "given",
+      "frequency": 0.54
+    },
+    {
+      "name": "Mark",
+      "ipa": "/mɑrk/",
+      "gender": "M",
+      "type": "given",
+      "frequency": 0.36
+    },
+    {
+      "name": "Donald",
+      "ipa": "/dɑnəld/",
+      "gender": "M",
+      "type": "given",
+      "frequency": 0.4
+    },
+    {
+      "name": "Steven",
+      "ipa": "/stivən/",
+      "gender": "M",
+      "type": "given",
+      "frequency": 0.95
+    },
+    {
+      "name": "Paul",
+      "ipa": "/pɔl/",
+      "gender": "M",
+      "type": "given",
+      "frequency": 0.41
+    },
+    {
+      "name": "Andrew",
+      "ipa": "/ændru/",
+      "gender": "M",
+      "type": "given",
+      "frequency": 0.65
+    },
+    {
+      "name": "Kenneth",
+      "ipa": "/kɛnɪθ/",
+      "gender": "M",
+      "type": "given",
+      "frequency": 1.0
+    },
+    {
+      "name": "Joshua",
+      "ipa": "/dʒɑʃuə/",
+      "gender": "M",
+      "type": "given",
+      "frequency": 0.84
+    },
+    {
+      "name": "Kevin",
+      "ipa": "/kɛvɪn/",
+      "gender": "M",
+      "type": "given",
+      "frequency": 0.47
+    },
+    {
+      "name": "Brian",
+      "ipa": "/braɪən/",
+      "gender": "M",
+      "type": "given",
+      "frequency": 0.61
+    },
+    {
+      "name": "George",
+      "ipa": "/dʒɔrdʒ/",
+      "gender": "M",
+      "type": "given",
+      "frequency": 0.75
+    },
+    {
+      "name": "Edward",
+      "ipa": "/ɛdwɚd/",
+      "gender": "M",
+      "type": "given",
+      "frequency": 0.45
+    },
+    {
+      "name": "Ronald",
+      "ipa": "/rɑnəld/",
+      "gender": "M",
+      "type": "given",
+      "frequency": 0.81
+    },
+    {
+      "name": "Timothy",
+      "ipa": "/tɪməθi/",
+      "gender": "M",
+      "type": "given",
+      "frequency": 0.54
+    },
+    {
+      "name": "Jason",
+      "ipa": "/dʒeɪsən/",
+      "gender": "M",
+      "type": "given",
+      "frequency": 0.75
+    },
+    {
+      "name": "Jeffrey",
+      "ipa": "/dʒɛfri/",
+      "gender": "M",
+      "type": "given",
+      "frequency": 0.83
+    },
+    {
+      "name": "Ryan",
+      "ipa": "/raɪən/",
+      "gender": "M",
+      "type": "given",
+      "frequency": 0.38
+    },
+    {
+      "name": "Jacob",
+      "ipa": "/dʒeɪkəb/",
+      "gender": "M",
+      "type": "given",
+      "frequency": 0.42
+    },
+    {
+      "name": "Gary",
+      "ipa": "/ɡɛri/",
+      "gender": "M",
+      "type": "given",
+      "frequency": 0.58
+    },
+    {
+      "name": "Nicholas",
+      "ipa": "/nɪkələs/",
+      "gender": "M",
+      "type": "given",
+      "frequency": 0.51
+    },
+    {
+      "name": "Eric",
+      "ipa": "/ɛrɪk/",
+      "gender": "M",
+      "type": "given",
+      "frequency": 0.82
+    },
+    {
+      "name": "Jonathan",
+      "ipa": "/dʒɑnəθən/",
+      "gender": "M",
+      "type": "given",
+      "frequency": 0.83
+    },
+    {
+      "name": "Stephen",
+      "ipa": "/stivən/",
+      "gender": "M",
+      "type": "given",
+      "frequency": 0.67
+    },
+    {
+      "name": "Larry",
+      "ipa": "/lɛri/",
+      "gender": "M",
+      "type": "given",
+      "frequency": 0.57
+    },
+    {
+      "name": "Justin",
+      "ipa": "/dʒʌstən/",
+      "gender": "M",
+      "type": "given",
+      "frequency": 0.79
+    },
+    {
+      "name": "Scott",
+      "ipa": "/skɑt/",
+      "gender": "M",
+      "type": "given",
+      "frequency": 0.63
+    },
+    {
+      "name": "Brandon",
+      "ipa": "/brændən/",
+      "gender": "M",
+      "type": "given",
+      "frequency": 0.4
+    },
+    {
+      "name": "Benjamin",
+      "ipa": "/bɛndʒəmən/",
+      "gender": "M",
+      "type": "given",
+      "frequency": 0.91
+    },
+    {
+      "name": "Samuel",
+      "ipa": "/sæmjul/",
+      "gender": "M",
+      "type": "given",
+      "frequency": 0.31
+    },
+    {
+      "name": "Gregory",
+      "ipa": "/ɡrɛɡɚi/",
+      "gender": "M",
+      "type": "given",
+      "frequency": 0.95
+    },
+    {
+      "name": "Frank",
+      "ipa": "/fræŋk/",
+      "gender": "M",
+      "type": "given",
+      "frequency": 0.61
+    },
+    {
+      "name": "Alexander",
+      "ipa": "/ælɪɡzændɚ/",
+      "gender": "M",
+      "type": "given",
+      "frequency": 0.77
+    },
+    {
+      "name": "Raymond",
+      "ipa": "/reɪmənd/",
+      "gender": "M",
+      "type": "given",
+      "frequency": 0.97
+    },
+    {
+      "name": "Patrick",
+      "ipa": "/pætrɪk/",
+      "gender": "M",
+      "type": "given",
+      "frequency": 0.78
+    },
+    {
+      "name": "Jack",
+      "ipa": "/dʒæk/",
+      "gender": "M",
+      "type": "given",
+      "frequency": 0.33
+    },
+    {
+      "name": "Dennis",
+      "ipa": "/dɛnɪs/",
+      "gender": "M",
+      "type": "given",
+      "frequency": 0.94
+    },
+    {
+      "name": "Jerry",
+      "ipa": "/dʒɛri/",
+      "gender": "M",
+      "type": "given",
+      "frequency": 0.75
+    },
+    {
+      "name": "Tyler",
+      "ipa": "/taɪlɚ/",
+      "gender": "M",
+      "type": "given",
+      "frequency": 0.97
+    },
+    {
+      "name": "Aaron",
+      "ipa": "/ɛrən/",
+      "gender": "M",
+      "type": "given",
+      "frequency": 0.6
+    },
+    {
+      "name": "Mary",
+      "ipa": "/mɛri/",
+      "gender": "F",
+      "type": "given",
+      "frequency": 0.94
+    },
+    {
+      "name": "Patricia",
+      "ipa": "/pətrɪʃə/",
+      "gender": "F",
+      "type": "given",
+      "frequency": 0.9
+    },
+    {
+      "name": "Jennifer",
+      "ipa": "/dʒɛnəfɚ/",
+      "gender": "F",
+      "type": "given",
+      "frequency": 0.53
+    },
+    {
+      "name": "Linda",
+      "ipa": "/lɪndə/",
+      "gender": "F",
+      "type": "given",
+      "frequency": 0.49
+    },
+    {
+      "name": "Elizabeth",
+      "ipa": "/ɪlɪzəbəθ/",
+      "gender": "F",
+      "type": "given",
+      "frequency": 0.37
+    },
+    {
+      "name": "Barbara",
+      "ipa": "/bɑrbɚə/",
+      "gender": "F",
+      "type": "given",
+      "frequency": 0.76
+    },
+    {
+      "name": "Susan",
+      "ipa": "/suzən/",
+      "gender": "F",
+      "type": "given",
+      "frequency": 0.57
+    },
+    {
+      "name": "Jessica",
+      "ipa": "/dʒɛsɪkə/",
+      "gender": "F",
+      "type": "given",
+      "frequency": 0.84
+    },
+    {
+      "name": "Sarah",
+      "ipa": "/sɛrə/",
+      "gender": "F",
+      "type": "given",
+      "frequency": 0.82
+    },
+    {
+      "name": "Karen",
+      "ipa": "/kɛrən/",
+      "gender": "F",
+      "type": "given",
+      "frequency": 0.81
+    },
+    {
+      "name": "Nancy",
+      "ipa": "/nænsi/",
+      "gender": "F",
+      "type": "given",
+      "frequency": 0.71
+    },
+    {
+      "name": "Lisa",
+      "ipa": "/lisə/",
+      "gender": "F",
+      "type": "given",
+      "frequency": 0.44
+    },
+    {
+      "name": "Betty",
+      "ipa": "/bɛti/",
+      "gender": "F",
+      "type": "given",
+      "frequency": 0.54
+    },
+    {
+      "name": "Margaret",
+      "ipa": "/mɑrɡɚɪt/",
+      "gender": "F",
+      "type": "given",
+      "frequency": 0.78
+    },
+    {
+      "name": "Sandra",
+      "ipa": "/sændrə/",
+      "gender": "F",
+      "type": "given",
+      "frequency": 0.43
+    },
+    {
+      "name": "Ashley",
+      "ipa": "/æʃli/",
+      "gender": "F",
+      "type": "given",
+      "frequency": 0.68
+    },
+    {
+      "name": "Kimberly",
+      "ipa": "/kɪmbɚli/",
+      "gender": "F",
+      "type": "given",
+      "frequency": 0.77
+    },
+    {
+      "name": "Emily",
+      "ipa": "/ɛmɪli/",
+      "gender": "F",
+      "type": "given",
+      "frequency": 0.88
+    },
+    {
+      "name": "Donna",
+      "ipa": "/dɑnə/",
+      "gender": "F",
+      "type": "given",
+      "frequency": 0.31
+    },
+    {
+      "name": "Michelle",
+      "ipa": "/mɪʃɛl/",
+      "gender": "F",
+      "type": "given",
+      "frequency": 0.37
+    },
+    {
+      "name": "Dorothy",
+      "ipa": "/dɔrəθi/",
+      "gender": "F",
+      "type": "given",
+      "frequency": 0.37
+    },
+    {
+      "name": "Carol",
+      "ipa": "/kærəl/",
+      "gender": "F",
+      "type": "given",
+      "frequency": 0.61
+    },
+    {
+      "name": "Amanda",
+      "ipa": "/əmændə/",
+      "gender": "F",
+      "type": "given",
+      "frequency": 0.45
+    },
+    {
+      "name": "Melissa",
+      "ipa": "/məlɪsə/",
+      "gender": "F",
+      "type": "given",
+      "frequency": 0.5
+    },
+    {
+      "name": "Deborah",
+      "ipa": "/dɛbɚə/",
+      "gender": "F",
+      "type": "given",
+      "frequency": 0.44
+    },
+    {
+      "name": "Stephanie",
+      "ipa": "/stɛfəni/",
+      "gender": "F",
+      "type": "given",
+      "frequency": 0.32
+    },
+    {
+      "name": "Rebecca",
+      "ipa": "/rəbɛkə/",
+      "gender": "F",
+      "type": "given",
+      "frequency": 0.36
+    },
+    {
+      "name": "Laura",
+      "ipa": "/lɔrə/",
+      "gender": "F",
+      "type": "given",
+      "frequency": 0.96
+    },
+    {
+      "name": "Sharon",
+      "ipa": "/ʃærən/",
+      "gender": "F",
+      "type": "given",
+      "frequency": 0.76
+    },
+    {
+      "name": "Cynthia",
+      "ipa": "/sɪnθiə/",
+      "gender": "F",
+      "type": "given",
+      "frequency": 0.88
+    },
+    {
+      "name": "Kathleen",
+      "ipa": "/kæθlin/",
+      "gender": "F",
+      "type": "given",
+      "frequency": 0.97
+    },
+    {
+      "name": "Amy",
+      "ipa": "/eɪmi/",
+      "gender": "F",
+      "type": "given",
+      "frequency": 0.75
+    },
+    {
+      "name": "Shirley",
+      "ipa": "/ʃɜrli/",
+      "gender": "F",
+      "type": "given",
+      "frequency": 0.8
+    },
+    {
+      "name": "Angela",
+      "ipa": "/ændʒələ/",
+      "gender": "F",
+      "type": "given",
+      "frequency": 0.38
+    },
+    {
+      "name": "Helen",
+      "ipa": "/hɛlən/",
+      "gender": "F",
+      "type": "given",
+      "frequency": 0.9
+    },
+    {
+      "name": "Anna",
+      "ipa": "/ænə/",
+      "gender": "F",
+      "type": "given",
+      "frequency": 0.39
+    },
+    {
+      "name": "Brenda",
+      "ipa": "/brɛndə/",
+      "gender": "F",
+      "type": "given",
+      "frequency": 0.76
+    },
+    {
+      "name": "Pamela",
+      "ipa": "/pæmələ/",
+      "gender": "F",
+      "type": "given",
+      "frequency": 0.93
+    },
+    {
+      "name": "Nicole",
+      "ipa": "/nɪkoʊl/",
+      "gender": "F",
+      "type": "given",
+      "frequency": 0.7
+    },
+    {
+      "name": "Emma",
+      "ipa": "/ɛmə/",
+      "gender": "F",
+      "type": "given",
+      "frequency": 0.98
+    },
+    {
+      "name": "Samantha",
+      "ipa": "/səmænθə/",
+      "gender": "F",
+      "type": "given",
+      "frequency": 0.93
+    },
+    {
+      "name": "Katherine",
+      "ipa": "/kæθɚɪn/",
+      "gender": "F",
+      "type": "given",
+      "frequency": 0.79
+    },
+    {
+      "name": "Christine",
+      "ipa": "/krɪstin/",
+      "gender": "F",
+      "type": "given",
+      "frequency": 0.48
+    },
+    {
+      "name": "Debra",
+      "ipa": "/dɛbrə/",
+      "gender": "F",
+      "type": "given",
+      "frequency": 0.63
+    },
+    {
+      "name": "Rachel",
+      "ipa": "/reɪtʃəl/",
+      "gender": "F",
+      "type": "given",
+      "frequency": 0.96
+    },
+    {
+      "name": "Catherine",
+      "ipa": "/kæθɚən/",
+      "gender": "F",
+      "type": "given",
+      "frequency": 0.75
+    },
+    {
+      "name": "Carolyn",
+      "ipa": "/kɛrəlɪn/",
+      "gender": "F",
+      "type": "given",
+      "frequency": 0.95
+    },
+    {
+      "name": "Janet",
+      "ipa": "/dʒænət/",
+      "gender": "F",
+      "type": "given",
+      "frequency": 0.49
+    },
+    {
+      "name": "Ruth",
+      "ipa": "/ruθ/",
+      "gender": "F",
+      "type": "given",
+      "frequency": 0.6
+    },
+    {
+      "name": "Maria",
+      "ipa": "/mɚiə/",
+      "gender": "F",
+      "type": "given",
+      "frequency": 0.93
+    }
+  ],
+  "family_names": [
+    {
+      "name": "Smith",
+      "ipa": "/smɪθ/",
+      "gender": "N",
+      "type": "family",
+      "frequency": 0.84
+    },
+    {
+      "name": "Johnson",
+      "ipa": "/dʒɑnsən/",
+      "gender": "N",
+      "type": "family",
+      "frequency": 0.53
+    },
+    {
+      "name": "Williams",
+      "ipa": "/wɪljəmz/",
+      "gender": "N",
+      "type": "family",
+      "frequency": 0.41
+    },
+    {
+      "name": "Brown",
+      "ipa": "/braʊn/",
+      "gender": "N",
+      "type": "family",
+      "frequency": 0.35
+    },
+    {
+      "name": "Jones",
+      "ipa": "/dʒoʊnz/",
+      "gender": "N",
+      "type": "family",
+      "frequency": 0.84
+    },
+    {
+      "name": "Garcia",
+      "ipa": "/ɡɑrsiə/",
+      "gender": "N",
+      "type": "family",
+      "frequency": 0.57
+    },
+    {
+      "name": "Miller",
+      "ipa": "/mɪlɚ/",
+      "gender": "N",
+      "type": "family",
+      "frequency": 0.53
+    },
+    {
+      "name": "Davis",
+      "ipa": "/deɪvəs/",
+      "gender": "N",
+      "type": "family",
+      "frequency": 0.34
+    },
+    {
+      "name": "Rodriguez",
+      "ipa": "/rɑdriɡɛz/",
+      "gender": "N",
+      "type": "family",
+      "frequency": 0.97
+    },
+    {
+      "name": "Martinez",
+      "ipa": "/mɑrtinɛz/",
+      "gender": "N",
+      "type": "family",
+      "frequency": 0.49
+    },
+    {
+      "name": "Hernandez",
+      "ipa": "/hɚnændɛz/",
+      "gender": "N",
+      "type": "family",
+      "frequency": 0.61
+    },
+    {
+      "name": "Lopez",
+      "ipa": "/loʊpɛz/",
+      "gender": "N",
+      "type": "family",
+      "frequency": 0.64
+    },
+    {
+      "name": "Gonzalez",
+      "ipa": "/ɡɑnzɑləz/",
+      "gender": "N",
+      "type": "family",
+      "frequency": 0.95
+    },
+    {
+      "name": "Wilson",
+      "ipa": "/wɪlsən/",
+      "gender": "N",
+      "type": "family",
+      "frequency": 0.73
+    },
+    {
+      "name": "Anderson",
+      "ipa": "/ændɚsən/",
+      "gender": "N",
+      "type": "family",
+      "frequency": 0.42
+    },
+    {
+      "name": "Thomas",
+      "ipa": "/tɑməs/",
+      "gender": "N",
+      "type": "family",
+      "frequency": 0.64
+    },
+    {
+      "name": "Taylor",
+      "ipa": "/teɪlɚ/",
+      "gender": "N",
+      "type": "family",
+      "frequency": 0.4
+    },
+    {
+      "name": "Moore",
+      "ipa": "/mʊr/",
+      "gender": "N",
+      "type": "family",
+      "frequency": 0.84
+    },
+    {
+      "name": "Jackson",
+      "ipa": "/dʒæksən/",
+      "gender": "N",
+      "type": "family",
+      "frequency": 0.45
+    },
+    {
+      "name": "Martin",
+      "ipa": "/mɑrtən/",
+      "gender": "N",
+      "type": "family",
+      "frequency": 0.75
+    },
+    {
+      "name": "Lee",
+      "ipa": "/li/",
+      "gender": "N",
+      "type": "family",
+      "frequency": 0.94
+    },
+    {
+      "name": "Perez",
+      "ipa": "/pɛrɛz/",
+      "gender": "N",
+      "type": "family",
+      "frequency": 0.8
+    },
+    {
+      "name": "Thompson",
+      "ipa": "/tɑmpsən/",
+      "gender": "N",
+      "type": "family",
+      "frequency": 0.37
+    },
+    {
+      "name": "White",
+      "ipa": "/waɪt/",
+      "gender": "N",
+      "type": "family",
+      "frequency": 0.35
+    },
+    {
+      "name": "Harris",
+      "ipa": "/hɛrɪs/",
+      "gender": "N",
+      "type": "family",
+      "frequency": 0.7
+    },
+    {
+      "name": "Sanchez",
+      "ipa": "/sæntʃɛz/",
+      "gender": "N",
+      "type": "family",
+      "frequency": 0.48
+    },
+    {
+      "name": "Clark",
+      "ipa": "/klɑrk/",
+      "gender": "N",
+      "type": "family",
+      "frequency": 0.61
+    },
+    {
+      "name": "Ramirez",
+      "ipa": "/rəmɪrɛz/",
+      "gender": "N",
+      "type": "family",
+      "frequency": 0.93
+    },
+    {
+      "name": "Lewis",
+      "ipa": "/luɪs/",
+      "gender": "N",
+      "type": "family",
+      "frequency": 0.4
+    },
+    {
+      "name": "Robinson",
+      "ipa": "/rɑbənsən/",
+      "gender": "N",
+      "type": "family",
+      "frequency": 0.75
+    },
+    {
+      "name": "Walker",
+      "ipa": "/wɔkɚ/",
+      "gender": "N",
+      "type": "family",
+      "frequency": 0.95
+    },
+    {
+      "name": "Young",
+      "ipa": "/jʌŋ/",
+      "gender": "N",
+      "type": "family",
+      "frequency": 0.77
+    },
+    {
+      "name": "Allen",
+      "ipa": "/ælən/",
+      "gender": "N",
+      "type": "family",
+      "frequency": 0.49
+    },
+    {
+      "name": "King",
+      "ipa": "/kɪŋ/",
+      "gender": "N",
+      "type": "family",
+      "frequency": 0.79
+    },
+    {
+      "name": "Wright",
+      "ipa": "/raɪt/",
+      "gender": "N",
+      "type": "family",
+      "frequency": 0.93
+    },
+    {
+      "name": "Scott",
+      "ipa": "/skɑt/",
+      "gender": "N",
+      "type": "family",
+      "frequency": 0.7
+    },
+    {
+      "name": "Torres",
+      "ipa": "/tɔrɛz/",
+      "gender": "N",
+      "type": "family",
+      "frequency": 0.66
+    },
+    {
+      "name": "Nguyen",
+      "ipa": "/nujɛn/",
+      "gender": "N",
+      "type": "family",
+      "frequency": 0.96
+    },
+    {
+      "name": "Hill",
+      "ipa": "/hɪl/",
+      "gender": "N",
+      "type": "family",
+      "frequency": 0.64
+    },
+    {
+      "name": "Flores",
+      "ipa": "/flɔrɛz/",
+      "gender": "N",
+      "type": "family",
+      "frequency": 0.61
+    },
+    {
+      "name": "Green",
+      "ipa": "/ɡrin/",
+      "gender": "N",
+      "type": "family",
+      "frequency": 0.89
+    },
+    {
+      "name": "Adams",
+      "ipa": "/ædəmz/",
+      "gender": "N",
+      "type": "family",
+      "frequency": 0.85
+    },
+    {
+      "name": "Nelson",
+      "ipa": "/nɛlsən/",
+      "gender": "N",
+      "type": "family",
+      "frequency": 0.85
+    },
+    {
+      "name": "Baker",
+      "ipa": "/beɪkɚ/",
+      "gender": "N",
+      "type": "family",
+      "frequency": 0.68
+    },
+    {
+      "name": "Hall",
+      "ipa": "/hɔl/",
+      "gender": "N",
+      "type": "family",
+      "frequency": 0.3
+    },
+    {
+      "name": "Rivera",
+      "ipa": "/rɪvɛrə/",
+      "gender": "N",
+      "type": "family",
+      "frequency": 0.97
+    },
+    {
+      "name": "Campbell",
+      "ipa": "/kæmbəl/",
+      "gender": "N",
+      "type": "family",
+      "frequency": 0.87
+    },
+    {
+      "name": "Mitchell",
+      "ipa": "/mɪtʃəl/",
+      "gender": "N",
+      "type": "family",
+      "frequency": 0.64
+    },
+    {
+      "name": "Carter",
+      "ipa": "/kɑrtɚ/",
+      "gender": "N",
+      "type": "family",
+      "frequency": 0.7
+    },
+    {
+      "name": "Roberts",
+      "ipa": "/rɑbɚts/",
+      "gender": "N",
+      "type": "family",
+      "frequency": 0.95
+    }
+  ],
+  "place_words": [
+    {
+      "word": "field",
+      "ipa": "/fild/",
+      "category": "terrain",
+      "frequency": 0.68,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "brook",
+      "ipa": "/brʊk/",
+      "category": "terrain",
+      "frequency": 0.84,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "ridge",
+      "ipa": "/rɪdʒ/",
+      "category": "terrain",
+      "frequency": 0.7,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "valley",
+      "ipa": "/væli/",
+      "category": "terrain",
+      "frequency": 0.82,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "lake",
+      "ipa": "/leɪk/",
+      "category": "terrain",
+      "frequency": 0.98,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "ford",
+      "ipa": "/fɔrd/",
+      "category": "terrain",
+      "frequency": 0.55,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "glen",
+      "ipa": "/ɡlɛn/",
+      "category": "terrain",
+      "frequency": 0.77,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "dale",
+      "ipa": "/deɪl/",
+      "category": "terrain",
+      "frequency": 0.98,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "hollow",
+      "ipa": "/hɑloʊ/",
+      "category": "terrain",
+      "frequency": 0.54,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "creek",
+      "ipa": "/krik/",
+      "category": "terrain",
+      "frequency": 0.73,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "mountain",
+      "ipa": "/maʊntən/",
+      "category": "terrain",
+      "frequency": 0.88,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "plain",
+      "ipa": "/pleɪn/",
+      "category": "terrain",
+      "frequency": 0.82,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "desert",
+      "ipa": "/dɛzɚt/",
+      "category": "terrain",
+      "frequency": 0.59,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "marsh",
+      "ipa": "/mɑrʃ/",
+      "category": "terrain",
+      "frequency": 0.52,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "cove",
+      "ipa": "/koʊv/",
+      "category": "terrain",
+      "frequency": 0.69,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "bay",
+      "ipa": "/beɪ/",
+      "category": "terrain",
+      "frequency": 0.6,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "spring",
+      "ipa": "/sprɪŋ/",
+      "category": "terrain",
+      "frequency": 0.85,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "falls",
+      "ipa": "/fɔlz/",
+      "category": "terrain",
+      "frequency": 0.95,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "peak",
+      "ipa": "/pik/",
+      "category": "terrain",
+      "frequency": 0.82,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "pass",
+      "ipa": "/pæs/",
+      "category": "terrain",
+      "frequency": 0.68,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "north",
+      "ipa": "/nɔrθ/",
+      "category": "direction",
+      "frequency": 0.54,
+      "can_prefix": true,
+      "can_suffix": false
+    },
+    {
+      "word": "south",
+      "ipa": "/saʊθ/",
+      "category": "direction",
+      "frequency": 0.82,
+      "can_prefix": true,
+      "can_suffix": false
+    },
+    {
+      "word": "east",
+      "ipa": "/ist/",
+      "category": "direction",
+      "frequency": 0.87,
+      "can_prefix": true,
+      "can_suffix": false
+    },
+    {
+      "word": "west",
+      "ipa": "/wɛst/",
+      "category": "direction",
+      "frequency": 0.57,
+      "can_prefix": true,
+      "can_suffix": false
+    },
+    {
+      "word": "upper",
+      "ipa": "/ʌpɚ/",
+      "category": "direction",
+      "frequency": 0.6,
+      "can_prefix": true,
+      "can_suffix": false
+    },
+    {
+      "word": "lower",
+      "ipa": "/loʊɚ/",
+      "category": "direction",
+      "frequency": 0.86,
+      "can_prefix": true,
+      "can_suffix": false
+    },
+    {
+      "word": "new",
+      "ipa": "/nu/",
+      "category": "direction",
+      "frequency": 0.8,
+      "can_prefix": true,
+      "can_suffix": false
+    },
+    {
+      "word": "old",
+      "ipa": "/oʊld/",
+      "category": "direction",
+      "frequency": 0.74,
+      "can_prefix": true,
+      "can_suffix": false
+    },
+    {
+      "word": "far",
+      "ipa": "/fɑr/",
+      "category": "direction",
+      "frequency": 0.53,
+      "can_prefix": true,
+      "can_suffix": false
+    },
+    {
+      "word": "near",
+      "ipa": "/nɪr/",
+      "category": "direction",
+      "frequency": 0.77,
+      "can_prefix": true,
+      "can_suffix": false
+    },
+    {
+      "word": "inner",
+      "ipa": "/ɪnɚ/",
+      "category": "direction",
+      "frequency": 0.65,
+      "can_prefix": true,
+      "can_suffix": false
+    },
+    {
+      "word": "outer",
+      "ipa": "/aʊtɚ/",
+      "category": "direction",
+      "frequency": 0.77,
+      "can_prefix": true,
+      "can_suffix": false
+    },
+    {
+      "word": "green",
+      "ipa": "/ɡrin/",
+      "category": "quality",
+      "frequency": 0.92,
+      "can_prefix": true,
+      "can_suffix": false
+    },
+    {
+      "word": "white",
+      "ipa": "/waɪt/",
+      "category": "quality",
+      "frequency": 0.72,
+      "can_prefix": true,
+      "can_suffix": false
+    },
+    {
+      "word": "black",
+      "ipa": "/blæk/",
+      "category": "quality",
+      "frequency": 1.0,
+      "can_prefix": true,
+      "can_suffix": false
+    },
+    {
+      "word": "red",
+      "ipa": "/rɛd/",
+      "category": "quality",
+      "frequency": 0.52,
+      "can_prefix": true,
+      "can_suffix": false
+    },
+    {
+      "word": "blue",
+      "ipa": "/blu/",
+      "category": "quality",
+      "frequency": 0.53,
+      "can_prefix": true,
+      "can_suffix": false
+    },
+    {
+      "word": "great",
+      "ipa": "/ɡreɪt/",
+      "category": "quality",
+      "frequency": 0.89,
+      "can_prefix": true,
+      "can_suffix": false
+    },
+    {
+      "word": "little",
+      "ipa": "/lɪtəl/",
+      "category": "quality",
+      "frequency": 0.52,
+      "can_prefix": true,
+      "can_suffix": false
+    },
+    {
+      "word": "grand",
+      "ipa": "/ɡrænd/",
+      "category": "quality",
+      "frequency": 0.56,
+      "can_prefix": true,
+      "can_suffix": false
+    },
+    {
+      "word": "clear",
+      "ipa": "/klɪr/",
+      "category": "quality",
+      "frequency": 0.9,
+      "can_prefix": true,
+      "can_suffix": false
+    },
+    {
+      "word": "dark",
+      "ipa": "/dɑrk/",
+      "category": "quality",
+      "frequency": 0.83,
+      "can_prefix": true,
+      "can_suffix": false
+    },
+    {
+      "word": "bright",
+      "ipa": "/braɪt/",
+      "category": "quality",
+      "frequency": 0.73,
+      "can_prefix": true,
+      "can_suffix": false
+    },
+    {
+      "word": "cold",
+      "ipa": "/koʊld/",
+      "category": "quality",
+      "frequency": 0.84,
+      "can_prefix": true,
+      "can_suffix": false
+    },
+    {
+      "word": "warm",
+      "ipa": "/wɔrm/",
+      "category": "quality",
+      "frequency": 0.94,
+      "can_prefix": true,
+      "can_suffix": false
+    },
+    {
+      "word": "dry",
+      "ipa": "/draɪ/",
+      "category": "quality",
+      "frequency": 0.57,
+      "can_prefix": true,
+      "can_suffix": false
+    },
+    {
+      "word": "wet",
+      "ipa": "/wɛt/",
+      "category": "quality",
+      "frequency": 0.79,
+      "can_prefix": true,
+      "can_suffix": false
+    },
+    {
+      "word": "oak",
+      "ipa": "/oʊk/",
+      "category": "flora",
+      "frequency": 0.96,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "pine",
+      "ipa": "/paɪn/",
+      "category": "flora",
+      "frequency": 0.52,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "maple",
+      "ipa": "/meɪpəl/",
+      "category": "flora",
+      "frequency": 0.57,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "cedar",
+      "ipa": "/sidɚ/",
+      "category": "flora",
+      "frequency": 0.83,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "willow",
+      "ipa": "/wɪloʊ/",
+      "category": "flora",
+      "frequency": 0.74,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "elm",
+      "ipa": "/ɛlm/",
+      "category": "flora",
+      "frequency": 0.96,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "birch",
+      "ipa": "/bɜrtʃ/",
+      "category": "flora",
+      "frequency": 0.52,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "cypress",
+      "ipa": "/saɪprəs/",
+      "category": "flora",
+      "frequency": 0.85,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "juniper",
+      "ipa": "/dʒunəpɚ/",
+      "category": "flora",
+      "frequency": 0.57,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "hawthorn",
+      "ipa": "/hɔθɔrn/",
+      "category": "flora",
+      "frequency": 0.59,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "wolf",
+      "ipa": "/wʊlf/",
+      "category": "fauna",
+      "frequency": 0.52,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "bear",
+      "ipa": "/bɛr/",
+      "category": "fauna",
+      "frequency": 0.65,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "eagle",
+      "ipa": "/iɡəl/",
+      "category": "fauna",
+      "frequency": 0.9,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "hawk",
+      "ipa": "/hɔk/",
+      "category": "fauna",
+      "frequency": 0.73,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "deer",
+      "ipa": "/dɪr/",
+      "category": "fauna",
+      "frequency": 0.59,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "fox",
+      "ipa": "/fɑks/",
+      "category": "fauna",
+      "frequency": 0.8,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "elk",
+      "ipa": "/ɛlk/",
+      "category": "fauna",
+      "frequency": 0.91,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "bison",
+      "ipa": "/baɪsən/",
+      "category": "fauna",
+      "frequency": 0.55,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "raven",
+      "ipa": "/reɪvən/",
+      "category": "fauna",
+      "frequency": 0.75,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "crow",
+      "ipa": "/kroʊ/",
+      "category": "fauna",
+      "frequency": 0.9,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "fort",
+      "ipa": "/fɔrt/",
+      "category": "structure",
+      "frequency": 0.61,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "town",
+      "ipa": "/taʊn/",
+      "category": "structure",
+      "frequency": 0.9,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "city",
+      "ipa": "/sɪti/",
+      "category": "structure",
+      "frequency": 0.71,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "port",
+      "ipa": "/pɔrt/",
+      "category": "structure",
+      "frequency": 0.91,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "ville",
+      "ipa": "/vɪl/",
+      "category": "structure",
+      "frequency": 0.99,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "burg",
+      "ipa": "/bɜrɡ/",
+      "category": "structure",
+      "frequency": 0.84,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "ton",
+      "ipa": "/tʌn/",
+      "category": "structure",
+      "frequency": 0.66,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "ham",
+      "ipa": "/hæm/",
+      "category": "structure",
+      "frequency": 0.99,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "wich",
+      "ipa": "/wɪtʃ/",
+      "category": "structure",
+      "frequency": 0.79,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "stead",
+      "ipa": "/stɛd/",
+      "category": "structure",
+      "frequency": 0.57,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "bridge",
+      "ipa": "/brɪdʒ/",
+      "category": "structure",
+      "frequency": 0.92,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "gate",
+      "ipa": "/ɡeɪt/",
+      "category": "structure",
+      "frequency": 0.9,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "mill",
+      "ipa": "/mɪl/",
+      "category": "structure",
+      "frequency": 0.88,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "station",
+      "ipa": "/steɪʃən/",
+      "category": "structure",
+      "frequency": 0.8,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "holy",
+      "ipa": "/hoʊli/",
+      "category": "sacred",
+      "frequency": 0.67,
+      "can_prefix": true,
+      "can_suffix": false
+    },
+    {
+      "word": "saint",
+      "ipa": "/seɪnt/",
+      "category": "sacred",
+      "frequency": 0.56,
+      "can_prefix": true,
+      "can_suffix": false
+    },
+    {
+      "word": "cross",
+      "ipa": "/krɔs/",
+      "category": "sacred",
+      "frequency": 0.57,
+      "can_prefix": true,
+      "can_suffix": false
+    },
+    {
+      "word": "temple",
+      "ipa": "/tɛmpəl/",
+      "category": "sacred",
+      "frequency": 0.71,
+      "can_prefix": true,
+      "can_suffix": false
+    },
+    {
+      "word": "shrine",
+      "ipa": "/ʃraɪn/",
+      "category": "sacred",
+      "frequency": 0.85,
+      "can_prefix": true,
+      "can_suffix": false
+    },
+    {
+      "word": "grace",
+      "ipa": "/ɡreɪs/",
+      "category": "sacred",
+      "frequency": 0.78,
+      "can_prefix": true,
+      "can_suffix": false
+    },
+    {
+      "word": "mercy",
+      "ipa": "/mɜrsi/",
+      "category": "sacred",
+      "frequency": 0.72,
+      "can_prefix": true,
+      "can_suffix": false
+    },
+    {
+      "word": "peace",
+      "ipa": "/pis/",
+      "category": "sacred",
+      "frequency": 0.96,
+      "can_prefix": true,
+      "can_suffix": false
+    },
+    {
+      "word": "hope",
+      "ipa": "/hoʊp/",
+      "category": "sacred",
+      "frequency": 0.52,
+      "can_prefix": true,
+      "can_suffix": false
+    },
+    {
+      "word": "faith",
+      "ipa": "/feɪθ/",
+      "category": "sacred",
+      "frequency": 0.55,
+      "can_prefix": true,
+      "can_suffix": false
+    },
+    {
+      "word": "battle",
+      "ipa": "/bætəl/",
+      "category": "event",
+      "frequency": 0.92,
+      "can_prefix": true,
+      "can_suffix": false
+    },
+    {
+      "word": "founding",
+      "ipa": "/faʊndɪŋ/",
+      "category": "event",
+      "frequency": 0.81,
+      "can_prefix": true,
+      "can_suffix": false
+    },
+    {
+      "word": "union",
+      "ipa": "/junjən/",
+      "category": "event",
+      "frequency": 0.89,
+      "can_prefix": true,
+      "can_suffix": false
+    },
+    {
+      "word": "liberty",
+      "ipa": "/lɪbɚti/",
+      "category": "event",
+      "frequency": 0.51,
+      "can_prefix": true,
+      "can_suffix": false
+    },
+    {
+      "word": "independence",
+      "ipa": "/ɪndɪpɛndəns/",
+      "category": "event",
+      "frequency": 0.74,
+      "can_prefix": true,
+      "can_suffix": false
+    },
+    {
+      "word": "victory",
+      "ipa": "/vɪktəri/",
+      "category": "event",
+      "frequency": 0.5,
+      "can_prefix": true,
+      "can_suffix": false
+    },
+    {
+      "word": "storm",
+      "ipa": "/stɔrm/",
+      "category": "event",
+      "frequency": 0.59,
+      "can_prefix": true,
+      "can_suffix": false
+    },
+    {
+      "word": "flood",
+      "ipa": "/flʌd/",
+      "category": "event",
+      "frequency": 0.54,
+      "can_prefix": true,
+      "can_suffix": false
+    },
+    {
+      "word": "fire",
+      "ipa": "/faɪɚ/",
+      "category": "event",
+      "frequency": 0.83,
+      "can_prefix": true,
+      "can_suffix": false
+    },
+    {
+      "word": "gold",
+      "ipa": "/ɡoʊld/",
+      "category": "event",
+      "frequency": 0.94,
+      "can_prefix": true,
+      "can_suffix": false
+    },
+    {
+      "word": "wash",
+      "ipa": "/wɑʃ/",
+      "category": "proper_root",
+      "frequency": 0.71,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "mont",
+      "ipa": "/mɑnt/",
+      "category": "proper_root",
+      "frequency": 0.9,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "san",
+      "ipa": "/sæn/",
+      "category": "proper_root",
+      "frequency": 0.89,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "santa",
+      "ipa": "/sæntə/",
+      "category": "proper_root",
+      "frequency": 0.85,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "los",
+      "ipa": "/loʊs/",
+      "category": "proper_root",
+      "frequency": 0.6,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "las",
+      "ipa": "/lɑs/",
+      "category": "proper_root",
+      "frequency": 0.82,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "bel",
+      "ipa": "/bɛl/",
+      "category": "proper_root",
+      "frequency": 0.76,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "beau",
+      "ipa": "/boʊ/",
+      "category": "proper_root",
+      "frequency": 0.71,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "van",
+      "ipa": "/væn/",
+      "category": "proper_root",
+      "frequency": 0.97,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "von",
+      "ipa": "/vɔn/",
+      "category": "proper_root",
+      "frequency": 0.81,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "saeteo",
+      "ipa": "/saeteo/",
+      "category": "proper_root",
+      "frequency": 0.12,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "sinchon",
+      "ipa": "/sinchon/",
+      "category": "terrain",
+      "frequency": 0.17,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "saet",
+      "ipa": "/saet/",
+      "category": "proper_root",
+      "frequency": 0.3,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "yangjimal",
+      "ipa": "/yangjimal/",
+      "category": "terrain",
+      "frequency": 0.48,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "saemal",
+      "ipa": "/saemal/",
+      "category": "proper_root",
+      "frequency": 0.35,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "singi",
+      "ipa": "/singi/",
+      "category": "proper_root",
+      "frequency": 0.41,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "naedong",
+      "ipa": "/naedong/",
+      "category": "terrain",
+      "frequency": 0.24,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "sin",
+      "ipa": "/sɪn/",
+      "category": "proper_root",
+      "frequency": 0.1,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "pyeongchon",
+      "ipa": "/pyeongchon/",
+      "category": "terrain",
+      "frequency": 0.19,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "chol",
+      "ipa": "/chol/",
+      "category": "proper_root",
+      "frequency": 0.15,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "gol",
+      "ipa": "/gol/",
+      "category": "proper_root",
+      "frequency": 0.31,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "yangji",
+      "ipa": "/yangji/",
+      "category": "proper_root",
+      "frequency": 0.14,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "mal",
+      "ipa": "/mæl/",
+      "category": "proper_root",
+      "frequency": 0.24,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "songjeong",
+      "ipa": "/songjeong/",
+      "category": "terrain",
+      "frequency": 0.4,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "jeolgol",
+      "ipa": "/jeolgol/",
+      "category": "terrain",
+      "frequency": 0.32,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "sangchon",
+      "ipa": "/sangchon/",
+      "category": "terrain",
+      "frequency": 0.19,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "angol",
+      "ipa": "/angol/",
+      "category": "proper_root",
+      "frequency": 0.41,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "jungni",
+      "ipa": "/jungni/",
+      "category": "proper_root",
+      "frequency": 0.36,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "sinheung",
+      "ipa": "/sinheung/",
+      "category": "terrain",
+      "frequency": 0.21,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "jungchon",
+      "ipa": "/jungchon/",
+      "category": "terrain",
+      "frequency": 0.18,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "araenmal",
+      "ipa": "/araenmal/",
+      "category": "terrain",
+      "frequency": 0.42,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "saemaeul",
+      "ipa": "/saemaeul/",
+      "category": "terrain",
+      "frequency": 0.37,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "chung",
+      "ipa": "/tʃʌŋ/",
+      "category": "proper_root",
+      "frequency": 0.49,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "dongchon",
+      "ipa": "/dongchon/",
+      "category": "terrain",
+      "frequency": 0.29,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "samgo",
+      "ipa": "/samgo/",
+      "category": "proper_root",
+      "frequency": 0.17,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "jeomchon",
+      "ipa": "/jeomchon/",
+      "category": "terrain",
+      "frequency": 0.37,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "sae",
+      "ipa": "/sae/",
+      "category": "proper_root",
+      "frequency": 0.12,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "anmal",
+      "ipa": "/anmal/",
+      "category": "proper_root",
+      "frequency": 0.36,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "beolmal",
+      "ipa": "/beolmal/",
+      "category": "terrain",
+      "frequency": 0.21,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "jungli",
+      "ipa": "/jungli/",
+      "category": "proper_root",
+      "frequency": 0.27,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "yongsan",
+      "ipa": "/yongsan/",
+      "category": "terrain",
+      "frequency": 0.23,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "saema",
+      "ipa": "/saema/",
+      "category": "proper_root",
+      "frequency": 0.42,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "eul",
+      "ipa": "/eul/",
+      "category": "proper_root",
+      "frequency": 0.4,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "samgeoli",
+      "ipa": "/samgeoli/",
+      "category": "terrain",
+      "frequency": 0.12,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "samgeori",
+      "ipa": "/samgeori/",
+      "category": "terrain",
+      "frequency": 0.4,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "alaesmal",
+      "ipa": "/alaesmal/",
+      "category": "terrain",
+      "frequency": 0.47,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "wolgok",
+      "ipa": "/wolgok/",
+      "category": "proper_root",
+      "frequency": 0.17,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "nae",
+      "ipa": "/nae/",
+      "category": "proper_root",
+      "frequency": 0.41,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "dong",
+      "ipa": "/dɔŋ/",
+      "category": "proper_root",
+      "frequency": 0.29,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "geumgok",
+      "ipa": "/geumgok/",
+      "category": "terrain",
+      "frequency": 0.15,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "jungmal",
+      "ipa": "/jungmal/",
+      "category": "terrain",
+      "frequency": 0.46,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "songjong",
+      "ipa": "/songjong/",
+      "category": "terrain",
+      "frequency": 0.39,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "sang",
+      "ipa": "/sæŋ/",
+      "category": "proper_root",
+      "frequency": 0.34,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "masan",
+      "ipa": "/masan/",
+      "category": "proper_root",
+      "frequency": 0.23,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "hwasan",
+      "ipa": "/hwasan/",
+      "category": "proper_root",
+      "frequency": 0.18,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "sindae",
+      "ipa": "/sindae/",
+      "category": "proper_root",
+      "frequency": 0.37,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "saeteomal",
+      "ipa": "/saeteomal/",
+      "category": "terrain",
+      "frequency": 0.23,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "osan",
+      "ipa": "/osan/",
+      "category": "proper_root",
+      "frequency": 0.41,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "yangchon",
+      "ipa": "/yangchon/",
+      "category": "terrain",
+      "frequency": 0.23,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "sinch",
+      "ipa": "/sinch/",
+      "category": "proper_root",
+      "frequency": 0.14,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "sinpyeong",
+      "ipa": "/sinpyeong/",
+      "category": "terrain",
+      "frequency": 0.4,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "mosan",
+      "ipa": "/mosan/",
+      "category": "proper_root",
+      "frequency": 0.45,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "keunmal",
+      "ipa": "/keunmal/",
+      "category": "terrain",
+      "frequency": 0.25,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "chom",
+      "ipa": "/chom/",
+      "category": "proper_root",
+      "frequency": 0.19,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "yong",
+      "ipa": "/jɔŋ/",
+      "category": "proper_root",
+      "frequency": 0.29,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "songsan",
+      "ipa": "/songsan/",
+      "category": "terrain",
+      "frequency": 0.29,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "seochon",
+      "ipa": "/seochon/",
+      "category": "terrain",
+      "frequency": 0.46,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "yongam",
+      "ipa": "/yongam/",
+      "category": "proper_root",
+      "frequency": 0.16,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "sadong",
+      "ipa": "/sadong/",
+      "category": "proper_root",
+      "frequency": 0.47,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "jungdong",
+      "ipa": "/jungdong/",
+      "category": "terrain",
+      "frequency": 0.28,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "anteo",
+      "ipa": "/anteo/",
+      "category": "proper_root",
+      "frequency": 0.25,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "wondang",
+      "ipa": "/wondang/",
+      "category": "terrain",
+      "frequency": 0.15,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "yeondong",
+      "ipa": "/yeondong/",
+      "category": "terrain",
+      "frequency": 0.39,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "deoksan",
+      "ipa": "/deoksan/",
+      "category": "terrain",
+      "frequency": 0.35,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "keungol",
+      "ipa": "/keungol/",
+      "category": "terrain",
+      "frequency": 0.49,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "golmal",
+      "ipa": "/golmal/",
+      "category": "proper_root",
+      "frequency": 0.18,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "hadong",
+      "ipa": "/hadong/",
+      "category": "proper_root",
+      "frequency": 0.15,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "sangni",
+      "ipa": "/sangni/",
+      "category": "proper_root",
+      "frequency": 0.38,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "maul",
+      "ipa": "/mɔl/",
+      "category": "proper_root",
+      "frequency": 0.12,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "wolsan",
+      "ipa": "/wolsan/",
+      "category": "proper_root",
+      "frequency": 0.15,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "namsan",
+      "ipa": "/namsan/",
+      "category": "proper_root",
+      "frequency": 0.44,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "hakdong",
+      "ipa": "/hakdong/",
+      "category": "terrain",
+      "frequency": 0.28,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "jeommal",
+      "ipa": "/jeommal/",
+      "category": "terrain",
+      "frequency": 0.17,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "dwitgol",
+      "ipa": "/dwitgol/",
+      "category": "terrain",
+      "frequency": 0.24,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "winmal",
+      "ipa": "/winmal/",
+      "category": "proper_root",
+      "frequency": 0.45,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "pol",
+      "ipa": "/pɔl/",
+      "category": "proper_root",
+      "frequency": 0.34,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "wismal",
+      "ipa": "/wismal/",
+      "category": "proper_root",
+      "frequency": 0.42,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "jangdong",
+      "ipa": "/jangdong/",
+      "category": "terrain",
+      "frequency": 0.36,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "yongdong",
+      "ipa": "/yongdong/",
+      "category": "terrain",
+      "frequency": 0.34,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "gyodong",
+      "ipa": "/gyodong/",
+      "category": "terrain",
+      "frequency": 0.17,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "sangdong",
+      "ipa": "/sangdong/",
+      "category": "terrain",
+      "frequency": 0.49,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "wondong",
+      "ipa": "/wondong/",
+      "category": "terrain",
+      "frequency": 0.44,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "sinhung",
+      "ipa": "/sinhung/",
+      "category": "terrain",
+      "frequency": 0.13,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "eumdalmal",
+      "ipa": "/eumdalmal/",
+      "category": "terrain",
+      "frequency": 0.44,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "seodanggol",
+      "ipa": "/seodanggol/",
+      "category": "terrain",
+      "frequency": 0.3,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "kol",
+      "ipa": "/koʊl/",
+      "category": "proper_root",
+      "frequency": 0.5,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "jungang",
+      "ipa": "/jungang/",
+      "category": "terrain",
+      "frequency": 0.34,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "wolpyeong",
+      "ipa": "/wolpyeong/",
+      "category": "terrain",
+      "frequency": 0.43,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "gwandong",
+      "ipa": "/gwandong/",
+      "category": "terrain",
+      "frequency": 0.21,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "norumok",
+      "ipa": "/norumok/",
+      "category": "terrain",
+      "frequency": 0.39,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "saetteum",
+      "ipa": "/saetteum/",
+      "category": "terrain",
+      "frequency": 0.39,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "yongdu",
+      "ipa": "/yongdu/",
+      "category": "proper_root",
+      "frequency": 0.2,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "eumjimal",
+      "ipa": "/eumjimal/",
+      "category": "terrain",
+      "frequency": 0.23,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "dwisgol",
+      "ipa": "/dwisgol/",
+      "category": "terrain",
+      "frequency": 0.33,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "sindong",
+      "ipa": "/sindong/",
+      "category": "terrain",
+      "frequency": 0.46,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "sangli",
+      "ipa": "/sangli/",
+      "category": "proper_root",
+      "frequency": 0.34,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "mok",
+      "ipa": "/mɑk/",
+      "category": "proper_root",
+      "frequency": 0.16,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "ansan",
+      "ipa": "/ansan/",
+      "category": "proper_root",
+      "frequency": 0.33,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "geumgog",
+      "ipa": "/geumgog/",
+      "category": "terrain",
+      "frequency": 0.1,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "guam",
+      "ipa": "/ɡwɑm/",
+      "category": "proper_root",
+      "frequency": 0.49,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "kyo",
+      "ipa": "/kjoʊ/",
+      "category": "proper_root",
+      "frequency": 0.12,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "daedong",
+      "ipa": "/daedong/",
+      "category": "terrain",
+      "frequency": 0.29,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "bondong",
+      "ipa": "/bondong/",
+      "category": "terrain",
+      "frequency": 0.41,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "jungnim",
+      "ipa": "/jungnim/",
+      "category": "terrain",
+      "frequency": 0.11,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "won",
+      "ipa": "/wʌn/",
+      "category": "proper_root",
+      "frequency": 0.31,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "dongsan",
+      "ipa": "/dongsan/",
+      "category": "terrain",
+      "frequency": 0.29,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "songnim",
+      "ipa": "/songnim/",
+      "category": "terrain",
+      "frequency": 0.42,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "seodong",
+      "ipa": "/seodong/",
+      "category": "terrain",
+      "frequency": 0.43,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "sanjeong",
+      "ipa": "/sanjeong/",
+      "category": "terrain",
+      "frequency": 0.28,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "ang",
+      "ipa": "/æŋ/",
+      "category": "proper_root",
+      "frequency": 0.2,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "twik",
+      "ipa": "/twik/",
+      "category": "proper_root",
+      "frequency": 0.32,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "dongmak",
+      "ipa": "/dongmak/",
+      "category": "terrain",
+      "frequency": 0.1,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "daechon",
+      "ipa": "/daechon/",
+      "category": "terrain",
+      "frequency": 0.39,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "sinwol",
+      "ipa": "/sinwol/",
+      "category": "proper_root",
+      "frequency": 0.48,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "araen",
+      "ipa": "/araen/",
+      "category": "proper_root",
+      "frequency": 0.15,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "jangteo",
+      "ipa": "/jangteo/",
+      "category": "terrain",
+      "frequency": 0.22,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "neunggol",
+      "ipa": "/neunggol/",
+      "category": "terrain",
+      "frequency": 0.36,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "umji",
+      "ipa": "/umji/",
+      "category": "proper_root",
+      "frequency": 0.14,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "hagdong",
+      "ipa": "/hagdong/",
+      "category": "terrain",
+      "frequency": 0.29,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "umdal",
+      "ipa": "/umdal/",
+      "category": "proper_root",
+      "frequency": 0.22,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "songnae",
+      "ipa": "/songnae/",
+      "category": "terrain",
+      "frequency": 0.38,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "yangjitteum",
+      "ipa": "/yangjitteum/",
+      "category": "terrain",
+      "frequency": 0.44,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "saenmal",
+      "ipa": "/saenmal/",
+      "category": "terrain",
+      "frequency": 0.4,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "naechon",
+      "ipa": "/naechon/",
+      "category": "terrain",
+      "frequency": 0.11,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "jungtteum",
+      "ipa": "/jungtteum/",
+      "category": "terrain",
+      "frequency": 0.28,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "saemgol",
+      "ipa": "/saemgol/",
+      "category": "terrain",
+      "frequency": 0.41,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "usmal",
+      "ipa": "/usmal/",
+      "category": "proper_root",
+      "frequency": 0.45,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "win",
+      "ipa": "/wɪn/",
+      "category": "proper_root",
+      "frequency": 0.26,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "sindeok",
+      "ipa": "/sindeok/",
+      "category": "terrain",
+      "frequency": 0.42,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "non",
+      "ipa": "/nɑn/",
+      "category": "proper_root",
+      "frequency": 0.25,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "sinp",
+      "ipa": "/sinp/",
+      "category": "proper_root",
+      "frequency": 0.29,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "haengjeong",
+      "ipa": "/haengjeong/",
+      "category": "terrain",
+      "frequency": 0.35,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "chungsan",
+      "ipa": "/chungsan/",
+      "category": "terrain",
+      "frequency": 0.44,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "kumgok",
+      "ipa": "/kumgok/",
+      "category": "proper_root",
+      "frequency": 0.13,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "jungganmal",
+      "ipa": "/jungganmal/",
+      "category": "terrain",
+      "frequency": 0.46,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "saedongne",
+      "ipa": "/saedongne/",
+      "category": "terrain",
+      "frequency": 0.23,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "woram",
+      "ipa": "/woram/",
+      "category": "proper_root",
+      "frequency": 0.11,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "wolgog",
+      "ipa": "/wolgog/",
+      "category": "proper_root",
+      "frequency": 0.27,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "tari",
+      "ipa": "/tari/",
+      "category": "proper_root",
+      "frequency": 0.21,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "kwan",
+      "ipa": "/kwɑn/",
+      "category": "proper_root",
+      "frequency": 0.48,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "hudong",
+      "ipa": "/hudong/",
+      "category": "proper_root",
+      "frequency": 0.32,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "chang",
+      "ipa": "/tʃæŋ/",
+      "category": "proper_root",
+      "frequency": 0.42,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "songgok",
+      "ipa": "/songgok/",
+      "category": "terrain",
+      "frequency": 0.42,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "songam",
+      "ipa": "/songam/",
+      "category": "proper_root",
+      "frequency": 0.13,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "hodong",
+      "ipa": "/hodong/",
+      "category": "proper_root",
+      "frequency": 0.45,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "hoeryong",
+      "ipa": "/hoeryong/",
+      "category": "terrain",
+      "frequency": 0.39,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "hachon",
+      "ipa": "/hachon/",
+      "category": "proper_root",
+      "frequency": 0.12,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "yangjima",
+      "ipa": "/yangjima/",
+      "category": "terrain",
+      "frequency": 0.48,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "jung",
+      "ipa": "/jʊŋ/",
+      "category": "proper_root",
+      "frequency": 0.37,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "angdong",
+      "ipa": "/angdong/",
+      "category": "terrain",
+      "frequency": 0.46,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "deogsan",
+      "ipa": "/deogsan/",
+      "category": "terrain",
+      "frequency": 0.14,
+      "can_prefix": false,
+      "can_suffix": true
+    }
+  ],
+  "place_templates": [
+    {
+      "template": [
+        "terrain"
+      ],
+      "weight": 2,
+      "separator": "",
+      "example": "Yama"
+    },
+    {
+      "template": [
+        "quality",
+        "terrain"
+      ],
+      "weight": 5,
+      "separator": "",
+      "example": "Blackmoor"
+    },
+    {
+      "template": [
+        "proper_root",
+        "terrain"
+      ],
+      "weight": 4,
+      "separator": "",
+      "example": "Chesterford"
+    },
+    {
+      "template": [
+        "fauna",
+        "terrain"
+      ],
+      "weight": 3,
+      "separator": "",
+      "example": "Wolverhampton"
+    },
+    {
+      "template": [
+        "proper_root"
+      ],
+      "weight": 3,
+      "separator": "",
+      "example": "London"
+    },
+    {
+      "template": [
+        "direction",
+        "terrain"
+      ],
+      "weight": 3,
+      "separator": "",
+      "example": "Northfield"
+    },
+    {
+      "template": [
+        "event",
+        "structure"
+      ],
+      "weight": 2,
+      "separator": "",
+      "example": "Battleford"
+    },
+    {
+      "template": [
+        "flora",
+        "terrain"
+      ],
+      "weight": 2,
+      "separator": "",
+      "example": "Oakwood"
+    },
+    {
+      "template": [
+        "sacred",
+        "terrain"
+      ],
+      "weight": 2,
+      "separator": "",
+      "example": "Holywell"
+    },
+    {
+      "template": [
+        "quality",
+        "flora"
+      ],
+      "weight": 1,
+      "separator": "",
+      "example": "Greenoak"
+    }
+  ],
+  "star_system_templates": [
+    {
+      "template": [
+        "proper_root"
+      ],
+      "weight": 4,
+      "separator": "",
+      "example": "Carbinter"
+    },
+    {
+      "template": [
+        "terrain"
+      ],
+      "weight": 3,
+      "separator": "",
+      "example": "Dale"
+    },
+    {
+      "template": [
+        "proper_root",
+        "proper_root"
+      ],
+      "weight": 2,
+      "separator": "",
+      "example": "Krasnikov"
+    },
+    {
+      "template": [
+        "quality",
+        "proper_root"
+      ],
+      "weight": 1,
+      "separator": "",
+      "example": "Grandor"
+    }
+  ]
+}

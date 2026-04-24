@@ -1,0 +1,22 @@
+{
+  "name": "@gi7b/namegen",
+  "version": "260424.0.0",
+  "description": "Culturally-grounded personal name generator with phonological drift",
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    }
+  },
+  "scripts": {
+    "build": "tsc",
+    "test": "vitest run"
+  },
+  "dependencies": {
+    "@gi7b/shared": "*"
+  },
+  "license": "MIT"
+}

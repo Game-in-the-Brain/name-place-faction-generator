@@ -1,0 +1,33 @@
+# Dependencies
+node_modules/
+
+# Build outputs
+dist/
+dist-web/
+
+# Data extracts (can be regenerated)
+data-raw/geonames/
+data-raw/geonames_extracted/
+data-raw/cmudict/
+data-raw/cmudict_extracted/
+data-raw/ssa/
+data-raw/ons/
+*.zip
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Lock files (optional — keep one)
+# package-lock.json

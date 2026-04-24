@@ -1,0 +1,35 @@
+{
+  "name": "gi7b-generators",
+  "version": "260424.0.0",
+  "description": "Procedural generators for names, places, factions — for world-builders and game masters",
+  "private": true,
+  "workspaces": [
+    "packages/*",
+    "shared"
+  ],
+  "scripts": {
+    "build": "npm run build --workspaces && npm run build:web",
+    "build:web": "vite build",
+    "dev": "vite",
+    "preview": "vite preview",
+    "test": "npm run test --workspaces",
+    "lint": "eslint packages/*/src/**/*.ts",
+    "clean": "rm -rf packages/*/dist shared/dist dist-web"
+  },
+  "devDependencies": {
+    "@types/node": "^20.19.39",
+    "@typescript-eslint/eslint-plugin": "^7.0.0",
+    "@typescript-eslint/parser": "^7.0.0",
+    "eslint": "^8.57.0",
+    "tsx": "^4.21.0",
+    "typescript": "^5.9.3",
+    "vite": "^6.4.2",
+    "vite-plugin-pwa": "^1.2.0",
+    "vitest": "^1.6.0",
+    "workbox-window": "^7.4.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "license": "MIT"
+}

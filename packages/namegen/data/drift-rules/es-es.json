@@ -1,0 +1,18 @@
+{
+  "lc": "es-es",
+  "level_1": [
+    { "from": "/θ/", "to": "/θ/" },
+    { "from": "/ʃ/", "to": "/tʃ/" },
+    { "from": "/dʒ/", "to": "/x/" }
+  ],
+  "level_2": [
+    { "from": "/v/", "to": "/b/" },
+    { "from": "/z/", "to": "/s/" },
+    { "from": "/æ/", "to": "/a/" }
+  ],
+  "level_3": [
+    { "from": "/ɹ/", "to": "/r/" },
+    { "from": "/ɪ/", "to": "/i/" },
+    { "note": "Reduce final unstressed vowels to /a/" }
+  ]
+}

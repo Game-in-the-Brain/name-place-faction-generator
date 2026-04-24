@@ -1,0 +1,18 @@
+{
+  "lc": "fr-fr",
+  "level_1": [
+    { "from": "/θ/", "to": "/s/" },
+    { "from": "/ð/", "to": "/z/" },
+    { "from": "/h/", "to": "" }
+  ],
+  "level_2": [
+    { "from": "/æ/", "to": "/a/" },
+    { "from": "/ɪ/", "to": "/i/" },
+    { "from": "/ʌ/", "to": "/œ/" }
+  ],
+  "level_3": [
+    { "from": "/r/", "to": "/ʁ/" },
+    { "from": "/ɹ/", "to": "/ʁ/" },
+    { "note": "Final consonants often silent" }
+  ]
+}

@@ -1,0 +1,3239 @@
+{
+  "lc_id": "zh-cn",
+  "label": "Mandarin Chinese",
+  "language": "Mandarin",
+  "culture": "Mainland Chinese",
+  "script": "CJK",
+  "romanization": "pinyin",
+  "phonology_notes": "Bootstrap phonology for Mandarin Chinese",
+  "given_names": [
+    {
+      "name": "Wei",
+      "ipa": "/weɪ/",
+      "gender": "M",
+      "type": "given",
+      "frequency": 0.83
+    },
+    {
+      "name": "Hao",
+      "ipa": "/haʊ/",
+      "gender": "M",
+      "type": "given",
+      "frequency": 0.77
+    },
+    {
+      "name": "Yi",
+      "ipa": "/ji/",
+      "gender": "M",
+      "type": "given",
+      "frequency": 0.64
+    },
+    {
+      "name": "Jun",
+      "ipa": "/dʒʌn/",
+      "gender": "M",
+      "type": "given",
+      "frequency": 0.7
+    },
+    {
+      "name": "Feng",
+      "ipa": "/fɛŋ/",
+      "gender": "M",
+      "type": "given",
+      "frequency": 0.49
+    },
+    {
+      "name": "Yong",
+      "ipa": "/jɔŋ/",
+      "gender": "M",
+      "type": "given",
+      "frequency": 0.59
+    },
+    {
+      "name": "Jie",
+      "ipa": "/dʒi/",
+      "gender": "M",
+      "type": "given",
+      "frequency": 0.62
+    },
+    {
+      "name": "Qiang",
+      "ipa": "/qiang/",
+      "gender": "M",
+      "type": "given",
+      "frequency": 0.74
+    },
+    {
+      "name": "Lei",
+      "ipa": "/leɪ/",
+      "gender": "M",
+      "type": "given",
+      "frequency": 0.92
+    },
+    {
+      "name": "Bo",
+      "ipa": "/boʊ/",
+      "gender": "M",
+      "type": "given",
+      "frequency": 0.37
+    },
+    {
+      "name": "Peng",
+      "ipa": "/pɛŋ/",
+      "gender": "M",
+      "type": "given",
+      "frequency": 0.66
+    },
+    {
+      "name": "Ming",
+      "ipa": "/mɪŋ/",
+      "gender": "M",
+      "type": "given",
+      "frequency": 0.49
+    },
+    {
+      "name": "Chao",
+      "ipa": "/tʃaʊ/",
+      "gender": "M",
+      "type": "given",
+      "frequency": 0.96
+    },
+    {
+      "name": "Jian",
+      "ipa": "/dʒiən/",
+      "gender": "M",
+      "type": "given",
+      "frequency": 0.56
+    },
+    {
+      "name": "Tao",
+      "ipa": "/taʊ/",
+      "gender": "M",
+      "type": "given",
+      "frequency": 0.97
+    },
+    {
+      "name": "Wen",
+      "ipa": "/wɛn/",
+      "gender": "M",
+      "type": "given",
+      "frequency": 0.53
+    },
+    {
+      "name": "Hui",
+      "ipa": "/huɪ/",
+      "gender": "M",
+      "type": "given",
+      "frequency": 0.3
+    },
+    {
+      "name": "Dong",
+      "ipa": "/dɔŋ/",
+      "gender": "M",
+      "type": "given",
+      "frequency": 0.84
+    },
+    {
+      "name": "Yang",
+      "ipa": "/jæŋ/",
+      "gender": "M",
+      "type": "given",
+      "frequency": 0.81
+    },
+    {
+      "name": "Bin",
+      "ipa": "/bɪn/",
+      "gender": "M",
+      "type": "given",
+      "frequency": 0.81
+    },
+    {
+      "name": "Xin",
+      "ipa": "/xin/",
+      "gender": "M",
+      "type": "given",
+      "frequency": 0.62
+    },
+    {
+      "name": "Zhi",
+      "ipa": "/zhi/",
+      "gender": "M",
+      "type": "given",
+      "frequency": 0.76
+    },
+    {
+      "name": "Long",
+      "ipa": "/lɔŋ/",
+      "gender": "M",
+      "type": "given",
+      "frequency": 0.55
+    },
+    {
+      "name": "Cheng",
+      "ipa": "/tʃɛŋ/",
+      "gender": "M",
+      "type": "given",
+      "frequency": 0.34
+    },
+    {
+      "name": "Kai",
+      "ipa": "/kaɪ/",
+      "gender": "M",
+      "type": "given",
+      "frequency": 0.67
+    },
+    {
+      "name": "Jia",
+      "ipa": "/dʒiə/",
+      "gender": "M",
+      "type": "given",
+      "frequency": 0.45
+    },
+    {
+      "name": "Hua",
+      "ipa": "/huə/",
+      "gender": "M",
+      "type": "given",
+      "frequency": 0.6
+    },
+    {
+      "name": "Rui",
+      "ipa": "/rui/",
+      "gender": "M",
+      "type": "given",
+      "frequency": 0.45
+    },
+    {
+      "name": "Xiang",
+      "ipa": "/ʃiɑŋ/",
+      "gender": "M",
+      "type": "given",
+      "frequency": 0.49
+    },
+    {
+      "name": "De",
+      "ipa": "/di/",
+      "gender": "M",
+      "type": "given",
+      "frequency": 0.88
+    },
+    {
+      "name": "Zhen",
+      "ipa": "/zhen/",
+      "gender": "M",
+      "type": "given",
+      "frequency": 0.54
+    },
+    {
+      "name": "Guo",
+      "ipa": "/guo/",
+      "gender": "M",
+      "type": "given",
+      "frequency": 0.7
+    },
+    {
+      "name": "Lin",
+      "ipa": "/lɪn/",
+      "gender": "M",
+      "type": "given",
+      "frequency": 0.7
+    },
+    {
+      "name": "Xu",
+      "ipa": "/zu/",
+      "gender": "M",
+      "type": "given",
+      "frequency": 0.64
+    },
+    {
+      "name": "Zhou",
+      "ipa": "/ʒu/",
+      "gender": "M",
+      "type": "given",
+      "frequency": 0.54
+    },
+    {
+      "name": "An",
+      "ipa": "/æn/",
+      "gender": "M",
+      "type": "given",
+      "frequency": 0.78
+    },
+    {
+      "name": "Sheng",
+      "ipa": "/ʃɛŋ/",
+      "gender": "M",
+      "type": "given",
+      "frequency": 0.33
+    },
+    {
+      "name": "Zhuo",
+      "ipa": "/zhuo/",
+      "gender": "M",
+      "type": "given",
+      "frequency": 0.37
+    },
+    {
+      "name": "Tian",
+      "ipa": "/tjɑn/",
+      "gender": "M",
+      "type": "given",
+      "frequency": 0.85
+    },
+    {
+      "name": "Yuan",
+      "ipa": "/juɑn/",
+      "gender": "M",
+      "type": "given",
+      "frequency": 0.62
+    },
+    {
+      "name": "Ying",
+      "ipa": "/jɪŋ/",
+      "gender": "F",
+      "type": "given",
+      "frequency": 0.39
+    },
+    {
+      "name": "Hua",
+      "ipa": "/huə/",
+      "gender": "F",
+      "type": "given",
+      "frequency": 0.9
+    },
+    {
+      "name": "Fang",
+      "ipa": "/fæŋ/",
+      "gender": "F",
+      "type": "given",
+      "frequency": 0.61
+    },
+    {
+      "name": "Min",
+      "ipa": "/mɪn/",
+      "gender": "F",
+      "type": "given",
+      "frequency": 0.3
+    },
+    {
+      "name": "Na",
+      "ipa": "/nɑ/",
+      "gender": "F",
+      "type": "given",
+      "frequency": 0.97
+    },
+    {
+      "name": "Jing",
+      "ipa": "/dʒɪŋ/",
+      "gender": "F",
+      "type": "given",
+      "frequency": 0.44
+    },
+    {
+      "name": "Yan",
+      "ipa": "/jæn/",
+      "gender": "F",
+      "type": "given",
+      "frequency": 0.78
+    },
+    {
+      "name": "Li",
+      "ipa": "/li/",
+      "gender": "F",
+      "type": "given",
+      "frequency": 0.39
+    },
+    {
+      "name": "Xiu",
+      "ipa": "/xiu/",
+      "gender": "F",
+      "type": "given",
+      "frequency": 0.75
+    },
+    {
+      "name": "Qing",
+      "ipa": "/kɪŋ/",
+      "gender": "F",
+      "type": "given",
+      "frequency": 0.41
+    },
+    {
+      "name": "Lan",
+      "ipa": "/læn/",
+      "gender": "F",
+      "type": "given",
+      "frequency": 0.95
+    },
+    {
+      "name": "Mei",
+      "ipa": "/meɪ/",
+      "gender": "F",
+      "type": "given",
+      "frequency": 0.49
+    },
+    {
+      "name": "Ling",
+      "ipa": "/lɪŋ/",
+      "gender": "F",
+      "type": "given",
+      "frequency": 0.76
+    },
+    {
+      "name": "Xia",
+      "ipa": "/xia/",
+      "gender": "F",
+      "type": "given",
+      "frequency": 0.48
+    },
+    {
+      "name": "Rong",
+      "ipa": "/rɔŋ/",
+      "gender": "F",
+      "type": "given",
+      "frequency": 0.56
+    },
+    {
+      "name": "Gui",
+      "ipa": "/gui/",
+      "gender": "F",
+      "type": "given",
+      "frequency": 0.93
+    },
+    {
+      "name": "Qiong",
+      "ipa": "/qiong/",
+      "gender": "F",
+      "type": "given",
+      "frequency": 0.42
+    },
+    {
+      "name": "Shu",
+      "ipa": "/ʃu/",
+      "gender": "F",
+      "type": "given",
+      "frequency": 0.58
+    },
+    {
+      "name": "Zhi",
+      "ipa": "/zhi/",
+      "gender": "F",
+      "type": "given",
+      "frequency": 0.51
+    },
+    {
+      "name": "Ping",
+      "ipa": "/pɪŋ/",
+      "gender": "F",
+      "type": "given",
+      "frequency": 0.79
+    },
+    {
+      "name": "Hong",
+      "ipa": "/hɔŋ/",
+      "gender": "F",
+      "type": "given",
+      "frequency": 0.46
+    },
+    {
+      "name": "Wei",
+      "ipa": "/weɪ/",
+      "gender": "F",
+      "type": "given",
+      "frequency": 0.76
+    },
+    {
+      "name": "Ting",
+      "ipa": "/tɪŋ/",
+      "gender": "F",
+      "type": "given",
+      "frequency": 0.79
+    },
+    {
+      "name": "Juan",
+      "ipa": "/wɑn/",
+      "gender": "F",
+      "type": "given",
+      "frequency": 0.3
+    },
+    {
+      "name": "Xin",
+      "ipa": "/xin/",
+      "gender": "F",
+      "type": "given",
+      "frequency": 0.63
+    },
+    {
+      "name": "Xue",
+      "ipa": "/zu/",
+      "gender": "F",
+      "type": "given",
+      "frequency": 0.39
+    },
+    {
+      "name": "Lian",
+      "ipa": "/ljɑn/",
+      "gender": "F",
+      "type": "given",
+      "frequency": 0.46
+    },
+    {
+      "name": "Shan",
+      "ipa": "/ʃæn/",
+      "gender": "F",
+      "type": "given",
+      "frequency": 0.78
+    },
+    {
+      "name": "Xiang",
+      "ipa": "/ʃiɑŋ/",
+      "gender": "F",
+      "type": "given",
+      "frequency": 0.31
+    },
+    {
+      "name": "Yu",
+      "ipa": "/ju/",
+      "gender": "F",
+      "type": "given",
+      "frequency": 0.79
+    },
+    {
+      "name": "Jin",
+      "ipa": "/dʒɪn/",
+      "gender": "F",
+      "type": "given",
+      "frequency": 0.87
+    },
+    {
+      "name": "Yao",
+      "ipa": "/jaʊ/",
+      "gender": "F",
+      "type": "given",
+      "frequency": 0.99
+    },
+    {
+      "name": "Yun",
+      "ipa": "/jʌn/",
+      "gender": "F",
+      "type": "given",
+      "frequency": 0.6
+    },
+    {
+      "name": "Qian",
+      "ipa": "/kiɑn/",
+      "gender": "F",
+      "type": "given",
+      "frequency": 0.39
+    },
+    {
+      "name": "Su",
+      "ipa": "/su/",
+      "gender": "F",
+      "type": "given",
+      "frequency": 0.35
+    },
+    {
+      "name": "Ning",
+      "ipa": "/nɪŋ/",
+      "gender": "F",
+      "type": "given",
+      "frequency": 0.57
+    },
+    {
+      "name": "Lu",
+      "ipa": "/lu/",
+      "gender": "F",
+      "type": "given",
+      "frequency": 0.81
+    },
+    {
+      "name": "Rui",
+      "ipa": "/rui/",
+      "gender": "F",
+      "type": "given",
+      "frequency": 0.37
+    },
+    {
+      "name": "Qin",
+      "ipa": "/kɪn/",
+      "gender": "F",
+      "type": "given",
+      "frequency": 0.52
+    },
+    {
+      "name": "Bi",
+      "ipa": "/baɪ/",
+      "gender": "F",
+      "type": "given",
+      "frequency": 0.92
+    }
+  ],
+  "family_names": [
+    {
+      "name": "Wang",
+      "ipa": "/wæŋ/",
+      "gender": "N",
+      "type": "family",
+      "frequency": 0.4
+    },
+    {
+      "name": "Li",
+      "ipa": "/li/",
+      "gender": "N",
+      "type": "family",
+      "frequency": 0.84
+    },
+    {
+      "name": "Zhang",
+      "ipa": "/ʒæŋ/",
+      "gender": "N",
+      "type": "family",
+      "frequency": 0.83
+    },
+    {
+      "name": "Liu",
+      "ipa": "/lju/",
+      "gender": "N",
+      "type": "family",
+      "frequency": 0.39
+    },
+    {
+      "name": "Chen",
+      "ipa": "/tʃɛn/",
+      "gender": "N",
+      "type": "family",
+      "frequency": 1.0
+    },
+    {
+      "name": "Yang",
+      "ipa": "/jæŋ/",
+      "gender": "N",
+      "type": "family",
+      "frequency": 0.4
+    },
+    {
+      "name": "Huang",
+      "ipa": "/hwæŋ/",
+      "gender": "N",
+      "type": "family",
+      "frequency": 0.67
+    },
+    {
+      "name": "Zhao",
+      "ipa": "/ʒaʊ/",
+      "gender": "N",
+      "type": "family",
+      "frequency": 0.31
+    },
+    {
+      "name": "Wu",
+      "ipa": "/wu/",
+      "gender": "N",
+      "type": "family",
+      "frequency": 0.76
+    },
+    {
+      "name": "Zhou",
+      "ipa": "/ʒu/",
+      "gender": "N",
+      "type": "family",
+      "frequency": 0.61
+    },
+    {
+      "name": "Xu",
+      "ipa": "/zu/",
+      "gender": "N",
+      "type": "family",
+      "frequency": 0.81
+    },
+    {
+      "name": "Sun",
+      "ipa": "/sʌn/",
+      "gender": "N",
+      "type": "family",
+      "frequency": 0.74
+    },
+    {
+      "name": "Ma",
+      "ipa": "/mɑ/",
+      "gender": "N",
+      "type": "family",
+      "frequency": 0.41
+    },
+    {
+      "name": "Zhu",
+      "ipa": "/ʒu/",
+      "gender": "N",
+      "type": "family",
+      "frequency": 0.59
+    },
+    {
+      "name": "Hu",
+      "ipa": "/hu/",
+      "gender": "N",
+      "type": "family",
+      "frequency": 0.78
+    },
+    {
+      "name": "Guo",
+      "ipa": "/guo/",
+      "gender": "N",
+      "type": "family",
+      "frequency": 0.9
+    },
+    {
+      "name": "He",
+      "ipa": "/hi/",
+      "gender": "N",
+      "type": "family",
+      "frequency": 0.36
+    },
+    {
+      "name": "Gao",
+      "ipa": "/gao/",
+      "gender": "N",
+      "type": "family",
+      "frequency": 0.37
+    },
+    {
+      "name": "Lin",
+      "ipa": "/lɪn/",
+      "gender": "N",
+      "type": "family",
+      "frequency": 0.83
+    },
+    {
+      "name": "Luo",
+      "ipa": "/lwoʊ/",
+      "gender": "N",
+      "type": "family",
+      "frequency": 0.71
+    },
+    {
+      "name": "Zheng",
+      "ipa": "/zɛŋ/",
+      "gender": "N",
+      "type": "family",
+      "frequency": 0.57
+    },
+    {
+      "name": "Liang",
+      "ipa": "/ljæŋ/",
+      "gender": "N",
+      "type": "family",
+      "frequency": 0.97
+    },
+    {
+      "name": "Xie",
+      "ipa": "/zi/",
+      "gender": "N",
+      "type": "family",
+      "frequency": 0.52
+    },
+    {
+      "name": "Song",
+      "ipa": "/sɔŋ/",
+      "gender": "N",
+      "type": "family",
+      "frequency": 0.4
+    },
+    {
+      "name": "Tang",
+      "ipa": "/tæŋ/",
+      "gender": "N",
+      "type": "family",
+      "frequency": 0.49
+    },
+    {
+      "name": "Xu",
+      "ipa": "/zu/",
+      "gender": "N",
+      "type": "family",
+      "frequency": 0.36
+    },
+    {
+      "name": "Han",
+      "ipa": "/hɑn/",
+      "gender": "N",
+      "type": "family",
+      "frequency": 0.69
+    },
+    {
+      "name": "Feng",
+      "ipa": "/fɛŋ/",
+      "gender": "N",
+      "type": "family",
+      "frequency": 0.72
+    },
+    {
+      "name": "Deng",
+      "ipa": "/dɛŋ/",
+      "gender": "N",
+      "type": "family",
+      "frequency": 0.73
+    },
+    {
+      "name": "Cao",
+      "ipa": "/kaʊ/",
+      "gender": "N",
+      "type": "family",
+      "frequency": 0.85
+    },
+    {
+      "name": "Peng",
+      "ipa": "/pɛŋ/",
+      "gender": "N",
+      "type": "family",
+      "frequency": 0.78
+    },
+    {
+      "name": "Zeng",
+      "ipa": "/zɛŋ/",
+      "gender": "N",
+      "type": "family",
+      "frequency": 0.89
+    },
+    {
+      "name": "Xiao",
+      "ipa": "/ʒaʊ/",
+      "gender": "N",
+      "type": "family",
+      "frequency": 0.76
+    },
+    {
+      "name": "Tian",
+      "ipa": "/tjɑn/",
+      "gender": "N",
+      "type": "family",
+      "frequency": 0.51
+    },
+    {
+      "name": "Dong",
+      "ipa": "/dɔŋ/",
+      "gender": "N",
+      "type": "family",
+      "frequency": 0.66
+    },
+    {
+      "name": "Yuan",
+      "ipa": "/juɑn/",
+      "gender": "N",
+      "type": "family",
+      "frequency": 0.66
+    },
+    {
+      "name": "Pan",
+      "ipa": "/pæn/",
+      "gender": "N",
+      "type": "family",
+      "frequency": 0.82
+    },
+    {
+      "name": "Yu",
+      "ipa": "/ju/",
+      "gender": "N",
+      "type": "family",
+      "frequency": 0.51
+    },
+    {
+      "name": "Jiang",
+      "ipa": "/dʒɑŋ/",
+      "gender": "N",
+      "type": "family",
+      "frequency": 0.34
+    },
+    {
+      "name": "Cai",
+      "ipa": "/kaɪ/",
+      "gender": "N",
+      "type": "family",
+      "frequency": 0.93
+    }
+  ],
+  "place_words": [
+    {
+      "word": "shan",
+      "ipa": "/ʃæn/",
+      "category": "terrain",
+      "frequency": 0.98,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "chuan",
+      "ipa": "/tʃuɑn/",
+      "category": "terrain",
+      "frequency": 0.75,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "hu",
+      "ipa": "/hu/",
+      "category": "terrain",
+      "frequency": 0.56,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "he",
+      "ipa": "/hi/",
+      "category": "terrain",
+      "frequency": 0.75,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "dao",
+      "ipa": "/daʊ/",
+      "category": "terrain",
+      "frequency": 0.8,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "wan",
+      "ipa": "/wɑn/",
+      "category": "terrain",
+      "frequency": 0.76,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "gang",
+      "ipa": "/ɡæŋ/",
+      "category": "terrain",
+      "frequency": 0.99,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "ling",
+      "ipa": "/lɪŋ/",
+      "category": "terrain",
+      "frequency": 0.99,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "yuan",
+      "ipa": "/juɑn/",
+      "category": "terrain",
+      "frequency": 0.97,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "ping",
+      "ipa": "/pɪŋ/",
+      "category": "terrain",
+      "frequency": 0.57,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "gao",
+      "ipa": "/gao/",
+      "category": "terrain",
+      "frequency": 0.93,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "di",
+      "ipa": "/di/",
+      "category": "terrain",
+      "frequency": 0.78,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "po",
+      "ipa": "/poʊ/",
+      "category": "terrain",
+      "frequency": 0.68,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "gu",
+      "ipa": "/ɡu/",
+      "category": "terrain",
+      "frequency": 0.84,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "xia",
+      "ipa": "/xia/",
+      "category": "terrain",
+      "frequency": 0.88,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "zhou",
+      "ipa": "/ʒu/",
+      "category": "terrain",
+      "frequency": 0.98,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "tan",
+      "ipa": "/tæn/",
+      "category": "terrain",
+      "frequency": 0.89,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "quan",
+      "ipa": "/kwɔn/",
+      "category": "terrain",
+      "frequency": 0.51,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "jing",
+      "ipa": "/dʒɪŋ/",
+      "category": "terrain",
+      "frequency": 0.53,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "qu",
+      "ipa": "/ku/",
+      "category": "terrain",
+      "frequency": 0.63,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "dong",
+      "ipa": "/dɔŋ/",
+      "category": "direction",
+      "frequency": 0.52,
+      "can_prefix": true,
+      "can_suffix": false
+    },
+    {
+      "word": "xi",
+      "ipa": "/ʃi/",
+      "category": "direction",
+      "frequency": 0.53,
+      "can_prefix": true,
+      "can_suffix": false
+    },
+    {
+      "word": "nan",
+      "ipa": "/næn/",
+      "category": "direction",
+      "frequency": 0.89,
+      "can_prefix": true,
+      "can_suffix": false
+    },
+    {
+      "word": "bei",
+      "ipa": "/bei/",
+      "category": "direction",
+      "frequency": 0.75,
+      "can_prefix": true,
+      "can_suffix": false
+    },
+    {
+      "word": "zhong",
+      "ipa": "/zhong/",
+      "category": "direction",
+      "frequency": 0.81,
+      "can_prefix": true,
+      "can_suffix": false
+    },
+    {
+      "word": "shang",
+      "ipa": "/shang/",
+      "category": "direction",
+      "frequency": 0.75,
+      "can_prefix": true,
+      "can_suffix": false
+    },
+    {
+      "word": "xia",
+      "ipa": "/xia/",
+      "category": "direction",
+      "frequency": 0.71,
+      "can_prefix": true,
+      "can_suffix": false
+    },
+    {
+      "word": "qian",
+      "ipa": "/kiɑn/",
+      "category": "direction",
+      "frequency": 0.85,
+      "can_prefix": true,
+      "can_suffix": false
+    },
+    {
+      "word": "hou",
+      "ipa": "/hu/",
+      "category": "direction",
+      "frequency": 0.54,
+      "can_prefix": true,
+      "can_suffix": false
+    },
+    {
+      "word": "zuo",
+      "ipa": "/zuo/",
+      "category": "direction",
+      "frequency": 0.77,
+      "can_prefix": true,
+      "can_suffix": false
+    },
+    {
+      "word": "you",
+      "ipa": "/ju/",
+      "category": "direction",
+      "frequency": 0.81,
+      "can_prefix": true,
+      "can_suffix": false
+    },
+    {
+      "word": "nei",
+      "ipa": "/nei/",
+      "category": "direction",
+      "frequency": 0.64,
+      "can_prefix": true,
+      "can_suffix": false
+    },
+    {
+      "word": "wai",
+      "ipa": "/waɪ/",
+      "category": "direction",
+      "frequency": 0.65,
+      "can_prefix": true,
+      "can_suffix": false
+    },
+    {
+      "word": "da",
+      "ipa": "/dɑ/",
+      "category": "quality",
+      "frequency": 0.76,
+      "can_prefix": true,
+      "can_suffix": false
+    },
+    {
+      "word": "xiao",
+      "ipa": "/ʒaʊ/",
+      "category": "quality",
+      "frequency": 0.6,
+      "can_prefix": true,
+      "can_suffix": false
+    },
+    {
+      "word": "lao",
+      "ipa": "/laʊ/",
+      "category": "quality",
+      "frequency": 0.9,
+      "can_prefix": true,
+      "can_suffix": false
+    },
+    {
+      "word": "xin",
+      "ipa": "/xin/",
+      "category": "quality",
+      "frequency": 0.77,
+      "can_prefix": true,
+      "can_suffix": false
+    },
+    {
+      "word": "gao",
+      "ipa": "/gao/",
+      "category": "quality",
+      "frequency": 0.7,
+      "can_prefix": true,
+      "can_suffix": false
+    },
+    {
+      "word": "chang",
+      "ipa": "/tʃæŋ/",
+      "category": "quality",
+      "frequency": 0.82,
+      "can_prefix": true,
+      "can_suffix": false
+    },
+    {
+      "word": "duan",
+      "ipa": "/dwæn/",
+      "category": "quality",
+      "frequency": 0.92,
+      "can_prefix": true,
+      "can_suffix": false
+    },
+    {
+      "word": "kuan",
+      "ipa": "/kwɑn/",
+      "category": "quality",
+      "frequency": 0.84,
+      "can_prefix": true,
+      "can_suffix": false
+    },
+    {
+      "word": "zhai",
+      "ipa": "/zhai/",
+      "category": "quality",
+      "frequency": 0.53,
+      "can_prefix": true,
+      "can_suffix": false
+    },
+    {
+      "word": "shen",
+      "ipa": "/ʃɛn/",
+      "category": "quality",
+      "frequency": 0.85,
+      "can_prefix": true,
+      "can_suffix": false
+    },
+    {
+      "word": "qian",
+      "ipa": "/kiɑn/",
+      "category": "quality",
+      "frequency": 0.86,
+      "can_prefix": true,
+      "can_suffix": false
+    },
+    {
+      "word": "yuan",
+      "ipa": "/juɑn/",
+      "category": "quality",
+      "frequency": 0.92,
+      "can_prefix": true,
+      "can_suffix": false
+    },
+    {
+      "word": "jin",
+      "ipa": "/dʒɪn/",
+      "category": "quality",
+      "frequency": 0.53,
+      "can_prefix": true,
+      "can_suffix": false
+    },
+    {
+      "word": "song",
+      "ipa": "/sɔŋ/",
+      "category": "flora",
+      "frequency": 0.54,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "bai",
+      "ipa": "/bai/",
+      "category": "flora",
+      "frequency": 0.72,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "yang",
+      "ipa": "/jæŋ/",
+      "category": "flora",
+      "frequency": 0.73,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "liu",
+      "ipa": "/lju/",
+      "category": "flora",
+      "frequency": 0.8,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "tao",
+      "ipa": "/taʊ/",
+      "category": "flora",
+      "frequency": 0.65,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "li",
+      "ipa": "/li/",
+      "category": "flora",
+      "frequency": 0.87,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "mei",
+      "ipa": "/meɪ/",
+      "category": "flora",
+      "frequency": 0.87,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "zhu",
+      "ipa": "/ʒu/",
+      "category": "flora",
+      "frequency": 0.56,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "he",
+      "ipa": "/hi/",
+      "category": "flora",
+      "frequency": 0.85,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "lan",
+      "ipa": "/læn/",
+      "category": "flora",
+      "frequency": 0.85,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "long",
+      "ipa": "/lɔŋ/",
+      "category": "fauna",
+      "frequency": 0.58,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "feng",
+      "ipa": "/fɛŋ/",
+      "category": "fauna",
+      "frequency": 0.98,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "hu",
+      "ipa": "/hu/",
+      "category": "fauna",
+      "frequency": 0.76,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "shi",
+      "ipa": "/ʃi/",
+      "category": "fauna",
+      "frequency": 0.89,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "xiong",
+      "ipa": "/ʒɔŋ/",
+      "category": "fauna",
+      "frequency": 0.86,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "lang",
+      "ipa": "/læŋ/",
+      "category": "fauna",
+      "frequency": 0.58,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "lu",
+      "ipa": "/lu/",
+      "category": "fauna",
+      "frequency": 0.56,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "he",
+      "ipa": "/hi/",
+      "category": "fauna",
+      "frequency": 0.89,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "ying",
+      "ipa": "/jɪŋ/",
+      "category": "fauna",
+      "frequency": 0.63,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "yan",
+      "ipa": "/jæn/",
+      "category": "fauna",
+      "frequency": 0.94,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "cheng",
+      "ipa": "/tʃɛŋ/",
+      "category": "structure",
+      "frequency": 0.89,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "zhen",
+      "ipa": "/zhen/",
+      "category": "structure",
+      "frequency": 0.51,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "cun",
+      "ipa": "/cun/",
+      "category": "structure",
+      "frequency": 0.9,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "bao",
+      "ipa": "/baʊ/",
+      "category": "structure",
+      "frequency": 0.64,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "guan",
+      "ipa": "/guan/",
+      "category": "structure",
+      "frequency": 0.53,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "kou",
+      "ipa": "/kou/",
+      "category": "structure",
+      "frequency": 0.86,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "gang",
+      "ipa": "/ɡæŋ/",
+      "category": "structure",
+      "frequency": 0.79,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "zhan",
+      "ipa": "/zɑn/",
+      "category": "structure",
+      "frequency": 0.54,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "suo",
+      "ipa": "/suo/",
+      "category": "structure",
+      "frequency": 0.73,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "chang",
+      "ipa": "/tʃæŋ/",
+      "category": "structure",
+      "frequency": 0.68,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "sheng",
+      "ipa": "/ʃɛŋ/",
+      "category": "sacred",
+      "frequency": 0.75,
+      "can_prefix": true,
+      "can_suffix": false
+    },
+    {
+      "word": "fu",
+      "ipa": "/fu/",
+      "category": "sacred",
+      "frequency": 0.78,
+      "can_prefix": true,
+      "can_suffix": false
+    },
+    {
+      "word": "de",
+      "ipa": "/di/",
+      "category": "sacred",
+      "frequency": 0.68,
+      "can_prefix": true,
+      "can_suffix": false
+    },
+    {
+      "word": "an",
+      "ipa": "/æn/",
+      "category": "sacred",
+      "frequency": 0.63,
+      "can_prefix": true,
+      "can_suffix": false
+    },
+    {
+      "word": "ning",
+      "ipa": "/nɪŋ/",
+      "category": "sacred",
+      "frequency": 0.55,
+      "can_prefix": true,
+      "can_suffix": false
+    },
+    {
+      "word": "he",
+      "ipa": "/hi/",
+      "category": "sacred",
+      "frequency": 0.79,
+      "can_prefix": true,
+      "can_suffix": false
+    },
+    {
+      "word": "ping",
+      "ipa": "/pɪŋ/",
+      "category": "sacred",
+      "frequency": 0.86,
+      "can_prefix": true,
+      "can_suffix": false
+    },
+    {
+      "word": "ji",
+      "ipa": "/dʒi/",
+      "category": "sacred",
+      "frequency": 0.61,
+      "can_prefix": true,
+      "can_suffix": false
+    },
+    {
+      "word": "xiang",
+      "ipa": "/ʃiɑŋ/",
+      "category": "sacred",
+      "frequency": 0.75,
+      "can_prefix": true,
+      "can_suffix": false
+    },
+    {
+      "word": "rui",
+      "ipa": "/rui/",
+      "category": "sacred",
+      "frequency": 0.52,
+      "can_prefix": true,
+      "can_suffix": false
+    },
+    {
+      "word": "zhan",
+      "ipa": "/zɑn/",
+      "category": "event",
+      "frequency": 0.93,
+      "can_prefix": true,
+      "can_suffix": false
+    },
+    {
+      "word": "sheng",
+      "ipa": "/ʃɛŋ/",
+      "category": "event",
+      "frequency": 0.62,
+      "can_prefix": true,
+      "can_suffix": false
+    },
+    {
+      "word": "he",
+      "ipa": "/hi/",
+      "category": "event",
+      "frequency": 0.74,
+      "can_prefix": true,
+      "can_suffix": false
+    },
+    {
+      "word": "jian",
+      "ipa": "/dʒiən/",
+      "category": "event",
+      "frequency": 0.69,
+      "can_prefix": true,
+      "can_suffix": false
+    },
+    {
+      "word": "fa",
+      "ipa": "/fa/",
+      "category": "event",
+      "frequency": 0.58,
+      "can_prefix": true,
+      "can_suffix": false
+    },
+    {
+      "word": "xian",
+      "ipa": "/zjɑn/",
+      "category": "event",
+      "frequency": 0.97,
+      "can_prefix": true,
+      "can_suffix": false
+    },
+    {
+      "word": "tong",
+      "ipa": "/tɔŋ/",
+      "category": "event",
+      "frequency": 0.93,
+      "can_prefix": true,
+      "can_suffix": false
+    },
+    {
+      "word": "yi",
+      "ipa": "/ji/",
+      "category": "event",
+      "frequency": 0.78,
+      "can_prefix": true,
+      "can_suffix": false
+    },
+    {
+      "word": "bei",
+      "ipa": "/bei/",
+      "category": "proper_root",
+      "frequency": 0.96,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "nan",
+      "ipa": "/næn/",
+      "category": "proper_root",
+      "frequency": 0.87,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "xi",
+      "ipa": "/ʃi/",
+      "category": "proper_root",
+      "frequency": 0.71,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "dong",
+      "ipa": "/dɔŋ/",
+      "category": "proper_root",
+      "frequency": 0.66,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "zhong",
+      "ipa": "/zhong/",
+      "category": "proper_root",
+      "frequency": 0.71,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "shang",
+      "ipa": "/shang/",
+      "category": "proper_root",
+      "frequency": 0.86,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "chang",
+      "ipa": "/tʃæŋ/",
+      "category": "proper_root",
+      "frequency": 0.64,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "an",
+      "ipa": "/æn/",
+      "category": "proper_root",
+      "frequency": 0.54,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "ning",
+      "ipa": "/nɪŋ/",
+      "category": "proper_root",
+      "frequency": 0.69,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "he",
+      "ipa": "/hi/",
+      "category": "proper_root",
+      "frequency": 0.75,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "xincun",
+      "ipa": "/xincun/",
+      "category": "proper_root",
+      "frequency": 0.46,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "xinzhai",
+      "ipa": "/xinzhai/",
+      "category": "terrain",
+      "frequency": 0.17,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "daping",
+      "ipa": "/daping/",
+      "category": "proper_root",
+      "frequency": 0.42,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "xiacun",
+      "ipa": "/xiacun/",
+      "category": "proper_root",
+      "frequency": 0.49,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "dazhai",
+      "ipa": "/dazhai/",
+      "category": "proper_root",
+      "frequency": 0.48,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "shangcun",
+      "ipa": "/shangcun/",
+      "category": "terrain",
+      "frequency": 0.13,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "xinzhuang",
+      "ipa": "/xinzhuang/",
+      "category": "terrain",
+      "frequency": 0.29,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "dacun",
+      "ipa": "/dacun/",
+      "category": "proper_root",
+      "frequency": 0.21,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "xinzhuangcun",
+      "ipa": "/xinzhuangcun/",
+      "category": "terrain",
+      "frequency": 0.44,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "zhongcun",
+      "ipa": "/zhongcun/",
+      "category": "terrain",
+      "frequency": 0.23,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "zhangjiawan",
+      "ipa": "/zhangjiawan/",
+      "category": "terrain",
+      "frequency": 0.32,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "wangzhuang",
+      "ipa": "/wangzhuang/",
+      "category": "terrain",
+      "frequency": 0.1,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "xigou",
+      "ipa": "/xigou/",
+      "category": "proper_root",
+      "frequency": 0.18,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "dawan",
+      "ipa": "/dawan/",
+      "category": "proper_root",
+      "frequency": 0.33,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "taipingcun",
+      "ipa": "/taipingcun/",
+      "category": "terrain",
+      "frequency": 0.22,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "wangjia",
+      "ipa": "/wangjia/",
+      "category": "terrain",
+      "frequency": 0.35,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "taiping",
+      "ipa": "/taiping/",
+      "category": "terrain",
+      "frequency": 0.29,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "liuzhuangcun",
+      "ipa": "/liuzhuangcun/",
+      "category": "terrain",
+      "frequency": 0.34,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "donggou",
+      "ipa": "/donggou/",
+      "category": "terrain",
+      "frequency": 0.3,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "lijiawan",
+      "ipa": "/lijiawan/",
+      "category": "terrain",
+      "frequency": 0.41,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "xiazhai",
+      "ipa": "/xiazhai/",
+      "category": "terrain",
+      "frequency": 0.18,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "hepingcun",
+      "ipa": "/hepingcun/",
+      "category": "terrain",
+      "frequency": 0.46,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "dongshan",
+      "ipa": "/dongshan/",
+      "category": "terrain",
+      "frequency": 0.4,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "lijia",
+      "ipa": "/lijia/",
+      "category": "proper_root",
+      "frequency": 0.2,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "lizhuangcun",
+      "ipa": "/lizhuangcun/",
+      "category": "terrain",
+      "frequency": 0.1,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "zhangzhuang",
+      "ipa": "/zhangzhuang/",
+      "category": "terrain",
+      "frequency": 0.26,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "shangzhai",
+      "ipa": "/shangzhai/",
+      "category": "terrain",
+      "frequency": 0.19,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "shenglicun",
+      "ipa": "/shenglicun/",
+      "category": "terrain",
+      "frequency": 0.24,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "yangjia",
+      "ipa": "/yangjia/",
+      "category": "terrain",
+      "frequency": 0.44,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "qiaotou",
+      "ipa": "/kiaʊtu/",
+      "category": "terrain",
+      "frequency": 0.45,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "sanhecun",
+      "ipa": "/sanhecun/",
+      "category": "terrain",
+      "frequency": 0.48,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "wangjiawan",
+      "ipa": "/wangjiawan/",
+      "category": "terrain",
+      "frequency": 0.1,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "zhangjia",
+      "ipa": "/zhangjia/",
+      "category": "terrain",
+      "frequency": 0.36,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "heping",
+      "ipa": "/heping/",
+      "category": "proper_root",
+      "frequency": 0.44,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "longtan",
+      "ipa": "/longtan/",
+      "category": "terrain",
+      "frequency": 0.39,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "mazhuangcun",
+      "ipa": "/mazhuangcun/",
+      "category": "terrain",
+      "frequency": 0.14,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "zhongzhai",
+      "ipa": "/zhongzhai/",
+      "category": "terrain",
+      "frequency": 0.31,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "liujia",
+      "ipa": "/liujia/",
+      "category": "proper_root",
+      "frequency": 0.2,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "yangjiawan",
+      "ipa": "/yangjiawan/",
+      "category": "terrain",
+      "frequency": 0.3,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "xiangyangcun",
+      "ipa": "/xiangyangcun/",
+      "category": "terrain",
+      "frequency": 0.12,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "sanhe",
+      "ipa": "/sanhe/",
+      "category": "proper_root",
+      "frequency": 0.5,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "licun",
+      "ipa": "/licun/",
+      "category": "proper_root",
+      "frequency": 0.38,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "dongcun",
+      "ipa": "/dongcun/",
+      "category": "terrain",
+      "frequency": 0.14,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "datang",
+      "ipa": "/datang/",
+      "category": "proper_root",
+      "frequency": 0.47,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "qianjincun",
+      "ipa": "/qianjincun/",
+      "category": "terrain",
+      "frequency": 0.46,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "dongshengcun",
+      "ipa": "/dongshengcun/",
+      "category": "terrain",
+      "frequency": 0.31,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "zhangcun",
+      "ipa": "/zhangcun/",
+      "category": "terrain",
+      "frequency": 0.38,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "chenjiawan",
+      "ipa": "/chenjiawan/",
+      "category": "terrain",
+      "frequency": 0.25,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "gaozhuangcun",
+      "ipa": "/gaozhuangcun/",
+      "category": "terrain",
+      "frequency": 0.49,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "nangou",
+      "ipa": "/nangou/",
+      "category": "proper_root",
+      "frequency": 0.13,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "xinxingcun",
+      "ipa": "/xinxingcun/",
+      "category": "terrain",
+      "frequency": 0.14,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "xinhuacun",
+      "ipa": "/xinhuacun/",
+      "category": "terrain",
+      "frequency": 0.15,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "taoyuan",
+      "ipa": "/taoyuan/",
+      "category": "terrain",
+      "frequency": 0.43,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "hexicun",
+      "ipa": "/hexicun/",
+      "category": "terrain",
+      "frequency": 0.13,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "dongfengcun",
+      "ipa": "/dongfengcun/",
+      "category": "terrain",
+      "frequency": 0.33,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "xinjiancun",
+      "ipa": "/xinjiancun/",
+      "category": "terrain",
+      "frequency": 0.27,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "guanzhuang",
+      "ipa": "/guanzhuang/",
+      "category": "terrain",
+      "frequency": 0.49,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "tuanjiecun",
+      "ipa": "/tuanjiecun/",
+      "category": "terrain",
+      "frequency": 0.19,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "xinmincun",
+      "ipa": "/xinmincun/",
+      "category": "terrain",
+      "frequency": 0.2,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "dongshancun",
+      "ipa": "/dongshancun/",
+      "category": "terrain",
+      "frequency": 0.23,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "luzhuangcun",
+      "ipa": "/luzhuangcun/",
+      "category": "terrain",
+      "frequency": 0.42,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "wujia",
+      "ipa": "/wujia/",
+      "category": "proper_root",
+      "frequency": 0.38,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "xinhua",
+      "ipa": "/zɪnhjuə/",
+      "category": "proper_root",
+      "frequency": 0.39,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "sanjia",
+      "ipa": "/sanjia/",
+      "category": "proper_root",
+      "frequency": 0.23,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "chenjia",
+      "ipa": "/chenjia/",
+      "category": "terrain",
+      "frequency": 0.21,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "huayuan",
+      "ipa": "/huayuan/",
+      "category": "terrain",
+      "frequency": 0.13,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "hongxingcun",
+      "ipa": "/hongxingcun/",
+      "category": "terrain",
+      "frequency": 0.18,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "wangjiacun",
+      "ipa": "/wangjiacun/",
+      "category": "terrain",
+      "frequency": 0.41,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "hedongcun",
+      "ipa": "/hedongcun/",
+      "category": "terrain",
+      "frequency": 0.33,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "yangzhuang",
+      "ipa": "/yangzhuang/",
+      "category": "terrain",
+      "frequency": 0.16,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "xuzhuangcun",
+      "ipa": "/xuzhuangcun/",
+      "category": "terrain",
+      "frequency": 0.17,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "xinwu",
+      "ipa": "/xinwu/",
+      "category": "proper_root",
+      "frequency": 0.29,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "wangcun",
+      "ipa": "/wangcun/",
+      "category": "terrain",
+      "frequency": 0.26,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "xinhecun",
+      "ipa": "/xinhecun/",
+      "category": "terrain",
+      "frequency": 0.31,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "tuanjie",
+      "ipa": "/tuanjie/",
+      "category": "terrain",
+      "frequency": 0.49,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "xinglongcun",
+      "ipa": "/xinglongcun/",
+      "category": "terrain",
+      "frequency": 0.18,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "lijiacun",
+      "ipa": "/lijiacun/",
+      "category": "terrain",
+      "frequency": 0.22,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "shengli",
+      "ipa": "/shengli/",
+      "category": "terrain",
+      "frequency": 0.21,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "xinmin",
+      "ipa": "/xinmin/",
+      "category": "proper_root",
+      "frequency": 0.15,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "liuzhuang",
+      "ipa": "/liuzhuang/",
+      "category": "terrain",
+      "frequency": 0.16,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "gaozhuang",
+      "ipa": "/gaozhuang/",
+      "category": "terrain",
+      "frequency": 0.37,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "tianba",
+      "ipa": "/tianba/",
+      "category": "proper_root",
+      "frequency": 0.43,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "zhangjiacun",
+      "ipa": "/zhangjiacun/",
+      "category": "terrain",
+      "frequency": 0.38,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "hongqicun",
+      "ipa": "/hongqicun/",
+      "category": "terrain",
+      "frequency": 0.12,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "guozhuangcun",
+      "ipa": "/guozhuangcun/",
+      "category": "terrain",
+      "frequency": 0.43,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "xinglong",
+      "ipa": "/xinglong/",
+      "category": "terrain",
+      "frequency": 0.23,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "xishan",
+      "ipa": "/xishan/",
+      "category": "proper_root",
+      "frequency": 0.14,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "dashan",
+      "ipa": "/dashan/",
+      "category": "proper_root",
+      "frequency": 0.2,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "liucun",
+      "ipa": "/liucun/",
+      "category": "proper_root",
+      "frequency": 0.24,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "liujiawan",
+      "ipa": "/liujiawan/",
+      "category": "terrain",
+      "frequency": 0.31,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "xiangyang",
+      "ipa": "/xiangyang/",
+      "category": "terrain",
+      "frequency": 0.37,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "lianhecun",
+      "ipa": "/lianhecun/",
+      "category": "terrain",
+      "frequency": 0.2,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "lizhuang",
+      "ipa": "/lizhuang/",
+      "category": "terrain",
+      "frequency": 0.5,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "sunzhuangcun",
+      "ipa": "/sunzhuangcun/",
+      "category": "terrain",
+      "frequency": 0.11,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "zhoujia",
+      "ipa": "/zhoujia/",
+      "category": "terrain",
+      "frequency": 0.26,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "liujiacun",
+      "ipa": "/liujiacun/",
+      "category": "terrain",
+      "frequency": 0.28,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "hexi",
+      "ipa": "/hexi/",
+      "category": "proper_root",
+      "frequency": 0.4,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "zhuang",
+      "ipa": "/zhuang/",
+      "category": "proper_root",
+      "frequency": 0.2,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "hekou",
+      "ipa": "/hekou/",
+      "category": "proper_root",
+      "frequency": 0.28,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "xingfucun",
+      "ipa": "/xingfucun/",
+      "category": "terrain",
+      "frequency": 0.42,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "xinfengcun",
+      "ipa": "/xinfengcun/",
+      "category": "terrain",
+      "frequency": 0.16,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "huayuancun",
+      "ipa": "/huayuancun/",
+      "category": "terrain",
+      "frequency": 0.1,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "shuikou",
+      "ipa": "/shuikou/",
+      "category": "terrain",
+      "frequency": 0.43,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "xicun",
+      "ipa": "/xicun/",
+      "category": "proper_root",
+      "frequency": 0.49,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "xiaozhai",
+      "ipa": "/xiaozhai/",
+      "category": "terrain",
+      "frequency": 0.15,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "xinqiao",
+      "ipa": "/xinqiao/",
+      "category": "terrain",
+      "frequency": 0.43,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "xikeng",
+      "ipa": "/xikeng/",
+      "category": "proper_root",
+      "frequency": 0.25,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "xinlicun",
+      "ipa": "/xinlicun/",
+      "category": "terrain",
+      "frequency": 0.35,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "guangmingcun",
+      "ipa": "/guangmingcun/",
+      "category": "terrain",
+      "frequency": 0.36,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "chaoyangcun",
+      "ipa": "/chaoyangcun/",
+      "category": "terrain",
+      "frequency": 0.33,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "chaoyang",
+      "ipa": "/chaoyang/",
+      "category": "terrain",
+      "frequency": 0.2,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "xujia",
+      "ipa": "/xujia/",
+      "category": "proper_root",
+      "frequency": 0.43,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "xinfangzi",
+      "ipa": "/xinfangzi/",
+      "category": "terrain",
+      "frequency": 0.11,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "chenzhuang",
+      "ipa": "/chenzhuang/",
+      "category": "terrain",
+      "frequency": 0.13,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "fuxingcun",
+      "ipa": "/fuxingcun/",
+      "category": "terrain",
+      "frequency": 0.46,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "dapingzi",
+      "ipa": "/dapingzi/",
+      "category": "terrain",
+      "frequency": 0.28,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "gaoqiao",
+      "ipa": "/gaoqiao/",
+      "category": "terrain",
+      "frequency": 0.15,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "maoping",
+      "ipa": "/maoping/",
+      "category": "terrain",
+      "frequency": 0.46,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "qingshan",
+      "ipa": "/qingshan/",
+      "category": "terrain",
+      "frequency": 0.43,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "wang",
+      "ipa": "/wæŋ/",
+      "category": "proper_root",
+      "frequency": 0.23,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "sanjiacun",
+      "ipa": "/sanjiacun/",
+      "category": "terrain",
+      "frequency": 0.12,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "shangzhuang",
+      "ipa": "/shangzhuang/",
+      "category": "terrain",
+      "frequency": 0.28,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "hejia",
+      "ipa": "/hejia/",
+      "category": "proper_root",
+      "frequency": 0.17,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "dongfeng",
+      "ipa": "/dongfeng/",
+      "category": "terrain",
+      "frequency": 0.33,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "hedong",
+      "ipa": "/hedong/",
+      "category": "proper_root",
+      "frequency": 0.43,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "mazhuang",
+      "ipa": "/mazhuang/",
+      "category": "terrain",
+      "frequency": 0.26,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "shizhuangcun",
+      "ipa": "/shizhuangcun/",
+      "category": "terrain",
+      "frequency": 0.11,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "lujiacun",
+      "ipa": "/lujiacun/",
+      "category": "terrain",
+      "frequency": 0.37,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "shimen",
+      "ipa": "/shimen/",
+      "category": "proper_root",
+      "frequency": 0.17,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "longtang",
+      "ipa": "/longtang/",
+      "category": "terrain",
+      "frequency": 0.19,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "ancun",
+      "ipa": "/ancun/",
+      "category": "proper_root",
+      "frequency": 0.17,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "yangcun",
+      "ipa": "/yangcun/",
+      "category": "terrain",
+      "frequency": 0.21,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "taoyuancun",
+      "ipa": "/taoyuancun/",
+      "category": "terrain",
+      "frequency": 0.45,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "gucheng",
+      "ipa": "/gucheng/",
+      "category": "terrain",
+      "frequency": 0.11,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "shuanghecun",
+      "ipa": "/shuanghecun/",
+      "category": "terrain",
+      "frequency": 0.35,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "xintian",
+      "ipa": "/xintian/",
+      "category": "terrain",
+      "frequency": 0.2,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "xujiacun",
+      "ipa": "/xujiacun/",
+      "category": "terrain",
+      "frequency": 0.22,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "zhongxincun",
+      "ipa": "/zhongxincun/",
+      "category": "terrain",
+      "frequency": 0.26,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "xinjian",
+      "ipa": "/xinjian/",
+      "category": "terrain",
+      "frequency": 0.32,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "zhang",
+      "ipa": "/ʒæŋ/",
+      "category": "proper_root",
+      "frequency": 0.12,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "banpo",
+      "ipa": "/banpo/",
+      "category": "proper_root",
+      "frequency": 0.21,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "jia",
+      "ipa": "/dʒiə/",
+      "category": "proper_root",
+      "frequency": 0.15,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "yong",
+      "ipa": "/jɔŋ/",
+      "category": "proper_root",
+      "frequency": 0.18,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "zhuzhuangcun",
+      "ipa": "/zhuzhuangcun/",
+      "category": "terrain",
+      "frequency": 0.45,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "anshan",
+      "ipa": "/ænʃən/",
+      "category": "proper_root",
+      "frequency": 0.31,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "nanshan",
+      "ipa": "/nanshan/",
+      "category": "terrain",
+      "frequency": 0.35,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "xiazhuang",
+      "ipa": "/xiazhuang/",
+      "category": "terrain",
+      "frequency": 0.42,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "datian",
+      "ipa": "/datian/",
+      "category": "proper_root",
+      "frequency": 0.42,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "wuzhuangcun",
+      "ipa": "/wuzhuangcun/",
+      "category": "terrain",
+      "frequency": 0.5,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "daqiao",
+      "ipa": "/daqiao/",
+      "category": "proper_root",
+      "frequency": 0.41,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "zhuyuan",
+      "ipa": "/zhuyuan/",
+      "category": "terrain",
+      "frequency": 0.24,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "xinxing",
+      "ipa": "/xinxing/",
+      "category": "terrain",
+      "frequency": 0.32,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "qingshancun",
+      "ipa": "/qingshancun/",
+      "category": "terrain",
+      "frequency": 0.29,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "zhaojiacun",
+      "ipa": "/zhaojiacun/",
+      "category": "terrain",
+      "frequency": 0.47,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "xiazhuangcun",
+      "ipa": "/xiazhuangcun/",
+      "category": "terrain",
+      "frequency": 0.3,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "daba",
+      "ipa": "/daba/",
+      "category": "proper_root",
+      "frequency": 0.26,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "chahe",
+      "ipa": "/chahe/",
+      "category": "proper_root",
+      "frequency": 0.17,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "shiqiao",
+      "ipa": "/shiqiao/",
+      "category": "terrain",
+      "frequency": 0.23,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "shangping",
+      "ipa": "/shangping/",
+      "category": "terrain",
+      "frequency": 0.19,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "hongxing",
+      "ipa": "/hongxing/",
+      "category": "terrain",
+      "frequency": 0.46,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "dayuan",
+      "ipa": "/dayuan/",
+      "category": "proper_root",
+      "frequency": 0.41,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "gou",
+      "ipa": "/gou/",
+      "category": "proper_root",
+      "frequency": 0.12,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "beigou",
+      "ipa": "/beigou/",
+      "category": "proper_root",
+      "frequency": 0.5,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "qianjin",
+      "ipa": "/qianjin/",
+      "category": "terrain",
+      "frequency": 0.31,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "zhaozhuang",
+      "ipa": "/zhaozhuang/",
+      "category": "terrain",
+      "frequency": 0.41,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "xuzhuang",
+      "ipa": "/xuzhuang/",
+      "category": "terrain",
+      "frequency": 0.5,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "jiangjia",
+      "ipa": "/jiangjia/",
+      "category": "terrain",
+      "frequency": 0.49,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "zhangjiagou",
+      "ipa": "/zhangjiagou/",
+      "category": "terrain",
+      "frequency": 0.14,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "shuanghe",
+      "ipa": "/shuanghe/",
+      "category": "terrain",
+      "frequency": 0.36,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "yangjiacun",
+      "ipa": "/yangjiacun/",
+      "category": "terrain",
+      "frequency": 0.21,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "majia",
+      "ipa": "/majia/",
+      "category": "proper_root",
+      "frequency": 0.43,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "tai",
+      "ipa": "/taɪ/",
+      "category": "proper_root",
+      "frequency": 0.47,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "daling",
+      "ipa": "/daling/",
+      "category": "proper_root",
+      "frequency": 0.12,
+      "can_prefix": true,
+      "can_suffix": true
+    },
+    {
+      "word": "xianfengcun",
+      "ipa": "/xianfengcun/",
+      "category": "terrain",
+      "frequency": 0.5,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "xinshengcun",
+      "ipa": "/xinshengcun/",
+      "category": "terrain",
+      "frequency": 0.19,
+      "can_prefix": false,
+      "can_suffix": true
+    },
+    {
+      "word": "lijiagou",
+      "ipa": "/lijiagou/",
+      "category": "terrain",
+      "frequency": 0.44,
+      "can_prefix": false,
+      "can_suffix": true
+    }
+  ],
+  "place_templates": [
+    {
+      "template": [
+        "terrain"
+      ],
+      "weight": 2,
+      "separator": "",
+      "example": "Yama"
+    },
+    {
+      "template": [
+        "quality",
+        "terrain"
+      ],
+      "weight": 5,
+      "separator": "",
+      "example": "Blackmoor"
+    },
+    {
+      "template": [
+        "proper_root",
+        "terrain"
+      ],
+      "weight": 4,
+      "separator": "",
+      "example": "Chesterford"
+    },
+    {
+      "template": [
+        "fauna",
+        "terrain"
+      ],
+      "weight": 3,
+      "separator": "",
+      "example": "Wolverhampton"
+    },
+    {
+      "template": [
+        "proper_root"
+      ],
+      "weight": 3,
+      "separator": "",
+      "example": "London"
+    },
+    {
+      "template": [
+        "direction",
+        "terrain"
+      ],
+      "weight": 3,
+      "separator": "",
+      "example": "Northfield"
+    },
+    {
+      "template": [
+        "event",
+        "structure"
+      ],
+      "weight": 2,
+      "separator": "",
+      "example": "Battleford"
+    },
+    {
+      "template": [
+        "flora",
+        "terrain"
+      ],
+      "weight": 2,
+      "separator": "",
+      "example": "Oakwood"
+    },
+    {
+      "template": [
+        "sacred",
+        "terrain"
+      ],
+      "weight": 2,
+      "separator": "",
+      "example": "Holywell"
+    },
+    {
+      "template": [
+        "quality",
+        "flora"
+      ],
+      "weight": 1,
+      "separator": "",
+      "example": "Greenoak"
+    },
+    {
+      "template": [
+        "direction",
+        "terrain"
+      ],
+      "weight": 5,
+      "separator": "",
+      "example": "Dongshan"
+    },
+    {
+      "template": [
+        "quality",
+        "terrain"
+      ],
+      "weight": 4,
+      "separator": "",
+      "example": "Changjiang"
+    }
+  ],
+  "star_system_templates": [
+    {
+      "template": [
+        "proper_root"
+      ],
+      "weight": 4,
+      "separator": "",
+      "example": "Carbinter"
+    },
+    {
+      "template": [
+        "terrain"
+      ],
+      "weight": 3,
+      "separator": "",
+      "example": "Dale"
+    },
+    {
+      "template": [
+        "proper_root",
+        "proper_root"
+      ],
+      "weight": 2,
+      "separator": "",
+      "example": "Krasnikov"
+    },
+    {
+      "template": [
+        "quality",
+        "proper_root"
+      ],
+      "weight": 1,
+      "separator": "",
+      "example": "Grandor"
+    }
+  ]
+}

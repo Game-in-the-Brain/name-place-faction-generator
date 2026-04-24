@@ -1,0 +1,17 @@
+{
+  "lc": "ar-sa",
+  "level_1": [
+    { "from": "/p/", "to": "/b/" },
+    { "from": "/v/", "to": "/f/" }
+  ],
+  "level_2": [
+    { "from": "/ɡ/", "to": "/ɣ/" },
+    { "from": "/k/", "to": "/q/" },
+    { "from": "/tʃ/", "to": "/ʃ/" }
+  ],
+  "level_3": [
+    { "from": "/ɹ/", "to": "/r/" },
+    { "from": "/ŋ/", "to": "/n/" },
+    { "note": "Add definite article /al-/ prefix to consonant-initial words" }
+  ]
+}

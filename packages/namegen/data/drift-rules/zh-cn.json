@@ -1,0 +1,17 @@
+{
+  "lc": "zh-cn",
+  "level_1": [
+    { "from": "/r/", "to": "/ɻ/" },
+    { "from": "/ʃ/", "to": "/ʂ/" }
+  ],
+  "level_2": [
+    { "from": "/θ/", "to": "/s/" },
+    { "from": "/ð/", "to": "/z/" },
+    { "from": "/v/", "to": "/w/" }
+  ],
+  "level_3": [
+    { "from": "/l/", "to": "/n/" },
+    { "from": "/ɹ/", "to": "/ɻ/" },
+    { "note": "Map consonant clusters to single consonants + vowel" }
+  ]
+}

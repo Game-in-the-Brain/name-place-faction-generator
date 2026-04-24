@@ -1,0 +1,20 @@
+{
+  "lc": "ja-jp",
+  "level_1": [
+    { "from": "/l/", "to": "/r/" },
+    { "from": "/v/", "to": "/b/" }
+  ],
+  "level_2": [
+    { "from": "/θ/", "to": "/s/" },
+    { "from": "/ð/", "to": "/z/" },
+    { "from": "/æ/", "to": "/a/" },
+    { "from": "/ɪ/", "to": "/i/" }
+  ],
+  "level_3": [
+    { "from": "/f/", "to": "/ɸ/" },
+    { "from": "/ʃ/", "to": "/ɕ/" },
+    { "from": "/tʃ/", "to": "/tɕ/" },
+    { "from": "/dʒ/", "to": "/dʑ/" },
+    { "note": "Insert /u/ after final consonants (Japanese CV structure)" }
+  ]
+}

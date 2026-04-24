@@ -1,0 +1,1384 @@
+{
+  "distances": [
+    {
+      "lc_a": "en-us",
+      "lc_b": "en-us",
+      "distance": "same"
+    },
+    {
+      "lc_a": "en-us",
+      "lc_b": "ja-jp",
+      "distance": "high"
+    },
+    {
+      "lc_a": "en-us",
+      "lc_b": "zh-cn",
+      "distance": "high"
+    },
+    {
+      "lc_a": "en-us",
+      "lc_b": "es-es",
+      "distance": "medium"
+    },
+    {
+      "lc_a": "en-us",
+      "lc_b": "es-mx",
+      "distance": "medium"
+    },
+    {
+      "lc_a": "en-us",
+      "lc_b": "fr-fr",
+      "distance": "medium"
+    },
+    {
+      "lc_a": "en-us",
+      "lc_b": "ko-kr",
+      "distance": "high"
+    },
+    {
+      "lc_a": "en-us",
+      "lc_b": "ru-ru",
+      "distance": "high"
+    },
+    {
+      "lc_a": "en-us",
+      "lc_b": "it-it",
+      "distance": "medium"
+    },
+    {
+      "lc_a": "en-us",
+      "lc_b": "sv-se",
+      "distance": "low"
+    },
+    {
+      "lc_a": "en-us",
+      "lc_b": "nl-nl",
+      "distance": "low"
+    },
+    {
+      "lc_a": "en-us",
+      "lc_b": "pl-pl",
+      "distance": "high"
+    },
+    {
+      "lc_a": "en-us",
+      "lc_b": "hi-in",
+      "distance": "high"
+    },
+    {
+      "lc_a": "en-us",
+      "lc_b": "tl-ph",
+      "distance": "high"
+    },
+    {
+      "lc_a": "en-us",
+      "lc_b": "no-no",
+      "distance": "low"
+    },
+    {
+      "lc_a": "en-us",
+      "lc_b": "fi-fi",
+      "distance": "low"
+    },
+    {
+      "lc_a": "en-gb",
+      "lc_b": "en-us",
+      "distance": "low"
+    },
+    {
+      "lc_a": "en-gb",
+      "lc_b": "en-gb",
+      "distance": "same"
+    },
+    {
+      "lc_a": "en-gb",
+      "lc_b": "en-ie",
+      "distance": "low"
+    },
+    {
+      "lc_a": "en-gb",
+      "lc_b": "ja-jp",
+      "distance": "high"
+    },
+    {
+      "lc_a": "en-gb",
+      "lc_b": "zh-cn",
+      "distance": "high"
+    },
+    {
+      "lc_a": "en-gb",
+      "lc_b": "es-es",
+      "distance": "medium"
+    },
+    {
+      "lc_a": "en-gb",
+      "lc_b": "es-mx",
+      "distance": "medium"
+    },
+    {
+      "lc_a": "en-gb",
+      "lc_b": "fr-fr",
+      "distance": "medium"
+    },
+    {
+      "lc_a": "en-gb",
+      "lc_b": "ko-kr",
+      "distance": "high"
+    },
+    {
+      "lc_a": "en-gb",
+      "lc_b": "ru-ru",
+      "distance": "high"
+    },
+    {
+      "lc_a": "en-gb",
+      "lc_b": "it-it",
+      "distance": "medium"
+    },
+    {
+      "lc_a": "en-gb",
+      "lc_b": "sv-se",
+      "distance": "low"
+    },
+    {
+      "lc_a": "en-gb",
+      "lc_b": "nl-nl",
+      "distance": "low"
+    },
+    {
+      "lc_a": "en-gb",
+      "lc_b": "pl-pl",
+      "distance": "high"
+    },
+    {
+      "lc_a": "en-gb",
+      "lc_b": "hi-in",
+      "distance": "high"
+    },
+    {
+      "lc_a": "en-gb",
+      "lc_b": "tl-ph",
+      "distance": "high"
+    },
+    {
+      "lc_a": "en-gb",
+      "lc_b": "no-no",
+      "distance": "low"
+    },
+    {
+      "lc_a": "en-gb",
+      "lc_b": "fi-fi",
+      "distance": "low"
+    },
+    {
+      "lc_a": "en-ie",
+      "lc_b": "en-us",
+      "distance": "low"
+    },
+    {
+      "lc_a": "en-ie",
+      "lc_b": "en-ie",
+      "distance": "same"
+    },
+    {
+      "lc_a": "en-ie",
+      "lc_b": "ja-jp",
+      "distance": "high"
+    },
+    {
+      "lc_a": "en-ie",
+      "lc_b": "zh-cn",
+      "distance": "high"
+    },
+    {
+      "lc_a": "en-ie",
+      "lc_b": "es-es",
+      "distance": "medium"
+    },
+    {
+      "lc_a": "en-ie",
+      "lc_b": "es-mx",
+      "distance": "medium"
+    },
+    {
+      "lc_a": "en-ie",
+      "lc_b": "fr-fr",
+      "distance": "medium"
+    },
+    {
+      "lc_a": "en-ie",
+      "lc_b": "ko-kr",
+      "distance": "high"
+    },
+    {
+      "lc_a": "en-ie",
+      "lc_b": "ru-ru",
+      "distance": "high"
+    },
+    {
+      "lc_a": "en-ie",
+      "lc_b": "it-it",
+      "distance": "medium"
+    },
+    {
+      "lc_a": "en-ie",
+      "lc_b": "sv-se",
+      "distance": "low"
+    },
+    {
+      "lc_a": "en-ie",
+      "lc_b": "nl-nl",
+      "distance": "low"
+    },
+    {
+      "lc_a": "en-ie",
+      "lc_b": "pl-pl",
+      "distance": "high"
+    },
+    {
+      "lc_a": "en-ie",
+      "lc_b": "hi-in",
+      "distance": "high"
+    },
+    {
+      "lc_a": "en-ie",
+      "lc_b": "tl-ph",
+      "distance": "high"
+    },
+    {
+      "lc_a": "en-ie",
+      "lc_b": "no-no",
+      "distance": "low"
+    },
+    {
+      "lc_a": "en-ie",
+      "lc_b": "fi-fi",
+      "distance": "low"
+    },
+    {
+      "lc_a": "en-au",
+      "lc_b": "en-us",
+      "distance": "low"
+    },
+    {
+      "lc_a": "en-au",
+      "lc_b": "en-gb",
+      "distance": "low"
+    },
+    {
+      "lc_a": "en-au",
+      "lc_b": "en-ie",
+      "distance": "low"
+    },
+    {
+      "lc_a": "en-au",
+      "lc_b": "en-au",
+      "distance": "same"
+    },
+    {
+      "lc_a": "en-au",
+      "lc_b": "en-ca",
+      "distance": "low"
+    },
+    {
+      "lc_a": "en-au",
+      "lc_b": "ja-jp",
+      "distance": "high"
+    },
+    {
+      "lc_a": "en-au",
+      "lc_b": "zh-cn",
+      "distance": "high"
+    },
+    {
+      "lc_a": "en-au",
+      "lc_b": "es-es",
+      "distance": "medium"
+    },
+    {
+      "lc_a": "en-au",
+      "lc_b": "es-mx",
+      "distance": "medium"
+    },
+    {
+      "lc_a": "en-au",
+      "lc_b": "fr-fr",
+      "distance": "medium"
+    },
+    {
+      "lc_a": "en-au",
+      "lc_b": "ko-kr",
+      "distance": "high"
+    },
+    {
+      "lc_a": "en-au",
+      "lc_b": "ru-ru",
+      "distance": "high"
+    },
+    {
+      "lc_a": "en-au",
+      "lc_b": "it-it",
+      "distance": "medium"
+    },
+    {
+      "lc_a": "en-au",
+      "lc_b": "sv-se",
+      "distance": "low"
+    },
+    {
+      "lc_a": "en-au",
+      "lc_b": "nl-nl",
+      "distance": "low"
+    },
+    {
+      "lc_a": "en-au",
+      "lc_b": "pl-pl",
+      "distance": "high"
+    },
+    {
+      "lc_a": "en-au",
+      "lc_b": "hi-in",
+      "distance": "high"
+    },
+    {
+      "lc_a": "en-au",
+      "lc_b": "tl-ph",
+      "distance": "high"
+    },
+    {
+      "lc_a": "en-au",
+      "lc_b": "no-no",
+      "distance": "low"
+    },
+    {
+      "lc_a": "en-au",
+      "lc_b": "fi-fi",
+      "distance": "low"
+    },
+    {
+      "lc_a": "en-ca",
+      "lc_b": "en-us",
+      "distance": "low"
+    },
+    {
+      "lc_a": "en-ca",
+      "lc_b": "en-gb",
+      "distance": "low"
+    },
+    {
+      "lc_a": "en-ca",
+      "lc_b": "en-ie",
+      "distance": "low"
+    },
+    {
+      "lc_a": "en-ca",
+      "lc_b": "en-ca",
+      "distance": "same"
+    },
+    {
+      "lc_a": "en-ca",
+      "lc_b": "ja-jp",
+      "distance": "high"
+    },
+    {
+      "lc_a": "en-ca",
+      "lc_b": "zh-cn",
+      "distance": "high"
+    },
+    {
+      "lc_a": "en-ca",
+      "lc_b": "es-es",
+      "distance": "medium"
+    },
+    {
+      "lc_a": "en-ca",
+      "lc_b": "es-mx",
+      "distance": "medium"
+    },
+    {
+      "lc_a": "en-ca",
+      "lc_b": "fr-fr",
+      "distance": "medium"
+    },
+    {
+      "lc_a": "en-ca",
+      "lc_b": "ko-kr",
+      "distance": "high"
+    },
+    {
+      "lc_a": "en-ca",
+      "lc_b": "ru-ru",
+      "distance": "high"
+    },
+    {
+      "lc_a": "en-ca",
+      "lc_b": "it-it",
+      "distance": "medium"
+    },
+    {
+      "lc_a": "en-ca",
+      "lc_b": "sv-se",
+      "distance": "low"
+    },
+    {
+      "lc_a": "en-ca",
+      "lc_b": "nl-nl",
+      "distance": "low"
+    },
+    {
+      "lc_a": "en-ca",
+      "lc_b": "pl-pl",
+      "distance": "high"
+    },
+    {
+      "lc_a": "en-ca",
+      "lc_b": "hi-in",
+      "distance": "high"
+    },
+    {
+      "lc_a": "en-ca",
+      "lc_b": "tl-ph",
+      "distance": "high"
+    },
+    {
+      "lc_a": "en-ca",
+      "lc_b": "no-no",
+      "distance": "low"
+    },
+    {
+      "lc_a": "en-ca",
+      "lc_b": "fi-fi",
+      "distance": "low"
+    },
+    {
+      "lc_a": "ja-jp",
+      "lc_b": "ja-jp",
+      "distance": "same"
+    },
+    {
+      "lc_a": "ja-jp",
+      "lc_b": "zh-cn",
+      "distance": "low"
+    },
+    {
+      "lc_a": "ja-jp",
+      "lc_b": "ko-kr",
+      "distance": "low"
+    },
+    {
+      "lc_a": "ja-jp",
+      "lc_b": "ru-ru",
+      "distance": "high"
+    },
+    {
+      "lc_a": "ja-jp",
+      "lc_b": "sv-se",
+      "distance": "high"
+    },
+    {
+      "lc_a": "ja-jp",
+      "lc_b": "nl-nl",
+      "distance": "high"
+    },
+    {
+      "lc_a": "ja-jp",
+      "lc_b": "pl-pl",
+      "distance": "high"
+    },
+    {
+      "lc_a": "ja-jp",
+      "lc_b": "tl-ph",
+      "distance": "high"
+    },
+    {
+      "lc_a": "ja-jp",
+      "lc_b": "no-no",
+      "distance": "high"
+    },
+    {
+      "lc_a": "zh-cn",
+      "lc_b": "zh-cn",
+      "distance": "same"
+    },
+    {
+      "lc_a": "es-es",
+      "lc_b": "ja-jp",
+      "distance": "high"
+    },
+    {
+      "lc_a": "es-es",
+      "lc_b": "zh-cn",
+      "distance": "high"
+    },
+    {
+      "lc_a": "es-es",
+      "lc_b": "es-es",
+      "distance": "same"
+    },
+    {
+      "lc_a": "es-es",
+      "lc_b": "es-mx",
+      "distance": "low"
+    },
+    {
+      "lc_a": "es-es",
+      "lc_b": "fr-fr",
+      "distance": "low"
+    },
+    {
+      "lc_a": "es-es",
+      "lc_b": "ko-kr",
+      "distance": "high"
+    },
+    {
+      "lc_a": "es-es",
+      "lc_b": "ru-ru",
+      "distance": "high"
+    },
+    {
+      "lc_a": "es-es",
+      "lc_b": "it-it",
+      "distance": "low"
+    },
+    {
+      "lc_a": "es-es",
+      "lc_b": "sv-se",
+      "distance": "high"
+    },
+    {
+      "lc_a": "es-es",
+      "lc_b": "nl-nl",
+      "distance": "high"
+    },
+    {
+      "lc_a": "es-es",
+      "lc_b": "pl-pl",
+      "distance": "high"
+    },
+    {
+      "lc_a": "es-es",
+      "lc_b": "hi-in",
+      "distance": "high"
+    },
+    {
+      "lc_a": "es-es",
+      "lc_b": "tl-ph",
+      "distance": "high"
+    },
+    {
+      "lc_a": "es-es",
+      "lc_b": "no-no",
+      "distance": "high"
+    },
+    {
+      "lc_a": "es-es",
+      "lc_b": "fi-fi",
+      "distance": "high"
+    },
+    {
+      "lc_a": "es-mx",
+      "lc_b": "ja-jp",
+      "distance": "high"
+    },
+    {
+      "lc_a": "es-mx",
+      "lc_b": "zh-cn",
+      "distance": "high"
+    },
+    {
+      "lc_a": "es-mx",
+      "lc_b": "es-mx",
+      "distance": "same"
+    },
+    {
+      "lc_a": "es-mx",
+      "lc_b": "fr-fr",
+      "distance": "low"
+    },
+    {
+      "lc_a": "es-mx",
+      "lc_b": "ko-kr",
+      "distance": "high"
+    },
+    {
+      "lc_a": "es-mx",
+      "lc_b": "ru-ru",
+      "distance": "high"
+    },
+    {
+      "lc_a": "es-mx",
+      "lc_b": "it-it",
+      "distance": "low"
+    },
+    {
+      "lc_a": "es-mx",
+      "lc_b": "sv-se",
+      "distance": "high"
+    },
+    {
+      "lc_a": "es-mx",
+      "lc_b": "nl-nl",
+      "distance": "high"
+    },
+    {
+      "lc_a": "es-mx",
+      "lc_b": "pl-pl",
+      "distance": "high"
+    },
+    {
+      "lc_a": "es-mx",
+      "lc_b": "hi-in",
+      "distance": "high"
+    },
+    {
+      "lc_a": "es-mx",
+      "lc_b": "tl-ph",
+      "distance": "high"
+    },
+    {
+      "lc_a": "es-mx",
+      "lc_b": "no-no",
+      "distance": "high"
+    },
+    {
+      "lc_a": "es-mx",
+      "lc_b": "fi-fi",
+      "distance": "high"
+    },
+    {
+      "lc_a": "de-de",
+      "lc_b": "en-us",
+      "distance": "low"
+    },
+    {
+      "lc_a": "de-de",
+      "lc_b": "en-gb",
+      "distance": "low"
+    },
+    {
+      "lc_a": "de-de",
+      "lc_b": "en-ie",
+      "distance": "low"
+    },
+    {
+      "lc_a": "de-de",
+      "lc_b": "en-au",
+      "distance": "low"
+    },
+    {
+      "lc_a": "de-de",
+      "lc_b": "en-ca",
+      "distance": "low"
+    },
+    {
+      "lc_a": "de-de",
+      "lc_b": "ja-jp",
+      "distance": "high"
+    },
+    {
+      "lc_a": "de-de",
+      "lc_b": "zh-cn",
+      "distance": "high"
+    },
+    {
+      "lc_a": "de-de",
+      "lc_b": "es-es",
+      "distance": "high"
+    },
+    {
+      "lc_a": "de-de",
+      "lc_b": "es-mx",
+      "distance": "high"
+    },
+    {
+      "lc_a": "de-de",
+      "lc_b": "de-de",
+      "distance": "same"
+    },
+    {
+      "lc_a": "de-de",
+      "lc_b": "fr-fr",
+      "distance": "high"
+    },
+    {
+      "lc_a": "de-de",
+      "lc_b": "ko-kr",
+      "distance": "high"
+    },
+    {
+      "lc_a": "de-de",
+      "lc_b": "ru-ru",
+      "distance": "medium"
+    },
+    {
+      "lc_a": "de-de",
+      "lc_b": "it-it",
+      "distance": "high"
+    },
+    {
+      "lc_a": "de-de",
+      "lc_b": "sv-se",
+      "distance": "low"
+    },
+    {
+      "lc_a": "de-de",
+      "lc_b": "nl-nl",
+      "distance": "low"
+    },
+    {
+      "lc_a": "de-de",
+      "lc_b": "pl-pl",
+      "distance": "medium"
+    },
+    {
+      "lc_a": "de-de",
+      "lc_b": "hi-in",
+      "distance": "high"
+    },
+    {
+      "lc_a": "de-de",
+      "lc_b": "tl-ph",
+      "distance": "high"
+    },
+    {
+      "lc_a": "de-de",
+      "lc_b": "no-no",
+      "distance": "low"
+    },
+    {
+      "lc_a": "de-de",
+      "lc_b": "fi-fi",
+      "distance": "low"
+    },
+    {
+      "lc_a": "fr-fr",
+      "lc_b": "ja-jp",
+      "distance": "high"
+    },
+    {
+      "lc_a": "fr-fr",
+      "lc_b": "zh-cn",
+      "distance": "high"
+    },
+    {
+      "lc_a": "fr-fr",
+      "lc_b": "fr-fr",
+      "distance": "same"
+    },
+    {
+      "lc_a": "fr-fr",
+      "lc_b": "ko-kr",
+      "distance": "high"
+    },
+    {
+      "lc_a": "fr-fr",
+      "lc_b": "ru-ru",
+      "distance": "high"
+    },
+    {
+      "lc_a": "fr-fr",
+      "lc_b": "it-it",
+      "distance": "low"
+    },
+    {
+      "lc_a": "fr-fr",
+      "lc_b": "sv-se",
+      "distance": "high"
+    },
+    {
+      "lc_a": "fr-fr",
+      "lc_b": "nl-nl",
+      "distance": "high"
+    },
+    {
+      "lc_a": "fr-fr",
+      "lc_b": "pl-pl",
+      "distance": "high"
+    },
+    {
+      "lc_a": "fr-fr",
+      "lc_b": "hi-in",
+      "distance": "high"
+    },
+    {
+      "lc_a": "fr-fr",
+      "lc_b": "tl-ph",
+      "distance": "high"
+    },
+    {
+      "lc_a": "fr-fr",
+      "lc_b": "no-no",
+      "distance": "high"
+    },
+    {
+      "lc_a": "ar-sa",
+      "lc_b": "en-us",
+      "distance": "high"
+    },
+    {
+      "lc_a": "ar-sa",
+      "lc_b": "en-gb",
+      "distance": "high"
+    },
+    {
+      "lc_a": "ar-sa",
+      "lc_b": "en-ie",
+      "distance": "high"
+    },
+    {
+      "lc_a": "ar-sa",
+      "lc_b": "en-au",
+      "distance": "high"
+    },
+    {
+      "lc_a": "ar-sa",
+      "lc_b": "en-ca",
+      "distance": "high"
+    },
+    {
+      "lc_a": "ar-sa",
+      "lc_b": "ja-jp",
+      "distance": "high"
+    },
+    {
+      "lc_a": "ar-sa",
+      "lc_b": "zh-cn",
+      "distance": "high"
+    },
+    {
+      "lc_a": "ar-sa",
+      "lc_b": "es-es",
+      "distance": "high"
+    },
+    {
+      "lc_a": "ar-sa",
+      "lc_b": "es-mx",
+      "distance": "high"
+    },
+    {
+      "lc_a": "ar-sa",
+      "lc_b": "de-de",
+      "distance": "high"
+    },
+    {
+      "lc_a": "ar-sa",
+      "lc_b": "fr-fr",
+      "distance": "high"
+    },
+    {
+      "lc_a": "ar-sa",
+      "lc_b": "ar-sa",
+      "distance": "same"
+    },
+    {
+      "lc_a": "ar-sa",
+      "lc_b": "ko-kr",
+      "distance": "high"
+    },
+    {
+      "lc_a": "ar-sa",
+      "lc_b": "ru-ru",
+      "distance": "high"
+    },
+    {
+      "lc_a": "ar-sa",
+      "lc_b": "it-it",
+      "distance": "high"
+    },
+    {
+      "lc_a": "ar-sa",
+      "lc_b": "sv-se",
+      "distance": "high"
+    },
+    {
+      "lc_a": "ar-sa",
+      "lc_b": "nl-nl",
+      "distance": "high"
+    },
+    {
+      "lc_a": "ar-sa",
+      "lc_b": "pl-pl",
+      "distance": "high"
+    },
+    {
+      "lc_a": "ar-sa",
+      "lc_b": "hi-in",
+      "distance": "high"
+    },
+    {
+      "lc_a": "ar-sa",
+      "lc_b": "tl-ph",
+      "distance": "high"
+    },
+    {
+      "lc_a": "ar-sa",
+      "lc_b": "no-no",
+      "distance": "high"
+    },
+    {
+      "lc_a": "ar-sa",
+      "lc_b": "fi-fi",
+      "distance": "high"
+    },
+    {
+      "lc_a": "ar-eg",
+      "lc_b": "en-us",
+      "distance": "high"
+    },
+    {
+      "lc_a": "ar-eg",
+      "lc_b": "en-gb",
+      "distance": "high"
+    },
+    {
+      "lc_a": "ar-eg",
+      "lc_b": "en-ie",
+      "distance": "high"
+    },
+    {
+      "lc_a": "ar-eg",
+      "lc_b": "en-au",
+      "distance": "high"
+    },
+    {
+      "lc_a": "ar-eg",
+      "lc_b": "en-ca",
+      "distance": "high"
+    },
+    {
+      "lc_a": "ar-eg",
+      "lc_b": "ja-jp",
+      "distance": "high"
+    },
+    {
+      "lc_a": "ar-eg",
+      "lc_b": "zh-cn",
+      "distance": "high"
+    },
+    {
+      "lc_a": "ar-eg",
+      "lc_b": "es-es",
+      "distance": "high"
+    },
+    {
+      "lc_a": "ar-eg",
+      "lc_b": "es-mx",
+      "distance": "high"
+    },
+    {
+      "lc_a": "ar-eg",
+      "lc_b": "de-de",
+      "distance": "high"
+    },
+    {
+      "lc_a": "ar-eg",
+      "lc_b": "fr-fr",
+      "distance": "high"
+    },
+    {
+      "lc_a": "ar-eg",
+      "lc_b": "ar-sa",
+      "distance": "low"
+    },
+    {
+      "lc_a": "ar-eg",
+      "lc_b": "ar-eg",
+      "distance": "same"
+    },
+    {
+      "lc_a": "ar-eg",
+      "lc_b": "ko-kr",
+      "distance": "high"
+    },
+    {
+      "lc_a": "ar-eg",
+      "lc_b": "ru-ru",
+      "distance": "high"
+    },
+    {
+      "lc_a": "ar-eg",
+      "lc_b": "it-it",
+      "distance": "high"
+    },
+    {
+      "lc_a": "ar-eg",
+      "lc_b": "sv-se",
+      "distance": "high"
+    },
+    {
+      "lc_a": "ar-eg",
+      "lc_b": "nl-nl",
+      "distance": "high"
+    },
+    {
+      "lc_a": "ar-eg",
+      "lc_b": "pl-pl",
+      "distance": "high"
+    },
+    {
+      "lc_a": "ar-eg",
+      "lc_b": "hi-in",
+      "distance": "high"
+    },
+    {
+      "lc_a": "ar-eg",
+      "lc_b": "tl-ph",
+      "distance": "high"
+    },
+    {
+      "lc_a": "ar-eg",
+      "lc_b": "no-no",
+      "distance": "high"
+    },
+    {
+      "lc_a": "ar-eg",
+      "lc_b": "fi-fi",
+      "distance": "high"
+    },
+    {
+      "lc_a": "ko-kr",
+      "lc_b": "zh-cn",
+      "distance": "low"
+    },
+    {
+      "lc_a": "ko-kr",
+      "lc_b": "ko-kr",
+      "distance": "same"
+    },
+    {
+      "lc_a": "ko-kr",
+      "lc_b": "ru-ru",
+      "distance": "high"
+    },
+    {
+      "lc_a": "ko-kr",
+      "lc_b": "sv-se",
+      "distance": "high"
+    },
+    {
+      "lc_a": "ko-kr",
+      "lc_b": "nl-nl",
+      "distance": "high"
+    },
+    {
+      "lc_a": "ko-kr",
+      "lc_b": "pl-pl",
+      "distance": "high"
+    },
+    {
+      "lc_a": "ko-kr",
+      "lc_b": "tl-ph",
+      "distance": "high"
+    },
+    {
+      "lc_a": "ko-kr",
+      "lc_b": "no-no",
+      "distance": "high"
+    },
+    {
+      "lc_a": "ru-ru",
+      "lc_b": "zh-cn",
+      "distance": "high"
+    },
+    {
+      "lc_a": "ru-ru",
+      "lc_b": "ru-ru",
+      "distance": "same"
+    },
+    {
+      "lc_a": "ru-ru",
+      "lc_b": "sv-se",
+      "distance": "medium"
+    },
+    {
+      "lc_a": "ru-ru",
+      "lc_b": "tl-ph",
+      "distance": "high"
+    },
+    {
+      "lc_a": "it-it",
+      "lc_b": "ja-jp",
+      "distance": "high"
+    },
+    {
+      "lc_a": "it-it",
+      "lc_b": "zh-cn",
+      "distance": "high"
+    },
+    {
+      "lc_a": "it-it",
+      "lc_b": "ko-kr",
+      "distance": "high"
+    },
+    {
+      "lc_a": "it-it",
+      "lc_b": "ru-ru",
+      "distance": "high"
+    },
+    {
+      "lc_a": "it-it",
+      "lc_b": "it-it",
+      "distance": "same"
+    },
+    {
+      "lc_a": "it-it",
+      "lc_b": "sv-se",
+      "distance": "high"
+    },
+    {
+      "lc_a": "it-it",
+      "lc_b": "nl-nl",
+      "distance": "high"
+    },
+    {
+      "lc_a": "it-it",
+      "lc_b": "pl-pl",
+      "distance": "high"
+    },
+    {
+      "lc_a": "it-it",
+      "lc_b": "tl-ph",
+      "distance": "high"
+    },
+    {
+      "lc_a": "it-it",
+      "lc_b": "no-no",
+      "distance": "high"
+    },
+    {
+      "lc_a": "sv-se",
+      "lc_b": "zh-cn",
+      "distance": "high"
+    },
+    {
+      "lc_a": "sv-se",
+      "lc_b": "sv-se",
+      "distance": "same"
+    },
+    {
+      "lc_a": "sv-se",
+      "lc_b": "tl-ph",
+      "distance": "high"
+    },
+    {
+      "lc_a": "nl-nl",
+      "lc_b": "zh-cn",
+      "distance": "high"
+    },
+    {
+      "lc_a": "nl-nl",
+      "lc_b": "ru-ru",
+      "distance": "medium"
+    },
+    {
+      "lc_a": "nl-nl",
+      "lc_b": "sv-se",
+      "distance": "low"
+    },
+    {
+      "lc_a": "nl-nl",
+      "lc_b": "nl-nl",
+      "distance": "same"
+    },
+    {
+      "lc_a": "nl-nl",
+      "lc_b": "pl-pl",
+      "distance": "medium"
+    },
+    {
+      "lc_a": "nl-nl",
+      "lc_b": "tl-ph",
+      "distance": "high"
+    },
+    {
+      "lc_a": "nl-nl",
+      "lc_b": "no-no",
+      "distance": "low"
+    },
+    {
+      "lc_a": "pl-pl",
+      "lc_b": "zh-cn",
+      "distance": "high"
+    },
+    {
+      "lc_a": "pl-pl",
+      "lc_b": "ru-ru",
+      "distance": "low"
+    },
+    {
+      "lc_a": "pl-pl",
+      "lc_b": "sv-se",
+      "distance": "medium"
+    },
+    {
+      "lc_a": "pl-pl",
+      "lc_b": "pl-pl",
+      "distance": "same"
+    },
+    {
+      "lc_a": "pl-pl",
+      "lc_b": "tl-ph",
+      "distance": "high"
+    },
+    {
+      "lc_a": "hi-in",
+      "lc_b": "ja-jp",
+      "distance": "high"
+    },
+    {
+      "lc_a": "hi-in",
+      "lc_b": "zh-cn",
+      "distance": "high"
+    },
+    {
+      "lc_a": "hi-in",
+      "lc_b": "ko-kr",
+      "distance": "high"
+    },
+    {
+      "lc_a": "hi-in",
+      "lc_b": "ru-ru",
+      "distance": "high"
+    },
+    {
+      "lc_a": "hi-in",
+      "lc_b": "it-it",
+      "distance": "high"
+    },
+    {
+      "lc_a": "hi-in",
+      "lc_b": "sv-se",
+      "distance": "high"
+    },
+    {
+      "lc_a": "hi-in",
+      "lc_b": "nl-nl",
+      "distance": "high"
+    },
+    {
+      "lc_a": "hi-in",
+      "lc_b": "pl-pl",
+      "distance": "high"
+    },
+    {
+      "lc_a": "hi-in",
+      "lc_b": "hi-in",
+      "distance": "same"
+    },
+    {
+      "lc_a": "hi-in",
+      "lc_b": "tl-ph",
+      "distance": "high"
+    },
+    {
+      "lc_a": "hi-in",
+      "lc_b": "no-no",
+      "distance": "high"
+    },
+    {
+      "lc_a": "tl-ph",
+      "lc_b": "zh-cn",
+      "distance": "high"
+    },
+    {
+      "lc_a": "tl-ph",
+      "lc_b": "tl-ph",
+      "distance": "same"
+    },
+    {
+      "lc_a": "no-no",
+      "lc_b": "zh-cn",
+      "distance": "high"
+    },
+    {
+      "lc_a": "no-no",
+      "lc_b": "ru-ru",
+      "distance": "medium"
+    },
+    {
+      "lc_a": "no-no",
+      "lc_b": "sv-se",
+      "distance": "low"
+    },
+    {
+      "lc_a": "no-no",
+      "lc_b": "pl-pl",
+      "distance": "medium"
+    },
+    {
+      "lc_a": "no-no",
+      "lc_b": "tl-ph",
+      "distance": "high"
+    },
+    {
+      "lc_a": "no-no",
+      "lc_b": "no-no",
+      "distance": "same"
+    },
+    {
+      "lc_a": "fi-fi",
+      "lc_b": "ja-jp",
+      "distance": "high"
+    },
+    {
+      "lc_a": "fi-fi",
+      "lc_b": "zh-cn",
+      "distance": "high"
+    },
+    {
+      "lc_a": "fi-fi",
+      "lc_b": "fr-fr",
+      "distance": "high"
+    },
+    {
+      "lc_a": "fi-fi",
+      "lc_b": "ko-kr",
+      "distance": "high"
+    },
+    {
+      "lc_a": "fi-fi",
+      "lc_b": "ru-ru",
+      "distance": "medium"
+    },
+    {
+      "lc_a": "fi-fi",
+      "lc_b": "it-it",
+      "distance": "high"
+    },
+    {
+      "lc_a": "fi-fi",
+      "lc_b": "sv-se",
+      "distance": "low"
+    },
+    {
+      "lc_a": "fi-fi",
+      "lc_b": "nl-nl",
+      "distance": "low"
+    },
+    {
+      "lc_a": "fi-fi",
+      "lc_b": "pl-pl",
+      "distance": "medium"
+    },
+    {
+      "lc_a": "fi-fi",
+      "lc_b": "hi-in",
+      "distance": "high"
+    },
+    {
+      "lc_a": "fi-fi",
+      "lc_b": "tl-ph",
+      "distance": "high"
+    },
+    {
+      "lc_a": "fi-fi",
+      "lc_b": "no-no",
+      "distance": "low"
+    },
+    {
+      "lc_a": "fi-fi",
+      "lc_b": "fi-fi",
+      "distance": "same"
+    }
+  ]
+}

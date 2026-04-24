@@ -1,0 +1,17 @@
+{
+  "lc": "de-de",
+  "level_1": [
+    { "from": "/w/", "to": "/v/" },
+    { "from": "/θ/", "to": "/t/" }
+  ],
+  "level_2": [
+    { "from": "/ð/", "to": "/d/" },
+    { "from": "/æ/", "to": "/ɛ/" },
+    { "from": "/aɪ/", "to": "/e/" }
+  ],
+  "level_3": [
+    { "from": "/ɹ/", "to": "/ʁ/" },
+    { "from": "/dʒ/", "to": "/tʃ/" },
+    { "note": "Capitalize all nouns" }
+  ]
+}
