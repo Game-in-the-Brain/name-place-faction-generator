@@ -29,5 +29,4 @@ Thumbs.db
 *.swp
 *.swo
 
-# Lock files (optional — keep one)
-# package-lock.json
+# Lock files — keep package-lock.json for CI reproducibility
