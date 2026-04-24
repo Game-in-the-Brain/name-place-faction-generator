@@ -1233,7 +1233,7 @@
       "word": "south",
       "ipa": "/saʊθ/",
       "category": "direction",
-      "frequency": 1.0,
+      "frequency": 1,
       "can_prefix": true,
       "can_suffix": false
     },
@@ -3634,6 +3634,66 @@
       "weight": 1,
       "separator": "",
       "example": "Grandor"
+    }
+  ],
+  "descriptors": [
+    {
+      "text": "the Strong",
+      "ipa": "/ðə stɹɔŋ/",
+      "type": "descriptor",
+      "frequency": 0.7
+    },
+    {
+      "text": "the True",
+      "ipa": "/ðə tɹuː/",
+      "type": "descriptor",
+      "frequency": 0.6
+    }
+  ],
+  "descriptor_nouns": [
+    {
+      "text": "the Moose",
+      "ipa": "/ðə muːs/",
+      "type": "descriptor_noun",
+      "frequency": 0.7
+    },
+    {
+      "text": "the Beaver",
+      "ipa": "/ðə ˈbiːvɚ/",
+      "type": "descriptor_noun",
+      "frequency": 0.6
+    },
+    {
+      "text": "the Maple",
+      "ipa": "/ðə ˈmeɪpəl/",
+      "type": "descriptor_noun",
+      "frequency": 0.5
+    }
+  ],
+  "titles": [
+    {
+      "text": "Sir",
+      "ipa": "/sɚ/",
+      "position": "prefix",
+      "frequency": 0.8
+    },
+    {
+      "text": "Captain",
+      "ipa": "/ˈkæptən/",
+      "position": "prefix",
+      "frequency": 0.6
+    }
+  ],
+  "nicknames": [
+    {
+      "text": "Hoser",
+      "ipa": "/ˈhoʊzɚ/",
+      "frequency": 0.6
+    },
+    {
+      "text": "Smitty",
+      "ipa": "/ˈsmɪti/",
+      "frequency": 0.5
     }
   ]
 }

@@ -1481,7 +1481,7 @@
       "word": "elm",
       "ipa": "/ɛlm/",
       "category": "flora",
-      "frequency": 1.0,
+      "frequency": 1,
       "can_prefix": false,
       "can_suffix": true
     },
@@ -1889,7 +1889,7 @@
       "word": "san",
       "ipa": "/sæn/",
       "category": "proper_root",
-      "frequency": 1.0,
+      "frequency": 1,
       "can_prefix": true,
       "can_suffix": true
     },
@@ -3666,6 +3666,66 @@
       "weight": 1,
       "separator": "",
       "example": "Grandor"
+    }
+  ],
+  "descriptors": [
+    {
+      "text": "Suuri",
+      "ipa": "/ˈsuːɾi/",
+      "type": "descriptor",
+      "frequency": 1
+    },
+    {
+      "text": "Viisas",
+      "ipa": "/ˈʋiːsɑs/",
+      "type": "descriptor",
+      "frequency": 0.8
+    },
+    {
+      "text": "Vahva",
+      "ipa": "/ˈʋɑhʋɑ/",
+      "type": "descriptor",
+      "frequency": 0.7
+    }
+  ],
+  "descriptor_nouns": [
+    {
+      "text": "Karhu",
+      "ipa": "/ˈkɑɾhu/",
+      "type": "descriptor_noun",
+      "frequency": 0.8
+    },
+    {
+      "text": "Kotka",
+      "ipa": "/ˈkotkɑ/",
+      "type": "descriptor_noun",
+      "frequency": 0.7
+    },
+    {
+      "text": "Susi",
+      "ipa": "/ˈsusi/",
+      "type": "descriptor_noun",
+      "frequency": 0.6
+    }
+  ],
+  "titles": [
+    {
+      "text": "Herra",
+      "ipa": "/ˈherːɑ/",
+      "position": "prefix",
+      "frequency": 1
+    }
+  ],
+  "nicknames": [
+    {
+      "text": "Punainen",
+      "ipa": "/ˈpunɑi̯nɛn/",
+      "frequency": 0.6
+    },
+    {
+      "text": "Pikku",
+      "ipa": "/ˈpikːu/",
+      "frequency": 0.5
     }
   ]
 }

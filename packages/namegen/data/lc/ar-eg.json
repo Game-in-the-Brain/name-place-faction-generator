@@ -390,7 +390,7 @@
       "ipa": "/ɪlɪzəbəθ/",
       "gender": "F",
       "type": "given",
-      "frequency": 1.0
+      "frequency": 1
     },
     {
       "name": "Barbara",
@@ -509,7 +509,7 @@
       "ipa": "/kærəl/",
       "gender": "F",
       "type": "given",
-      "frequency": 1.0
+      "frequency": 1
     },
     {
       "name": "Amanda",
@@ -3282,6 +3282,72 @@
       "weight": 1,
       "separator": "",
       "example": "Grandor"
+    }
+  ],
+  "descriptors": [
+    {
+      "text": "al-Kabīr",
+      "ipa": "/al kaˈbiːɾ/",
+      "type": "descriptor",
+      "frequency": 1
+    },
+    {
+      "text": "al-Ḥakīm",
+      "ipa": "/al ħaˈkiːm/",
+      "type": "descriptor",
+      "frequency": 0.8
+    },
+    {
+      "text": "al-Qawī",
+      "ipa": "/al qaˈwiː/",
+      "type": "descriptor",
+      "frequency": 0.7
+    }
+  ],
+  "descriptor_nouns": [
+    {
+      "text": "al-Asad",
+      "ipa": "/al ˈasad/",
+      "type": "descriptor_noun",
+      "frequency": 0.8
+    },
+    {
+      "text": "al-Nasr",
+      "ipa": "/al ˈnasɾ/",
+      "type": "descriptor_noun",
+      "frequency": 0.7
+    },
+    {
+      "text": "al-Ḥayy",
+      "ipa": "/al ˈħajj/",
+      "type": "descriptor_noun",
+      "frequency": 0.6
+    }
+  ],
+  "titles": [
+    {
+      "text": "Sayyid",
+      "ipa": "/ˈsajjid/",
+      "position": "prefix",
+      "frequency": 1
+    },
+    {
+      "text": "Basha",
+      "ipa": "/ˈbaʃa/",
+      "position": "prefix",
+      "frequency": 0.6
+    }
+  ],
+  "nicknames": [
+    {
+      "text": "Abū",
+      "ipa": "/aˈbuː/",
+      "frequency": 0.7
+    },
+    {
+      "text": "Ibn",
+      "ipa": "/ibn/",
+      "frequency": 0.6
     }
   ]
 }

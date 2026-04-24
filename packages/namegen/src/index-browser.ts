@@ -17,3 +17,7 @@ export {
 } from './lc.js';
 
 export { applyDrift, reRomanize } from './drift.js';
+
+// Descriptor engine
+export { DescriptorEngine } from './descriptor.js';
+export type { DescriptorOptions, DescriptorResult } from './descriptor.js';

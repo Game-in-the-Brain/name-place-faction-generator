@@ -390,7 +390,7 @@
       "ipa": "/mɚi/",
       "gender": "F",
       "type": "given",
-      "frequency": 1.0
+      "frequency": 1
     },
     {
       "name": "Nele",
@@ -777,7 +777,7 @@
       "ipa": "/leɪmən/",
       "gender": "N",
       "type": "family",
-      "frequency": 1.0
+      "frequency": 1
     },
     {
       "name": "Koehler",
@@ -1535,7 +1535,7 @@
       "word": "schlacht",
       "ipa": "/schlacht/",
       "category": "event",
-      "frequency": 1.0,
+      "frequency": 1,
       "can_prefix": true,
       "can_suffix": false
     },
@@ -3272,6 +3272,107 @@
       "weight": 1,
       "separator": "",
       "example": "Grandor"
+    }
+  ],
+  "descriptors": [
+    {
+      "text": "der Große",
+      "ipa": "/deːɐ̯ ˈɡʁoːsə/",
+      "type": "descriptor",
+      "frequency": 1
+    },
+    {
+      "text": "der Weise",
+      "ipa": "/deːɐ̯ ˈvaizə/",
+      "type": "descriptor",
+      "frequency": 0.8
+    },
+    {
+      "text": "der Strenge",
+      "ipa": "/deːɐ̯ ˈʃtʁɛŋə/",
+      "type": "descriptor",
+      "frequency": 0.5
+    },
+    {
+      "text": "der Tapfere",
+      "ipa": "/deːɐ̯ ˈtapfəʁə/",
+      "type": "descriptor",
+      "frequency": 0.6
+    }
+  ],
+  "descriptor_nouns": [
+    {
+      "text": "der Bär",
+      "ipa": "/deːɐ̯ bɛːɐ̯/",
+      "type": "descriptor_noun",
+      "frequency": 0.8
+    },
+    {
+      "text": "der Wolf",
+      "ipa": "/deːɐ̯ vɔlf/",
+      "type": "descriptor_noun",
+      "frequency": 0.7
+    },
+    {
+      "text": "der Adler",
+      "ipa": "/deːɐ̯ ˈadlɐ/",
+      "type": "descriptor_noun",
+      "frequency": 0.7
+    },
+    {
+      "text": "der Hammer",
+      "ipa": "/deːɐ̯ ˈhamɐ/",
+      "type": "descriptor_noun",
+      "frequency": 0.5
+    },
+    {
+      "text": "der Eiserne",
+      "ipa": "/deːɐ̯ ˈaizəʁnə/",
+      "type": "descriptor_noun",
+      "frequency": 0.6
+    }
+  ],
+  "titles": [
+    {
+      "text": "Herr",
+      "ipa": "/hɛʁ/",
+      "position": "prefix",
+      "frequency": 1
+    },
+    {
+      "text": "Graf",
+      "ipa": "/ɡʁaːf/",
+      "position": "prefix",
+      "frequency": 0.7
+    },
+    {
+      "text": "Baron",
+      "ipa": "/baˈʁoːn/",
+      "position": "prefix",
+      "frequency": 0.5
+    },
+    {
+      "text": "Feldwebel",
+      "ipa": "/ˈfɛltveːbl̩/",
+      "position": "prefix",
+      "frequency": 0.4
+    }
+  ],
+  "nicknames": [
+    {
+      "text": "Fritz",
+      "ipa": "/fʁɪts/",
+      "frequency": 0.7
+    },
+    {
+      "text": "Hans",
+      "ipa": "/hans/",
+      "frequency": 0.6
+    },
+    {
+      "text": "Klaus",
+      "ipa": "/klaʊs/",
+      "frequency": 0.5
     }
   ]
 }

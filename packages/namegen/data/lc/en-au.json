@@ -1337,7 +1337,7 @@
       "word": "black",
       "ipa": "/blæk/",
       "category": "quality",
-      "frequency": 1.0,
+      "frequency": 1,
       "can_prefix": true,
       "can_suffix": false
     },
@@ -3706,6 +3706,66 @@
       "weight": 1,
       "separator": "",
       "example": "Grandor"
+    }
+  ],
+  "descriptors": [
+    {
+      "text": "the Tough",
+      "ipa": "/ðə tʌf/",
+      "type": "descriptor",
+      "frequency": 0.8
+    },
+    {
+      "text": "the Lucky",
+      "ipa": "/ðə ˈlʌki/",
+      "type": "descriptor",
+      "frequency": 0.7
+    }
+  ],
+  "descriptor_nouns": [
+    {
+      "text": "the Roo",
+      "ipa": "/ðə ɹuː/",
+      "type": "descriptor_noun",
+      "frequency": 0.8
+    },
+    {
+      "text": "the Dingo",
+      "ipa": "/ðə ˈdɪŋɡoʊ/",
+      "type": "descriptor_noun",
+      "frequency": 0.6
+    },
+    {
+      "text": "the Outback",
+      "ipa": "/ðə ˈaʊtbæk/",
+      "type": "descriptor_noun",
+      "frequency": 0.5
+    }
+  ],
+  "titles": [
+    {
+      "text": "Mate",
+      "ipa": "/meɪt/",
+      "position": "suffix",
+      "frequency": 0.7
+    },
+    {
+      "text": "Skipper",
+      "ipa": "/ˈskɪpɚ/",
+      "position": "prefix",
+      "frequency": 0.5
+    }
+  ],
+  "nicknames": [
+    {
+      "text": "Blue",
+      "ipa": "/bluː/",
+      "frequency": 0.8
+    },
+    {
+      "text": "Digger",
+      "ipa": "/ˈdɪɡɚ/",
+      "frequency": 0.6
     }
   ]
 }

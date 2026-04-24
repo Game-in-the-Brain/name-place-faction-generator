@@ -763,7 +763,7 @@
       "ipa": "/deɪvəs/",
       "gender": "N",
       "type": "family",
-      "frequency": 1.0
+      "frequency": 1
     },
     {
       "name": "Rodriguez",
@@ -1505,7 +1505,7 @@
       "word": "juniper",
       "ipa": "/dʒunəpɚ/",
       "category": "flora",
-      "frequency": 1.0,
+      "frequency": 1,
       "can_prefix": false,
       "can_suffix": true
     },
@@ -3690,6 +3690,72 @@
       "weight": 1,
       "separator": "",
       "example": "Grandor"
+    }
+  ],
+  "descriptors": [
+    {
+      "text": "Wielki",
+      "ipa": "/ˈvʲɛlki/",
+      "type": "descriptor",
+      "frequency": 1
+    },
+    {
+      "text": "Mądry",
+      "ipa": "/ˈmɔndrɨ/",
+      "type": "descriptor",
+      "frequency": 0.8
+    },
+    {
+      "text": "Silny",
+      "ipa": "/ˈɕilnɨ/",
+      "type": "descriptor",
+      "frequency": 0.7
+    }
+  ],
+  "descriptor_nouns": [
+    {
+      "text": "Orzeł",
+      "ipa": "/ˈɔʐɛw/",
+      "type": "descriptor_noun",
+      "frequency": 0.8
+    },
+    {
+      "text": "Niedźwiedź",
+      "ipa": "/ˈɲɛd͡ʑvʲjɛt͡ɕ/",
+      "type": "descriptor_noun",
+      "frequency": 0.7
+    },
+    {
+      "text": "Wilk",
+      "ipa": "/vʲilk/",
+      "type": "descriptor_noun",
+      "frequency": 0.6
+    }
+  ],
+  "titles": [
+    {
+      "text": "Pan",
+      "ipa": "/pan/",
+      "position": "prefix",
+      "frequency": 1
+    },
+    {
+      "text": "Wódz",
+      "ipa": "/vut͡ɕ/",
+      "position": "prefix",
+      "frequency": 0.6
+    }
+  ],
+  "nicknames": [
+    {
+      "text": "Czerwony",
+      "ipa": "/t͡ʂɛˈrvɔnɨ/",
+      "frequency": 0.6
+    },
+    {
+      "text": "Mały",
+      "ipa": "/ˈmawɨ/",
+      "frequency": 0.5
     }
   ]
 }

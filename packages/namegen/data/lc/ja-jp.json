@@ -1431,7 +1431,7 @@
       "word": "kan",
       "ipa": "/kæn/",
       "category": "structure",
-      "frequency": 1.0,
+      "frequency": 1,
       "can_prefix": false,
       "can_suffix": true
     },
@@ -3122,6 +3122,107 @@
       "weight": 1,
       "separator": "",
       "example": "Grandor"
+    }
+  ],
+  "descriptors": [
+    {
+      "text": "Ōi",
+      "ipa": "/oːi/",
+      "type": "descriptor",
+      "frequency": 0.8
+    },
+    {
+      "text": "Kiyoshi",
+      "ipa": "/kijoʃi/",
+      "type": "descriptor",
+      "frequency": 0.7
+    },
+    {
+      "text": "Takai",
+      "ipa": "/takai/",
+      "type": "descriptor",
+      "frequency": 0.6
+    },
+    {
+      "text": "Fukai",
+      "ipa": "/ɸɯkai/",
+      "type": "descriptor",
+      "frequency": 0.5
+    }
+  ],
+  "descriptor_nouns": [
+    {
+      "text": "Yama",
+      "ipa": "/jama/",
+      "type": "descriptor_noun",
+      "frequency": 0.8
+    },
+    {
+      "text": "Tatsu",
+      "ipa": "/tatɕɯ/",
+      "type": "descriptor_noun",
+      "frequency": 0.7
+    },
+    {
+      "text": "Kuma",
+      "ipa": "/kɯma/",
+      "type": "descriptor_noun",
+      "frequency": 0.6
+    },
+    {
+      "text": "Kitsune",
+      "ipa": "/kitsɯne/",
+      "type": "descriptor_noun",
+      "frequency": 0.7
+    },
+    {
+      "text": "Kaze",
+      "ipa": "/kaze/",
+      "type": "descriptor_noun",
+      "frequency": 0.5
+    }
+  ],
+  "titles": [
+    {
+      "text": "San",
+      "ipa": "/saɴ/",
+      "position": "suffix",
+      "frequency": 1
+    },
+    {
+      "text": "Sama",
+      "ipa": "/sama/",
+      "position": "suffix",
+      "frequency": 0.7
+    },
+    {
+      "text": "Kun",
+      "ipa": "/kɯɴ/",
+      "position": "suffix",
+      "frequency": 0.6
+    },
+    {
+      "text": "Daimyō",
+      "ipa": "/daimʲoː/",
+      "position": "prefix",
+      "frequency": 0.4
+    }
+  ],
+  "nicknames": [
+    {
+      "text": "Chan",
+      "ipa": "/tɕaɴ/",
+      "frequency": 0.7
+    },
+    {
+      "text": "Bō",
+      "ipa": "/boː/",
+      "frequency": 0.5
+    },
+    {
+      "text": "Maru",
+      "ipa": "/maɾɯ/",
+      "frequency": 0.6
     }
   ]
 }

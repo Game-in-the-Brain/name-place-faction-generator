@@ -1177,7 +1177,7 @@
       "word": "cove",
       "ipa": "/koʊv/",
       "category": "terrain",
-      "frequency": 1.0,
+      "frequency": 1,
       "can_prefix": false,
       "can_suffix": true
     },
@@ -1561,7 +1561,7 @@
       "word": "fox",
       "ipa": "/fɑks/",
       "category": "fauna",
-      "frequency": 1.0,
+      "frequency": 1,
       "can_prefix": false,
       "can_suffix": true
     },
@@ -3602,6 +3602,90 @@
       "weight": 1,
       "separator": "",
       "example": "Grandor"
+    }
+  ],
+  "descriptors": [
+    {
+      "text": "Velikiy",
+      "ipa": "/vʲɪˈlʲikʲɪj/",
+      "type": "descriptor",
+      "frequency": 1
+    },
+    {
+      "text": "Mudryy",
+      "ipa": "/ˈmudrɨj/",
+      "type": "descriptor",
+      "frequency": 0.8
+    },
+    {
+      "text": "Silnyy",
+      "ipa": "/ˈsʲilʲnɨj/",
+      "type": "descriptor",
+      "frequency": 0.7
+    },
+    {
+      "text": "Zhestokiy",
+      "ipa": "/ʐɨˈstokʲɪj/",
+      "type": "descriptor",
+      "frequency": 0.5
+    }
+  ],
+  "descriptor_nouns": [
+    {
+      "text": "Medved",
+      "ipa": "/ˈmʲedvʲɪt/",
+      "type": "descriptor_noun",
+      "frequency": 0.8
+    },
+    {
+      "text": "Orël",
+      "ipa": "/ɐˈrʲol/",
+      "type": "descriptor_noun",
+      "frequency": 0.7
+    },
+    {
+      "text": "Volk",
+      "ipa": "/volk/",
+      "type": "descriptor_noun",
+      "frequency": 0.7
+    },
+    {
+      "text": "Molot",
+      "ipa": "/ˈmolət/",
+      "type": "descriptor_noun",
+      "frequency": 0.6
+    }
+  ],
+  "titles": [
+    {
+      "text": "Gospodin",
+      "ipa": "/ɡɐspɐˈdʲin/",
+      "position": "prefix",
+      "frequency": 0.9
+    },
+    {
+      "text": "Knyaz",
+      "ipa": "/kɲas/",
+      "position": "prefix",
+      "frequency": 0.6
+    },
+    {
+      "text": "Ataman",
+      "ipa": "/ɐtɐˈman/",
+      "position": "prefix",
+      "frequency": 0.5
+    }
+  ],
+  "nicknames": [
+    {
+      "text": "Krasnyy",
+      "ipa": "/ˈkrasnɨj/",
+      "frequency": 0.6
+    },
+    {
+      "text": "Tolstyak",
+      "ipa": "/tɐlʲˈstʲak/",
+      "frequency": 0.5
     }
   ]
 }

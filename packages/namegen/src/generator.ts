@@ -6,18 +6,25 @@ import { Rng } from '@gi7b/shared';
 import type { GeneratedName, LcWeights, Gender } from '@gi7b/shared';
 import { loadLc, loadLcIndex, getLcDistance, distanceToDriftLevel, loadDriftRules } from './lc.js';
 import { applyDrift, reRomanize } from './drift.js';
+import { DescriptorEngine, type DescriptorOptions, type DescriptorResult } from './descriptor.js';
 
 export interface NameGenOptions {
   /** Per-LC weights. Higher = more likely. Default weight for unlisted LCs is 1.0 */
   weights?: LcWeights;
   /** Optional seed for deterministic output */
   seed?: number;
+  /** Descriptor / title / nickname options */
+  descriptors?: DescriptorOptions;
 }
 
 export interface NameGenResult {
   given: GeneratedName;
   family: GeneratedName;
   fullName: string;
+  /** Decorated name with descriptors, titles, nicknames */
+  displayName: string;
+  /** Descriptor breakdown */
+  descriptorResult: DescriptorResult;
 }
 
 export class NameGen {
@@ -27,6 +34,7 @@ export class NameGen {
   constructor(options: NameGenOptions = {}) {
     this.rng = new Rng(options.seed ?? Date.now());
     this.weights = options.weights ?? {};
+    this.descriptorOpts = options.descriptors ?? {};
   }
 
   /**
@@ -54,12 +62,25 @@ export class NameGen {
     const familyName = this.generateFamilyName(baseLcId, driftLcId, driftLevel);
     const givenName = this.generateGivenName(baseLcId, driftLcId, driftLevel, gender);
 
+    // Generate descriptors, titles, nicknames
+    const descriptorEngine = new DescriptorEngine(this.rng);
+    const descriptorResult = descriptorEngine.generate(
+      baseLcId,
+      givenName.name,
+      familyName.name,
+      this.descriptorOpts
+    );
+
     return {
       given: givenName,
       family: familyName,
       fullName: `${givenName.name} ${familyName.name}`,
+      displayName: descriptorResult.fullDisplayName,
+      descriptorResult,
     };
   }
+
+  private descriptorOpts: DescriptorOptions = {};
 
   private selectWeightedLc(): string {
     const index = loadLcIndex();

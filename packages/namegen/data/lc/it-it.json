@@ -432,7 +432,7 @@
       "ipa": "/nænsi/",
       "gender": "F",
       "type": "given",
-      "frequency": 1.0
+      "frequency": 1
     },
     {
       "name": "Lisa",
@@ -3682,6 +3682,78 @@
       "weight": 1,
       "separator": "",
       "example": "Grandor"
+    }
+  ],
+  "descriptors": [
+    {
+      "text": "il Grande",
+      "ipa": "/il ˈɡrande/",
+      "type": "descriptor",
+      "frequency": 1
+    },
+    {
+      "text": "il Saggio",
+      "ipa": "/il ˈsaddʒo/",
+      "type": "descriptor",
+      "frequency": 0.8
+    },
+    {
+      "text": "il Forte",
+      "ipa": "/il ˈforte/",
+      "type": "descriptor",
+      "frequency": 0.6
+    }
+  ],
+  "descriptor_nouns": [
+    {
+      "text": "il Leone",
+      "ipa": "/il leˈone/",
+      "type": "descriptor_noun",
+      "frequency": 0.8
+    },
+    {
+      "text": "il Lupo",
+      "ipa": "/il ˈlupo/",
+      "type": "descriptor_noun",
+      "frequency": 0.7
+    },
+    {
+      "text": "il Falco",
+      "ipa": "/il ˈfalko/",
+      "type": "descriptor_noun",
+      "frequency": 0.6
+    }
+  ],
+  "titles": [
+    {
+      "text": "Signore",
+      "ipa": "/siɲˈɲore/",
+      "position": "prefix",
+      "frequency": 1
+    },
+    {
+      "text": "Conte",
+      "ipa": "/ˈkonte/",
+      "position": "prefix",
+      "frequency": 0.6
+    },
+    {
+      "text": "Cavaliere",
+      "ipa": "/kavaˈljɛre/",
+      "position": "prefix",
+      "frequency": 0.5
+    }
+  ],
+  "nicknames": [
+    {
+      "text": "Rosso",
+      "ipa": "/ˈrosso/",
+      "frequency": 0.7
+    },
+    {
+      "text": "Piccolo",
+      "ipa": "/ˈpikkolo/",
+      "frequency": 0.5
     }
   ]
 }

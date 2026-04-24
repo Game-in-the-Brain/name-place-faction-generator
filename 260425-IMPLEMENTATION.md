@@ -78,8 +78,23 @@ Terminal crashed mid-session. All work was in **untracked files** (no commits si
 
 ---
 
+## PWA UI v2 — 260425 Late Session
+
+- Added day/night theme toggle (🌙/☀️) with CSS custom properties
+- Responsive layout: single column on mobile, multi-column results on desktop
+- Added randomize culture/drift buttons (🎲) next to all culture selects
+- Export/Import/Save/Save-As/Copy-to-Clipboard for all generator results
+- Live at: `https://game-in-the-brain.github.io/name-place-faction-generator/`
+
+## Database Download Panel — 260425 Late Session
+
+- Added **📚 DBs** tab to PWA
+- Table listings for: NameGen LC profiles, PlaceGen LC profiles, Drift Rules, Shared Data
+- Individual ⬇️ JSON download buttons per file
+- Bulk **"Download All (ZIP)"** button using JSZip — packages all databases into organized folders (`namegen/lc/`, `placegen/lc/`, `namegen/drift-rules/`, `shared/`)
+- Increased Workbox `maximumFileSizeToCacheInBytes` to 3MB (bundle is 2.1MB with all JSON embedded)
+
 ## Next Steps
 
-1. Commit all changes once build + smoke test pass
-2. Write first Vitest unit tests (`namegen` drift engine, `factiongen` attribute bounds)
-3. Publish or tag a `v0.1.0` release to unblock FRD-063 MWG integration
+1. Write first Vitest unit tests (`namegen` drift engine, `factiongen` attribute bounds)
+2. Publish or tag a `v0.1.0` release to unblock FRD-063 MWG integration

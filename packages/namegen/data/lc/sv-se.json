@@ -1105,7 +1105,7 @@
       "word": "ford",
       "ipa": "/fɔrd/",
       "category": "terrain",
-      "frequency": 1.0,
+      "frequency": 1,
       "can_prefix": false,
       "can_suffix": true
     },
@@ -3626,6 +3626,72 @@
       "weight": 1,
       "separator": "",
       "example": "Grandor"
+    }
+  ],
+  "descriptors": [
+    {
+      "text": "den Store",
+      "ipa": "/dɛn ˈstuːrə/",
+      "type": "descriptor",
+      "frequency": 1
+    },
+    {
+      "text": "den Vise",
+      "ipa": "/dɛn ˈviːsə/",
+      "type": "descriptor",
+      "frequency": 0.8
+    },
+    {
+      "text": "den Starke",
+      "ipa": "/dɛn ˈstarːkə/",
+      "type": "descriptor",
+      "frequency": 0.7
+    }
+  ],
+  "descriptor_nouns": [
+    {
+      "text": "Björn",
+      "ipa": "/bjœːɳ/",
+      "type": "descriptor_noun",
+      "frequency": 0.8
+    },
+    {
+      "text": "Ormen",
+      "ipa": "/ˈɔɹmɛn/",
+      "type": "descriptor_noun",
+      "frequency": 0.6
+    },
+    {
+      "text": "Vargen",
+      "ipa": "/ˈvaɹjɛn/",
+      "type": "descriptor_noun",
+      "frequency": 0.7
+    }
+  ],
+  "titles": [
+    {
+      "text": "Herr",
+      "ipa": "/hɛr/",
+      "position": "prefix",
+      "frequency": 1
+    },
+    {
+      "text": "Jarl",
+      "ipa": "/jarl/",
+      "position": "prefix",
+      "frequency": 0.6
+    }
+  ],
+  "nicknames": [
+    {
+      "text": "Röd",
+      "ipa": "/ɾøːd/",
+      "frequency": 0.6
+    },
+    {
+      "text": "Liten",
+      "ipa": "/ˈliːtɛn/",
+      "frequency": 0.5
     }
   ]
 }

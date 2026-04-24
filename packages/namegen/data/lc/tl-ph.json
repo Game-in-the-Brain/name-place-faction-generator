@@ -376,7 +376,7 @@
       "ipa": "/dʒɛnəfɚ/",
       "gender": "F",
       "type": "given",
-      "frequency": 1.0
+      "frequency": 1
     },
     {
       "name": "Linda",
@@ -3658,6 +3658,72 @@
       "weight": 1,
       "separator": "",
       "example": "Grandor"
+    }
+  ],
+  "descriptors": [
+    {
+      "text": "Ang Dakila",
+      "ipa": "/aŋ daˈkila/",
+      "type": "descriptor",
+      "frequency": 1
+    },
+    {
+      "text": "Ang Matalino",
+      "ipa": "/aŋ mataˈlino/",
+      "type": "descriptor",
+      "frequency": 0.8
+    },
+    {
+      "text": "Ang Malakas",
+      "ipa": "/aŋ maˈlakas/",
+      "type": "descriptor",
+      "frequency": 0.7
+    }
+  ],
+  "descriptor_nouns": [
+    {
+      "text": "Agila",
+      "ipa": "/aˈɡila/",
+      "type": "descriptor_noun",
+      "frequency": 0.8
+    },
+    {
+      "text": "Lobo",
+      "ipa": "/ˈlobo/",
+      "type": "descriptor_noun",
+      "frequency": 0.7
+    },
+    {
+      "text": "Buwaya",
+      "ipa": "/buˈwaja/",
+      "type": "descriptor_noun",
+      "frequency": 0.6
+    }
+  ],
+  "titles": [
+    {
+      "text": "Ginoo",
+      "ipa": "/ɡiˈnoʔo/",
+      "position": "prefix",
+      "frequency": 1
+    },
+    {
+      "text": "Datu",
+      "ipa": "/ˈdatu/",
+      "position": "prefix",
+      "frequency": 0.6
+    }
+  ],
+  "nicknames": [
+    {
+      "text": "Pula",
+      "ipa": "/ˈpula/",
+      "frequency": 0.6
+    },
+    {
+      "text": "Maliit",
+      "ipa": "/maˈliʔit/",
+      "frequency": 0.5
     }
   ]
 }

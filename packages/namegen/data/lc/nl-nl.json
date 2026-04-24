@@ -1097,7 +1097,7 @@
       "word": "lake",
       "ipa": "/leɪk/",
       "category": "terrain",
-      "frequency": 1.0,
+      "frequency": 1,
       "can_prefix": false,
       "can_suffix": true
     },
@@ -3602,6 +3602,72 @@
       "weight": 1,
       "separator": "",
       "example": "Grandor"
+    }
+  ],
+  "descriptors": [
+    {
+      "text": "de Grote",
+      "ipa": "/də ˈɣroːtə/",
+      "type": "descriptor",
+      "frequency": 1
+    },
+    {
+      "text": "de Wijze",
+      "ipa": "/də ˈʋɛizə/",
+      "type": "descriptor",
+      "frequency": 0.8
+    },
+    {
+      "text": "de Sterke",
+      "ipa": "/də ˈstɛrkə/",
+      "type": "descriptor",
+      "frequency": 0.7
+    }
+  ],
+  "descriptor_nouns": [
+    {
+      "text": "de Leeuw",
+      "ipa": "/də ˈleːu/",
+      "type": "descriptor_noun",
+      "frequency": 0.8
+    },
+    {
+      "text": "de Wolf",
+      "ipa": "/də ˈʋɔlf/",
+      "type": "descriptor_noun",
+      "frequency": 0.7
+    },
+    {
+      "text": "de Arend",
+      "ipa": "/də ˈaːrənt/",
+      "type": "descriptor_noun",
+      "frequency": 0.6
+    }
+  ],
+  "titles": [
+    {
+      "text": "Meneer",
+      "ipa": "/məˈneːr/",
+      "position": "prefix",
+      "frequency": 1
+    },
+    {
+      "text": "Heer",
+      "ipa": "/heːr/",
+      "position": "prefix",
+      "frequency": 0.8
+    }
+  ],
+  "nicknames": [
+    {
+      "text": "Rood",
+      "ipa": "/roːt/",
+      "frequency": 0.6
+    },
+    {
+      "text": "Klein",
+      "ipa": "/klɛin/",
+      "frequency": 0.5
     }
   ]
 }

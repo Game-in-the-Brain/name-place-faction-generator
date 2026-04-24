@@ -467,7 +467,7 @@
       "ipa": "/ariadna/",
       "gender": "F",
       "type": "given",
-      "frequency": 1.0
+      "frequency": 1
     },
     {
       "name": "Ainara",
@@ -1471,7 +1471,7 @@
       "word": "carmen",
       "ipa": "/kɑrmən/",
       "category": "sacred",
-      "frequency": 1.0,
+      "frequency": 1,
       "can_prefix": true,
       "can_suffix": false
     },
@@ -3240,6 +3240,90 @@
       "weight": 1,
       "separator": "",
       "example": "Grandor"
+    }
+  ],
+  "descriptors": [
+    {
+      "text": "el Grande",
+      "ipa": "/el ˈɡɾande/",
+      "type": "descriptor",
+      "frequency": 1
+    },
+    {
+      "text": "el Sabio",
+      "ipa": "/el ˈsaβjo/",
+      "type": "descriptor",
+      "frequency": 0.8
+    },
+    {
+      "text": "el Fuerte",
+      "ipa": "/el ˈfweɾte/",
+      "type": "descriptor",
+      "frequency": 0.6
+    },
+    {
+      "text": "el Bravo",
+      "ipa": "/el ˈbɾaβo/",
+      "type": "descriptor",
+      "frequency": 0.6
+    }
+  ],
+  "descriptor_nouns": [
+    {
+      "text": "el León",
+      "ipa": "/el leˈon/",
+      "type": "descriptor_noun",
+      "frequency": 0.8
+    },
+    {
+      "text": "el Lobo",
+      "ipa": "/el ˈloβo/",
+      "type": "descriptor_noun",
+      "frequency": 0.7
+    },
+    {
+      "text": "el Toro",
+      "ipa": "/el ˈtoɾo/",
+      "type": "descriptor_noun",
+      "frequency": 0.7
+    },
+    {
+      "text": "el Águila",
+      "ipa": "/el ˈaɣila/",
+      "type": "descriptor_noun",
+      "frequency": 0.6
+    }
+  ],
+  "titles": [
+    {
+      "text": "Don",
+      "ipa": "/don/",
+      "position": "prefix",
+      "frequency": 1
+    },
+    {
+      "text": "Capitán",
+      "ipa": "/kapitan/",
+      "position": "prefix",
+      "frequency": 0.7
+    },
+    {
+      "text": "Comandante",
+      "ipa": "/komandaNte/",
+      "position": "prefix",
+      "frequency": 0.5
+    }
+  ],
+  "nicknames": [
+    {
+      "text": "Peque",
+      "ipa": "/peke/",
+      "frequency": 0.6
+    },
+    {
+      "text": "Chino",
+      "ipa": "/tʃino/",
+      "frequency": 0.5
     }
   ]
 }

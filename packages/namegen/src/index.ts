@@ -18,5 +18,9 @@ export {
 
 export { applyDrift, reRomanize } from './drift.js';
 
+// Descriptor engine
+export { DescriptorEngine } from './descriptor.js';
+export type { DescriptorOptions, DescriptorResult } from './descriptor.js';
+
 // Node-only: preloader that reads JSON from disk
 export { preloadAllFromDisk } from './lc-node.js';

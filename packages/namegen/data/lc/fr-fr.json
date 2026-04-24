@@ -474,7 +474,7 @@
       "ipa": "/nour/",
       "gender": "F",
       "type": "given",
-      "frequency": 1.0
+      "frequency": 1
     },
     {
       "name": "Lola",
@@ -3184,6 +3184,90 @@
       "weight": 1,
       "separator": "",
       "example": "Grandor"
+    }
+  ],
+  "descriptors": [
+    {
+      "text": "le Grand",
+      "ipa": "/lə ɡʁɑ̃/",
+      "type": "descriptor",
+      "frequency": 1
+    },
+    {
+      "text": "le Sage",
+      "ipa": "/lə saʒ/",
+      "type": "descriptor",
+      "frequency": 0.8
+    },
+    {
+      "text": "le Cruel",
+      "ipa": "/lə kʁyɛl/",
+      "type": "descriptor",
+      "frequency": 0.5
+    },
+    {
+      "text": "le Brave",
+      "ipa": "/lə bʁav/",
+      "type": "descriptor",
+      "frequency": 0.6
+    }
+  ],
+  "descriptor_nouns": [
+    {
+      "text": "le Lion",
+      "ipa": "/lə ljɔ̃/",
+      "type": "descriptor_noun",
+      "frequency": 0.8
+    },
+    {
+      "text": "le Loup",
+      "ipa": "/lə lu/",
+      "type": "descriptor_noun",
+      "frequency": 0.7
+    },
+    {
+      "text": "le Marteau",
+      "ipa": "/lə maʁto/",
+      "type": "descriptor_noun",
+      "frequency": 0.5
+    },
+    {
+      "text": "le Faucon",
+      "ipa": "/lə fokɔ̃/",
+      "type": "descriptor_noun",
+      "frequency": 0.6
+    }
+  ],
+  "titles": [
+    {
+      "text": "Monsieur",
+      "ipa": "/məsjø/",
+      "position": "prefix",
+      "frequency": 1
+    },
+    {
+      "text": "Chevalier",
+      "ipa": "/ʃəvalje/",
+      "position": "prefix",
+      "frequency": 0.7
+    },
+    {
+      "text": "Comte",
+      "ipa": "/kɔ̃t/",
+      "position": "prefix",
+      "frequency": 0.5
+    }
+  ],
+  "nicknames": [
+    {
+      "text": "Petit",
+      "ipa": "/pəti/",
+      "frequency": 0.6
+    },
+    {
+      "text": "Roux",
+      "ipa": "/ʁu/",
+      "frequency": 0.5
     }
   ]
 }

@@ -40,6 +40,26 @@ export interface PlaceTemplate {
   example: string;
 }
 
+export interface DescriptorRecord {
+  text: string;
+  ipa: string;
+  type: 'descriptor' | 'descriptor_noun';
+  frequency: number;
+}
+
+export interface TitleRecord {
+  text: string;
+  ipa: string;
+  position: 'prefix' | 'suffix';
+  frequency: number;
+}
+
+export interface NicknameRecord {
+  text: string;
+  ipa: string;
+  frequency: number;
+}
+
 export interface LcProfile {
   lc_id: string;
   label: string;
@@ -53,6 +73,14 @@ export interface LcProfile {
   place_words: PlaceWord[];
   place_templates: PlaceTemplate[];
   star_system_templates?: PlaceTemplate[];
+  /** Epithets / adjective descriptors: "the Great", "the Wise" */
+  descriptors?: DescriptorRecord[];
+  /** Noun-based epithets: "the Mountain", "the Bear" */
+  descriptor_nouns?: DescriptorRecord[];
+  /** Honorific titles: "King", "Lord", "Sir" */
+  titles?: TitleRecord[];
+  /** Informal nicknames: "Red", "Slim", "Lucky" */
+  nicknames?: NicknameRecord[];
 }
 
 export interface LcDistanceEntry {

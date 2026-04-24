@@ -602,7 +602,7 @@
       "ipa": "/tʃɛn/",
       "gender": "N",
       "type": "family",
-      "frequency": 1.0
+      "frequency": 1
     },
     {
       "name": "Yang",
@@ -3234,6 +3234,84 @@
       "weight": 1,
       "separator": "",
       "example": "Grandor"
+    }
+  ],
+  "descriptors": [
+    {
+      "text": "Dà",
+      "ipa": "/ta/",
+      "type": "descriptor",
+      "frequency": 0.9
+    },
+    {
+      "text": "Míng",
+      "ipa": "/miŋ/",
+      "type": "descriptor",
+      "frequency": 0.7
+    },
+    {
+      "text": "Yǒng",
+      "ipa": "/joŋ/",
+      "type": "descriptor",
+      "frequency": 0.6
+    }
+  ],
+  "descriptor_nouns": [
+    {
+      "text": "Lóng",
+      "ipa": "/loŋ/",
+      "type": "descriptor_noun",
+      "frequency": 0.9
+    },
+    {
+      "text": "Hǔ",
+      "ipa": "/xu/",
+      "type": "descriptor_noun",
+      "frequency": 0.7
+    },
+    {
+      "text": "Shān",
+      "ipa": "/ʂan/",
+      "type": "descriptor_noun",
+      "frequency": 0.6
+    },
+    {
+      "text": "Fēng",
+      "ipa": "/fəŋ/",
+      "type": "descriptor_noun",
+      "frequency": 0.6
+    }
+  ],
+  "titles": [
+    {
+      "text": "Xiānshēng",
+      "ipa": "/ɕjɛnʂəŋ/",
+      "position": "suffix",
+      "frequency": 0.9
+    },
+    {
+      "text": "Wáng",
+      "ipa": "/waŋ/",
+      "position": "prefix",
+      "frequency": 0.6
+    },
+    {
+      "text": "Jiàngjūn",
+      "ipa": "/tɕjaŋtɕyn/",
+      "position": "prefix",
+      "frequency": 0.5
+    }
+  ],
+  "nicknames": [
+    {
+      "text": "Ā",
+      "ipa": "/a/",
+      "frequency": 0.7
+    },
+    {
+      "text": "Xiǎo",
+      "ipa": "/ɕjau/",
+      "frequency": 0.6
     }
   ]
 }

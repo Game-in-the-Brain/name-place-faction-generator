@@ -54,7 +54,7 @@
       "ipa": "/liəm/",
       "gender": "M",
       "type": "given",
-      "frequency": 1.0
+      "frequency": 1
     },
     {
       "name": "Fionn",
@@ -418,7 +418,7 @@
       "ipa": "/aoife/",
       "gender": "F",
       "type": "given",
-      "frequency": 1.0
+      "frequency": 1
     },
     {
       "name": "Robyn",
@@ -3184,6 +3184,77 @@
       "weight": 1,
       "separator": "",
       "example": "Grandor"
+    }
+  ],
+  "descriptors": [
+    {
+      "text": "the Bold",
+      "ipa": "/ðə boʊld/",
+      "type": "descriptor",
+      "frequency": 0.8
+    },
+    {
+      "text": "the Red",
+      "ipa": "/ðə ɹɛd/",
+      "type": "descriptor",
+      "frequency": 0.7
+    },
+    {
+      "text": "the Strong",
+      "ipa": "/ðə stɹɔŋ/",
+      "type": "descriptor",
+      "frequency": 0.6
+    }
+  ],
+  "descriptor_nouns": [
+    {
+      "text": "the Wolf",
+      "ipa": "/ðə wʊlf/",
+      "type": "descriptor_noun",
+      "frequency": 0.7
+    },
+    {
+      "text": "the Oak",
+      "ipa": "/ðə oʊk/",
+      "type": "descriptor_noun",
+      "frequency": 0.7
+    },
+    {
+      "text": "the Crow",
+      "ipa": "/ðə kɹoʊ/",
+      "type": "descriptor_noun",
+      "frequency": 0.5
+    }
+  ],
+  "titles": [
+    {
+      "text": "Sir",
+      "ipa": "/sɚ/",
+      "position": "prefix",
+      "frequency": 0.9
+    },
+    {
+      "text": "Chief",
+      "ipa": "/tʃiːf/",
+      "position": "prefix",
+      "frequency": 0.6
+    }
+  ],
+  "nicknames": [
+    {
+      "text": "Red",
+      "ipa": "/ɹɛd/",
+      "frequency": 0.7
+    },
+    {
+      "text": "Paddy",
+      "ipa": "/ˈpædi/",
+      "frequency": 0.6
+    },
+    {
+      "text": "Mick",
+      "ipa": "/mɪk/",
+      "frequency": 0.5
     }
   ]
 }

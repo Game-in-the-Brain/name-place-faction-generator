@@ -896,7 +896,7 @@
       "ipa": "/klɑrk/",
       "gender": "N",
       "type": "family",
-      "frequency": 1.0
+      "frequency": 1
     },
     {
       "name": "Ramirez",
@@ -1769,7 +1769,7 @@
       "word": "peace",
       "ipa": "/pis/",
       "category": "sacred",
-      "frequency": 1.0,
+      "frequency": 1,
       "can_prefix": true,
       "can_suffix": false
     },
@@ -3634,6 +3634,72 @@
       "weight": 1,
       "separator": "",
       "example": "Grandor"
+    }
+  ],
+  "descriptors": [
+    {
+      "text": "den Store",
+      "ipa": "/dɛn ˈstuːɾə/",
+      "type": "descriptor",
+      "frequency": 1
+    },
+    {
+      "text": "den Vise",
+      "ipa": "/dɛn ˈʋiːsə/",
+      "type": "descriptor",
+      "frequency": 0.8
+    },
+    {
+      "text": "den Sterke",
+      "ipa": "/dɛn ˈstɛɾkə/",
+      "type": "descriptor",
+      "frequency": 0.7
+    }
+  ],
+  "descriptor_nouns": [
+    {
+      "text": "Bjørnen",
+      "ipa": "/ˈbjœːɳən/",
+      "type": "descriptor_noun",
+      "frequency": 0.8
+    },
+    {
+      "text": "Ulven",
+      "ipa": "/ˈʉlvən/",
+      "type": "descriptor_noun",
+      "frequency": 0.7
+    },
+    {
+      "text": "Ørnen",
+      "ipa": "/ˈœːɳən/",
+      "type": "descriptor_noun",
+      "frequency": 0.6
+    }
+  ],
+  "titles": [
+    {
+      "text": "Herr",
+      "ipa": "/hɛr/",
+      "position": "prefix",
+      "frequency": 1
+    },
+    {
+      "text": "Jarl",
+      "ipa": "/jarl/",
+      "position": "prefix",
+      "frequency": 0.6
+    }
+  ],
+  "nicknames": [
+    {
+      "text": "Rød",
+      "ipa": "/ɾøː/",
+      "frequency": 0.6
+    },
+    {
+      "text": "Liten",
+      "ipa": "/ˈliːtɛn/",
+      "frequency": 0.5
     }
   ]
 }

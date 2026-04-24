@@ -334,7 +334,7 @@
       "ipa": "/dɛnɪs/",
       "gender": "M",
       "type": "given",
-      "frequency": 1.0
+      "frequency": 1
     },
     {
       "name": "Jerry",
@@ -481,7 +481,7 @@
       "ipa": "/ɛmɪli/",
       "gender": "F",
       "type": "given",
-      "frequency": 1.0
+      "frequency": 1
     },
     {
       "name": "Donna",
@@ -3698,6 +3698,66 @@
       "weight": 1,
       "separator": "",
       "example": "Grandor"
+    }
+  ],
+  "descriptors": [
+    {
+      "text": "el Grande",
+      "ipa": "/el ˈɡɾande/",
+      "type": "descriptor",
+      "frequency": 1
+    },
+    {
+      "text": "el Fuerte",
+      "ipa": "/el ˈfweɾte/",
+      "type": "descriptor",
+      "frequency": 0.7
+    }
+  ],
+  "descriptor_nouns": [
+    {
+      "text": "el Águila",
+      "ipa": "/el ˈaɣila/",
+      "type": "descriptor_noun",
+      "frequency": 0.8
+    },
+    {
+      "text": "el Jaguar",
+      "ipa": "/el xaˈɣwaɾ/",
+      "type": "descriptor_noun",
+      "frequency": 0.7
+    },
+    {
+      "text": "el Serpiente",
+      "ipa": "/el seɾˈpjente/",
+      "type": "descriptor_noun",
+      "frequency": 0.6
+    }
+  ],
+  "titles": [
+    {
+      "text": "Don",
+      "ipa": "/don/",
+      "position": "prefix",
+      "frequency": 1
+    },
+    {
+      "text": "Capitán",
+      "ipa": "/kapitan/",
+      "position": "prefix",
+      "frequency": 0.7
+    }
+  ],
+  "nicknames": [
+    {
+      "text": "Güero",
+      "ipa": "/ˈɡweɾo/",
+      "frequency": 0.6
+    },
+    {
+      "text": "Chapo",
+      "ipa": "/ˈtʃapo/",
+      "frequency": 0.5
     }
   ]
 }

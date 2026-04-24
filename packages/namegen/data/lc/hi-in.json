@@ -833,7 +833,7 @@
       "ipa": "/mʊr/",
       "gender": "N",
       "type": "family",
-      "frequency": 1.0
+      "frequency": 1
     },
     {
       "name": "Jackson",
@@ -3674,6 +3674,78 @@
       "weight": 1,
       "separator": "",
       "example": "Grandor"
+    }
+  ],
+  "descriptors": [
+    {
+      "text": "Mahān",
+      "ipa": "/məˈɦaːn/",
+      "type": "descriptor",
+      "frequency": 1
+    },
+    {
+      "text": "Buddhimān",
+      "ipa": "/bʊdːʰiˈmaːn/",
+      "type": "descriptor",
+      "frequency": 0.8
+    },
+    {
+      "text": "Balvān",
+      "ipa": "/bəlˈʋaːn/",
+      "type": "descriptor",
+      "frequency": 0.7
+    }
+  ],
+  "descriptor_nouns": [
+    {
+      "text": "Sher",
+      "ipa": "/ʃɛːɾ/",
+      "type": "descriptor_noun",
+      "frequency": 0.8
+    },
+    {
+      "text": "Hāthī",
+      "ipa": "/ɦaːˈtʰiː/",
+      "type": "descriptor_noun",
+      "frequency": 0.7
+    },
+    {
+      "text": "Cītā",
+      "ipa": "/t͡ʃiːˈtaː/",
+      "type": "descriptor_noun",
+      "frequency": 0.6
+    }
+  ],
+  "titles": [
+    {
+      "text": "Shri",
+      "ipa": "/ʃɾiː/",
+      "position": "prefix",
+      "frequency": 1
+    },
+    {
+      "text": "Raja",
+      "ipa": "/ˈɾaːdʒaː/",
+      "position": "prefix",
+      "frequency": 0.7
+    },
+    {
+      "text": "Pandit",
+      "ipa": "/pənˈdɪt/",
+      "position": "prefix",
+      "frequency": 0.6
+    }
+  ],
+  "nicknames": [
+    {
+      "text": "Lāl",
+      "ipa": "/laːl/",
+      "frequency": 0.7
+    },
+    {
+      "text": "Chhotā",
+      "ipa": "/t͡ʃʰoːˈtaː/",
+      "frequency": 0.5
     }
   ]
 }

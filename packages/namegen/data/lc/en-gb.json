@@ -833,7 +833,7 @@
       "ipa": "/mɑrtən/",
       "gender": "N",
       "type": "family",
-      "frequency": 1.0
+      "frequency": 1
     },
     {
       "name": "Lee",
@@ -3186,6 +3186,136 @@
       "weight": 1,
       "separator": "",
       "example": "Grandor"
+    }
+  ],
+  "descriptors": [
+    {
+      "text": "the Great",
+      "ipa": "/ðə ɡɹeɪt/",
+      "type": "descriptor",
+      "frequency": 1
+    },
+    {
+      "text": "the Wise",
+      "ipa": "/ðə waɪz/",
+      "type": "descriptor",
+      "frequency": 0.8
+    },
+    {
+      "text": "the Noble",
+      "ipa": "/ðə ˈnoʊbəl/",
+      "type": "descriptor",
+      "frequency": 0.7
+    },
+    {
+      "text": "the Stern",
+      "ipa": "/ðə stɚn/",
+      "type": "descriptor",
+      "frequency": 0.5
+    },
+    {
+      "text": "the Fair",
+      "ipa": "/ðə fɛɹ/",
+      "type": "descriptor",
+      "frequency": 0.6
+    },
+    {
+      "text": "the Valiant",
+      "ipa": "/ðə ˈvæljənt/",
+      "type": "descriptor",
+      "frequency": 0.5
+    }
+  ],
+  "descriptor_nouns": [
+    {
+      "text": "the Lion",
+      "ipa": "/ðə ˈlaɪən/",
+      "type": "descriptor_noun",
+      "frequency": 0.9
+    },
+    {
+      "text": "the Rose",
+      "ipa": "/ðə ɹoʊz/",
+      "type": "descriptor_noun",
+      "frequency": 0.7
+    },
+    {
+      "text": "the Raven",
+      "ipa": "/ðə ˈɹeɪvən/",
+      "type": "descriptor_noun",
+      "frequency": 0.6
+    },
+    {
+      "text": "the Oak",
+      "ipa": "/ðə oʊk/",
+      "type": "descriptor_noun",
+      "frequency": 0.6
+    },
+    {
+      "text": "the Sword",
+      "ipa": "/ðə sɔɹd/",
+      "type": "descriptor_noun",
+      "frequency": 0.5
+    },
+    {
+      "text": "the Tower",
+      "ipa": "/ðə ˈtaʊɚ/",
+      "type": "descriptor_noun",
+      "frequency": 0.5
+    }
+  ],
+  "titles": [
+    {
+      "text": "Sir",
+      "ipa": "/sɚ/",
+      "position": "prefix",
+      "frequency": 1
+    },
+    {
+      "text": "Lord",
+      "ipa": "/lɔɹd/",
+      "position": "prefix",
+      "frequency": 0.9
+    },
+    {
+      "text": "Duke",
+      "ipa": "/djuːk/",
+      "position": "prefix",
+      "frequency": 0.6
+    },
+    {
+      "text": "Earl",
+      "ipa": "/ɚl/",
+      "position": "prefix",
+      "frequency": 0.5
+    },
+    {
+      "text": "the Exile",
+      "ipa": "/ðə ˈɛɡzaɪl/",
+      "position": "suffix",
+      "frequency": 0.3
+    }
+  ],
+  "nicknames": [
+    {
+      "text": "Red",
+      "ipa": "/ɹɛd/",
+      "frequency": 0.6
+    },
+    {
+      "text": "Slim",
+      "ipa": "/slɪm/",
+      "frequency": 0.5
+    },
+    {
+      "text": "Scar",
+      "ipa": "/skɑɹ/",
+      "frequency": 0.4
+    },
+    {
+      "text": "Nobby",
+      "ipa": "/ˈnɑbi/",
+      "frequency": 0.4
     }
   ]
 }

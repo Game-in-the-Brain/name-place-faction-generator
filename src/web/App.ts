@@ -265,6 +265,49 @@ export class App {
           <label>Seed (optional)</label>
           <input type="number" id="name-seed" value="" placeholder="Leave empty for random" />
         </div>
+        <details class="descriptor-details">
+          <summary>🏷️ Descriptors, Titles & Nicknames</summary>
+          <div class="details-inner">
+            <div class="grid-2">
+              <div class="form-group">
+                <label>Descriptor Odds (1=rare, 3=always)</label>
+                <select id="name-desc-odds">
+                  <option value="0">None</option>
+                  <option value="1" selected>1 — Rare (33%)</option>
+                  <option value="2">2 — Common (66%)</option>
+                  <option value="3">3 — Always (100%)</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label>Max Descriptors</label>
+                <select id="name-desc-max">
+                  <option value="1">1</option>
+                  <option value="2" selected>2</option>
+                </select>
+              </div>
+            </div>
+            <div class="grid-2">
+              <div class="form-group">
+                <label>Title Odds</label>
+                <select id="name-title-odds">
+                  <option value="0">None</option>
+                  <option value="1" selected>1 — Rare (33%)</option>
+                  <option value="2">2 — Common (66%)</option>
+                  <option value="3">3 — Always (100%)</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label>Nickname Odds</label>
+                <select id="name-nick-odds">
+                  <option value="0">None</option>
+                  <option value="1" selected>1 — Rare (33%)</option>
+                  <option value="2">2 — Common (66%)</option>
+                  <option value="3">3 — Always (100%)</option>
+                </select>
+              </div>
+            </div>
+          </div>
+        </details>
         <div class="btn-row">
           <button class="btn btn-primary" id="btn-gen-names">Generate Names</button>
           <button class="btn btn-secondary" id="btn-clear-names">Clear</button>
@@ -296,8 +339,24 @@ export class App {
     const seedVal = this.root.querySelector<HTMLInputElement>('#name-seed')!.value;
     const seed = seedVal ? parseInt(seedVal, 10) : Date.now();
 
+    const descOdds = parseInt(this.root.querySelector<HTMLSelectElement>('#name-desc-odds')!.value, 10) as 0 | 1 | 2 | 3;
+    const descMax = parseInt(this.root.querySelector<HTMLSelectElement>('#name-desc-max')!.value, 10) as 1 | 2;
+    const titleOdds = parseInt(this.root.querySelector<HTMLSelectElement>('#name-title-odds')!.value, 10) as 0 | 1 | 2 | 3;
+    const nickOdds = parseInt(this.root.querySelector<HTMLSelectElement>('#name-nick-odds')!.value, 10) as 0 | 1 | 2 | 3;
+
     const weights: LcWeights = { [lc1]: 3, [lc2]: 1 };
-    const gen = new NameGen({ weights, seed });
+    const gen = new NameGen({
+      weights,
+      seed,
+      descriptors: {
+        descriptorOdds: descOdds || undefined,
+        maxDescriptors: descMax,
+        includeTitles: titleOdds > 0,
+        includeNicknames: nickOdds > 0,
+        titleOdds: titleOdds || undefined,
+        nicknameOdds: nickOdds || undefined,
+      },
+    });
     const results = [];
 
     for (let i = 0; i < count; i++) {
@@ -309,25 +368,33 @@ export class App {
   }
 
   private renderNameResults(results: any[]) {
-    const html = results.map((name, idx) => `
+    const html = results.map((name, idx) => {
+      const dr = name.descriptorResult;
+      const hasDecorations = dr.descriptors.length > 0 || dr.title || dr.nickname;
+      const decorations = [];
+      if (dr.title) decorations.push(`Title: ${dr.title}`);
+      if (dr.nickname) decorations.push(`Nick: "${dr.nickname}"`);
+      if (dr.descriptors.length) decorations.push(`Epithets: ${dr.descriptors.join(', ')}`);
+      return `
       <div class="result-item">
         <div>
-          <div class="result-name">${name.fullName}</div>
-          <div class="result-meta">Given: ${name.given.name} · Family: ${name.family.name}</div>
+          <div class="result-name">${name.displayName || name.fullName}</div>
+          ${hasDecorations ? `<div class="result-meta">${decorations.join(' · ')}</div>` : ''}
+          <div class="result-detail">Given: ${name.given.name} · Family: ${name.family.name}</div>
           <div class="result-detail">Base: ${name.given.base_lc} · Drift: ${name.given.drift_lc} · Lvl ${name.given.drift_level}</div>
         </div>
         <div class="result-actions">
-          <button class="icon-btn" data-copy="${idx}" title="Copy name">📋</button>
+          <button class="icon-btn" data-copy="${idx}" title="Copy decorated name">📋</button>
         </div>
       </div>
-    `).join('');
+    `}).join('');
 
     const container = this.root.querySelector<HTMLDivElement>('#name-results')!;
     container.innerHTML = html;
     container.querySelectorAll('[data-copy]').forEach((btn) => {
       btn.addEventListener('click', () => {
         const idx = parseInt(btn.getAttribute('data-copy')!, 10);
-        this.copyToClipboard(results[idx].fullName);
+        this.copyToClipboard(results[idx].displayName || results[idx].fullName);
       });
     });
   }
@@ -623,11 +690,18 @@ export class App {
     const placeLcs = Object.keys(rawPlaceLcData).sort();
     const drifts = Object.keys(rawDriftData).sort();
     
-    const lcTable = (lcs: string[], data: Record<string, unknown>) => lcs.map(id => {
+    const lcTable = (lcs: string[], data: Record<string, unknown>, showDescriptors = false) => lcs.map(id => {
       const d = data[id] as any;
       const words = d?.words?.length || d?.wordBank?.length || 0;
       const rules = d?.syllableRules?.length || d?.morphemes?.length || 0;
-      return `<tr><td><code>${id}</code></td><td>${words}</td><td>${rules}</td><td><button class="btn btn-small" data-dl-lc="${id}">⬇️ JSON</button></td></tr>`;
+      const descs = d?.descriptors?.length ?? 0;
+      const descNouns = d?.descriptor_nouns?.length ?? 0;
+      const titles = d?.titles?.length ?? 0;
+      const nicks = d?.nicknames?.length ?? 0;
+      const extraCols = showDescriptors
+        ? `<td>${descs}</td><td>${descNouns}</td><td>${titles}</td><td>${nicks}</td>`
+        : `<td>${words}</td><td>${rules}</td>`;
+      return `<tr><td><code>${id}</code></td>${extraCols}<td><button class="btn btn-small" data-dl-lc="${id}">⬇️ JSON</button></td></tr>`;
     }).join('');
     
     panel.innerHTML = `
@@ -641,8 +715,8 @@ export class App {
       <div class="card">
         <div class="card-title"><span class="icon">👤</span> NameGen LC Profiles (${nameLcs.length})</div>
         <table class="db-table">
-          <thead><tr><th>LC</th><th>Words</th><th>Rules</th><th></th></tr></thead>
-          <tbody>${lcTable(nameLcs, rawNameLcData)}</tbody>
+          <thead><tr><th>LC</th><th>Desc</th><th>Noun-D</th><th>Titles</th><th>Nicks</th><th></th></tr></thead>
+          <tbody>${lcTable(nameLcs, rawNameLcData, true)}</tbody>
         </table>
       </div>
       <div class="card">

@@ -131,7 +131,7 @@
       "ipa": "/kɛnɪθ/",
       "gender": "M",
       "type": "given",
-      "frequency": 1.0
+      "frequency": 1
     },
     {
       "name": "Joshua",
@@ -1337,7 +1337,7 @@
       "word": "black",
       "ipa": "/blæk/",
       "category": "quality",
-      "frequency": 1.0,
+      "frequency": 1,
       "can_prefix": true,
       "can_suffix": false
     },
@@ -3282,6 +3282,72 @@
       "weight": 1,
       "separator": "",
       "example": "Grandor"
+    }
+  ],
+  "descriptors": [
+    {
+      "text": "Dae",
+      "ipa": "/tɛ/",
+      "type": "descriptor",
+      "frequency": 0.9
+    },
+    {
+      "text": "Jihye",
+      "ipa": "/tɕiɦje/",
+      "type": "descriptor",
+      "frequency": 0.7
+    },
+    {
+      "text": "Yong",
+      "ipa": "/joŋ/",
+      "type": "descriptor",
+      "frequency": 0.6
+    }
+  ],
+  "descriptor_nouns": [
+    {
+      "text": "Yong",
+      "ipa": "/joŋ/",
+      "type": "descriptor_noun",
+      "frequency": 0.9
+    },
+    {
+      "text": "Horangi",
+      "ipa": "/ɦoɾaŋi/",
+      "type": "descriptor_noun",
+      "frequency": 0.7
+    },
+    {
+      "text": "Sansu",
+      "ipa": "/sansʰu/",
+      "type": "descriptor_noun",
+      "frequency": 0.6
+    }
+  ],
+  "titles": [
+    {
+      "text": "Seonsaengnim",
+      "ipa": "/sʌnsʰɛŋɲim/",
+      "position": "suffix",
+      "frequency": 1
+    },
+    {
+      "text": "Janggun",
+      "ipa": "/tɕaŋɡun/",
+      "position": "prefix",
+      "frequency": 0.6
+    }
+  ],
+  "nicknames": [
+    {
+      "text": "Pal",
+      "ipa": "/pal/",
+      "frequency": 0.6
+    },
+    {
+      "text": "Dongsaeng",
+      "ipa": "/toŋsʰɛŋ/",
+      "frequency": 0.5
     }
   ]
 }

@@ -614,7 +614,7 @@
       "ipa": "/brɛndə/",
       "gender": "F",
       "type": "given",
-      "frequency": 1.0
+      "frequency": 1
     },
     {
       "name": "Pamela",
@@ -684,7 +684,7 @@
       "ipa": "/kɛrəlɪn/",
       "gender": "F",
       "type": "given",
-      "frequency": 1.0
+      "frequency": 1
     },
     {
       "name": "Janet",
@@ -1065,7 +1065,7 @@
       "word": "field",
       "ipa": "/fild/",
       "category": "terrain",
-      "frequency": 1.0,
+      "frequency": 1,
       "can_prefix": false,
       "can_suffix": true
     },
@@ -1449,7 +1449,7 @@
       "word": "pine",
       "ipa": "/paɪn/",
       "category": "flora",
-      "frequency": 1.0,
+      "frequency": 1,
       "can_prefix": false,
       "can_suffix": true
     },
@@ -1585,7 +1585,7 @@
       "word": "raven",
       "ipa": "/reɪvən/",
       "category": "fauna",
-      "frequency": 1.0,
+      "frequency": 1,
       "can_prefix": false,
       "can_suffix": true
     },
@@ -1897,7 +1897,7 @@
       "word": "santa",
       "ipa": "/sæntə/",
       "category": "proper_root",
-      "frequency": 1.0,
+      "frequency": 1,
       "can_prefix": true,
       "can_suffix": true
     },
@@ -1905,7 +1905,7 @@
       "word": "los",
       "ipa": "/loʊs/",
       "category": "proper_root",
-      "frequency": 1.0,
+      "frequency": 1,
       "can_prefix": true,
       "can_suffix": true
     },
@@ -3210,6 +3210,176 @@
       "weight": 1,
       "separator": "",
       "example": "Grandor"
+    }
+  ],
+  "descriptors": [
+    {
+      "text": "the Great",
+      "ipa": "/ðə ɡɹeɪt/",
+      "type": "descriptor",
+      "frequency": 1
+    },
+    {
+      "text": "the Wise",
+      "ipa": "/ðə waɪz/",
+      "type": "descriptor",
+      "frequency": 0.8
+    },
+    {
+      "text": "the Cruel",
+      "ipa": "/ðə kɹuːl/",
+      "type": "descriptor",
+      "frequency": 0.6
+    },
+    {
+      "text": "the Bold",
+      "ipa": "/ðə boʊld/",
+      "type": "descriptor",
+      "frequency": 0.7
+    },
+    {
+      "text": "the Tall",
+      "ipa": "/ðə tɔːl/",
+      "type": "descriptor",
+      "frequency": 0.5
+    },
+    {
+      "text": "the Swift",
+      "ipa": "/ðə swɪft/",
+      "type": "descriptor",
+      "frequency": 0.5
+    },
+    {
+      "text": "the Grim",
+      "ipa": "/ðə ɡɹɪm/",
+      "type": "descriptor",
+      "frequency": 0.4
+    },
+    {
+      "text": "the Just",
+      "ipa": "/ðə dʒʌst/",
+      "type": "descriptor",
+      "frequency": 0.6
+    }
+  ],
+  "descriptor_nouns": [
+    {
+      "text": "the Bear",
+      "ipa": "/ðə bɛɹ/",
+      "type": "descriptor_noun",
+      "frequency": 0.8
+    },
+    {
+      "text": "the Eagle",
+      "ipa": "/ðə ˈiːɡəl/",
+      "type": "descriptor_noun",
+      "frequency": 0.7
+    },
+    {
+      "text": "the Mountain",
+      "ipa": "/ðə ˈmaʊntən/",
+      "type": "descriptor_noun",
+      "frequency": 0.6
+    },
+    {
+      "text": "the Wolf",
+      "ipa": "/ðə wʊlf/",
+      "type": "descriptor_noun",
+      "frequency": 0.7
+    },
+    {
+      "text": "the Hammer",
+      "ipa": "/ðə ˈhæmɚ/",
+      "type": "descriptor_noun",
+      "frequency": 0.5
+    },
+    {
+      "text": "the Storm",
+      "ipa": "/ðə stɔɹm/",
+      "type": "descriptor_noun",
+      "frequency": 0.6
+    },
+    {
+      "text": "the Iron",
+      "ipa": "/ðə ˈaɪɚn/",
+      "type": "descriptor_noun",
+      "frequency": 0.5
+    },
+    {
+      "text": "the Lion",
+      "ipa": "/ðə ˈlaɪən/",
+      "type": "descriptor_noun",
+      "frequency": 0.7
+    }
+  ],
+  "titles": [
+    {
+      "text": "Sir",
+      "ipa": "/sɚ/",
+      "position": "prefix",
+      "frequency": 1
+    },
+    {
+      "text": "Lord",
+      "ipa": "/lɔɹd/",
+      "position": "prefix",
+      "frequency": 0.8
+    },
+    {
+      "text": "Captain",
+      "ipa": "/ˈkæptən/",
+      "position": "prefix",
+      "frequency": 0.7
+    },
+    {
+      "text": "Marshal",
+      "ipa": "/ˈmɑɹʃəl/",
+      "position": "prefix",
+      "frequency": 0.5
+    },
+    {
+      "text": "the Conqueror",
+      "ipa": "/ðə ˈkɑŋkəɹɚ/",
+      "position": "suffix",
+      "frequency": 0.4
+    },
+    {
+      "text": "the Magnificent",
+      "ipa": "/ðə mæɡˈnɪfəsənt/",
+      "position": "suffix",
+      "frequency": 0.3
+    }
+  ],
+  "nicknames": [
+    {
+      "text": "Red",
+      "ipa": "/ɹɛd/",
+      "frequency": 0.7
+    },
+    {
+      "text": "Slim",
+      "ipa": "/slɪm/",
+      "frequency": 0.5
+    },
+    {
+      "text": "Lucky",
+      "ipa": "/ˈlʌki/",
+      "frequency": 0.6
+    },
+    {
+      "text": "Dutch",
+      "ipa": "/dʌtʃ/",
+      "frequency": 0.4
+    },
+    {
+      "text": "Tex",
+      "ipa": "/tɛks/",
+      "frequency": 0.5
+    },
+    {
+      "text": "Buzz",
+      "ipa": "/bʌz/",
+      "frequency": 0.4
     }
   ]
 }
