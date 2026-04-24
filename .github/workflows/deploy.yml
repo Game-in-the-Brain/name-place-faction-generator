@@ -30,9 +30,6 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
-      - name: Build library packages
-        run: npm run build --workspaces
-
       - name: Build PWA
         run: npm run build:web
 
