@@ -2,6 +2,8 @@ import { NameGen } from '@gi7b/namegen';
 import { PlaceGen } from '@gi7b/placegen';
 import { FactionGen } from '@gi7b/factiongen';
 import type { Gender, LcWeights } from '@gi7b/shared';
+import JSZip from 'jszip';
+import { rawNameLcData, rawPlaceLcData, rawDriftData, rawLcIndex, rawLcDistance } from './data-loader.js';
 
 const LC_OPTIONS = [
   { id: 'en-us', label: 'American English' },
@@ -62,11 +64,13 @@ export class App {
         <button class="nav-tab active" data-tab="names">👤 Names</button>
         <button class="nav-tab" data-tab="places">🗺️ Places</button>
         <button class="nav-tab" data-tab="factions">⚔️ Factions</button>
+        <button class="nav-tab" data-tab="databases">📚 DBs</button>
       </nav>
       <main class="main-content">
         <div class="panel active" id="panel-names"></div>
         <div class="panel" id="panel-places"></div>
         <div class="panel" id="panel-factions"></div>
+        <div class="panel" id="panel-databases"></div>
       </main>
       <div class="toast" id="toast"></div>
     `;
@@ -76,6 +80,7 @@ export class App {
     this.renderNamesPanel();
     this.renderPlacesPanel();
     this.renderFactionsPanel();
+    this.renderDatabasesPanel();
   }
 
   private toast(msg: string, duration = 2000) {
@@ -606,5 +611,129 @@ export class App {
         this.copyToClipboard(factions[idx].name);
       });
     });
+  }
+
+  /* ===========================
+     DATABASES PANEL
+     =========================== */
+  private renderDatabasesPanel() {
+    const panel = this.root.querySelector<HTMLDivElement>('#panel-databases')!;
+    
+    const nameLcs = Object.keys(rawNameLcData).sort();
+    const placeLcs = Object.keys(rawPlaceLcData).sort();
+    const drifts = Object.keys(rawDriftData).sort();
+    
+    const lcTable = (lcs: string[], data: Record<string, unknown>) => lcs.map(id => {
+      const d = data[id] as any;
+      const words = d?.words?.length || d?.wordBank?.length || 0;
+      const rules = d?.syllableRules?.length || d?.morphemes?.length || 0;
+      return `<tr><td><code>${id}</code></td><td>${words}</td><td>${rules}</td><td><button class="btn btn-small" data-dl-lc="${id}">⬇️ JSON</button></td></tr>`;
+    }).join('');
+    
+    panel.innerHTML = `
+      <div class="card">
+        <div class="card-title"><span class="icon">📚</span> Database Download</div>
+        <p class="help-text">Download all linguistic culture (LC) profiles and drift rule databases as individual JSON files or a bundled ZIP.</p>
+        <div class="btn-row">
+          <button class="btn btn-primary" id="btn-dl-all">⬇️ Download All (ZIP)</button>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-title"><span class="icon">👤</span> NameGen LC Profiles (${nameLcs.length})</div>
+        <table class="db-table">
+          <thead><tr><th>LC</th><th>Words</th><th>Rules</th><th></th></tr></thead>
+          <tbody>${lcTable(nameLcs, rawNameLcData)}</tbody>
+        </table>
+      </div>
+      <div class="card">
+        <div class="card-title"><span class="icon">🗺️</span> PlaceGen LC Profiles (${placeLcs.length})</div>
+        <table class="db-table">
+          <thead><tr><th>LC</th><th>Words</th><th>Rules</th><th></th></tr></thead>
+          <tbody>${lcTable(placeLcs, rawPlaceLcData)}</tbody>
+        </table>
+      </div>
+      <div class="card">
+        <div class="card-title"><span class="icon">🔀</span> Drift Rules (${drifts.length})</div>
+        <table class="db-table">
+          <thead><tr><th>Drift</th><th>Rules</th><th></th></tr></thead>
+          <tbody>${drifts.map(id => {
+            const d = rawDriftData[id] as any;
+            const rules = d?.substitutions?.length || 0;
+            return `<tr><td><code>${id}</code></td><td>${rules}</td><td><button class="btn btn-small" data-dl-drift="${id}">⬇️ JSON</button></td></tr>`;
+          }).join('')}</tbody>
+        </table>
+      </div>
+      <div class="card">
+        <div class="card-title"><span class="icon">📊</span> Shared Data</div>
+        <table class="db-table">
+          <thead><tr><th>File</th><th></th></tr></thead>
+          <tbody>
+            <tr><td><code>lc-index.json</code></td><td><button class="btn btn-small" data-dl-shared="index">⬇️ JSON</button></td></tr>
+            <tr><td><code>lc-distance.json</code></td><td><button class="btn btn-small" data-dl-shared="distance">⬇️ JSON</button></td></tr>
+          </tbody>
+        </table>
+      </div>
+    `;
+    
+    panel.querySelector('#btn-dl-all')!.addEventListener('click', () => this.downloadAllZip());
+    
+    panel.querySelectorAll('[data-dl-lc]').forEach(btn => {
+      btn.addEventListener('click', () => {
+        const id = btn.getAttribute('data-dl-lc')!;
+        this.downloadJson(`${id}.json`, rawNameLcData[id]);
+      });
+    });
+    
+    panel.querySelectorAll('[data-dl-drift]').forEach(btn => {
+      btn.addEventListener('click', () => {
+        const id = btn.getAttribute('data-dl-drift')!;
+        this.downloadJson(`drift-${id}.json`, rawDriftData[id]);
+      });
+    });
+    
+    panel.querySelector('[data-dl-shared="index"]')!.addEventListener('click', () => {
+      this.downloadJson('lc-index.json', rawLcIndex);
+    });
+    
+    panel.querySelector('[data-dl-shared="distance"]')!.addEventListener('click', () => {
+      this.downloadJson('lc-distance.json', rawLcDistance);
+    });
+  }
+
+  private downloadJson(filename: string, data: unknown) {
+    const blob = new Blob([JSON.stringify(data, null, 2)], { type: 'application/json' });
+    const url = URL.createObjectURL(blob);
+    const a = document.createElement('a');
+    a.href = url;
+    a.download = filename;
+    a.click();
+    URL.revokeObjectURL(url);
+  }
+
+  private async downloadAllZip() {
+    const zip = new JSZip();
+    const nameLcs = Object.keys(rawNameLcData).sort();
+    const placeLcs = Object.keys(rawPlaceLcData).sort();
+    const drifts = Object.keys(rawDriftData).sort();
+    
+    for (const id of nameLcs) {
+      zip.file(`namegen/lc/${id}.json`, JSON.stringify(rawNameLcData[id], null, 2));
+    }
+    for (const id of placeLcs) {
+      zip.file(`placegen/lc/${id}.json`, JSON.stringify(rawPlaceLcData[id], null, 2));
+    }
+    for (const id of drifts) {
+      zip.file(`namegen/drift-rules/${id}.json`, JSON.stringify(rawDriftData[id], null, 2));
+    }
+    zip.file('shared/lc-index.json', JSON.stringify(rawLcIndex, null, 2));
+    zip.file('shared/lc-distance.json', JSON.stringify(rawLcDistance, null, 2));
+    
+    const blob = await zip.generateAsync({ type: 'blob' });
+    const url = URL.createObjectURL(blob);
+    const a = document.createElement('a');
+    a.href = url;
+    a.download = 'gi7b-generators-databases.zip';
+    a.click();
+    URL.revokeObjectURL(url);
   }
 }

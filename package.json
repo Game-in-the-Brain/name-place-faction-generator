@@ -17,10 +17,13 @@
     "clean": "rm -rf packages/*/dist shared/dist dist-web"
   },
   "devDependencies": {
+    "@types/jszip": "^3.4.1",
     "@types/node": "^20.19.39",
     "@typescript-eslint/eslint-plugin": "^7.0.0",
     "@typescript-eslint/parser": "^7.0.0",
+    "archiver": "^7.0.1",
     "eslint": "^8.57.0",
+    "jszip": "^3.10.1",
     "tsx": "^4.21.0",
     "typescript": "^5.9.3",
     "vite": "^6.4.2",

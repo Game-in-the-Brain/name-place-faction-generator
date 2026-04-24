@@ -24,6 +24,7 @@ export default defineConfig({
       manifest: false,
       workbox: {
         globPatterns: ['**/*.{js,css,html,ico,png,svg,json,woff2}'],
+        maximumFileSizeToCacheInBytes: 3 * 1024 * 1024, // 3MB — bundle includes all LC JSON
       },
       devOptions: { enabled: true },
     }),

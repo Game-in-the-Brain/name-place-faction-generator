@@ -596,6 +596,50 @@ select {
   }
 }
 
+/* Database Panel */
+.db-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.85rem;
+}
+
+.db-table th,
+.db-table td {
+  padding: 0.5rem 0.75rem;
+  text-align: left;
+  border-bottom: 1px solid var(--border);
+}
+
+.db-table th {
+  font-weight: 600;
+  color: var(--text-secondary);
+  text-transform: uppercase;
+  font-size: 0.75rem;
+  letter-spacing: 0.05em;
+}
+
+.db-table td code {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.8rem;
+  color: var(--accent);
+  background: var(--bg-tertiary);
+  padding: 0.15rem 0.4rem;
+  border-radius: 4px;
+}
+
+.db-table .btn-small {
+  padding: 0.35rem 0.6rem;
+  font-size: 0.75rem;
+  min-width: unset;
+}
+
+.help-text {
+  color: var(--text-secondary);
+  font-size: 0.85rem;
+  margin-bottom: 1rem;
+  line-height: 1.5;
+}
+
 /* Safe area for notched devices */
 @supports (padding-top: env(safe-area-inset-top)) {
   .app-header {
