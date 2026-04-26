@@ -9,6 +9,7 @@ import {
   preloadLcDistanceTable,
   preloadDriftRules,
 } from '@gi7b/namegen';
+import { preloadPlaceDescriptors } from '@gi7b/placegen';
 
 // Eagerly import all JSON files so they get bundled
 const lcIndexMod = import.meta.glob('../../shared/data/lc-index.json', { eager: true });
@@ -16,6 +17,7 @@ const lcDistanceMod = import.meta.glob('../../shared/data/lc-distance.json', { e
 const lcMods = import.meta.glob('../../packages/namegen/data/lc/*.json', { eager: true });
 const placeLcMods = import.meta.glob('../../packages/placegen/data/lc/*.json', { eager: true });
 const driftMods = import.meta.glob('../../packages/namegen/data/drift-rules/*.json', { eager: true });
+const placeDescriptorMod = import.meta.glob('../../packages/placegen/data/place-descriptors.json', { eager: true });
 
 /** Raw LC data objects keyed by LC id */
 export const rawNameLcData: Record<string, unknown> = {};
@@ -23,6 +25,7 @@ export const rawPlaceLcData: Record<string, unknown> = {};
 export const rawDriftData: Record<string, unknown> = {};
 export let rawLcIndex: unknown = null;
 export let rawLcDistance: unknown = null;
+export let rawPlaceDescriptors: unknown = null;
 
 export function preloadAllData(): void {
   // Preload index
@@ -59,5 +62,12 @@ export function preloadAllData(): void {
       rawDriftData[id] = (mod as any).default;
       preloadDriftRules(id, (mod as any).default);
     }
+  }
+
+  // Preload place descriptors
+  const pdRaw = (placeDescriptorMod[Object.keys(placeDescriptorMod)[0]] as any)?.default;
+  if (pdRaw) {
+    rawPlaceDescriptors = pdRaw;
+    preloadPlaceDescriptors(pdRaw);
   }
 }

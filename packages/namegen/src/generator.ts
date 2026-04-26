@@ -15,6 +15,10 @@ export interface NameGenOptions {
   seed?: number;
   /** Descriptor / title / nickname options */
   descriptors?: DescriptorOptions;
+  /** Force a specific Base LC (overrides weighted selection) */
+  forceBaseLc?: string;
+  /** Force a specific Drift LC (overrides weighted selection) */
+  forceDriftLc?: string;
 }
 
 export interface NameGenResult {
@@ -30,11 +34,15 @@ export interface NameGenResult {
 export class NameGen {
   private rng: Rng;
   private weights: LcWeights;
+  private forceBaseLc?: string;
+  private forceDriftLc?: string;
 
   constructor(options: NameGenOptions = {}) {
     this.rng = new Rng(options.seed ?? Date.now());
     this.weights = options.weights ?? {};
     this.descriptorOpts = options.descriptors ?? {};
+    this.forceBaseLc = options.forceBaseLc;
+    this.forceDriftLc = options.forceDriftLc;
   }
 
   /**
@@ -51,6 +59,9 @@ export class NameGen {
     if (opts.forceLc) {
       baseLcId = opts.forceLc;
       driftLcId = opts.forceLc;
+    } else if (this.forceBaseLc && this.forceDriftLc) {
+      baseLcId = this.forceBaseLc;
+      driftLcId = this.forceDriftLc;
     } else {
       baseLcId = this.selectWeightedLc();
       driftLcId = this.selectWeightedLc();

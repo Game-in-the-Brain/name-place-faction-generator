@@ -50,4 +50,8 @@ export interface FactionGenOptions {
   world: WorldInputs;
   seed?: number;
   nuance?: 'low' | 'medium' | 'high';
+  /** Force a specific Base LC for name generation (overrides weighted selection) */
+  forceBaseLc?: string;
+  /** Force a specific Drift LC for name generation (overrides weighted selection) */
+  forceDriftLc?: string;
 }

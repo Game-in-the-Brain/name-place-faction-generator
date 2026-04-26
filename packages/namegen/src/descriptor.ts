@@ -74,9 +74,13 @@ export class DescriptorEngine {
       const descriptorChance = descriptorOdds / 3;
       if (this.rng.float() < descriptorChance) {
         const count = this.rng.int(1, maxDescriptors);
+        const used = new Set<string>();
         for (let i = 0; i < count; i++) {
-          const d = this.pickDescriptor(lc);
-          if (d) descriptors.push(d);
+          const d = this.pickDescriptor(lc, used);
+          if (d) {
+            descriptors.push(d);
+            used.add(d);
+          }
         }
       }
     }
@@ -122,25 +126,35 @@ export class DescriptorEngine {
     };
   }
 
-  private pickDescriptor(lc: { descriptors?: DescriptorRecord[]; descriptor_nouns?: DescriptorRecord[] }): string | null {
+  private pickDescriptor(
+    lc: { descriptors?: DescriptorRecord[]; descriptor_nouns?: DescriptorRecord[] },
+    used?: Set<string>
+  ): string | null {
     const hasDesc = (lc.descriptors?.length ?? 0) > 0;
     const hasNoun = (lc.descriptor_nouns?.length ?? 0) > 0;
 
     if (!hasDesc && !hasNoun) return null;
 
+    // Filter out already-used descriptors
+    const descPool = lc.descriptors?.filter((d) => !used?.has(d.text)) ?? [];
+    const nounPool = lc.descriptor_nouns?.filter((d) => !used?.has(d.text)) ?? [];
+    const hasDescAvail = descPool.length > 0;
+    const hasNounAvail = nounPool.length > 0;
+
+    if (!hasDescAvail && !hasNounAvail) return null;
+
     // Roll for type: descriptor vs descriptor_noun
     // Weighted by availability
-    const total = (hasDesc ? 1 : 0) + (hasNoun ? 1 : 0);
     const roll = this.rng.float();
 
-    if (hasDesc && (roll < 0.5 || !hasNoun)) {
+    if (hasDescAvail && (roll < 0.5 || !hasNounAvail)) {
       const rec = this.rng.weighted(
-        lc.descriptors!.map((d) => ({ item: d, weight: d.frequency }))
+        descPool.map((d) => ({ item: d, weight: d.frequency }))
       );
       return rec.text;
     } else {
       const rec = this.rng.weighted(
-        lc.descriptor_nouns!.map((d) => ({ item: d, weight: d.frequency }))
+        nounPool.map((d) => ({ item: d, weight: d.frequency }))
       );
       return rec.text;
     }

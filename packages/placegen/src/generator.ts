@@ -7,36 +7,54 @@ import type { GeneratedPlaceName, LcWeights } from '@gi7b/shared';
 import { loadLc, loadLcIndex, getLcDistance, distanceToDriftLevel, loadDriftRules } from '@gi7b/namegen';
 import { applyDrift as applyDriftIPA, reRomanize } from '@gi7b/namegen';
 import type { LcProfile, PlaceTemplate, PlaceWord, PlaceWordCategory } from '@gi7b/shared';
+import { PlaceDescriptorEngine, type PlaceDescriptorOptions } from './place-descriptor.js';
 
 export interface PlaceGenOptions {
   weights?: LcWeights;
   seed?: number;
+  /** Force a specific Base LC (overrides weighted selection) */
+  forceBaseLc?: string;
+  /** Force a specific Drift LC (overrides weighted selection) */
+  forceDriftLc?: string;
+  /** Place descriptor options (1d3-1 descriptors). Omit to skip descriptors. */
+  descriptors?: PlaceDescriptorOptions;
 }
 
-export interface PlaceGenResult extends GeneratedPlaceName {}
+export interface PlaceGenResult extends GeneratedPlaceName {
+  /** Adjective descriptors for the place (0-2) */
+  descriptors?: string[];
+  /** Place name with descriptors prepended */
+  displayName?: string;
+}
 
 export class PlaceGen {
   private rng: Rng;
   private weights: LcWeights;
+  private forceBaseLc?: string;
+  private forceDriftLc?: string;
+  private descriptorOpts?: PlaceDescriptorOptions;
 
   constructor(options: PlaceGenOptions = {}) {
     this.rng = new Rng(options.seed ?? Date.now());
     this.weights = options.weights ?? {};
+    this.forceBaseLc = options.forceBaseLc;
+    this.forceDriftLc = options.forceDriftLc;
+    this.descriptorOpts = options.descriptors;
   }
 
   generateStarSystemName(): PlaceGenResult {
-    return this.generatePlaceName('star_system');
+    return this.generatePlaceName('star_system', this.forceBaseLc, this.forceDriftLc);
   }
 
   generateWorldName(inherit?: { baseLc: string; driftLc: string; driftLevel: number }): PlaceGenResult {
     if (inherit) {
       return this.generatePlaceName('world', inherit.baseLc, inherit.driftLc, inherit.driftLevel);
     }
-    return this.generatePlaceName('world');
+    return this.generatePlaceName('world', this.forceBaseLc, this.forceDriftLc);
   }
 
   generateRegionName(): PlaceGenResult {
-    return this.generatePlaceName('region');
+    return this.generatePlaceName('region', this.forceBaseLc, this.forceDriftLc);
   }
 
   generateBatch(type: 'star_system' | 'world' | 'region', count: number): PlaceGenResult[] {
@@ -94,7 +112,7 @@ export class PlaceGen {
     // Capitalize
     rawName = rawName.charAt(0).toUpperCase() + rawName.slice(1);
 
-    return {
+    const result: PlaceGenResult = {
       name: rawName,
       ipa: rawIpa,
       base_lc: baseLcId,
@@ -102,6 +120,16 @@ export class PlaceGen {
       drift_level: driftLevel,
       components,
     };
+
+    // Apply place descriptors if enabled
+    if (this.descriptorOpts) {
+      const descriptorEngine = new PlaceDescriptorEngine(this.rng);
+      const descriptorResult = descriptorEngine.generate(rawName, this.descriptorOpts);
+      result.descriptors = descriptorResult.descriptors;
+      result.displayName = descriptorResult.displayName;
+    }
+
+    return result;
   }
 
   private selectWeightedLc(): string {

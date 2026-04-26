@@ -3,7 +3,8 @@ import { PlaceGen } from '@gi7b/placegen';
 import { FactionGen } from '@gi7b/factiongen';
 import type { Gender, LcWeights } from '@gi7b/shared';
 import JSZip from 'jszip';
-import { rawNameLcData, rawPlaceLcData, rawDriftData, rawLcIndex, rawLcDistance } from './data-loader.js';
+import { rawNameLcData, rawPlaceLcData, rawDriftData, rawLcIndex, rawLcDistance, rawPlaceDescriptors } from './data-loader.js';
+import { APP_VERSION } from './version.js';
 
 const LC_OPTIONS = [
   { id: 'en-us', label: 'American English' },
@@ -54,9 +55,13 @@ export class App {
 
     this.root.innerHTML = `
       <header class="app-header">
-        <h1>🌍 GI7B World Builder</h1>
-        <span class="subtitle">Procedural worlds in your pocket</span>
+        <div class="header-brand">
+          <h1>🌍 GI7B World Builder</h1>
+          <span class="subtitle">Procedural worlds in your pocket</span>
+          <span class="version-badge">v${APP_VERSION}</span>
+        </div>
         <div class="header-actions">
+          <button class="icon-btn" id="btn-device" title="Toggle desktop/mobile view">📱</button>
           <button class="icon-btn" id="btn-theme" title="Toggle day/night">${isDay ? '🌙' : '☀️'}</button>
         </div>
       </header>
@@ -77,6 +82,7 @@ export class App {
 
     this.bindTabs();
     this.bindTheme();
+    this.bindDevice();
     this.renderNamesPanel();
     this.renderPlacesPanel();
     this.renderFactionsPanel();
@@ -112,6 +118,21 @@ export class App {
       const isDay = document.body.classList.toggle('day');
       localStorage.setItem('theme', isDay ? 'day' : 'night');
       btn.textContent = isDay ? '🌙' : '☀️';
+    });
+  }
+
+  private bindDevice() {
+    const btn = this.root.querySelector<HTMLButtonElement>('#btn-device')!;
+    const isMobile = localStorage.getItem('deviceView') === 'mobile';
+    if (isMobile) {
+      document.body.classList.add('mobile-view');
+      btn.textContent = '🖥️';
+    }
+    btn.addEventListener('click', () => {
+      const isMobileNow = document.body.classList.toggle('mobile-view');
+      localStorage.setItem('deviceView', isMobileNow ? 'mobile' : 'desktop');
+      btn.textContent = isMobileNow ? '🖥️' : '📱';
+      this.toast(isMobileNow ? 'Mobile view' : 'Desktop view');
     });
   }
 
@@ -250,11 +271,15 @@ export class App {
           </div>
         </div>
         <div class="form-group">
+          <label><input type="checkbox" id="name-independent" /> 🔀 Generate Independently</label>
+        </div>
+        <div class="form-group">
           <label>Gender</label>
           <select id="name-gender">
             <option value="">Random</option>
             <option value="M">Male</option>
             <option value="F">Female</option>
+            <option value="N">Non-binary</option>
           </select>
         </div>
         <div class="form-group">
@@ -344,10 +369,13 @@ export class App {
     const titleOdds = parseInt(this.root.querySelector<HTMLSelectElement>('#name-title-odds')!.value, 10) as 0 | 1 | 2 | 3;
     const nickOdds = parseInt(this.root.querySelector<HTMLSelectElement>('#name-nick-odds')!.value, 10) as 0 | 1 | 2 | 3;
 
+    const independent = this.root.querySelector<HTMLInputElement>('#name-independent')!.checked;
     const weights: LcWeights = { [lc1]: 3, [lc2]: 1 };
     const gen = new NameGen({
       weights,
       seed,
+      forceBaseLc: independent ? undefined : lc1,
+      forceDriftLc: independent ? undefined : lc2,
       descriptors: {
         descriptorOdds: descOdds || undefined,
         maxDescriptors: descMax,
@@ -422,6 +450,9 @@ export class App {
           </div>
         </div>
         <div class="form-group">
+          <label><input type="checkbox" id="place-independent" /> 🔀 Generate Independently</label>
+        </div>
+        <div class="form-group">
           <label>Type</label>
           <select id="place-type">
             <option value="star_system">Star System</option>
@@ -429,6 +460,24 @@ export class App {
             <option value="region">Region / City</option>
           </select>
         </div>
+        <details class="descriptor-details">
+          <summary>🏷️ Place Descriptors</summary>
+          <div class="details-inner">
+            <div class="form-group">
+              <label>Descriptor Odds (1=rare, 3=always)</label>
+              <select id="place-desc-odds">
+                <option value="0">None</option>
+                <option value="1" selected>1 — Rare (33%)</option>
+                <option value="2">2 — Common (66%)</option>
+                <option value="3">3 — Always (100%)</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label>Value Bias (comma-separated categories)</label>
+              <input type="text" id="place-desc-bias" placeholder="e.g. tradition, nature, commerce" />
+            </div>
+          </div>
+        </details>
         <div class="form-group">
           <label>Count</label>
           <input type="number" id="place-count" value="5" min="1" max="50" />
@@ -468,8 +517,20 @@ export class App {
     const seedVal = this.root.querySelector<HTMLInputElement>('#place-seed')!.value;
     const seed = seedVal ? parseInt(seedVal, 10) : Date.now();
 
+    const independent = this.root.querySelector<HTMLInputElement>('#place-independent')!.checked;
+    const descOdds = parseInt(this.root.querySelector<HTMLSelectElement>('#place-desc-odds')!.value, 10) as 0 | 1 | 2 | 3;
+    const descBias = this.root.querySelector<HTMLInputElement>('#place-desc-bias')!.value.split(',').map((s) => s.trim()).filter(Boolean);
+
     const weights: LcWeights = { [lc1]: 3, [lc2]: 1 };
-    const gen = new PlaceGen({ weights, seed });
+    const gen = new PlaceGen({
+      weights,
+      seed,
+      forceBaseLc: independent ? undefined : lc1,
+      forceDriftLc: independent ? undefined : lc2,
+      descriptors: descOdds > 0 ? {
+        valueBias: descBias.length > 0 ? descBias : undefined,
+      } : undefined,
+    });
     const results = [];
 
     for (let i = 0; i < count; i++) {
@@ -485,10 +546,12 @@ export class App {
   private renderPlaceResults(results: any[]) {
     const html = results.map((place, idx) => {
       const comps = place.components?.map((c: { word: string; category: string }) => `${c.word} (${c.category})`).join(' · ');
+      const hasDescriptors = place.descriptors && place.descriptors.length > 0;
       return `
         <div class="result-item">
           <div>
-            <div class="result-name">${place.name}</div>
+            <div class="result-name">${place.displayName || place.name}</div>
+            ${hasDescriptors ? `<div class="result-meta">Descriptors: ${place.descriptors.join(', ')}</div>` : ''}
             <div class="result-meta">${comps || place.ipa}</div>
             <div class="result-detail">Base: ${place.base_lc} · Drift: ${place.drift_lc} · Lvl ${place.drift_level}</div>
           </div>
@@ -582,6 +645,9 @@ export class App {
           </div>
         </div>
         <div class="form-group">
+          <label><input type="checkbox" id="fac-independent" /> 🔀 Generate Independently</label>
+        </div>
+        <div class="form-group">
           <label>Seed (optional)</label>
           <input type="number" id="fac-seed" value="" placeholder="Leave empty for random" />
         </div>
@@ -621,6 +687,7 @@ export class App {
     const seedVal = this.root.querySelector<HTMLInputElement>('#fac-seed')!.value;
     const seed = seedVal ? parseInt(seedVal, 10) : Date.now();
 
+    const independent = this.root.querySelector<HTMLInputElement>('#fac-independent')!.checked;
     const lcWeights: LcWeights = { [lc1]: 4, [lc2]: 2 };
 
     const gen = new FactionGen({
@@ -635,6 +702,8 @@ export class App {
         lcWeights,
       },
       seed,
+      forceBaseLc: independent ? undefined : lc1,
+      forceDriftLc: independent ? undefined : lc2,
     });
 
     const factions = gen.generate();
@@ -689,6 +758,7 @@ export class App {
     const nameLcs = Object.keys(rawNameLcData).sort();
     const placeLcs = Object.keys(rawPlaceLcData).sort();
     const drifts = Object.keys(rawDriftData).sort();
+    const hasPlaceDescriptors = rawPlaceDescriptors !== null;
     
     const lcTable = (lcs: string[], data: Record<string, unknown>, showDescriptors = false) => lcs.map(id => {
       const d = data[id] as any;
@@ -738,6 +808,19 @@ export class App {
         </table>
       </div>
       <div class="card">
+        <div class="card-title"><span class="icon">🏷️</span> Place Descriptors</div>
+        <table class="db-table">
+          <thead><tr><th>File</th><th>Entries</th><th></th></tr></thead>
+          <tbody>
+            <tr>
+              <td><code>place-descriptors.json</code></td>
+              <td>${hasPlaceDescriptors ? (rawPlaceDescriptors as any).descriptors?.length ?? 0 : 0}</td>
+              <td><button class="btn btn-small" data-dl-pd="1">⬇️ JSON</button></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="card">
         <div class="card-title"><span class="icon">📊</span> Shared Data</div>
         <table class="db-table">
           <thead><tr><th>File</th><th></th></tr></thead>
@@ -765,23 +848,17 @@ export class App {
       });
     });
     
+    panel.querySelector('[data-dl-pd="1"]')!.addEventListener('click', () => {
+      this.downloadJson('place-descriptors.json', rawPlaceDescriptors);
+    });
+
     panel.querySelector('[data-dl-shared="index"]')!.addEventListener('click', () => {
       this.downloadJson('lc-index.json', rawLcIndex);
     });
-    
+
     panel.querySelector('[data-dl-shared="distance"]')!.addEventListener('click', () => {
       this.downloadJson('lc-distance.json', rawLcDistance);
     });
-  }
-
-  private downloadJson(filename: string, data: unknown) {
-    const blob = new Blob([JSON.stringify(data, null, 2)], { type: 'application/json' });
-    const url = URL.createObjectURL(blob);
-    const a = document.createElement('a');
-    a.href = url;
-    a.download = filename;
-    a.click();
-    URL.revokeObjectURL(url);
   }
 
   private async downloadAllZip() {
@@ -801,7 +878,10 @@ export class App {
     }
     zip.file('shared/lc-index.json', JSON.stringify(rawLcIndex, null, 2));
     zip.file('shared/lc-distance.json', JSON.stringify(rawLcDistance, null, 2));
-    
+    if (rawPlaceDescriptors) {
+      zip.file('placegen/place-descriptors.json', JSON.stringify(rawPlaceDescriptors, null, 2));
+    }
+
     const blob = await zip.generateAsync({ type: 'blob' });
     const url = URL.createObjectURL(blob);
     const a = document.createElement('a');

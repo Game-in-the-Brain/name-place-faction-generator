@@ -77,8 +77,18 @@ export class FactionGen {
     this.rng = new Rng(options.seed ?? Date.now());
     this.world = options.world;
     this.nuance = options.nuance ?? 'medium';
-    this.nameGen = new NameGen({ weights: options.world.lcWeights, seed: options.seed });
-    this.placeGen = new PlaceGen({ weights: options.world.lcWeights, seed: options.seed });
+    this.nameGen = new NameGen({
+      weights: options.world.lcWeights,
+      seed: options.seed,
+      forceBaseLc: options.forceBaseLc,
+      forceDriftLc: options.forceDriftLc,
+    });
+    this.placeGen = new PlaceGen({
+      weights: options.world.lcWeights,
+      seed: options.seed,
+      forceBaseLc: options.forceBaseLc,
+      forceDriftLc: options.forceDriftLc,
+    });
   }
 
   generate(): Entity[] {
