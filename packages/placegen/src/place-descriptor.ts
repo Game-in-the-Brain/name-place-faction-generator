@@ -91,11 +91,12 @@ export class PlaceDescriptorEngine {
     if (pool.length === 0) return null;
 
     // Weight: boost entries that match valueBias categories
+    // Each matching category doubles frequency (×2 per match)
     const entries = pool.map((d) => {
       let weight = d.frequency;
       if (valueBias.length > 0) {
         const matches = d.categories.filter((c) => valueBias.includes(c)).length;
-        weight *= 1 + matches * 2; // ×2 per matching category
+        weight *= Math.pow(2, matches);
       }
       return { item: d, weight };
     });

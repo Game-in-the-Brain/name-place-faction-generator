@@ -25,6 +25,8 @@ export interface DescriptorOptions {
   titleOdds?: 1 | 2 | 3;
   /** Nickname odds: 1=33%, 2=66%, 3=100%. Default 1 */
   nicknameOdds?: 1 | 2 | 3;
+  /** Descriptor category bias from cultural values. Each matching category doubles frequency. */
+  valueBias?: string[];
 }
 
 export interface DescriptorResult {
@@ -63,6 +65,7 @@ export class DescriptorEngine {
       includeNicknames,
       titleOdds,
       nicknameOdds,
+      valueBias = [],
     } = opts;
 
     const lc = loadLc(baseLcId);
@@ -76,7 +79,7 @@ export class DescriptorEngine {
         const count = this.rng.int(1, maxDescriptors);
         const used = new Set<string>();
         for (let i = 0; i < count; i++) {
-          const d = this.pickDescriptor(lc, used);
+          const d = this.pickDescriptor(lc, used, valueBias);
           if (d) {
             descriptors.push(d);
             used.add(d);
@@ -128,7 +131,8 @@ export class DescriptorEngine {
 
   private pickDescriptor(
     lc: { descriptors?: DescriptorRecord[]; descriptor_nouns?: DescriptorRecord[] },
-    used?: Set<string>
+    used?: Set<string>,
+    valueBias: string[] = []
   ): string | null {
     const hasDesc = (lc.descriptors?.length ?? 0) > 0;
     const hasNoun = (lc.descriptor_nouns?.length ?? 0) > 0;
@@ -143,19 +147,30 @@ export class DescriptorEngine {
 
     if (!hasDescAvail && !hasNounAvail) return null;
 
+    // Apply value bias: each matching category doubles frequency
+    const applyBias = (entries: Array<{ text: string; frequency: number; type?: string }>) =>
+      entries.map((e) => {
+        let weight = e.frequency;
+        // LC descriptors don't have categories yet, so we do a text heuristic match
+        // against value bias keywords for now
+        if (valueBias.length > 0) {
+          const textLower = e.text.toLowerCase();
+          const matches = valueBias.filter((vb) => textLower.includes(vb.toLowerCase())).length;
+          // Double frequency per match (×2 per matching category)
+          weight *= Math.pow(2, matches);
+        }
+        return { item: e, weight };
+      });
+
     // Roll for type: descriptor vs descriptor_noun
     // Weighted by availability
     const roll = this.rng.float();
 
     if (hasDescAvail && (roll < 0.5 || !hasNounAvail)) {
-      const rec = this.rng.weighted(
-        descPool.map((d) => ({ item: d, weight: d.frequency }))
-      );
+      const rec = this.rng.weighted(applyBias(descPool));
       return rec.text;
     } else {
-      const rec = this.rng.weighted(
-        nounPool.map((d) => ({ item: d, weight: d.frequency }))
-      );
+      const rec = this.rng.weighted(applyBias(nounPool));
       return rec.text;
     }
   }
@@ -200,9 +215,9 @@ export class DescriptorEngine {
     // Family name
     parts.push(family);
 
-    // Descriptors (epithets)
+    // Descriptors (epithets) — condense redundant articles
     if (descriptors.length > 0) {
-      parts.push(descriptors.join(' '));
+      parts.push(this.condenseDescriptors(descriptors));
     }
 
     // Suffix title
@@ -211,5 +226,25 @@ export class DescriptorEngine {
     }
 
     return parts.join(' ');
+  }
+
+  /**
+   * Condense descriptors that share the same leading article.
+   * ["the Great", "the Stern"] → "the Great Stern"
+   * ["le Brave", "le Lion"] → "le Brave Lion"
+   */
+  private condenseDescriptors(descriptors: string[]): string {
+    if (descriptors.length < 2) return descriptors[0] ?? '';
+
+    const firstWords = descriptors.map((d) => d.split(/\s+/, 1)[0].toLowerCase());
+    const allSame = firstWords.every((w) => w === firstWords[0]);
+
+    if (allSame && firstWords[0]) {
+      const article = descriptors[0].split(/\s+/, 1)[0];
+      const rest = descriptors.map((d) => d.slice(article.length).trim());
+      return `${article} ${rest.join(' ')}`;
+    }
+
+    return descriptors.join(' ');
   }
 }
