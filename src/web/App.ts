@@ -327,6 +327,9 @@ export class App {
           </div>
         </div>
         <div class="form-group">
+          <button class="btn btn-secondary" id="name-rand-both" type="button">🎲 Roll Both Cultures</button>
+        </div>
+        <div class="form-group">
           <label><input type="checkbox" id="name-independent" /> 🔀 Generate Independently</label>
         </div>
         <div class="form-group">
@@ -403,6 +406,10 @@ export class App {
       (panel.querySelector('#name-lc1') as HTMLSelectElement).value = this.randomLc();
     });
     panel.querySelector('#name-rand-lc2')!.addEventListener('click', () => {
+      (panel.querySelector('#name-lc2') as HTMLSelectElement).value = this.randomLc();
+    });
+    panel.querySelector('#name-rand-both')!.addEventListener('click', () => {
+      (panel.querySelector('#name-lc1') as HTMLSelectElement).value = this.randomLc();
       (panel.querySelector('#name-lc2') as HTMLSelectElement).value = this.randomLc();
     });
     panel.querySelector('#btn-gen-names')!.addEventListener('click', () => this.generateNames());
@@ -522,6 +529,9 @@ export class App {
           </div>
         </div>
         <div class="form-group">
+          <button class="btn btn-secondary" id="place-rand-both" type="button">🎲 Roll Both Cultures</button>
+        </div>
+        <div class="form-group">
           <label><input type="checkbox" id="place-independent" /> 🔀 Generate Independently</label>
         </div>
         <div class="form-group">
@@ -572,6 +582,10 @@ export class App {
       (panel.querySelector('#place-lc1') as HTMLSelectElement).value = this.randomLc();
     });
     panel.querySelector('#place-rand-lc2')!.addEventListener('click', () => {
+      (panel.querySelector('#place-lc2') as HTMLSelectElement).value = this.randomLc();
+    });
+    panel.querySelector('#place-rand-both')!.addEventListener('click', () => {
+      (panel.querySelector('#place-lc1') as HTMLSelectElement).value = this.randomLc();
       (panel.querySelector('#place-lc2') as HTMLSelectElement).value = this.randomLc();
     });
     panel.querySelector('#btn-gen-places')!.addEventListener('click', () => this.generatePlaces());
@@ -721,6 +735,9 @@ export class App {
           </div>
         </div>
         <div class="form-group">
+          <button class="btn btn-secondary" id="fac-rand-both" type="button">🎲 Roll Both Cultures</button>
+        </div>
+        <div class="form-group">
           <label><input type="checkbox" id="fac-independent" /> 🔀 Generate Independently</label>
         </div>
         <div class="form-group">
@@ -740,6 +757,10 @@ export class App {
       (panel.querySelector('#fac-lc1') as HTMLSelectElement).value = this.randomLc();
     });
     panel.querySelector('#fac-rand-lc2')!.addEventListener('click', () => {
+      (panel.querySelector('#fac-lc2') as HTMLSelectElement).value = this.randomLc();
+    });
+    panel.querySelector('#fac-rand-both')!.addEventListener('click', () => {
+      (panel.querySelector('#fac-lc1') as HTMLSelectElement).value = this.randomLc();
       (panel.querySelector('#fac-lc2') as HTMLSelectElement).value = this.randomLc();
     });
     panel.querySelector('#btn-gen-factions')!.addEventListener('click', () => this.generateFactions());
