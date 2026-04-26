@@ -3,7 +3,7 @@ import { PlaceGen } from '@gi7b/placegen';
 import { FactionGen } from '@gi7b/factiongen';
 import type { Gender, LcWeights } from '@gi7b/shared';
 import JSZip from 'jszip';
-import { rawNameLcData, rawPlaceLcData, rawDriftData, rawLcIndex, rawLcDistance, rawPlaceDescriptors } from './data-loader.js';
+import { rawNameLcData, rawPlaceLcData, rawDriftData, rawLcIndex, rawLcDistance, rawPlaceDescriptors, rawCulturalValues } from './data-loader.js';
 import { APP_VERSION } from './version.js';
 
 const LC_OPTIONS = [
@@ -44,6 +44,7 @@ export class App {
   private root: HTMLElement;
   private currentTab = 'names';
   private lastResults: { names?: unknown[]; places?: unknown[]; factions?: unknown[] } = {};
+  private activeCulturalValues: Array<{ label: string; bias: Record<string, number> }> = [];
 
   constructor(root: HTMLElement) {
     this.root = root;
@@ -138,6 +139,61 @@ export class App {
 
   private randomLc(): string {
     return LC_OPTIONS[Math.floor(Math.random() * LC_OPTIONS.length)].id;
+  }
+
+  private rollCulturalValues(count = 3): Array<{ label: string; bias: Record<string, number> }> {
+    const data = rawCulturalValues as any;
+    if (!data?.axes) return [];
+    const axes = data.axes as Array<{ axis_name: string; positions: Array<{ label: string; descriptor_bias: Record<string, number> }> }>;
+    const rolled: Array<{ label: string; bias: Record<string, number> }> = [];
+    const used = new Set<string>();
+    for (let i = 0; i < count; i++) {
+      const axis = axes[Math.floor(Math.random() * axes.length)];
+      const pos = axis.positions[Math.floor(Math.random() * axis.positions.length)];
+      const key = `${axis.axis_name}-${pos.label}`;
+      if (!used.has(key)) {
+        used.add(key);
+        rolled.push({ label: `${axis.axis_name}: ${pos.label}`, bias: pos.descriptor_bias || {} });
+      }
+    }
+    return rolled;
+  }
+
+  private getCulturalValueBias(): string[] {
+    const bias: string[] = [];
+    for (const val of this.activeCulturalValues) {
+      for (const [cat, weight] of Object.entries(val.bias)) {
+        const copies = Math.round(weight);
+        for (let i = 0; i < copies; i++) bias.push(cat);
+      }
+    }
+    return bias;
+  }
+
+  private renderCulturalValuesPanel(panelId: string): string {
+    return `
+      <details class="descriptor-details">
+        <summary>🎭 Cultural Values (D66)</summary>
+        <div class="details-inner">
+          <div class="form-group">
+            <button class="btn btn-secondary" id="${panelId}-roll-cv" type="button">🎲 Roll Cultural Values</button>
+          </div>
+          <div id="${panelId}-cv-list" class="cv-list"></div>
+        </div>
+      </details>
+    `;
+  }
+
+  private bindCulturalValues(panelId: string) {
+    const btn = this.root.querySelector<HTMLButtonElement>(`#${panelId}-roll-cv`);
+    const list = this.root.querySelector<HTMLDivElement>(`#${panelId}-cv-list`);
+    if (!btn || !list) return;
+    btn.addEventListener('click', () => {
+      this.activeCulturalValues = this.rollCulturalValues(3);
+      list.innerHTML = this.activeCulturalValues.length
+        ? this.activeCulturalValues.map((v) => `<div class="cv-chip">${v.label}</div>`).join('')
+        : '<div class="cv-chip">No cultural values data</div>';
+    });
   }
 
   private cultureSelect(id: string, value?: string): string {
@@ -290,6 +346,7 @@ export class App {
           <label>Seed (optional)</label>
           <input type="number" id="name-seed" value="" placeholder="Leave empty for random" />
         </div>
+        ${this.renderCulturalValuesPanel('name')}
         <details class="descriptor-details">
           <summary>🏷️ Descriptors, Titles & Nicknames</summary>
           <div class="details-inner">
@@ -353,6 +410,7 @@ export class App {
       panel.querySelector<HTMLDivElement>('#name-results')!.innerHTML = '';
       this.lastResults.names = [];
     });
+    this.bindCulturalValues('name');
     this.bindDataActions(panel, 'names', (data) => this.renderNameResults(data as any[]));
   }
 
@@ -370,6 +428,7 @@ export class App {
     const nickOdds = parseInt(this.root.querySelector<HTMLSelectElement>('#name-nick-odds')!.value, 10) as 0 | 1 | 2 | 3;
 
     const independent = this.root.querySelector<HTMLInputElement>('#name-independent')!.checked;
+    const cvBias = this.getCulturalValueBias();
     const weights: LcWeights = { [lc1]: 3, [lc2]: 1 };
     const gen = new NameGen({
       weights,
@@ -383,6 +442,7 @@ export class App {
         includeNicknames: nickOdds > 0,
         titleOdds: titleOdds || undefined,
         nicknameOdds: nickOdds || undefined,
+        valueBias: cvBias.length > 0 ? cvBias : undefined,
       },
     });
     const results = [];
@@ -403,13 +463,25 @@ export class App {
       if (dr.title) decorations.push(`Title: ${dr.title}`);
       if (dr.nickname) decorations.push(`Nick: "${dr.nickname}"`);
       if (dr.descriptors.length) decorations.push(`Epithets: ${dr.descriptors.join(', ')}`);
+
+      const g = name.given;
+      const f = name.family;
+      const hasShorten = (g.shorten_level > 0 || f.shorten_level > 0);
+      const shortenBadge = hasShorten
+        ? `<span class="stat-badge" title="Pronunciation drift: ${g.shorten_level === 2 || f.shorten_level === 2 ? 'Significant' : 'Some'}">✂️ ${g.shorten_level === 2 || f.shorten_level === 2 ? 'Significant' : 'Some'}</span>`
+        : '';
+      const ipaLine = g.shortened_ipa || f.shortened_ipa
+        ? `<div class="result-detail">IPA: ${g.ipa} → ${g.shortened_ipa || g.ipa} · ${f.ipa} → ${f.shortened_ipa || f.ipa}</div>`
+        : `<div class="result-detail">IPA: ${g.ipa} · ${f.ipa}</div>`;
+
       return `
       <div class="result-item">
         <div>
           <div class="result-name">${name.displayName || name.fullName}</div>
           ${hasDecorations ? `<div class="result-meta">${decorations.join(' · ')}</div>` : ''}
-          <div class="result-detail">Given: ${name.given.name} · Family: ${name.family.name}</div>
-          <div class="result-detail">Base: ${name.given.base_lc} · Drift: ${name.given.drift_lc} · Lvl ${name.given.drift_level}</div>
+          <div class="result-detail">Given: ${g.name} · Family: ${f.name}</div>
+          ${ipaLine}
+          <div class="result-detail">Base: ${g.base_lc} · Drift: ${g.drift_lc} · Lvl ${g.drift_level} ${shortenBadge}</div>
         </div>
         <div class="result-actions">
           <button class="icon-btn" data-copy="${idx}" title="Copy decorated name">📋</button>
@@ -460,6 +532,7 @@ export class App {
             <option value="region">Region / City</option>
           </select>
         </div>
+        ${this.renderCulturalValuesPanel('place')}
         <details class="descriptor-details">
           <summary>🏷️ Place Descriptors</summary>
           <div class="details-inner">
@@ -506,6 +579,7 @@ export class App {
       panel.querySelector<HTMLDivElement>('#place-results')!.innerHTML = '';
       this.lastResults.places = [];
     });
+    this.bindCulturalValues('place');
     this.bindDataActions(panel, 'places', (data) => this.renderPlaceResults(data as any[]));
   }
 
@@ -520,6 +594,8 @@ export class App {
     const independent = this.root.querySelector<HTMLInputElement>('#place-independent')!.checked;
     const descOdds = parseInt(this.root.querySelector<HTMLSelectElement>('#place-desc-odds')!.value, 10) as 0 | 1 | 2 | 3;
     const descBias = this.root.querySelector<HTMLInputElement>('#place-desc-bias')!.value.split(',').map((s) => s.trim()).filter(Boolean);
+    const cvBias = this.getCulturalValueBias();
+    const mergedBias = [...descBias, ...cvBias];
 
     const weights: LcWeights = { [lc1]: 3, [lc2]: 1 };
     const gen = new PlaceGen({
@@ -528,7 +604,7 @@ export class App {
       forceBaseLc: independent ? undefined : lc1,
       forceDriftLc: independent ? undefined : lc2,
       descriptors: descOdds > 0 ? {
-        valueBias: descBias.length > 0 ? descBias : undefined,
+        valueBias: mergedBias.length > 0 ? mergedBias : undefined,
       } : undefined,
     });
     const results = [];

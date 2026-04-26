@@ -1,0 +1,438 @@
+{
+  "version": "1.0",
+  "description": "D66 x D6 Cultural Values Table. Each axis has 6 positions. Descriptor_bias maps cultural positions to place/name descriptor category weight multipliers.",
+  "axes": [
+    {
+      "axis_id": "food",
+      "axis_name": "Food & Eating",
+      "positions": [
+        { "d66": "1-1", "value": "transveganism", "label": "Transveganism", "descriptor_bias": { "nature": 2.0, "asceticism": 1.5, "peace": 1.2 } },
+        { "d66": "1-2", "value": "pragmatic_eating", "label": "Pragmatic Eating", "descriptor_bias": { "pragmatism": 2.0, "commerce": 1.2 } },
+        { "d66": "1-3", "value": "food_as_status", "label": "Food as Status", "descriptor_bias": { "extravagance": 2.0, "commerce": 1.5, "order": 1.2 } },
+        { "d66": "1-4", "value": "food_traditions", "label": "Food Traditions", "descriptor_bias": { "tradition": 2.0, "order": 1.5, "spirituality": 1.2 } },
+        { "d66": "1-5", "value": "food_freedom", "label": "Food Freedom", "descriptor_bias": { "freedom": 2.0, "community": 1.2 } },
+        { "d66": "1-6", "value": "extreme_food", "label": "Extreme Food", "descriptor_bias": { "freedom": 1.5, "extravagance": 1.5, "xenophilia": 1.2 } }
+      ]
+    },
+    {
+      "axis_id": "clothing",
+      "axis_name": "Clothing & Dress",
+      "positions": [
+        { "d66": "1-1", "value": "nudism", "label": "Nudists", "descriptor_bias": { "freedom": 2.0, "nature": 1.5, "asceticism": 1.2 } },
+        { "d66": "1-2", "value": "practical_wear", "label": "Practical Wear", "descriptor_bias": { "pragmatism": 2.0, "asceticism": 1.2 } },
+        { "d66": "1-3", "value": "clothes_as_status", "label": "Clothes as Status", "descriptor_bias": { "extravagance": 2.0, "order": 1.5, "commerce": 1.2 } },
+        { "d66": "1-4", "value": "ceremonial_fashion", "label": "Ceremonial Fashion", "descriptor_bias": { "tradition": 2.0, "art": 1.5, "order": 1.2 } },
+        { "d66": "1-5", "value": "personal_style", "label": "Personal Style", "descriptor_bias": { "freedom": 1.5, "art": 1.5, "individuality": 1.2 } },
+        { "d66": "1-6", "value": "haute_couture", "label": "Haute Couture", "descriptor_bias": { "extravagance": 2.0, "art": 2.0, "commerce": 1.2 } }
+      ]
+    },
+    {
+      "axis_id": "modesty",
+      "axis_name": "Sexuality & Modesty",
+      "positions": [
+        { "d66": "1-1", "value": "desexualized", "label": "Desexualized Culture", "descriptor_bias": { "asceticism": 2.0, "pragmatism": 1.5, "order": 1.2 } },
+        { "d66": "1-2", "value": "virtuous_immodesty", "label": "Virtuous Immodesty", "descriptor_bias": { "freedom": 2.0, "art": 1.2 } },
+        { "d66": "1-3", "value": "sexualized", "label": "Sexualized Culture", "descriptor_bias": { "art": 1.5, "freedom": 1.5, "extravagance": 1.2 } },
+        { "d66": "1-4", "value": "measured_modesty", "label": "Measured Modesty", "descriptor_bias": { "tradition": 1.5, "order": 1.2, "community": 1.2 } },
+        { "d66": "1-5", "value": "prudish", "label": "Prudish Culture", "descriptor_bias": { "tradition": 2.0, "order": 1.5, "asceticism": 1.2 } },
+        { "d66": "1-6", "value": "extreme_modesty", "label": "Extreme Modesty", "descriptor_bias": { "tradition": 2.0, "asceticism": 2.0, "order": 1.5 } }
+      ]
+    },
+    {
+      "axis_id": "home",
+      "axis_name": "Home & Shelter",
+      "positions": [
+        { "d66": "1-1", "value": "live_at_work", "label": "Live at Work", "descriptor_bias": { "pragmatism": 2.0, "commerce": 1.2 } },
+        { "d66": "1-2", "value": "extreme_hospitality", "label": "Extreme Hospitality", "descriptor_bias": { "community": 2.0, "xenophilia": 1.5, "tradition": 1.2 } },
+        { "d66": "1-3", "value": "communal_homes", "label": "Communal Homes", "descriptor_bias": { "community": 2.0, "collectivism": 1.5, "nature": 1.2 } },
+        { "d66": "1-4", "value": "home_hierarchies", "label": "Home Hierarchies", "descriptor_bias": { "order": 2.0, "tradition": 1.5, "bureaucracy": 1.2 } },
+        { "d66": "1-5", "value": "home_forever", "label": "Home Forever", "descriptor_bias": { "tradition": 2.0, "nature": 1.2, "community": 1.2 } },
+        { "d66": "1-6", "value": "private_sanctuary", "label": "Private Sanctuary", "descriptor_bias": { "privacy": 2.0, "asceticism": 1.2, "xenophobia": 1.2 } }
+      ]
+    },
+    {
+      "axis_id": "wealth",
+      "axis_name": "Money & Wealth",
+      "positions": [
+        { "d66": "1-1", "value": "money_is_evil", "label": "Money is Evil", "descriptor_bias": { "asceticism": 2.0, "community": 1.5, "spirituality": 1.2 } },
+        { "d66": "1-2", "value": "keep_only_what_you_need", "label": "Keep Only What You Need", "descriptor_bias": { "asceticism": 1.5, "community": 1.5, "pragmatism": 1.2 } },
+        { "d66": "1-3", "value": "hidden_riches", "label": "Hidden Riches", "descriptor_bias": { "privacy": 2.0, "pragmatism": 1.5, "commerce": 1.2 } },
+        { "d66": "1-4", "value": "money_isnt_everything", "label": "Money Isn't Everything", "descriptor_bias": { "pragmatism": 1.5, "community": 1.2, "art": 1.2 } },
+        { "d66": "1-5", "value": "greed_is_good", "label": "Greed is Good", "descriptor_bias": { "extravagance": 2.0, "commerce": 2.0, "conflict": 1.2 } },
+        { "d66": "1-6", "value": "blessed_extravagance", "label": "Blessed Extravagance", "descriptor_bias": { "extravagance": 2.0, "art": 1.5, "community": 1.2 } }
+      ]
+    },
+    {
+      "axis_id": "art",
+      "axis_name": "Art & Beauty",
+      "positions": [
+        { "d66": "1-1", "value": "art_is_rubbish", "label": "Art is Rubbish", "descriptor_bias": { "pragmatism": 2.0, "asceticism": 1.5 } },
+        { "d66": "1-2", "value": "form_follows_function", "label": "Form Follows Function", "descriptor_bias": { "pragmatism": 2.0, "art": 0.5 } },
+        { "d66": "1-3", "value": "everyone_can_do_art", "label": "Everyone Can Do Art", "descriptor_bias": { "art": 1.5, "community": 1.5, "freedom": 1.2 } },
+        { "d66": "1-4", "value": "art_balance", "label": "Art is Balance", "descriptor_bias": { "art": 1.5, "pragmatism": 1.5, "tradition": 1.2 } },
+        { "d66": "1-5", "value": "form_over_function", "label": "Form over Function", "descriptor_bias": { "art": 2.0, "extravagance": 1.5, "pragmatism": 0.5 } },
+        { "d66": "1-6", "value": "art_elitism", "label": "Art Elitism", "descriptor_bias": { "art": 2.0, "extravagance": 2.0, "order": 1.2 } }
+      ]
+    },
+    {
+      "axis_id": "individualism",
+      "axis_name": "Individualism vs Collectivism",
+      "positions": [
+        { "d66": "2-1", "value": "i_am_number_one", "label": "I Am Number One", "descriptor_bias": { "freedom": 2.0, "conflict": 1.5, "commerce": 1.2 } },
+        { "d66": "2-2", "value": "small_circle", "label": "A Small Circle", "descriptor_bias": { "privacy": 1.5, "honor": 1.5, "conflict": 1.2 } },
+        { "d66": "2-3", "value": "look_out_for_your_own", "label": "Look Out for Your Own", "descriptor_bias": { "community": 1.5, "honor": 1.2, "conflict": 1.2 } },
+        { "d66": "2-4", "value": "balanced_collectivism", "label": "Balanced Collectivism", "descriptor_bias": { "community": 1.5, "freedom": 1.2, "peace": 1.2 } },
+        { "d66": "2-5", "value": "altruism", "label": "Altruism is Commendable", "descriptor_bias": { "community": 2.0, "honor": 1.5, "peace": 1.2 } },
+        { "d66": "2-6", "value": "live_for_all", "label": "Live and Die for the Good of All", "descriptor_bias": { "community": 2.0, "honor": 2.0, "asceticism": 1.2 } }
+      ]
+    },
+    {
+      "axis_id": "conformity",
+      "axis_name": "Conformity vs Individuality",
+      "positions": [
+        { "d66": "2-1", "value": "unity_of_mind", "label": "Unity of Mind", "descriptor_bias": { "order": 2.0, "tradition": 1.5, "bureaucracy": 1.2 } },
+        { "d66": "2-2", "value": "culture_of_conformity", "label": "Culture of Conformity", "descriptor_bias": { "tradition": 2.0, "order": 1.5, "bureaucracy": 1.2 } },
+        { "d66": "2-3", "value": "regulated_individuality", "label": "Regulated Individuality", "descriptor_bias": { "order": 1.5, "art": 1.2, "bureaucracy": 1.5 } },
+        { "d66": "2-4", "value": "stick_to_norms", "label": "Stick to the Norms", "descriptor_bias": { "tradition": 1.5, "order": 1.2, "community": 1.2 } },
+        { "d66": "2-5", "value": "individualists", "label": "Individualists", "descriptor_bias": { "freedom": 2.0, "art": 1.5, "innovation": 1.2 } },
+        { "d66": "2-6", "value": "radical_individuality", "label": "Radical Individuality", "descriptor_bias": { "freedom": 2.0, "art": 2.0, "innovation": 1.5 } }
+      ]
+    },
+    {
+      "axis_id": "privacy",
+      "axis_name": "Privacy & Information",
+      "positions": [
+        { "d66": "2-1", "value": "privacy_is_evil", "label": "Privacy is Evil", "descriptor_bias": { "order": 2.0, "community": 1.5, "bureaucracy": 1.2 } },
+        { "d66": "2-2", "value": "some_matters_private", "label": "Some Matters are Private", "descriptor_bias": { "community": 1.2, "pragmatism": 1.5, "privacy": 1.2 } },
+        { "d66": "2-3", "value": "privacy_is_privilege", "label": "Privacy is a Privilege", "descriptor_bias": { "order": 1.5, "honor": 1.2, "bureaucracy": 1.5 } },
+        { "d66": "2-4", "value": "levels_of_trust", "label": "Levels of Trust", "descriptor_bias": { "honor": 1.5, "community": 1.2, "pragmatism": 1.2 } },
+        { "d66": "2-5", "value": "privacy_preserves_peace", "label": "Privacy Preserves Peace", "descriptor_bias": { "peace": 2.0, "honor": 1.5, "privacy": 1.5 } },
+        { "d66": "2-6", "value": "privacy_is_power", "label": "Privacy is Power", "descriptor_bias": { "privacy": 2.0, "conflict": 1.5, "pragmatism": 1.2 } }
+      ]
+    },
+    {
+      "axis_id": "gender_roles",
+      "axis_name": "Gender Roles",
+      "positions": [
+        { "d66": "2-1", "value": "what_gender_roles", "label": "What Gender Roles?", "descriptor_bias": { "freedom": 1.5, "pragmatism": 1.2, "innovation": 1.2 } },
+        { "d66": "2-2", "value": "gender_tendencies", "label": "Gender Tendencies", "descriptor_bias": { "pragmatism": 1.5, "tradition": 1.2, "community": 1.2 } },
+        { "d66": "2-3", "value": "strict_equal_roles", "label": "Strict Equal Gender Roles", "descriptor_bias": { "order": 1.5, "tradition": 1.5, "honor": 1.2 } },
+        { "d66": "2-4", "value": "institutional_chauvinism", "label": "Institutionalized Chauvinism", "descriptor_bias": { "order": 2.0, "tradition": 2.0, "conflict": 1.2 } },
+        { "d66": "2-5", "value": "gender_superiority", "label": "Gender Superiority", "descriptor_bias": { "order": 2.0, "conflict": 1.5, "tradition": 1.5 } },
+        { "d66": "2-6", "value": "gender_isolation", "label": "Gender Isolation", "descriptor_bias": { "order": 2.0, "tradition": 2.0, "xenophobia": 1.2 } }
+      ]
+    },
+    {
+      "axis_id": "gender_expression",
+      "axis_name": "Gender Expression",
+      "positions": [
+        { "d66": "2-1", "value": "what_gender_norms", "label": "What Gender Norms?", "descriptor_bias": { "freedom": 2.0, "innovation": 1.2, "pragmatism": 1.2 } },
+        { "d66": "2-2", "value": "norms_are_suggestions", "label": "Norms are Suggestions", "descriptor_bias": { "freedom": 1.5, "art": 1.2, "community": 1.2 } },
+        { "d66": "2-3", "value": "expression_equals_role", "label": "Expression = Role", "descriptor_bias": { "order": 1.5, "tradition": 1.5, "innovation": 1.2 } },
+        { "d66": "2-4", "value": "unequal_gender_rules", "label": "Unequal Gender Rules", "descriptor_bias": { "order": 2.0, "tradition": 1.5, "conflict": 1.2 } },
+        { "d66": "2-5", "value": "deviance_ridiculed", "label": "Deviance is Ridiculed", "descriptor_bias": { "order": 1.5, "tradition": 1.2, "community": 1.2 } },
+        { "d66": "2-6", "value": "gender_set_in_stone", "label": "Gender is Set in Stone", "descriptor_bias": { "order": 2.0, "tradition": 2.0, "bureaucracy": 1.2 } }
+      ]
+    },
+    {
+      "axis_id": "age",
+      "axis_name": "Age & Elders",
+      "positions": [
+        { "d66": "2-1", "value": "elders_unimportant", "label": "Elders are Unimportant", "descriptor_bias": { "innovation": 2.0, "freedom": 1.5, "conflict": 1.2 } },
+        { "d66": "2-2", "value": "children_are_future", "label": "Children are the Future", "descriptor_bias": { "community": 1.5, "innovation": 1.5, "peace": 1.2 } },
+        { "d66": "2-3", "value": "age_unimportant", "label": "Age is Unimportant", "descriptor_bias": { "freedom": 1.5, "pragmatism": 1.5, "innovation": 1.2 } },
+        { "d66": "2-4", "value": "age_divisions", "label": "Age Divisions", "descriptor_bias": { "order": 2.0, "tradition": 1.5, "bureaucracy": 1.5 } },
+        { "d66": "2-5", "value": "respected_elders", "label": "Respected Elders", "descriptor_bias": { "tradition": 2.0, "honor": 1.5, "community": 1.2 } },
+        { "d66": "2-6", "value": "children_are_property", "label": "Children are Property", "descriptor_bias": { "order": 2.0, "tradition": 2.0, "conflict": 1.2 } }
+      ]
+    },
+    {
+      "axis_id": "disability",
+      "axis_name": "Disability & Capability",
+      "positions": [
+        { "d66": "3-1", "value": "disability_is_death", "label": "Disability is Death", "descriptor_bias": { "order": 2.0, "conflict": 1.5, "pragmatism": 1.2 } },
+        { "d66": "3-2", "value": "disability_discrimination", "label": "Disability Discrimination", "descriptor_bias": { "order": 1.5, "pragmatism": 1.5, "conflict": 1.2 } },
+        { "d66": "3-3", "value": "disability_correction", "label": "Disability Correction", "descriptor_bias": { "pragmatism": 2.0, "innovation": 1.5, "order": 1.2 } },
+        { "d66": "3-4", "value": "meeting_halfway", "label": "Meeting Half-way", "descriptor_bias": { "pragmatism": 1.5, "community": 1.5, "honor": 1.2 } },
+        { "d66": "3-5", "value": "disability_benefits", "label": "Disability Benefits", "descriptor_bias": { "community": 2.0, "honor": 1.5, "peace": 1.2 } },
+        { "d66": "3-6", "value": "glorious_disability", "label": "Glorious Disability", "descriptor_bias": { "honor": 2.0, "art": 1.5, "spirituality": 1.2 } }
+      ]
+    },
+    {
+      "axis_id": "spirituality",
+      "axis_name": "Spirituality & Belief",
+      "positions": [
+        { "d66": "3-1", "value": "atheology", "label": "Atheology", "descriptor_bias": { "pragmatism": 2.0, "innovation": 1.5, "order": 1.2 } },
+        { "d66": "3-2", "value": "spiritual_conflict", "label": "Spiritual Conflict", "descriptor_bias": { "conflict": 2.0, "tradition": 1.5, "honor": 1.2 } },
+        { "d66": "3-3", "value": "many_beliefs", "label": "Many Beliefs, One People", "descriptor_bias": { "community": 1.5, "peace": 1.5, "xenophilia": 1.2 } },
+        { "d66": "3-4", "value": "reflections_of_truth", "label": "Reflections of the Truth", "descriptor_bias": { "spirituality": 1.5, "xenophilia": 1.5, "peace": 1.2 } },
+        { "d66": "3-5", "value": "strong_spirituality", "label": "Strong Spirituality", "descriptor_bias": { "spirituality": 2.0, "tradition": 1.5, "community": 1.2 } },
+        { "d66": "3-6", "value": "theological_certainty", "label": "Theological Certainty", "descriptor_bias": { "spirituality": 2.0, "order": 1.5, "conflict": 1.2 } }
+      ]
+    },
+    {
+      "axis_id": "religion",
+      "axis_name": "Religion & Philosophy",
+      "positions": [
+        { "d66": "3-1", "value": "unreligious", "label": "Unreligious", "descriptor_bias": { "pragmatism": 2.0, "innovation": 1.5, "freedom": 1.2 } },
+        { "d66": "3-2", "value": "pragmatic_spirituality", "label": "Pragmatic Spirituality", "descriptor_bias": { "pragmatism": 1.5, "tradition": 1.2, "community": 1.2 } },
+        { "d66": "3-3", "value": "hypocrisy", "label": "Hypocrisy", "descriptor_bias": { "pragmatism": 1.5, "commerce": 1.2, "conflict": 1.2 } },
+        { "d66": "3-4", "value": "philosophical_consistency", "label": "Philosophical Consistency", "descriptor_bias": { "honor": 2.0, "tradition": 1.5, "order": 1.2 } },
+        { "d66": "3-5", "value": "institutionalized_religiousness", "label": "Institutionalized Religiousness", "descriptor_bias": { "tradition": 2.0, "order": 1.5, "bureaucracy": 1.5 } },
+        { "d66": "3-6", "value": "zealotry", "label": "Zealotry", "descriptor_bias": { "spirituality": 2.0, "conflict": 2.0, "tradition": 1.5 } }
+      ]
+    },
+    {
+      "axis_id": "tradition",
+      "axis_name": "Tradition & Change",
+      "positions": [
+        { "d66": "3-1", "value": "tradition_shmadition", "label": "Tradition Shmadition", "descriptor_bias": { "innovation": 2.0, "freedom": 1.5, "conflict": 1.2 } },
+        { "d66": "3-2", "value": "tradition_expendable", "label": "Tradition is Expendable", "descriptor_bias": { "pragmatism": 2.0, "innovation": 1.5, "freedom": 1.2 } },
+        { "d66": "3-3", "value": "preserve_tradition", "label": "Preserve Tradition", "descriptor_bias": { "tradition": 1.5, "pragmatism": 1.2, "community": 1.2 } },
+        { "d66": "3-4", "value": "traditional_style", "label": "Traditional Style", "descriptor_bias": { "tradition": 2.0, "art": 1.5, "order": 1.2 } },
+        { "d66": "3-5", "value": "inherited_wisdom", "label": "Inherited Wisdom", "descriptor_bias": { "tradition": 2.0, "honor": 1.5, "community": 1.2 } },
+        { "d66": "3-6", "value": "hallowed_traditions", "label": "Hallowed Traditions", "descriptor_bias": { "tradition": 2.0, "spirituality": 1.5, "order": 1.5 } }
+      ]
+    },
+    {
+      "axis_id": "foreign_policy",
+      "axis_name": "Foreign Policy & Outsiders",
+      "positions": [
+        { "d66": "3-1", "value": "naive_foreign_policy", "label": "Naive Foreign Policy", "descriptor_bias": { "xenophilia": 2.0, "peace": 1.5, "community": 1.2 } },
+        { "d66": "3-2", "value": "xenophilia", "label": "Xenophilia", "descriptor_bias": { "xenophilia": 2.0, "art": 1.5, "community": 1.2 } },
+        { "d66": "3-3", "value": "cultural_exchange", "label": "Cultural Exchange", "descriptor_bias": { "xenophilia": 1.5, "peace": 1.5, "commerce": 1.2 } },
+        { "d66": "3-4", "value": "cultural_competition", "label": "Cultural Competition", "descriptor_bias": { "commerce": 1.5, "innovation": 1.5, "conflict": 1.2 } },
+        { "d66": "3-5", "value": "xenophobia", "label": "Xenophobia", "descriptor_bias": { "xenophobia": 2.0, "conflict": 1.5, "tradition": 1.2 } },
+        { "d66": "3-6", "value": "xenocide", "label": "Xenocide", "descriptor_bias": { "xenophobia": 2.0, "conflict": 2.0, "order": 1.5 } }
+      ]
+    },
+    {
+      "axis_id": "truth",
+      "axis_name": "Truth & Deception",
+      "positions": [
+        { "d66": "3-1", "value": "lying_is_good", "label": "Lying is Good", "descriptor_bias": { "conflict": 2.0, "commerce": 1.5, "pragmatism": 1.2 } },
+        { "d66": "3-2", "value": "art_of_the_lie", "label": "Art of the Lie", "descriptor_bias": { "art": 1.5, "pragmatism": 1.5, "conflict": 1.2 } },
+        { "d66": "3-3", "value": "small_lies", "label": "Small Lies are Fine", "descriptor_bias": { "pragmatism": 1.5, "peace": 1.2, "community": 1.2 } },
+        { "d66": "3-4", "value": "necessary_evil", "label": "A Necessary Evil", "descriptor_bias": { "pragmatism": 1.5, "honor": 1.2, "peace": 1.2 } },
+        { "d66": "3-5", "value": "omission_okay", "label": "Omission is Okay", "descriptor_bias": { "pragmatism": 1.5, "privacy": 1.5, "peace": 1.2 } },
+        { "d66": "3-6", "value": "only_the_truth", "label": "Only the Truth", "descriptor_bias": { "honor": 2.0, "order": 1.5, "spirituality": 1.2 } }
+      ]
+    },
+    {
+      "axis_id": "honor",
+      "axis_name": "Honor & Codes",
+      "positions": [
+        { "d66": "4-1", "value": "honor_for_fools", "label": "Honor is for Fools", "descriptor_bias": { "pragmatism": 2.0, "conflict": 1.5, "freedom": 1.2 } },
+        { "d66": "4-2", "value": "false_honor", "label": "False Honor", "descriptor_bias": { "pragmatism": 1.5, "conflict": 1.2, "commerce": 1.2 } },
+        { "d66": "4-3", "value": "lax_honor", "label": "Lax Honor", "descriptor_bias": { "community": 1.5, "pragmatism": 1.2, "peace": 1.2 } },
+        { "d66": "4-4", "value": "simple_code", "label": "Simple Code", "descriptor_bias": { "honor": 1.5, "pragmatism": 1.5, "community": 1.2 } },
+        { "d66": "4-5", "value": "honor_society", "label": "Honor Society", "descriptor_bias": { "honor": 2.0, "order": 1.5, "tradition": 1.2 } },
+        { "d66": "4-6", "value": "death_before_dishonor", "label": "Death Before Dishonor", "descriptor_bias": { "honor": 2.0, "conflict": 2.0, "spirituality": 1.5 } }
+      ]
+    },
+    {
+      "axis_id": "violence",
+      "axis_name": "Violence & Harm",
+      "positions": [
+        { "d66": "4-1", "value": "hurtfulness_disharmonious", "label": "Hurtfulness is Disharmonious", "descriptor_bias": { "peace": 2.0, "community": 1.5, "asceticism": 1.2 } },
+        { "d66": "4-2", "value": "violence_unacceptable", "label": "Violence is Unacceptable", "descriptor_bias": { "peace": 2.0, "asceticism": 1.5, "community": 1.2 } },
+        { "d66": "4-3", "value": "violence_is_bad", "label": "Violence is Bad", "descriptor_bias": { "peace": 1.5, "community": 1.5, "pragmatism": 1.2 } },
+        { "d66": "4-4", "value": "prepared_for_violence", "label": "Prepared for Violence", "descriptor_bias": { "pragmatism": 1.5, "honor": 1.5, "conflict": 1.2 } },
+        { "d66": "4-5", "value": "recreational_violence", "label": "Recreational Violence", "descriptor_bias": { "conflict": 1.5, "art": 1.5, "freedom": 1.2 } },
+        { "d66": "4-6", "value": "society_of_violence", "label": "Society of Violence", "descriptor_bias": { "conflict": 2.0, "honor": 1.5, "tradition": 1.2 } }
+      ]
+    },
+    {
+      "axis_id": "harmony",
+      "axis_name": "Harmony & Relationships",
+      "positions": [
+        { "d66": "4-1", "value": "disharmony_is_good", "label": "Disharmony is Good", "descriptor_bias": { "conflict": 2.0, "honor": 1.5, "freedom": 1.2 } },
+        { "d66": "4-2", "value": "curmudgeonism", "label": "Curmudgeonism", "descriptor_bias": { "conflict": 1.5, "pragmatism": 1.5, "xenophobia": 1.2 } },
+        { "d66": "4-3", "value": "disharmony_normal", "label": "Disharmony is Normal", "descriptor_bias": { "pragmatism": 1.5, "freedom": 1.2, "community": 1.2 } },
+        { "d66": "4-4", "value": "its_good_to_get_along", "label": "It's Good to Get Along", "descriptor_bias": { "community": 1.5, "peace": 1.5, "pragmatism": 1.2 } },
+        { "d66": "4-5", "value": "harmony_necessity", "label": "Harmony is a Necessity", "descriptor_bias": { "peace": 2.0, "community": 1.5, "order": 1.2 } },
+        { "d66": "4-6", "value": "harmonism", "label": "Harmonism", "descriptor_bias": { "peace": 2.0, "community": 2.0, "spirituality": 1.2 } }
+      ]
+    },
+    {
+      "axis_id": "confrontation",
+      "axis_name": "Confrontation & Assertiveness",
+      "positions": [
+        { "d66": "4-1", "value": "nonconfrontation", "label": "Nonconfrontation", "descriptor_bias": { "peace": 2.0, "privacy": 1.5, "asceticism": 1.2 } },
+        { "d66": "4-2", "value": "polite_fiction", "label": "Polite Fiction", "descriptor_bias": { "peace": 1.5, "community": 1.5, "honor": 1.2 } },
+        { "d66": "4-3", "value": "reciprocity", "label": "Reciprocity", "descriptor_bias": { "honor": 1.5, "community": 1.5, "pragmatism": 1.2 } },
+        { "d66": "4-4", "value": "dont_poke_the_bear", "label": "Don't Poke the Bear", "descriptor_bias": { "pragmatism": 1.5, "peace": 1.5, "honor": 1.2 } },
+        { "d66": "4-5", "value": "direct_confrontation", "label": "Direct Efficient Confrontation", "descriptor_bias": { "pragmatism": 2.0, "honor": 1.5, "freedom": 1.2 } },
+        { "d66": "4-6", "value": "confrontationalism", "label": "Confrontationalism", "descriptor_bias": { "conflict": 2.0, "honor": 1.5, "freedom": 1.2 } }
+      ]
+    },
+    {
+      "axis_id": "government",
+      "axis_name": "Government & Participation",
+      "positions": [
+        { "d66": "4-1", "value": "no_government", "label": "No Government", "descriptor_bias": { "freedom": 2.0, "asceticism": 1.5, "community": 1.2 } },
+        { "d66": "4-2", "value": "ungoverned_government", "label": "Ungoverned Government", "descriptor_bias": { "innovation": 1.5, "pragmatism": 1.5, "bureaucracy": 1.2 } },
+        { "d66": "4-3", "value": "elitist_government", "label": "Elitist Government", "descriptor_bias": { "order": 2.0, "extravagance": 1.5, "tradition": 1.2 } },
+        { "d66": "4-4", "value": "meritocratic_examination", "label": "Meritocratic Examination", "descriptor_bias": { "order": 1.5, "pragmatism": 1.5, "honor": 1.2 } },
+        { "d66": "4-5", "value": "popular_government", "label": "Popular Government", "descriptor_bias": { "community": 1.5, "freedom": 1.5, "pragmatism": 1.2 } },
+        { "d66": "4-6", "value": "mandatory_participation", "label": "Mandatory Participation", "descriptor_bias": { "community": 2.0, "order": 1.5, "honor": 1.2 } }
+      ]
+    },
+    {
+      "axis_id": "authority",
+      "axis_name": "Authority & Obedience",
+      "positions": [
+        { "d66": "4-1", "value": "anti_authority", "label": "Anti-Authority", "descriptor_bias": { "freedom": 2.0, "conflict": 1.5, "innovation": 1.2 } },
+        { "d66": "4-2", "value": "no_inherent_authority", "label": "No Inherent Authority", "descriptor_bias": { "freedom": 2.0, "pragmatism": 1.5, "conflict": 1.2 } },
+        { "d66": "4-3", "value": "contractual_authority", "label": "Contractual Authority", "descriptor_bias": { "honor": 1.5, "pragmatism": 1.5, "freedom": 1.2 } },
+        { "d66": "4-4", "value": "authority_with_obligations", "label": "Authority with Obligations", "descriptor_bias": { "honor": 1.5, "order": 1.5, "community": 1.2 } },
+        { "d66": "4-5", "value": "authority", "label": "Authority", "descriptor_bias": { "order": 2.0, "tradition": 1.5, "honor": 1.2 } },
+        { "d66": "4-6", "value": "absolute_authority", "label": "Absolute Authority", "descriptor_bias": { "order": 2.0, "tradition": 2.0, "conflict": 1.5 } }
+      ]
+    },
+    {
+      "axis_id": "consensus",
+      "axis_name": "Consensus & Truth",
+      "positions": [
+        { "d66": "5-1", "value": "consensus_is_lie", "label": "Consensus is a Lie", "descriptor_bias": { "freedom": 2.0, "pragmatism": 1.5, "conflict": 1.2 } },
+        { "d66": "5-2", "value": "trust_only_yourself", "label": "Trust Only Your Judgment", "descriptor_bias": { "freedom": 2.0, "pragmatism": 1.5, "conflict": 1.2 } },
+        { "d66": "5-3", "value": "tribal_think", "label": "Tribal Think", "descriptor_bias": { "community": 1.5, "conflict": 1.5, "tradition": 1.2 } },
+        { "d66": "5-4", "value": "expert_consensus", "label": "Expert Consensus", "descriptor_bias": { "pragmatism": 1.5, "order": 1.5, "honor": 1.2 } },
+        { "d66": "5-5", "value": "popular_consensus", "label": "Popular Consensus", "descriptor_bias": { "community": 1.5, "pragmatism": 1.2, "peace": 1.2 } },
+        { "d66": "5-6", "value": "consensus_is_reality", "label": "Consensus is Reality", "descriptor_bias": { "community": 2.0, "spirituality": 1.5, "tradition": 1.2 } }
+      ]
+    },
+    {
+      "axis_id": "war",
+      "axis_name": "War & Peace",
+      "positions": [
+        { "d66": "5-1", "value": "beyond_war", "label": "Beyond War", "descriptor_bias": { "peace": 2.0, "asceticism": 1.5, "innovation": 1.2 } },
+        { "d66": "5-2", "value": "defensive_pacifism", "label": "Defensive Pacifism", "descriptor_bias": { "peace": 2.0, "honor": 1.5, "community": 1.2 } },
+        { "d66": "5-3", "value": "war_last_resort", "label": "War is a Last Resort", "descriptor_bias": { "pragmatism": 1.5, "honor": 1.5, "peace": 1.2 } },
+        { "d66": "5-4", "value": "glorious_war", "label": "Glorious War", "descriptor_bias": { "honor": 2.0, "conflict": 2.0, "tradition": 1.5 } },
+        { "d66": "5-5", "value": "war_is_tool", "label": "War is a Tool", "descriptor_bias": { "pragmatism": 2.0, "conflict": 1.5, "honor": 1.2 } },
+        { "d66": "5-6", "value": "perpetual_war", "label": "Perpetual War", "descriptor_bias": { "conflict": 2.0, "tradition": 1.5, "honor": 1.5 } }
+      ]
+    },
+    {
+      "axis_id": "cliques",
+      "axis_name": "Social Circles & Cliques",
+      "positions": [
+        { "d66": "5-1", "value": "anti_clique", "label": "Anti-Clique", "descriptor_bias": { "pragmatism": 2.0, "freedom": 1.5, "community": 0.5 } },
+        { "d66": "5-2", "value": "all_one_clique", "label": "All One Clique", "descriptor_bias": { "community": 2.0, "peace": 1.5, "xenophilia": 1.2 } },
+        { "d66": "5-3", "value": "casual_clique", "label": "Casual Clique", "descriptor_bias": { "community": 1.5, "pragmatism": 1.2, "freedom": 1.2 } },
+        { "d66": "5-4", "value": "competing_cliques", "label": "Competing Cliques", "descriptor_bias": { "commerce": 1.5, "conflict": 1.5, "community": 1.2 } },
+        { "d66": "5-5", "value": "exclusive_circle", "label": "Exclusive Circle", "descriptor_bias": { "honor": 1.5, "community": 1.5, "tradition": 1.2 } },
+        { "d66": "5-6", "value": "clique_is_everything", "label": "A Clique is Everything", "descriptor_bias": { "community": 2.0, "honor": 1.5, "conflict": 1.2 } }
+      ]
+    },
+    {
+      "axis_id": "bureaucracy",
+      "axis_name": "Bureaucracy & Organization",
+      "positions": [
+        { "d66": "5-1", "value": "adhocracy", "label": "Adhocracy", "descriptor_bias": { "freedom": 2.0, "innovation": 1.5, "pragmatism": 1.2 } },
+        { "d66": "5-2", "value": "bureaucracy_where_it_matters", "label": "Bureaucracy Where it Matters", "descriptor_bias": { "pragmatism": 1.5, "bureaucracy": 1.2, "freedom": 1.2 } },
+        { "d66": "5-3", "value": "fast_until_it_isnt", "label": "Fast Until it Isn't", "descriptor_bias": { "pragmatism": 1.5, "bureaucracy": 1.5, "innovation": 1.2 } },
+        { "d66": "5-4", "value": "bureaucratic_farse", "label": "Bureaucratic Farce", "descriptor_bias": { "art": 1.5, "pragmatism": 1.5, "bureaucracy": 1.2 } },
+        { "d66": "5-5", "value": "byzantine_bureaucracy", "label": "Byzantine Bureaucracy", "descriptor_bias": { "bureaucracy": 2.0, "order": 1.5, "tradition": 1.2 } },
+        { "d66": "5-6", "value": "impenetrable_bureaucracy", "label": "Impenetrable Bureaucracy", "descriptor_bias": { "bureaucracy": 2.0, "order": 2.0, "tradition": 1.5 } }
+      ]
+    },
+    {
+      "axis_id": "nonhuman",
+      "axis_name": "Non-human Relations",
+      "positions": [
+        { "d66": "5-1", "value": "dominators", "label": "Dominators", "descriptor_bias": { "conflict": 2.0, "order": 1.5, "xenophobia": 1.2 } },
+        { "d66": "5-2", "value": "apathetic", "label": "Apathetic", "descriptor_bias": { "pragmatism": 2.0, "freedom": 1.2, "nature": 0.5 } },
+        { "d66": "5-3", "value": "kind_masters", "label": "Kind Masters", "descriptor_bias": { "honor": 1.5, "order": 1.5, "nature": 1.2 } },
+        { "d66": "5-4", "value": "fellow_travelers", "label": "Fellow Travelers", "descriptor_bias": { "freedom": 1.5, "nature": 1.5, "peace": 1.2 } },
+        { "d66": "5-5", "value": "preservers", "label": "Preservers", "descriptor_bias": { "nature": 2.0, "peace": 1.5, "tradition": 1.2 } },
+        { "d66": "5-6", "value": "uplifters", "label": "Uplifters", "descriptor_bias": { "innovation": 2.0, "nature": 1.5, "community": 1.2 } }
+      ]
+    },
+    {
+      "axis_id": "aliens",
+      "axis_name": "Alien Relations",
+      "positions": [
+        { "d66": "5-1", "value": "alien_outsiders", "label": "Alien Outsiders", "descriptor_bias": { "xenophobia": 2.0, "nature": 1.2, "privacy": 1.2 } },
+        { "d66": "5-2", "value": "alien_enemies", "label": "Alien Enemies", "descriptor_bias": { "xenophobia": 2.0, "conflict": 2.0, "order": 1.2 } },
+        { "d66": "5-3", "value": "theyre_just_animals", "label": "They're Just Animals", "descriptor_bias": { "xenophobia": 1.5, "pragmatism": 1.5, "order": 1.2 } },
+        { "d66": "5-4", "value": "all_alien_intelligences", "label": "All Alien Intelligences", "descriptor_bias": { "xenophilia": 1.5, "freedom": 1.5, "pragmatism": 1.2 } },
+        { "d66": "5-5", "value": "universe_of_friends", "label": "A Universe of Friends", "descriptor_bias": { "xenophilia": 2.0, "community": 1.5, "peace": 1.2 } },
+        { "d66": "5-6", "value": "alien_understanding", "label": "Alien Understanding", "descriptor_bias": { "xenophilia": 2.0, "innovation": 1.5, "community": 1.2 } }
+      ]
+    },
+    {
+      "axis_id": "cultural_change",
+      "axis_name": "Culture & Cultural Change",
+      "positions": [
+        { "d66": "6-1", "value": "culture_is_gift", "label": "Our Culture is a Gift", "descriptor_bias": { "xenophilia": 2.0, "tradition": 1.5, "community": 1.2 } },
+        { "d66": "6-2", "value": "change_is_bad", "label": "Change is Bad", "descriptor_bias": { "tradition": 2.0, "xenophobia": 1.5, "order": 1.2 } },
+        { "d66": "6-3", "value": "culture_is_competition", "label": "Culture is Competition", "descriptor_bias": { "conflict": 1.5, "commerce": 1.5, "innovation": 1.2 } },
+        { "d66": "6-4", "value": "culture_is_exchange", "label": "Culture is Exchange", "descriptor_bias": { "xenophilia": 2.0, "art": 1.5, "commerce": 1.2 } },
+        { "d66": "6-5", "value": "culture_always_changing", "label": "Culture Always Changing", "descriptor_bias": { "freedom": 1.5, "innovation": 1.5, "pragmatism": 1.2 } },
+        { "d66": "6-6", "value": "culture_should_be_cultivated", "label": "Culture Should be Cultivated", "descriptor_bias": { "art": 2.0, "tradition": 1.5, "innovation": 1.2 } }
+      ]
+    },
+    {
+      "axis_id": "virtue",
+      "axis_name": "Virtue & Morality",
+      "positions": [
+        { "d66": "6-1", "value": "virtues_are_nonsense", "label": "Virtues are Nonsense", "descriptor_bias": { "pragmatism": 2.0, "freedom": 1.5, "conflict": 1.2 } },
+        { "d66": "6-2", "value": "virtuous_are_special", "label": "The Virtuous are Special", "descriptor_bias": { "honor": 1.5, "spirituality": 1.5, "art": 1.2 } },
+        { "d66": "6-3", "value": "speak_not_of_virtues", "label": "Speak not of Your Virtues", "descriptor_bias": { "pragmatism": 1.5, "privacy": 1.5, "honor": 1.2 } },
+        { "d66": "6-4", "value": "proclaim_your_virtues", "label": "Proclaim Your Virtues", "descriptor_bias": { "honor": 1.5, "art": 1.5, "community": 1.2 } },
+        { "d66": "6-5", "value": "virtue_cultivation", "label": "Virtue Cultivation", "descriptor_bias": { "honor": 2.0, "spirituality": 1.5, "community": 1.2 } },
+        { "d66": "6-6", "value": "proclaim_virtues_2", "label": "Proclaim Your Virtues", "descriptor_bias": { "honor": 1.5, "art": 1.5, "community": 1.2 } }
+      ]
+    },
+    {
+      "axis_id": "vice",
+      "axis_name": "Vice & Asceticism",
+      "positions": [
+        { "d66": "6-1", "value": "asceticism", "label": "Asceticism", "descriptor_bias": { "asceticism": 2.0, "spirituality": 1.5, "order": 1.2 } },
+        { "d66": "6-2", "value": "shameful_immoral", "label": "Shameful and Immoral", "descriptor_bias": { "asceticism": 1.5, "spirituality": 1.5, "tradition": 1.2 } },
+        { "d66": "6-3", "value": "shameful_necessary_evil", "label": "A Shameful but Necessary Evil", "descriptor_bias": { "pragmatism": 1.5, "privacy": 1.5, "asceticism": 1.2 } },
+        { "d66": "6-4", "value": "natural_inconvenient", "label": "Natural but Inconvenient", "descriptor_bias": { "pragmatism": 1.5, "community": 1.2, "asceticism": 1.2 } },
+        { "d66": "6-5", "value": "normal_vices", "label": "Normal", "descriptor_bias": { "freedom": 1.5, "community": 1.2, "pragmatism": 1.2 } },
+        { "d66": "6-6", "value": "vice_is_art", "label": "Vice is an Art", "descriptor_bias": { "art": 2.0, "extravagance": 1.5, "freedom": 1.2 } }
+      ]
+    },
+    {
+      "axis_id": "media",
+      "axis_name": "Media & Communication",
+      "positions": [
+        { "d66": "6-1", "value": "non_media", "label": "Non Media", "descriptor_bias": { "asceticism": 2.0, "privacy": 1.5, "pragmatism": 1.2 } },
+        { "d66": "6-2", "value": "forbidden_media", "label": "Forbidden Media", "descriptor_bias": { "order": 2.0, "tradition": 1.5, "conflict": 1.2 } },
+        { "d66": "6-3", "value": "media_control", "label": "Media Control", "descriptor_bias": { "order": 2.0, "bureaucracy": 1.5, "tradition": 1.2 } },
+        { "d66": "6-4", "value": "media_traditions", "label": "Media Traditions", "descriptor_bias": { "tradition": 1.5, "bureaucracy": 1.2, "art": 1.2 } },
+        { "d66": "6-5", "value": "right_to_media", "label": "Right to Media", "descriptor_bias": { "freedom": 2.0, "art": 1.5, "community": 1.2 } },
+        { "d66": "6-6", "value": "media_addiction", "label": "Media Addiction", "descriptor_bias": { "art": 2.0, "extravagance": 1.5, "community": 1.2 } }
+      ]
+    },
+    {
+      "axis_id": "fame",
+      "axis_name": "Fame & Legacy",
+      "positions": [
+        { "d66": "6-1", "value": "fame", "label": "Fame", "descriptor_bias": { "extravagance": 2.0, "art": 1.5, "conflict": 1.2 } },
+        { "d66": "6-2", "value": "glory", "label": "Glory", "descriptor_bias": { "honor": 2.0, "extravagance": 1.5, "conflict": 1.2 } },
+        { "d66": "6-3", "value": "kinship_affection", "label": "Kinship and Affection", "descriptor_bias": { "community": 2.0, "peace": 1.5, "honor": 1.2 } },
+        { "d66": "6-4", "value": "knowledge_wisdom", "label": "Knowledge and Wisdom", "descriptor_bias": { "innovation": 2.0, "pragmatism": 1.5, "honor": 1.2 } },
+        { "d66": "6-5", "value": "money_matters", "label": "Money Matters", "descriptor_bias": { "commerce": 2.0, "pragmatism": 1.5, "extravagance": 1.2 } },
+        { "d66": "6-6", "value": "virtue_legacy", "label": "Virtue", "descriptor_bias": { "honor": 2.0, "spirituality": 1.5, "asceticism": 1.2 } }
+      ]
+    },
+    {
+      "axis_id": "population",
+      "axis_name": "Population & Birth",
+      "positions": [
+        { "d66": "6-1", "value": "antinatalism", "label": "Antinatalism", "descriptor_bias": { "asceticism": 2.0, "nature": 1.5, "pragmatism": 1.2 } },
+        { "d66": "6-2", "value": "small_groups_pioneers", "label": "Small Groups of Pioneers", "descriptor_bias": { "innovation": 1.5, "freedom": 1.5, "nature": 1.2 } },
+        { "d66": "6-3", "value": "population_control", "label": "Population Control", "descriptor_bias": { "pragmatism": 2.0, "order": 1.5, "nature": 1.2 } },
+        { "d66": "6-4", "value": "controlled_expansion", "label": "Controlled Expansion", "descriptor_bias": { "pragmatism": 1.5, "innovation": 1.5, "commerce": 1.2 } },
+        { "d66": "6-5", "value": "colonize_stars", "label": "Colonize the Stars", "descriptor_bias": { "innovation": 2.0, "xenophilia": 1.5, "commerce": 1.2 } },
+        { "d66": "6-6", "value": "population_explosion", "label": "Population Explosion", "descriptor_bias": { "community": 2.0, "nature": 0.5, "commerce": 1.2 } }
+      ]
+    }
+  ]
+}

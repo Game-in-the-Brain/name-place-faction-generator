@@ -18,6 +18,7 @@ const lcMods = import.meta.glob('../../packages/namegen/data/lc/*.json', { eager
 const placeLcMods = import.meta.glob('../../packages/placegen/data/lc/*.json', { eager: true });
 const driftMods = import.meta.glob('../../packages/namegen/data/drift-rules/*.json', { eager: true });
 const placeDescriptorMod = import.meta.glob('../../packages/placegen/data/place-descriptors.json', { eager: true });
+const culturalValuesMod = import.meta.glob('../../shared/data/cultural-values.json', { eager: true });
 
 /** Raw LC data objects keyed by LC id */
 export const rawNameLcData: Record<string, unknown> = {};
@@ -26,6 +27,7 @@ export const rawDriftData: Record<string, unknown> = {};
 export let rawLcIndex: unknown = null;
 export let rawLcDistance: unknown = null;
 export let rawPlaceDescriptors: unknown = null;
+export let rawCulturalValues: unknown = null;
 
 export function preloadAllData(): void {
   // Preload index
@@ -69,5 +71,11 @@ export function preloadAllData(): void {
   if (pdRaw) {
     rawPlaceDescriptors = pdRaw;
     preloadPlaceDescriptors(pdRaw);
+  }
+
+  // Preload cultural values
+  const cvRaw = (culturalValuesMod[Object.keys(culturalValuesMod)[0]] as any)?.default;
+  if (cvRaw) {
+    rawCulturalValues = cvRaw;
   }
 }

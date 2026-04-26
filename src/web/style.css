@@ -727,6 +727,24 @@ body.mobile-view .result-list.multi-col {
   line-height: 1.5;
 }
 
+/* Cultural Value Chips */
+.cv-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  margin-top: 0.5rem;
+}
+
+.cv-chip {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: 4px;
+  padding: 0.3rem 0.6rem;
+  font-size: 0.8rem;
+  color: var(--text-secondary);
+  font-family: 'JetBrains Mono', monospace;
+}
+
 /* Safe area for notched devices */
 @supports (padding-top: env(safe-area-inset-top)) {
   .app-header {

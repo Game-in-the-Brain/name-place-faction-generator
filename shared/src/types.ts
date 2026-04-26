@@ -115,6 +115,10 @@ export interface GeneratedName {
   base_lc: string;
   drift_lc: string;
   drift_level: number;
+  /** Shortened/bastardized IPA from pronunciation drift (1d6 mechanic). Same as ipa if no shortening occurred. */
+  shortened_ipa?: string;
+  /** Whether pronunciation shortening was applied */
+  shorten_level?: number;
 }
 
 export interface GeneratedPlaceName extends GeneratedName {

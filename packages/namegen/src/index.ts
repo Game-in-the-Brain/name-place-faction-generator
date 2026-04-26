@@ -18,6 +18,10 @@ export {
 
 export { applyDrift, reRomanize } from './drift.js';
 
+// Pronunciation shortening engine
+export { rollShortenLevel, shortenIpa } from './shorten.js';
+export type { ShortenLevel } from './shorten.js';
+
 // Descriptor engine
 export { DescriptorEngine } from './descriptor.js';
 export type { DescriptorOptions, DescriptorResult } from './descriptor.js';
