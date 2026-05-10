@@ -1,5 +1,7 @@
 # name-place-faction-generator
 
+**Products:** [https://blog.gi7b.org](https://blog.gi7b.org)
+
 **Procedural generators for names, places, factions, and scenarios — for game masters, world-builders, and anyone who needs a living setting without spending hours making up names.**
 
 This is an open-source toolkit. Use it in your tabletop games, fiction, video games, or any creative project. MIT licensed. All source data is publicly licensed.
